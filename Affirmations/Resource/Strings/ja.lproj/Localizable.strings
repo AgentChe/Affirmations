@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  Affirmations
+
+  Created by Андрей Чернышев on 30.07.2023.
+  
+*/
+
+// JA
+
+// MARK: Onboarding
+"Onboarding.Continue" = "続ける";
+"Onboarding.Welcome.Text" = "アファーメーションの繰り返しは信仰の形成につながります。 肯定的な思考を強化するために、アファメーションを 1 日に数回読んで繰り返します。";
+"Onboarding.Welcome.Rules" = "続行することにより、%@ と %@ に同意したことになります";
+"Onboarding.Welcome.PrivacyPolicy" = "プライバシーポリシー";
+"Onboarding.Welcome.TermsOfUse" = "利用規約";
+"Onboarding.Welcome.Button" = "始める";
+"Onboarding.NotificationsSettings.Text" = "アファメーションは、定期的に繰り返す場合にのみ機能します。 確認を 1 日に数回受信するように通知を設定します。";
+"Onboarding.NotificationsSettings.Count" = "いくつの";
+"Onboarding.NotificationsSettings.Start" = "開始：";
+"Onboarding.NotificationsSettings.End" = "終了";

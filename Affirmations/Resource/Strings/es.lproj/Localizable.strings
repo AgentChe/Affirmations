@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  Affirmations
+
+  Created by Андрей Чернышев on 30.07.2023.
+  
+*/
+
+// ES
+
+// MARK: Onboarding
+"Onboarding.Continue" = "Continuar";
+"Onboarding.Welcome.Text" = "La repetición de afirmaciones conduce a la formación de la fe. Lea y repita las afirmaciones varias veces al día para fortalecer su pensamiento positivo.";
+"Onboarding.Welcome.Rules" = "Al continuar, acepta nuestra %@ y %@";
+"Onboarding.Welcome.PrivacyPolicy" = "Política de privacidad";
+"Onboarding.Welcome.TermsOfUse" = "Términos de uso";
+"Onboarding.Welcome.Button" = "Empezar";
+"Onboarding.NotificationsSettings.Text" = "Las afirmaciones solo funcionan si las repites regularmente. Configura notificaciones para recibir afirmaciones varias veces al día.";
+"Onboarding.NotificationsSettings.Count" = "Cantidad";
+"Onboarding.NotificationsSettings.Start" = "Desde las";
+"Onboarding.NotificationsSettings.End" = "Hasta las";

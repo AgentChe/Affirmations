@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  Affirmations
+
+  Created by Андрей Чернышев on 30.07.2023.
+  
+*/
+
+// KO
+
+// MARK: Onboarding
+"Onboarding.Continue" = "계속";
+"Onboarding.Welcome.Text" = "확언의 반복은 믿음의 형성으로 이어진다. 긍정적인 생각을 강화하기 위해 하루에 여러 번 긍정문을 읽고 반복하십시오.";
+"Onboarding.Welcome.Rules" = "계속하면 %@ 및 %@";
+"Onboarding.Welcome.PrivacyPolicy" = "개인 정보 보호 정책</a> 및";
+"Onboarding.Welcome.TermsOfUse" = "사용 약관에 동의하게 됩니다.";
+"Onboarding.Welcome.Button" = "시작";
+"Onboarding.NotificationsSettings.Text" = "확언은 정기적으로 반복할 때만 효과가 있습니다. 확인을 하루에 여러 번 수신하도록 알림을 설정합니다.";
+"Onboarding.NotificationsSettings.Count" = "얼마나";
+"Onboarding.NotificationsSettings.Start" = "시작 시간:";
+"Onboarding.NotificationsSettings.End" = "종료 시간:";

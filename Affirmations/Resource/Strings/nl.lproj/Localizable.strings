@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  Affirmations
+
+  Created by Андрей Чернышев on 30.07.2023.
+  
+*/
+
+// NL
+
+// MARK: Onboarding
+"Onboarding.Continue" = "Doorgaan";
+"Onboarding.Welcome.Text" = "Herhaling van affirmaties leidt tot geloofsvorming. Lees en herhaal affirmaties meerdere keren per dag om je positieve denken te versterken.";
+"Onboarding.Welcome.Rules" = "Door verder te gaan, accepteer je ons %@ en onze %@";
+"Onboarding.Welcome.PrivacyPolicy" = "privacybeleid";
+"Onboarding.Welcome.TermsOfUse" = "gebruiksvoorwaarden";
+"Onboarding.Welcome.Button" = "Start";
+"Onboarding.NotificationsSettings.Text" = "Affirmaties werken alleen als je ze regelmatig herhaalt. Stel meldingen in om meerdere keren per dag bevestigingen te ontvangen.";
+"Onboarding.NotificationsSettings.Count" = "Hoeveel";
+"Onboarding.NotificationsSettings.Start" = "Begint op";
+"Onboarding.NotificationsSettings.End" = "Eindig op";

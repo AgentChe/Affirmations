@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  Affirmations
+
+  Created by Андрей Чернышев on 30.07.2023.
+  
+*/
+
+// RU
+
+// MARK: Onboarding
+"Onboarding.Continue" = "Продолжить";
+"Onboarding.Welcome.Text" = "Повторение аффирмаций ведет к формированию веры. Читайте и повторяйте аффирмации несколько раз в день, чтобы укрепить позитивное мышление";
+"Onboarding.Welcome.Rules" = "Продолжая, Вы принимаете нашу %@ и %@";
+"Onboarding.Welcome.PrivacyPolicy" = "Политику конфиденциальности";
+"Onboarding.Welcome.TermsOfUse" = "Правила использования";
+"Onboarding.Welcome.Button" = "Начать";
+"Onboarding.NotificationsSettings.Text" = "Аффирмации работают только тогда, когда Вы их повторяете регулярно. Настройте оповещения, чтобы получать аффирмации несколько раз в день";
+"Onboarding.NotificationsSettings.Count" = "Сколько";
+"Onboarding.NotificationsSettings.Start" = "Начало в";
+"Onboarding.NotificationsSettings.End" = "Закончить в";

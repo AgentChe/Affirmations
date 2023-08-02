@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  Affirmations
+
+  Created by Андрей Чернышев on 30.07.2023.
+  
+*/
+
+// DE
+
+// MARK: Onboarding
+"Onboarding.Continue" = "Weiter";
+"Onboarding.Welcome.Text" = "Die Wiederholung von Affirmationen führt zur Glaubensbildung. Lesen und wiederholen Sie Affirmationen mehrmals täglich, um Ihr positives Denken zu stärken.";
+"Onboarding.Welcome.Rules" = "Indem Sie fortfahren, akzeptieren Sie unsere %@ und %@";
+"Onboarding.Welcome.PrivacyPolicy" = "Datenschutzrichtlinie";
+"Onboarding.Welcome.TermsOfUse" = "Nutzungsbedingungen";
+"Onboarding.Welcome.Button" = "Start";
+"Onboarding.NotificationsSettings.Text" = "Affirmationen funktionieren nur, wenn du sie regelmäßig wiederholst. Richten Sie Benachrichtigungen ein, um mehrmals täglich Bestätigungen zu erhalten.";
+"Onboarding.NotificationsSettings.Count" = "Wie viele";
+"Onboarding.NotificationsSettings.Start" = "Startzeit";
+"Onboarding.NotificationsSettings.End" = "Ende bei";

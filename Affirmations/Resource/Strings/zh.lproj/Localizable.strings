@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  Affirmations
+
+  Created by Андрей Чернышев on 30.07.2023.
+  
+*/
+
+// ZH
+
+// MARK: Onboarding
+"Onboarding.Continue" = "继续";
+"Onboarding.Welcome.Text" = "重复肯定会导致信仰的形成。 每天多次阅读和重复肯定，以加强你的积极思考。";
+"Onboarding.Welcome.Rules" = "继续，即表示您接受我们的%@和%@";
+"Onboarding.Welcome.PrivacyPolicy" = "隐私政策";
+"Onboarding.Welcome.TermsOfUse" = "使用条款";
+"Onboarding.Welcome.Button" = "开始";
+"Onboarding.NotificationsSettings.Text" = "只有当你经常重复它们时，肯定才会起作用。 设置通知以每天多次接收确认。";
+"Onboarding.NotificationsSettings.Count" = "多少";
+"Onboarding.NotificationsSettings.Start" = "开始于";
+"Onboarding.NotificationsSettings.End" = "结束于";

@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  Affirmations
+
+  Created by Андрей Чернышев on 30.07.2023.
+  
+*/
+
+// TR
+
+// MARK: Onboarding
+"Onboarding.Continue" = "Devam et";
+"Onboarding.Welcome.Text" = "Olumlamaların tekrarı, inancın oluşumuna yol açar. Olumlu düşüncenizi güçlendirmek için onaylamaları günde birkaç kez okuyun ve tekrarlayın.";
+"Onboarding.Welcome.Rules" = "Devam ederek %@ ve %@ kabul etmiş olursunuz.";
+"Onboarding.Welcome.PrivacyPolicy" = "Gizlilik Politikamızı";
+"Onboarding.Welcome.TermsOfUse" = "Kullanım Koşullarımızı";
+"Onboarding.Welcome.Button" = "Başla";
+"Onboarding.NotificationsSettings.Text" = "Olumlamalar yalnızca onları düzenli olarak tekrarlarsanız işe yarar. Bildirimleri günde birkaç kez onay almak için ayarlayın.";
+"Onboarding.NotificationsSettings.Count" = "Kaç tane";
+"Onboarding.NotificationsSettings.Start" = "Başlangıç saati:";
+"Onboarding.NotificationsSettings.End" = "Bitirme zamanı:";

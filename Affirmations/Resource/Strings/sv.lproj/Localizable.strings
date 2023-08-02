@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  Affirmations
+
+  Created by Андрей Чернышев on 30.07.2023.
+  
+*/
+
+// SV
+
+// MARK: Onboarding
+"Onboarding.Continue" = "Fortsätt";
+"Onboarding.Welcome.Text" = "Upprepning av affirmationer leder till bildandet av tro. Läs och upprepa affirmationer flera gånger om dagen för att stärka ditt positiva tänkande.";
+"Onboarding.Welcome.Rules" = "Genom att fortsätta accepterar du vår %@ och %@";
+"Onboarding.Welcome.PrivacyPolicy" = "integritetspolicy";
+"Onboarding.Welcome.TermsOfUse" = "användarvillkor";
+"Onboarding.Welcome.Button" = "Börja";
+"Onboarding.NotificationsSettings.Text" = "Affirmationer fungerar bara om du upprepar dem regelbundet. Ställ in aviseringar för att ta emot bekräftelser flera gånger om dagen.";
+"Onboarding.NotificationsSettings.Count" = "Hur många";
+"Onboarding.NotificationsSettings.Start" = "Börjar på";
+"Onboarding.NotificationsSettings.End" = "Sluta vid";

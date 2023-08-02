@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  Affirmations
+
+  Created by Андрей Чернышев on 30.07.2023.
+  
+*/
+
+// TH
+
+// MARK: Onboarding
+"Onboarding.Continue" = "ดำเนินการต่อ";
+"Onboarding.Welcome.Text" = "การกล่าวคำยืนยันซ้ำๆ นำไปสู่การก่อตัวของศรัทธา อ่านและย้ำคำยืนยันวันละหลายๆ ครั้งเพื่อเสริมสร้างความคิดเชิงบวกของคุณ";
+"Onboarding.Welcome.Rules" = "การดำเนินการต่อแสดงว่าคุณยอมรับ%@ละ%@";
+"Onboarding.Welcome.PrivacyPolicy" = "นโยบายความเป็นส่วนตัวแ";
+"Onboarding.Welcome.TermsOfUse" = "ข้อกำหนดการใช้งานของเรา";
+"Onboarding.Welcome.Button" = "เริ่ม";
+"Onboarding.NotificationsSettings.Text" = "การยืนยันจะใช้ได้ก็ต่อเมื่อคุณทำซ้ำเป็นประจำ ตั้งค่าการแจ้งเตือนเพื่อรับการยืนยันหลายครั้งต่อวัน";
+"Onboarding.NotificationsSettings.Count" = "เท่าไร";
+"Onboarding.NotificationsSettings.Start" = "เริ่มเมื่อ";
+"Onboarding.NotificationsSettings.End" = "สิ้นสุดเมื่อ";
