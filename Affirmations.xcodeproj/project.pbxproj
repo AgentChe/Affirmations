@@ -70,6 +70,8 @@
 		DEC61AA82A7A1EAA008F9C97 /* OWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61AA72A7A1EAA008F9C97 /* OWidgetView.swift */; };
 		DEC61AAA2A7A24D3008F9C97 /* OGenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61AA92A7A24D3008F9C97 /* OGenderView.swift */; };
 		DEC61AAD2A7A29FC008F9C97 /* OGenderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61AAC2A7A29FC008F9C97 /* OGenderButton.swift */; };
+		DEC61AB02A7AC8D3008F9C97 /* ApplicationLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61AAF2A7AC8D3008F9C97 /* ApplicationLanguage.swift */; };
+		DEC61AB22A7ACA38008F9C97 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61AB12A7ACA38008F9C97 /* Localizable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -170,6 +172,8 @@
 		DEC61AA72A7A1EAA008F9C97 /* OWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWidgetView.swift; sourceTree = "<group>"; };
 		DEC61AA92A7A24D3008F9C97 /* OGenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OGenderView.swift; sourceTree = "<group>"; };
 		DEC61AAC2A7A29FC008F9C97 /* OGenderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OGenderButton.swift; sourceTree = "<group>"; };
+		DEC61AAF2A7AC8D3008F9C97 /* ApplicationLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationLanguage.swift; sourceTree = "<group>"; };
+		DEC61AB12A7ACA38008F9C97 /* Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -281,6 +285,7 @@
 		DE5505F32A6589760057F9FB /* Misc */ = {
 			isa = PBXGroup;
 			children = (
+				DEC61AAE2A7AC8B2008F9C97 /* Localizable */,
 				DE5506222A6589760057F9FB /* Analytics */,
 				DE5505F42A6589760057F9FB /* Extension */,
 				DE5506042A6589760057F9FB /* Utils */,
@@ -497,6 +502,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		DEC61AAE2A7AC8B2008F9C97 /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				DEC61AAF2A7AC8D3008F9C97 /* ApplicationLanguage.swift */,
+				DEC61AB12A7ACA38008F9C97 /* Localizable.swift */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -643,6 +657,8 @@
 				DEC61AA82A7A1EAA008F9C97 /* OWidgetView.swift in Sources */,
 				DE55062A2A6589760057F9FB /* String+Extension.swift in Sources */,
 				DEC61A632A7661AF008F9C97 /* OnboardingView.swift in Sources */,
+				DEC61AB02A7AC8D3008F9C97 /* ApplicationLanguage.swift in Sources */,
+				DEC61AB22A7ACA38008F9C97 /* Localizable.swift in Sources */,
 				DEC61AA62A793900008F9C97 /* WeekSchedule.swift in Sources */,
 				DE55063B2A6589760057F9FB /* Weak.swift in Sources */,
 				DEC61A982A78FAC0008F9C97 /* ONSCountView.swift in Sources */,

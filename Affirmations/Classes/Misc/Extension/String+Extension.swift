@@ -25,6 +25,16 @@ extension String {
     }
     
     var localized: String {
-        NSLocalizedString(self, comment: "")
+        let language = Localizable.shared.currentLanguage
+        let languagePath = Bundle.main.path(forResource: language.rawValue, ofType: "lproj" )
+        let baseLanguagePath = Bundle.main.path(forResource: "Base", ofType: "lproj")
+        let path = languagePath ?? baseLanguagePath
+        
+        let notLocalizedValue = "NOT LOCALIZED"
+        if let path = path, let bundle = Bundle(path: path) {
+            return NSLocalizedString(self, tableName: "Localizable", bundle: bundle, value: self, comment: "")
+        } else {
+            return notLocalizedValue
+        }
     }
 }
