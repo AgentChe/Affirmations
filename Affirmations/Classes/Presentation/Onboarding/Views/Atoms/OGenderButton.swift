@@ -14,6 +14,8 @@ final class OGenderButton: UIButton {
         }
     }
     
+    let gender: Gender
+    
     private lazy var selectedAttrs = TextAttributes()
         .textColor(UIColor.white)
         .font(Fonts.ProximaNova.regular(size: 18.scale))
@@ -21,10 +23,8 @@ final class OGenderButton: UIButton {
         .textColor(UIColor(integralRed: 43, green: 63, blue: 98))
         .font(Fonts.ProximaNova.regular(size: 18.scale))
     
-    private let title: String
-    
-    init(title: String) {
-        self.title = title
+    init(gender: Gender) {
+        self.gender = gender
         
         super.init(frame: .zero)
         
@@ -38,6 +38,17 @@ final class OGenderButton: UIButton {
 
 // MARK: Private
 private extension OGenderButton {
+    var title: String {
+        switch gender {
+        case .male:
+            return "Onboarding.Gender.Male".localized
+        case .female:
+            return "Onboarding.Gender.Female".localized
+        case .other:
+            return "Onboarding.Gender.Other".localized
+        }
+    }
+    
     func update() {
         let attrs = marked ? selectedAttrs : deselectedAttrs
         setAttributedTitle(title.attributed(with: attrs), for: .normal)

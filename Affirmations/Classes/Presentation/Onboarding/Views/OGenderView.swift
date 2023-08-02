@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import RxSwift
 
 final class OGenderView: OSlideView {
     lazy var imageView = makeImageView()
@@ -20,6 +21,10 @@ final class OGenderView: OSlideView {
         maleButton,
         otherButton
     ]
+    
+    private lazy var profileManager = ProfileManager()
+    
+    private lazy var disposeBag = DisposeBag()
     
     override init(step: OnboardingView.Step) {
         super.init(step: step)
@@ -38,6 +43,21 @@ final class OGenderView: OSlideView {
 private extension OGenderView {
     func initialize() {
         backgroundColor = UIColor.white
+        
+        button.rx.tap
+            .flatMapLatest { [weak self] void -> Single<Void> in
+                guard let self = self, let gender = self.genderButtons.first(where: { $0.marked })?.gender else {
+                    return .never()
+                }
+                
+                return self.profileManager
+                    .setup(gender: gender)
+            }
+            .asDriver(onErrorDriveWith: .never())
+            .drive(Binder(self) { base, void in
+                base.onNext()
+            })
+            .disposed(by: disposeBag)
     }
     
     @objc
@@ -135,7 +155,7 @@ private extension OGenderView {
     }
     
     func makeFemaleButton() -> OGenderButton {
-        let view = OGenderButton(title: "Onboarding.Gender.Female".localized)
+        let view = OGenderButton(gender: .female)
         view.layer.cornerRadius = 25.scale
         view.translatesAutoresizingMaskIntoConstraints = false
         view.addTarget(self, action: #selector(didTapGender(sender:)), for: .touchUpInside)
@@ -144,7 +164,7 @@ private extension OGenderView {
     }
     
     func makeMaleButton() -> OGenderButton {
-        let view = OGenderButton(title: "Onboarding.Gender.Male".localized)
+        let view = OGenderButton(gender: .male)
         view.layer.cornerRadius = 25.scale
         view.translatesAutoresizingMaskIntoConstraints = false
         view.addTarget(self, action: #selector(didTapGender(sender:)), for: .touchUpInside)
@@ -153,7 +173,7 @@ private extension OGenderView {
     }
     
     func makeOtherButton() -> OGenderButton {
-        let view = OGenderButton(title: "Onboarding.Gender.Other".localized)
+        let view = OGenderButton(gender: .other)
         view.layer.cornerRadius = 25.scale
         view.translatesAutoresizingMaskIntoConstraints = false
         view.addTarget(self, action: #selector(didTapGender(sender:)), for: .touchUpInside)
@@ -170,7 +190,6 @@ private extension OGenderView {
         view.setAttributedTitle("Onboarding.Continue".localized.attributed(with: attrs), for: .normal)
         view.layer.cornerRadius = 25.scale
         view.backgroundColor = UIColor(integralRed: 110, green: 204, blue: 169)
-        view.addTarget(self, action: #selector(onNext), for: .touchUpInside)
         view.translatesAutoresizingMaskIntoConstraints = false
         addSubview(view)
         return view

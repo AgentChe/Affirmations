@@ -63,7 +63,7 @@
 		DEC61A982A78FAC0008F9C97 /* ONSCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61A972A78FAC0008F9C97 /* ONSCountView.swift */; };
 		DEC61A9A2A78FB14008F9C97 /* ONSStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61A992A78FB14008F9C97 /* ONSStartView.swift */; };
 		DEC61A9C2A78FB2C008F9C97 /* ONSEndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61A9B2A78FB2C008F9C97 /* ONSEndView.swift */; };
-		DEC61A9F2A7937F6008F9C97 /* ContentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61A9E2A7937F6008F9C97 /* ContentManager.swift */; };
+		DEC61A9F2A7937F6008F9C97 /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61A9E2A7937F6008F9C97 /* ProfileManager.swift */; };
 		DEC61AA22A79382B008F9C97 /* NotificationSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61AA12A79382B008F9C97 /* NotificationSettings.swift */; };
 		DEC61AA42A7938C2008F9C97 /* DayOfWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61AA32A7938C2008F9C97 /* DayOfWeek.swift */; };
 		DEC61AA62A793900008F9C97 /* WeekSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61AA52A793900008F9C97 /* WeekSchedule.swift */; };
@@ -72,6 +72,7 @@
 		DEC61AAD2A7A29FC008F9C97 /* OGenderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61AAC2A7A29FC008F9C97 /* OGenderButton.swift */; };
 		DEC61AB02A7AC8D3008F9C97 /* ApplicationLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61AAF2A7AC8D3008F9C97 /* ApplicationLanguage.swift */; };
 		DEC61AB22A7ACA38008F9C97 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61AB12A7ACA38008F9C97 /* Localizable.swift */; };
+		DEC61E152A7AD38B008F9C97 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61E142A7AD38B008F9C97 /* Gender.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -165,7 +166,7 @@
 		DEC61A972A78FAC0008F9C97 /* ONSCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ONSCountView.swift; sourceTree = "<group>"; };
 		DEC61A992A78FB14008F9C97 /* ONSStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ONSStartView.swift; sourceTree = "<group>"; };
 		DEC61A9B2A78FB2C008F9C97 /* ONSEndView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ONSEndView.swift; sourceTree = "<group>"; };
-		DEC61A9E2A7937F6008F9C97 /* ContentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentManager.swift; sourceTree = "<group>"; };
+		DEC61A9E2A7937F6008F9C97 /* ProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileManager.swift; sourceTree = "<group>"; };
 		DEC61AA12A79382B008F9C97 /* NotificationSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettings.swift; sourceTree = "<group>"; };
 		DEC61AA32A7938C2008F9C97 /* DayOfWeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOfWeek.swift; sourceTree = "<group>"; };
 		DEC61AA52A793900008F9C97 /* WeekSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekSchedule.swift; sourceTree = "<group>"; };
@@ -174,6 +175,7 @@
 		DEC61AAC2A7A29FC008F9C97 /* OGenderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OGenderButton.swift; sourceTree = "<group>"; };
 		DEC61AAF2A7AC8D3008F9C97 /* ApplicationLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationLanguage.swift; sourceTree = "<group>"; };
 		DEC61AB12A7ACA38008F9C97 /* Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
+		DEC61E142A7AD38B008F9C97 /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -276,7 +278,7 @@
 		DE5505F22A65896A0057F9FB /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				DEC61A9D2A7937E3008F9C97 /* Content */,
+				DEC61A9D2A7937E3008F9C97 /* Profile */,
 				DE5506542A6589810057F9FB /* IAP */,
 			);
 			path = Service;
@@ -483,13 +485,13 @@
 			path = Atoms;
 			sourceTree = "<group>";
 		};
-		DEC61A9D2A7937E3008F9C97 /* Content */ = {
+		DEC61A9D2A7937E3008F9C97 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
 				DEC61AA02A79381E008F9C97 /* Model */,
-				DEC61A9E2A7937F6008F9C97 /* ContentManager.swift */,
+				DEC61A9E2A7937F6008F9C97 /* ProfileManager.swift */,
 			);
-			path = Content;
+			path = Profile;
 			sourceTree = "<group>";
 		};
 		DEC61AA02A79381E008F9C97 /* Model */ = {
@@ -498,6 +500,7 @@
 				DEC61AA12A79382B008F9C97 /* NotificationSettings.swift */,
 				DEC61AA32A7938C2008F9C97 /* DayOfWeek.swift */,
 				DEC61AA52A793900008F9C97 /* WeekSchedule.swift */,
+				DEC61E142A7AD38B008F9C97 /* Gender.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -651,6 +654,7 @@
 				DE55066E2A6589AF0057F9FB /* SplashView.swift in Sources */,
 				DEC61A9A2A78FB14008F9C97 /* ONSStartView.swift in Sources */,
 				DE5506662A6589810057F9FB /* IAPErrorHelper.swift in Sources */,
+				DEC61E152A7AD38B008F9C97 /* Gender.swift in Sources */,
 				DE5506462A6589760057F9FB /* PushNotificationsModel.swift in Sources */,
 				DEC61AAA2A7A24D3008F9C97 /* OGenderView.swift in Sources */,
 				DE5506262A6589760057F9FB /* UIColor+Extension.swift in Sources */,
@@ -679,7 +683,7 @@
 				DEC61A962A77CE7B008F9C97 /* ONSView.swift in Sources */,
 				DE5506342A6589760057F9FB /* ScreenSize.swift in Sources */,
 				DE55062D2A6589760057F9FB /* GlobalDefinitions.swift in Sources */,
-				DEC61A9F2A7937F6008F9C97 /* ContentManager.swift in Sources */,
+				DEC61A9F2A7937F6008F9C97 /* ProfileManager.swift in Sources */,
 				DE5506292A6589760057F9FB /* ObservableAndSingle+Extension.swift in Sources */,
 				DE55066C2A6589AB0057F9FB /* SplashViewModel.swift in Sources */,
 				DEC61A9C2A78FB2C008F9C97 /* ONSEndView.swift in Sources */,

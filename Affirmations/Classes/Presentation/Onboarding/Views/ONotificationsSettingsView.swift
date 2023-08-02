@@ -19,7 +19,7 @@ final class ONotificationsSettingsView: OSlideView {
     
     private lazy var disposeBag = DisposeBag()
     
-    private lazy var contentManager = ContentManager()
+    private lazy var profileManager = ProfileManager()
     
     override init(step: OnboardingView.Step) {
         super.init(step: step)
@@ -50,13 +50,13 @@ final class ONotificationsSettingsView: OSlideView {
                     weekSchedule: schedule
                 )
                 
-                return self.contentManager
+                return self.profileManager
                     .setup(settings: settings)
                     .asDriver(onErrorDriveWith: .never())
             }
             .asDriver(onErrorDriveWith: .never())
-            .drive(onNext: { [weak self] in
-                self?.onNext()
+            .drive(Binder(self) { base, void in
+                base.onNext()
             })
             .disposed(by: disposeBag)
     }
