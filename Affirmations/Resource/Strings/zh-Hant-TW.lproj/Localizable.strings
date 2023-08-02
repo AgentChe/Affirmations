@@ -20,3 +20,7 @@
 "Onboarding.NotificationsSettings.Start" = "始於";
 "Onboarding.NotificationsSettings.End" = "結束於";
 "Onboarding.Widget.Text" = "在主畫面增加小工具。增加後，您可以從應用程式配置之。";
+"Onboarding.Gender.Text" = "您目前的性別認同是哪一個呢？";
+"Onboarding.Gender.Female" = "女性";
+"Onboarding.Gender.Male" = "男性";
+"Onboarding.Gender.Other" = "其他";

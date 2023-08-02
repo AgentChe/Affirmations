@@ -20,3 +20,7 @@
 "Onboarding.NotificationsSettings.Start" = "Starts at";
 "Onboarding.NotificationsSettings.End" = "End at";
 "Onboarding.Widget.Text" = "Add a widget to your home screen. Once added, you can configure them from the app.";
+"Onboarding.Gender.Text" = "Which is your current gender identity?";
+"Onboarding.Gender.Female" = "Female";
+"Onboarding.Gender.Male" = "Male";
+"Onboarding.Gender.Other" = "Others";

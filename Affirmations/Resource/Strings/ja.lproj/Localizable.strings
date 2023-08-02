@@ -20,3 +20,7 @@
 "Onboarding.NotificationsSettings.Start" = "開始：";
 "Onboarding.NotificationsSettings.End" = "終了";
 "Onboarding.Widget.Text" = "ホーム画面にウィジェットを追加する。一度追加したものは、アプリから設定できます。";
+"Onboarding.Gender.Text" = "あなたの現在の性別アイデンティティーは？";
+"Onboarding.Gender.Female" = "女性";
+"Onboarding.Gender.Male" = "男性";
+"Onboarding.Gender.Other" = "その他";

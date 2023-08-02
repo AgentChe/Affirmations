@@ -20,3 +20,7 @@
 "Onboarding.NotificationsSettings.Start" = "ابدأ الساعة";
 "Onboarding.NotificationsSettings.End" = "ينتهي في";
 "Onboarding.Widget.Text" = "أضف أداة إلى شاشتك الرئيسية. بمجرد إضافتها، يمكنك تهيئتها من التطبيق.";
+"Onboarding.Gender.Text" = "ما هي هويتك الجنسية الحالية؟";
+"Onboarding.Gender.Female" = "أنثى";
+"Onboarding.Gender.Male" = "ذكر";
+"Onboarding.Gender.Other" = "أخرى";

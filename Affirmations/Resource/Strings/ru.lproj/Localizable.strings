@@ -20,3 +20,7 @@
 "Onboarding.NotificationsSettings.Start" = "Начало в";
 "Onboarding.NotificationsSettings.End" = "Закончить в";
 "Onboarding.Widget.Text" = "Добавьте виджет на главный экран. После добавления вы можете настроить их в приложении";
+"Onboarding.Gender.Text" = "Какова ваша текущая гендерная идентичность?";
+"Onboarding.Gender.Female" = "Женщина";
+"Onboarding.Gender.Male" = "Мужчина";
+"Onboarding.Gender.Other" = "Другое";

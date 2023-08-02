@@ -20,3 +20,7 @@
 "Onboarding.NotificationsSettings.Start" = "开始于";
 "Onboarding.NotificationsSettings.End" = "结束于";
 "Onboarding.Widget.Text" = "向主屏幕添加小工具。添加之后，你可以在应用程序中进行配置。";
+"Onboarding.Gender.Text" = "您认为自己属于哪种性别？";
+"Onboarding.Gender.Female" = "女";
+"Onboarding.Gender.Male" = "男";
+"Onboarding.Gender.Other" = "其他";

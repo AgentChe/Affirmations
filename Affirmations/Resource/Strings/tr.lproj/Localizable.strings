@@ -20,3 +20,7 @@
 "Onboarding.NotificationsSettings.Start" = "Başlangıç saati:";
 "Onboarding.NotificationsSettings.End" = "Bitirme zamanı:";
 "Onboarding.Widget.Text" = "Ana ekranına bir pencere ögesi ekle. Eklendikten sonra bunları uygulamadan yapılandırabilirsin.";
+"Onboarding.Gender.Text" = "Şu anki cinsel kimliğiniz hangisi?";
+"Onboarding.Gender.Female" = "Kadın";
+"Onboarding.Gender.Male" = "Erkek";
+"Onboarding.Gender.Other" = "Diğer";

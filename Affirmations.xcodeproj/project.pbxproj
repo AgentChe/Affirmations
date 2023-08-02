@@ -68,6 +68,8 @@
 		DEC61AA42A7938C2008F9C97 /* DayOfWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61AA32A7938C2008F9C97 /* DayOfWeek.swift */; };
 		DEC61AA62A793900008F9C97 /* WeekSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61AA52A793900008F9C97 /* WeekSchedule.swift */; };
 		DEC61AA82A7A1EAA008F9C97 /* OWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61AA72A7A1EAA008F9C97 /* OWidgetView.swift */; };
+		DEC61AAA2A7A24D3008F9C97 /* OGenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61AA92A7A24D3008F9C97 /* OGenderView.swift */; };
+		DEC61AAD2A7A29FC008F9C97 /* OGenderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61AAC2A7A29FC008F9C97 /* OGenderButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -166,6 +168,8 @@
 		DEC61AA32A7938C2008F9C97 /* DayOfWeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOfWeek.swift; sourceTree = "<group>"; };
 		DEC61AA52A793900008F9C97 /* WeekSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekSchedule.swift; sourceTree = "<group>"; };
 		DEC61AA72A7A1EAA008F9C97 /* OWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWidgetView.swift; sourceTree = "<group>"; };
+		DEC61AA92A7A24D3008F9C97 /* OGenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OGenderView.swift; sourceTree = "<group>"; };
+		DEC61AAC2A7A29FC008F9C97 /* OGenderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OGenderButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -449,6 +453,7 @@
 				DEC61A672A76652E008F9C97 /* OWelcomeView.swift */,
 				DEC61A922A77C4B3008F9C97 /* ONotificationsSettingsView.swift */,
 				DEC61AA72A7A1EAA008F9C97 /* OWidgetView.swift */,
+				DEC61AA92A7A24D3008F9C97 /* OGenderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -468,6 +473,7 @@
 				DEC61A972A78FAC0008F9C97 /* ONSCountView.swift */,
 				DEC61A992A78FB14008F9C97 /* ONSStartView.swift */,
 				DEC61A9B2A78FB2C008F9C97 /* ONSEndView.swift */,
+				DEC61AAC2A7A29FC008F9C97 /* OGenderButton.swift */,
 			);
 			path = Atoms;
 			sourceTree = "<group>";
@@ -632,6 +638,7 @@
 				DEC61A9A2A78FB14008F9C97 /* ONSStartView.swift in Sources */,
 				DE5506662A6589810057F9FB /* IAPErrorHelper.swift in Sources */,
 				DE5506462A6589760057F9FB /* PushNotificationsModel.swift in Sources */,
+				DEC61AAA2A7A24D3008F9C97 /* OGenderView.swift in Sources */,
 				DE5506262A6589760057F9FB /* UIColor+Extension.swift in Sources */,
 				DEC61AA82A7A1EAA008F9C97 /* OWidgetView.swift in Sources */,
 				DE55062A2A6589760057F9FB /* String+Extension.swift in Sources */,
@@ -639,6 +646,7 @@
 				DEC61AA62A793900008F9C97 /* WeekSchedule.swift in Sources */,
 				DE55063B2A6589760057F9FB /* Weak.swift in Sources */,
 				DEC61A982A78FAC0008F9C97 /* ONSCountView.swift in Sources */,
+				DEC61AAD2A7A29FC008F9C97 /* OGenderButton.swift in Sources */,
 				DE5506352A6589760057F9FB /* ObservableRetrySingle.swift in Sources */,
 				DE5506432A6589760057F9FB /* AppDelegate.swift in Sources */,
 				DE55063F2A6589760057F9FB /* TapAreaButton.swift in Sources */,

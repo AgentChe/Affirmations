@@ -20,3 +20,7 @@
 "Onboarding.NotificationsSettings.Start" = "Startzeit";
 "Onboarding.NotificationsSettings.End" = "Ende bei";
 "Onboarding.Widget.Text" = "Fügen Sie Ihrem Startbildschirm ein Widget hinzu. Sobald du sie hinzugefügt hast, kannst du sie über die App konfigurieren.";
+"Onboarding.Gender.Text" = "Welches ist deine gegenwärtige Geschlechtsidentität?";
+"Onboarding.Gender.Female" = "Weiblich";
+"Onboarding.Gender.Male" = "Männlich";
+"Onboarding.Gender.Other" = "Sonstiges";

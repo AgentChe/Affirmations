@@ -20,3 +20,7 @@
 "Onboarding.NotificationsSettings.Start" = "Inizia alle";
 "Onboarding.NotificationsSettings.End" = "Finisci alle";
 "Onboarding.Widget.Text" = "Aggiungi un widget alla schermata iniziale. Una volta aggiunti, puoi configurarli dall'applicazione.";
+"Onboarding.Gender.Text" = "Qual è la tua attuale identità di genere?";
+"Onboarding.Gender.Female" = "Femmina";
+"Onboarding.Gender.Male" = "Maschio";
+"Onboarding.Gender.Other" = "Altro";

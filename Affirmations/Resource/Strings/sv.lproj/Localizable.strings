@@ -20,3 +20,7 @@
 "Onboarding.NotificationsSettings.Start" = "Börjar på";
 "Onboarding.NotificationsSettings.End" = "Sluta vid";
 "Onboarding.Widget.Text" = "Lägg till en widget till din hemskärm. Efter att du har lagt till dem kan du konfigurera dem i appen.";
+"Onboarding.Gender.Text" = "Vilken är din nuvarande könsidentitet?";
+"Onboarding.Gender.Female" = "Kvinna";
+"Onboarding.Gender.Male" = "Man";
+"Onboarding.Gender.Other" = "Annan";
