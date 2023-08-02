@@ -19,3 +19,4 @@
 "Onboarding.NotificationsSettings.Count" = "Kaç tane";
 "Onboarding.NotificationsSettings.Start" = "Başlangıç saati:";
 "Onboarding.NotificationsSettings.End" = "Bitirme zamanı:";
+"Onboarding.Widget.Text" = "Ana ekranına bir pencere ögesi ekle. Eklendikten sonra bunları uygulamadan yapılandırabilirsin.";

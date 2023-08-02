@@ -19,3 +19,4 @@
 "Onboarding.NotificationsSettings.Count" = "Сколько";
 "Onboarding.NotificationsSettings.Start" = "Начало в";
 "Onboarding.NotificationsSettings.End" = "Закончить в";
+"Onboarding.Widget.Text" = "Добавьте виджет на главный экран. После добавления вы можете настроить их в приложении";

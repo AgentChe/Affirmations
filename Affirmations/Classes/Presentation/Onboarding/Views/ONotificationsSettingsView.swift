@@ -96,7 +96,7 @@ private extension ONotificationsSettingsView {
             imageView.widthAnchor.constraint(equalToConstant: 288.scale),
             imageView.heightAnchor.constraint(equalToConstant: 228.scale),
             imageView.centerXAnchor.constraint(equalTo: centerXAnchor),
-            imageView.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 24.scale)
+            imageView.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor)
         ])
         
         NSLayoutConstraint.activate([

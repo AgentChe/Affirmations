@@ -9,7 +9,7 @@ import UIKit
 
 final class OnboardingView: UIView {
     enum Step: Int {
-        case welcome, notificationsSettings
+        case welcome, notificationsSettings, widget
     }
     
     var didFinish: (() -> Void)?
@@ -17,7 +17,8 @@ final class OnboardingView: UIView {
     private lazy var contentViews: [OSlideView] = {
         [
             OWelcomeView(step: .welcome),
-            ONotificationsSettingsView(step: .notificationsSettings)
+            ONotificationsSettingsView(step: .notificationsSettings),
+            OWidgetView(step: .widget)
         ]
     }()
     

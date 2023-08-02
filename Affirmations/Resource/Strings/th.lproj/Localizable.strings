@@ -19,3 +19,4 @@
 "Onboarding.NotificationsSettings.Count" = "เท่าไร";
 "Onboarding.NotificationsSettings.Start" = "เริ่มเมื่อ";
 "Onboarding.NotificationsSettings.End" = "สิ้นสุดเมื่อ";
+"Onboarding.Widget.Text" = "เพิ่มวิดเจ็ตลงในหน้าจอหลักของคุณ เมื่อเพิ่มแล้วคุณสามารถกําหนดค่าได้จากแอป";

@@ -67,6 +67,7 @@
 		DEC61AA22A79382B008F9C97 /* NotificationSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61AA12A79382B008F9C97 /* NotificationSettings.swift */; };
 		DEC61AA42A7938C2008F9C97 /* DayOfWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61AA32A7938C2008F9C97 /* DayOfWeek.swift */; };
 		DEC61AA62A793900008F9C97 /* WeekSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61AA52A793900008F9C97 /* WeekSchedule.swift */; };
+		DEC61AA82A7A1EAA008F9C97 /* OWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61AA72A7A1EAA008F9C97 /* OWidgetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -164,6 +165,7 @@
 		DEC61AA12A79382B008F9C97 /* NotificationSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettings.swift; sourceTree = "<group>"; };
 		DEC61AA32A7938C2008F9C97 /* DayOfWeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOfWeek.swift; sourceTree = "<group>"; };
 		DEC61AA52A793900008F9C97 /* WeekSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekSchedule.swift; sourceTree = "<group>"; };
+		DEC61AA72A7A1EAA008F9C97 /* OWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWidgetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -446,6 +448,7 @@
 				DEC61A652A7661E8008F9C97 /* OSlideView.swift */,
 				DEC61A672A76652E008F9C97 /* OWelcomeView.swift */,
 				DEC61A922A77C4B3008F9C97 /* ONotificationsSettingsView.swift */,
+				DEC61AA72A7A1EAA008F9C97 /* OWidgetView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -630,6 +633,7 @@
 				DE5506662A6589810057F9FB /* IAPErrorHelper.swift in Sources */,
 				DE5506462A6589760057F9FB /* PushNotificationsModel.swift in Sources */,
 				DE5506262A6589760057F9FB /* UIColor+Extension.swift in Sources */,
+				DEC61AA82A7A1EAA008F9C97 /* OWidgetView.swift in Sources */,
 				DE55062A2A6589760057F9FB /* String+Extension.swift in Sources */,
 				DEC61A632A7661AF008F9C97 /* OnboardingView.swift in Sources */,
 				DEC61AA62A793900008F9C97 /* WeekSchedule.swift in Sources */,

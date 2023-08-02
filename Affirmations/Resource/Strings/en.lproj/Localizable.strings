@@ -19,3 +19,4 @@
 "Onboarding.NotificationsSettings.Count" = "How many";
 "Onboarding.NotificationsSettings.Start" = "Starts at";
 "Onboarding.NotificationsSettings.End" = "End at";
+"Onboarding.Widget.Text" = "Add a widget to your home screen. Once added, you can configure them from the app.";

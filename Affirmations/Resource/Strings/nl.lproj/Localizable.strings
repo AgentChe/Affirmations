@@ -19,3 +19,4 @@
 "Onboarding.NotificationsSettings.Count" = "Hoeveel";
 "Onboarding.NotificationsSettings.Start" = "Begint op";
 "Onboarding.NotificationsSettings.End" = "Eindig op";
+"Onboarding.Widget.Text" = "Een widget aan uw beginscherm toevoegen. Eenmaal toegevoegd, kunt u ze configureren vanuit de app.";

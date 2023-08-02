@@ -19,3 +19,4 @@
 "Onboarding.NotificationsSettings.Count" = "多少個";
 "Onboarding.NotificationsSettings.Start" = "始於";
 "Onboarding.NotificationsSettings.End" = "結束於";
+"Onboarding.Widget.Text" = "在主畫面增加小工具。增加後，您可以從應用程式配置之。";

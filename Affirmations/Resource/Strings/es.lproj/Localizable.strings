@@ -19,3 +19,4 @@
 "Onboarding.NotificationsSettings.Count" = "Cantidad";
 "Onboarding.NotificationsSettings.Start" = "Desde las";
 "Onboarding.NotificationsSettings.End" = "Hasta las";
+"Onboarding.Widget.Text" = "Añade un Widget en tu pantalla de inicio. Una vez añadido, puedes configurarlos desde la app";

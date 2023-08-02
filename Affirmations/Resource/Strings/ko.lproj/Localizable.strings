@@ -19,3 +19,4 @@
 "Onboarding.NotificationsSettings.Count" = "얼마나";
 "Onboarding.NotificationsSettings.Start" = "시작 시간:";
 "Onboarding.NotificationsSettings.End" = "종료 시간:";
+"Onboarding.Widget.Text" = "홈 화면에 위젯 추가. 추가한 후 앱에서 구성할 수 있습니다.";

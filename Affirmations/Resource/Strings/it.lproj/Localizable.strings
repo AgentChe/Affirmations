@@ -19,3 +19,4 @@
 "Onboarding.NotificationsSettings.Count" = "Quanti";
 "Onboarding.NotificationsSettings.Start" = "Inizia alle";
 "Onboarding.NotificationsSettings.End" = "Finisci alle";
+"Onboarding.Widget.Text" = "Aggiungi un widget alla schermata iniziale. Una volta aggiunti, puoi configurarli dall'applicazione.";
