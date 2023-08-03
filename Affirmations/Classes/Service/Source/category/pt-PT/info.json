@@ -1,0 +1,82 @@
+{
+  "categories": [
+    {
+      "type": "COMMON_TOPICS",
+      "name": "Geral",
+      "is_free": true
+    },
+    {
+      "type": "MY",
+      "name": "Minhas próprias afirmações",
+      "is_free": true
+    },
+    {
+      "type": "FAVORITES",
+      "name": "Meus favoritos",
+      "is_free": true
+    },
+    {
+      "type": "BODY_POSITIVITY",
+      "name": "Positividade corporal",
+      "is_free": false
+    },
+    {
+      "type": "CONFIDENCE",
+      "name": "Confian\u00e7a",
+      "is_free": true
+    },
+    {
+      "type": "FAITH",
+      "name": "F\u00e9",
+      "is_free": true
+    },
+    {
+      "type": "HAPPINESS",
+      "name": "Felicidade",
+      "is_free": false
+    },
+    {
+      "type": "HARD_TIMES",
+      "name": "Tempos dif\u00edceis",
+      "is_free": true
+    },
+    {
+      "type": "LOVE_RELATIONSHIPS",
+      "name": "Atrair o amor",
+      "is_free": false
+    },
+    {
+      "type": "PERSONAL_GROWTH",
+      "name": "Crescimento pessoal",
+      "is_free": false
+    },
+    {
+      "type": "POSITIVE_THINKING",
+      "name": "Pensamento positivo",
+      "is_free": true
+    },
+    {
+      "type": "STRESS_AND_ANXIETY",
+      "name": "Estresse e ansiedade",
+      "is_free": true
+    }
+  ],
+  "groups": [],
+  "tags": [
+    "COMMON_TOPICS",
+    "PERSONAL_GROWTH",
+    "STRESS_AND_ANXIETY",
+    "BODY_POSITIVITY",
+    "POSITIVE_THINKING",
+    "LOVE_RELATIONSHIPS",
+    "HAPPINESS",
+    "GRATITUDE"
+  ],
+  "tags_only": [
+    {
+      "type": "GRATITUDE",
+      "name": "Gratidão"
+    }
+  ],
+  "personas": []
+}

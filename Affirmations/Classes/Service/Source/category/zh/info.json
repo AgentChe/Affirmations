@@ -1,0 +1,82 @@
+{
+  "categories": [
+    {
+      "type": "COMMON_TOPICS",
+      "name": "通用",
+      "is_free": true
+    },
+    {
+      "type": "MY",
+      "name": "我的激励用语",
+      "is_free": true
+    },
+    {
+      "type": "FAVORITES",
+      "name": "收藏夹",
+      "is_free": true
+    },
+    {
+      "type": "BODY_POSITIVITY",
+      "name": "\u8eab\u6750\u81ea\u4fe1",
+      "is_free": false
+    },
+    {
+      "type": "CONFIDENCE",
+      "name": "\u81ea\u4fe1",
+      "is_free": true
+    },
+    {
+      "type": "FAITH",
+      "name": "\u4fe1\u5ff5",
+      "is_free": true
+    },
+    {
+      "type": "HAPPINESS",
+      "name": "\u5e78\u798f\u5feb\u4e50",
+      "is_free": false
+    },
+    {
+      "type": "HARD_TIMES",
+      "name": "\u56f0\u96be\u65f6\u671f",
+      "is_free": true
+    },
+    {
+      "type": "LOVE_RELATIONSHIPS",
+      "name": "\u604b\u7231\u5438\u5f15",
+      "is_free": false
+    },
+    {
+      "type": "PERSONAL_GROWTH",
+      "name": "\u4e2a\u4eba\u53d1\u5c55",
+      "is_free": false
+    },
+    {
+      "type": "POSITIVE_THINKING",
+      "name": "\u79ef\u6781\u601d\u7ef4",
+      "is_free": true
+    },
+    {
+      "type": "STRESS_AND_ANXIETY",
+      "name": "\u538b\u529b\u548c\u7126\u8651",
+      "is_free": true
+    }
+  ],
+  "groups": [],
+  "tags": [
+    "COMMON_TOPICS",
+    "PERSONAL_GROWTH",
+    "STRESS_AND_ANXIETY",
+    "BODY_POSITIVITY",
+    "POSITIVE_THINKING",
+    "LOVE_RELATIONSHIPS",
+    "HAPPINESS",
+    "GRATITUDE"
+  ],
+  "tags_only": [
+    {
+      "type": "GRATITUDE",
+      "name": "感激"
+    }
+  ],
+  "personas": []
+}

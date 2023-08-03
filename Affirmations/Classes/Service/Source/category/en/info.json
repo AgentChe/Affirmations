@@ -1,0 +1,304 @@
+{
+  "categories": [
+    {
+      "type": "COMMON_TOPICS",
+      "name": "Self Care",
+      "is_free": true
+    },
+    {
+      "type": "MY",
+      "name": "My Own Affirmations",
+      "is_free": true
+    },
+    {
+      "type": "FAVORITES",
+      "name": "My Favorites",
+      "is_free": true
+    },
+    {
+      "type": "BODY_POSITIVITY",
+      "name": "Body Positivity",
+      "is_free": false
+    },
+    {
+      "type": "POSITIVE_THINKING",
+      "name": "Positive Thinking",
+      "is_free": false
+    },
+    {
+      "type": "STRESS_AND_ANXIETY",
+      "name": "Stress and Anxiety",
+      "is_free": true
+    },
+    {
+      "type": "LOVE_RELATIONSHIPS",
+      "name": "Attracting Love",
+      "is_free": false
+    },
+    {
+      "type": "PERSONAL_GROWTH",
+      "name": "Personal Growth",
+      "is_free": false
+    },
+    {
+      "type": "SPIRITUAL",
+      "name": "Spiritual",
+      "is_free": false
+    },
+    {
+      "type": "HAPPINESS",
+      "name": "Happiness",
+      "is_free": false
+    },
+    {
+      "type": "GRATITUDE",
+      "name": "Gratitude",
+      "is_free": false
+    },
+    {
+      "type": "HEALTH_WELL_BEING",
+      "name": "Health and Well-being",
+      "is_free": false
+    },
+    {
+      "type": "HARD_TIMES",
+      "name": "Hard Times",
+      "is_free": true
+    },
+    {
+      "type": "SELF_LOVE",
+      "name": "Self Love",
+      "is_free": false
+    },
+    {
+      "type": "HEARTBROKEN",
+      "name": "Heartbroken",
+      "is_free": false
+    },
+    {
+      "type": "FAITH",
+      "name": "Faith",
+      "is_free": false
+    },
+    {
+      "type": "CALM",
+      "name": "Calm",
+      "is_free": false
+    },
+    {
+      "type": "WEALTH",
+      "name": "Money and Wealth",
+      "is_free": false
+    },
+    {
+      "type": "BUSINESS",
+      "name": "Business",
+      "is_free": false
+    },
+    {
+      "type": "WORK_CAREER",
+      "name": "Work and Career",
+      "is_free": false
+    },
+    {
+      "type": "RELATIONSHIPS",
+      "name": "Relationships",
+      "is_free": false
+    },
+    {
+      "type": "ROMANCE",
+      "name": "Romance",
+      "is_free": false
+    },
+    {
+      "type": "NEW_BEGINNINGS",
+      "name": "New Beginnings",
+      "is_free": false
+    },
+    {
+      "type": "ADDICTION",
+      "name": "Addiction",
+      "is_free": true
+    },
+    {
+      "type": "NIGHT_SLEEP",
+      "name": "Night",
+      "is_free": false
+    },
+    {
+      "type": "MORNING",
+      "name": "Morning",
+      "is_free": false
+    },
+    {
+      "type": "PARENTING",
+      "name": "Parenting",
+      "is_free": false
+    },
+    {
+      "type": "PREGNANCY",
+      "name": "Pregnancy",
+      "is_free": true
+    },
+    {
+      "type": "CONFIDENCE",
+      "name": "Confidence",
+      "is_free": false
+    },
+    {
+      "type": "HEAL",
+      "name": "Heal",
+      "is_free": false
+    },
+    {
+      "type": "COUPLES",
+      "name": "For Couples",
+      "is_free": false
+    },
+    {
+      "type": "KIDS",
+      "name": "For Kids",
+      "is_free": true
+    },
+    {
+      "type": "MOTIVATION_QUOTES",
+      "name": "Quotes",
+      "is_free": false
+    },
+    {
+      "type": "AFFIRMING_QUESTIONS",
+      "name": "Affirming Questions",
+      "is_free": false
+    },
+    {
+      "type": "MOTIVATION",
+      "name": "Motivation",
+      "is_free": false
+    },
+    {
+      "type": "PEACE",
+      "name": "Peace",
+      "is_free": false
+    },
+    {
+      "type": "HUSTLING",
+      "name": "Hustling",
+      "is_free": false
+    },
+    {
+      "type": "SCHOOL",
+      "name": "School",
+      "is_free": false
+    },
+    {
+      "type": "GRIEF",
+      "name": "Grief",
+      "is_free": true
+    },
+    {
+      "type": "FEELING_SASSY",
+      "name": "Feeling Sassy",
+      "is_free": false
+    }
+  ],
+  "groups": [
+    {
+      "name": "Most popular",
+      "types": [
+        "COMMON_TOPICS",
+        "LOVE_RELATIONSHIPS",
+        "PERSONAL_GROWTH",
+        "STRESS_AND_ANXIETY",
+        "POSITIVE_THINKING",
+        "HARD_TIMES"
+      ]
+    },
+    {
+      "name": "Take care of yourself",
+      "types": [
+        "HEALTH_WELL_BEING",
+        "CONFIDENCE",
+        "BODY_POSITIVITY",
+        "SELF_LOVE",
+        "FEELING_SASSY"
+      ]
+    },
+    {
+      "name": "Breathe deeply",
+      "types": [
+        "SPIRITUAL",
+        "HARD_TIMES",
+        "HEARTBROKEN",
+        "FAITH",
+        "CALM",
+        "PEACE"
+      ]
+    },
+    {
+      "name": "Look for what's good",
+      "types": [
+        "HAPPINESS",
+        "AFFIRMING_QUESTIONS",
+        "HEAL",
+        "WEALTH"
+      ]
+    },
+    {
+      "name": "Connect with others",
+      "types": [
+        "KIDS",
+        "LOVE_RELATIONSHIPS",
+        "RELATIONSHIPS",
+        "ROMANCE",
+        "PARENTING",
+        "COUPLES"
+      ]
+    },
+    {
+      "name": "Improve your mindset",
+      "types": [
+        "BUSINESS",
+        "MOTIVATION",
+        "NEW_BEGINNINGS",
+        "WORK_CAREER"
+      ]
+    },
+    {
+      "name": "Get inspired",
+      "types": [
+        "POSITIVE_THINKING",
+        "NIGHT_SLEEP",
+        "MORNING",
+        "MOTIVATION",
+        "PEACE",
+        "HUSTLING",
+        "MOTIVATION_QUOTES"
+      ]
+    },
+    {
+      "name": "Stay mentally strong",
+      "types": [
+        "PERSONAL_GROWTH",
+        "WORK_CAREER",
+        "GRIEF",
+        "ADDICTION"
+      ]
+    }
+  ],
+  "tags": [
+    "COMMON_TOPICS",
+    "PERSONAL_GROWTH",
+    "STRESS_AND_ANXIETY",
+    "BODY_POSITIVITY",
+    "POSITIVE_THINKING",
+    "LOVE_RELATIONSHIPS",
+    "HAPPINESS",
+    "GRATITUDE"
+  ],
+  "tags_only": [
+    {
+
+    }
+  ],
+  "personas": []
+}

@@ -1,0 +1,82 @@
+{
+  "categories": [
+    {
+      "type": "COMMON_TOPICS",
+      "name": "일반",
+      "is_free": true
+    },
+    {
+      "type": "MY",
+      "name": "나만의 확언",
+      "is_free": true
+    },
+    {
+      "type": "FAVORITES",
+      "name": "즐겨찾기",
+      "is_free": true
+    },
+    {
+      "type": "BODY_POSITIVITY",
+      "name": "\uc790\uae30 \ubab8 \uae0d\uc815\uc8fc\uc758",
+      "is_free": false
+    },
+    {
+      "type": "CONFIDENCE",
+      "name": "\uc790\uc2e0\uac10",
+      "is_free": true
+    },
+    {
+      "type": "FAITH",
+      "name": "\ubbff\uc74c",
+      "is_free": true
+    },
+    {
+      "type": "HAPPINESS",
+      "name": "\ud589\ubcf5",
+      "is_free": false
+    },
+    {
+      "type": "HARD_TIMES",
+      "name": "\ud798\ub4e0 \uc2dc\uae30",
+      "is_free": true
+    },
+    {
+      "type": "LOVE_RELATIONSHIPS",
+      "name": "\uc0ac\ub791\uc744 \ub04c\uc5b4\ub2f9\uae40",
+      "is_free": false
+    },
+    {
+      "type": "PERSONAL_GROWTH",
+      "name": "\uac1c\uc778\uc801 \uc131\uc7a5",
+      "is_free": false
+    },
+    {
+      "type": "POSITIVE_THINKING",
+      "name": "\uae0d\uc815\uc801 \uc0dd\uac01",
+      "is_free": true
+    },
+    {
+      "type": "STRESS_AND_ANXIETY",
+      "name": "\uc2a4\ud2b8\ub808\uc2a4\uc640 \ubd88\uc548",
+      "is_free": true
+    }
+  ],
+  "groups": [],
+  "tags": [
+    "COMMON_TOPICS",
+    "PERSONAL_GROWTH",
+    "STRESS_AND_ANXIETY",
+    "BODY_POSITIVITY",
+    "POSITIVE_THINKING",
+    "LOVE_RELATIONSHIPS",
+    "HAPPINESS",
+    "GRATITUDE"
+  ],
+  "tags_only": [
+    {
+      "type": "GRATITUDE",
+      "name": "고마움"
+    }
+  ],
+  "personas": []
+}

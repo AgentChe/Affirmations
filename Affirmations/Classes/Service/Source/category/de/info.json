@@ -1,0 +1,82 @@
+{
+  "categories": [
+    {
+      "type": "COMMON_TOPICS",
+      "name": "Allgemeines",
+      "is_free": true
+    },
+    {
+      "type": "MY",
+      "name": "Meine eigenen Affirmationen",
+      "is_free": true
+    },
+    {
+      "type": "FAVORITES",
+      "name": "Meine Favoriten",
+      "is_free": true
+    },
+    {
+      "type": "BODY_POSITIVITY",
+      "name": "Positive Einstellung zum K\u00f6rper",
+      "is_free": false
+    },
+    {
+      "type": "CONFIDENCE",
+      "name": "Zuversicht",
+      "is_free": true
+    },
+    {
+      "type": "FAITH",
+      "name": "Glaube",
+      "is_free": true
+    },
+    {
+      "type": "HAPPINESS",
+      "name": "Gl\u00fcck",
+      "is_free": false
+    },
+    {
+      "type": "HARD_TIMES",
+      "name": "Harte Zeiten",
+      "is_free": true
+    },
+    {
+      "type": "LOVE_RELATIONSHIPS",
+      "name": "Liebe anziehen",
+      "is_free": false
+    },
+    {
+      "type": "PERSONAL_GROWTH",
+      "name": "Pers\u00f6nliches Wachstum",
+      "is_free": false
+    },
+    {
+      "type": "POSITIVE_THINKING",
+      "name": "Positives Denken",
+      "is_free": true
+    },
+    {
+      "type": "STRESS_AND_ANXIETY",
+      "name": "Stress und Angstgef\u00fchle",
+      "is_free": true
+    }
+  ],
+  "groups": [],
+  "tags": [
+    "COMMON_TOPICS",
+    "PERSONAL_GROWTH",
+    "STRESS_AND_ANXIETY",
+    "BODY_POSITIVITY",
+    "POSITIVE_THINKING",
+    "LOVE_RELATIONSHIPS",
+    "HAPPINESS",
+    "GRATITUDE"
+  ],
+  "tags_only": [
+    {
+      "type": "GRATITUDE",
+      "name": "Dankbarkeit"
+    }
+  ],
+  "personas": []
+}

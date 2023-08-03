@@ -1,0 +1,82 @@
+{
+  "categories": [
+    {
+      "type": "COMMON_TOPICS",
+      "name": "\u4e00\u822c",
+      "is_free": true
+    },
+    {
+      "type": "MY",
+      "name": "\u5c6c\u65bc\u6211\u7684\u81ea\u6211\u80af\u5b9a",
+      "is_free": true
+    },
+    {
+      "type": "FAVORITES",
+      "name": "\u6211\u7684\u6700\u611b",
+      "is_free": true
+    },
+    {
+      "type": "BODY_POSITIVITY",
+      "name": "\u8eab\u9ad4\u81ea\u611b",
+      "is_free": false
+    },
+    {
+      "type": "CONFIDENCE",
+      "name": "\u81ea\u4fe1",
+      "is_free": true
+    },
+    {
+      "type": "FAITH",
+      "name": "\u4fe1\u5ff5",
+      "is_free": true
+    },
+    {
+      "type": "HAPPINESS",
+      "name": "\u5e78\u798f\u5feb\u6a02",
+      "is_free": false
+    },
+    {
+      "type": "HARD_TIMES",
+      "name": "\u8271\u56f0\u6642\u671f",
+      "is_free": true
+    },
+    {
+      "type": "LOVE_RELATIONSHIPS",
+      "name": "\u6200\u611b\u5438\u5f15",
+      "is_free": false
+    },
+    {
+      "type": "PERSONAL_GROWTH",
+      "name": "\u500b\u4eba\u6210\u9577",
+      "is_free": false
+    },
+    {
+      "type": "POSITIVE_THINKING",
+      "name": "\u6b63\u5411\u601d\u8003",
+      "is_free": true
+    },
+    {
+      "type": "STRESS_AND_ANXIETY",
+      "name": "\u58d3\u529b\u8207\u7126\u616e",
+      "is_free": true
+    }
+  ],
+  "groups": [],
+  "tags": [
+    "COMMON_TOPICS",
+    "PERSONAL_GROWTH",
+    "STRESS_AND_ANXIETY",
+    "BODY_POSITIVITY",
+    "POSITIVE_THINKING",
+    "LOVE_RELATIONSHIPS",
+    "HAPPINESS",
+    "GRATITUDE"
+  ],
+  "tags_only": [
+    {
+      "type": "GRATITUDE",
+      "name": "感激"
+    }
+  ],
+  "personas": []
+}

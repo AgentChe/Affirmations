@@ -1,0 +1,97 @@
+{
+  "categories": [
+    {
+      "type": "COMMON_TOPICS",
+      "name": "Cuidado personal",
+      "is_free": true
+    },
+    {
+      "type": "MY",
+      "name": "Mis propias afirmaciones",
+      "is_free": true
+    },
+    {
+      "type": "FAVORITES",
+      "name": "Mis favoritas",
+      "is_free": false
+    },
+    {
+      "type": "STRESS_AND_ANXIETY",
+      "name": "Estr\u00e9s y ansiedad",
+      "is_free": true
+    },
+    {
+      "type": "GRATITUDE",
+      "name": "Agradecimiento",
+      "is_free": false
+    },
+    {
+      "type": "LOVE_RELATIONSHIPS",
+      "name": "Amor y relaciones",
+      "is_free": false
+    },
+    {
+      "type": "WORK_CAREER",
+      "name": "Trabajo y estudio",
+      "is_free": false
+    },
+    {
+      "type": "SELF_LOVE",
+      "name": "Amor propio",
+      "is_free": false
+    },
+    {
+      "type": "PERSONAL_GROWTH",
+      "name": "Crecimiento personal",
+      "is_free": false
+    },
+    {
+      "type": "HEALTH_WELL_BEING",
+      "name": "Salud y bienestar",
+      "is_free": false
+    },
+    {
+      "type": "WEALTH",
+      "name": "Riqueza",
+      "is_free": false
+    },
+    {
+      "type": "POSITIVE_THINKING",
+      "name": "Pensamiento positivo",
+      "is_free": true
+    },
+    {
+      "type": "SPIRITUAL",
+      "name": "Espiritualidad",
+      "is_free": false
+    },
+    {
+      "type": "HAPPINESS",
+      "name": "Vida y felicidad",
+      "is_free": false
+    },
+    {
+      "type": "BODY_POSITIVITY",
+      "name": "Cuerpo positivo",
+      "is_free": false
+    },
+    {
+      "type": "HARD_TIMES",
+      "name": "Tiempos dif\u00edciles",
+      "is_free": true
+    }
+  ],
+  "groups": [],
+  "tags": [
+    "COMMON_TOPICS",
+    "PERSONAL_GROWTH",
+    "STRESS_AND_ANXIETY",
+    "BODY_POSITIVITY",
+    "POSITIVE_THINKING",
+    "LOVE_RELATIONSHIPS",
+    "HAPPINESS",
+    "GRATITUDE"
+  ],
+  "tags_only": [],
+  "personas": []
+}

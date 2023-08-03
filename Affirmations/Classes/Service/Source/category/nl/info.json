@@ -1,0 +1,82 @@
+{
+  "categories": [
+    {
+      "type": "COMMON_TOPICS",
+      "name": "Generaal",
+      "is_free": true
+    },
+    {
+      "type": "MY",
+      "name": "Mijn eigen affirmaties",
+      "is_free": true
+    },
+    {
+      "type": "FAVORITES",
+      "name": "Mijn favorieten",
+      "is_free": true
+    },
+    {
+      "type": "BODY_POSITIVITY",
+      "name": "Lichaams Positiviteit",
+      "is_free": false
+    },
+    {
+      "type": "CONFIDENCE",
+      "name": "Vertrouwen",
+      "is_free": true
+    },
+    {
+      "type": "FAITH",
+      "name": "Geloof",
+      "is_free": true
+    },
+    {
+      "type": "HAPPINESS",
+      "name": "Geluk",
+      "is_free": false
+    },
+    {
+      "type": "HARD_TIMES",
+      "name": "Moeilijke tijden",
+      "is_free": true
+    },
+    {
+      "type": "LOVE_RELATIONSHIPS",
+      "name": "Liefde aantrekken",
+      "is_free": false
+    },
+    {
+      "type": "PERSONAL_GROWTH",
+      "name": "Persoonlijke Groei",
+      "is_free": false
+    },
+    {
+      "type": "POSITIVE_THINKING",
+      "name": "Positief Denken",
+      "is_free": true
+    },
+    {
+      "type": "STRESS_AND_ANXIETY",
+      "name": "Stress en angst",
+      "is_free": true
+    }
+  ],
+  "groups": [],
+  "tags": [
+    "COMMON_TOPICS",
+    "PERSONAL_GROWTH",
+    "STRESS_AND_ANXIETY",
+    "BODY_POSITIVITY",
+    "POSITIVE_THINKING",
+    "LOVE_RELATIONSHIPS",
+    "HAPPINESS",
+    "GRATITUDE"
+  ],
+  "tags_only": [
+    {
+      "type": "GRATITUDE",
+      "name": "Dankbaarheid"
+    }
+  ],
+  "personas": []
+}

@@ -73,6 +73,14 @@
 		DEC61AB02A7AC8D3008F9C97 /* ApplicationLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61AAF2A7AC8D3008F9C97 /* ApplicationLanguage.swift */; };
 		DEC61AB22A7ACA38008F9C97 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61AB12A7ACA38008F9C97 /* Localizable.swift */; };
 		DEC61E152A7AD38B008F9C97 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61E142A7AD38B008F9C97 /* Gender.swift */; };
+		DEC61E532A7ADA16008F9C97 /* ContentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61E522A7ADA16008F9C97 /* ContentManager.swift */; };
+		DEC61E562A7ADB32008F9C97 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61E552A7ADB32008F9C97 /* Category.swift */; };
+		DEC61E592A7ADB8F008F9C97 /* CategoryMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61E582A7ADB8F008F9C97 /* CategoryMapper.swift */; };
+		DEC61E602A7AE50C008F9C97 /* category in Resources */ = {isa = PBXBuildFile; fileRef = DEC61E5F2A7AE50C008F9C97 /* category */; };
+		DEC61E622A7AE599008F9C97 /* OWidgetCategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61E612A7AE599008F9C97 /* OWidgetCategoriesView.swift */; };
+		DEC61E682A7BEAE1008F9C97 /* OWCCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61E672A7BEAE1008F9C97 /* OWCCollectionView.swift */; };
+		DEC61E6A2A7BEAE7008F9C97 /* OWCCollectionElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61E692A7BEAE7008F9C97 /* OWCCollectionElement.swift */; };
+		DEC61E6C2A7BEAED008F9C97 /* OWCCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61E6B2A7BEAED008F9C97 /* OWCCollectionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -176,6 +184,14 @@
 		DEC61AAF2A7AC8D3008F9C97 /* ApplicationLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationLanguage.swift; sourceTree = "<group>"; };
 		DEC61AB12A7ACA38008F9C97 /* Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
 		DEC61E142A7AD38B008F9C97 /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
+		DEC61E522A7ADA16008F9C97 /* ContentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentManager.swift; sourceTree = "<group>"; };
+		DEC61E552A7ADB32008F9C97 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		DEC61E582A7ADB8F008F9C97 /* CategoryMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryMapper.swift; sourceTree = "<group>"; };
+		DEC61E5F2A7AE50C008F9C97 /* category */ = {isa = PBXFileReference; lastKnownFileType = folder; path = category; sourceTree = "<group>"; };
+		DEC61E612A7AE599008F9C97 /* OWidgetCategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWidgetCategoriesView.swift; sourceTree = "<group>"; };
+		DEC61E672A7BEAE1008F9C97 /* OWCCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWCCollectionView.swift; sourceTree = "<group>"; };
+		DEC61E692A7BEAE7008F9C97 /* OWCCollectionElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWCCollectionElement.swift; sourceTree = "<group>"; };
+		DEC61E6B2A7BEAED008F9C97 /* OWCCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWCCollectionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -278,6 +294,8 @@
 		DE5505F22A65896A0057F9FB /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				DEC61E5E2A7AE500008F9C97 /* Source */,
+				DEC61E162A7AD6D4008F9C97 /* Content */,
 				DEC61A9D2A7937E3008F9C97 /* Profile */,
 				DE5506542A6589810057F9FB /* IAP */,
 			);
@@ -455,12 +473,12 @@
 		DEC61A642A7661B3008F9C97 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				DEC61A942A77CE63008F9C97 /* Atoms */,
+				DEC61E652A7BE31C008F9C97 /* WidgetCategories */,
+				DEC61E642A7BE312008F9C97 /* Gender */,
+				DEC61E632A7BE2FB008F9C97 /* NotificationsSettings */,
 				DEC61A652A7661E8008F9C97 /* OSlideView.swift */,
 				DEC61A672A76652E008F9C97 /* OWelcomeView.swift */,
-				DEC61A922A77C4B3008F9C97 /* ONotificationsSettingsView.swift */,
 				DEC61AA72A7A1EAA008F9C97 /* OWidgetView.swift */,
-				DEC61AA92A7A24D3008F9C97 /* OGenderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -471,18 +489,6 @@
 				DEC61A6E2A766715008F9C97 /* Localizable.strings */,
 			);
 			path = Strings;
-			sourceTree = "<group>";
-		};
-		DEC61A942A77CE63008F9C97 /* Atoms */ = {
-			isa = PBXGroup;
-			children = (
-				DEC61A952A77CE7B008F9C97 /* ONSView.swift */,
-				DEC61A972A78FAC0008F9C97 /* ONSCountView.swift */,
-				DEC61A992A78FB14008F9C97 /* ONSStartView.swift */,
-				DEC61A9B2A78FB2C008F9C97 /* ONSEndView.swift */,
-				DEC61AAC2A7A29FC008F9C97 /* OGenderButton.swift */,
-			);
-			path = Atoms;
 			sourceTree = "<group>";
 		};
 		DEC61A9D2A7937E3008F9C97 /* Profile */ = {
@@ -512,6 +518,80 @@
 				DEC61AB12A7ACA38008F9C97 /* Localizable.swift */,
 			);
 			path = Localizable;
+			sourceTree = "<group>";
+		};
+		DEC61E162A7AD6D4008F9C97 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				DEC61E572A7ADB82008F9C97 /* Mapper */,
+				DEC61E542A7ADA34008F9C97 /* Model */,
+				DEC61E522A7ADA16008F9C97 /* ContentManager.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		DEC61E542A7ADA34008F9C97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DEC61E552A7ADB32008F9C97 /* Category.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DEC61E572A7ADB82008F9C97 /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				DEC61E582A7ADB8F008F9C97 /* CategoryMapper.swift */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		DEC61E5E2A7AE500008F9C97 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DEC61E5F2A7AE50C008F9C97 /* category */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		DEC61E632A7BE2FB008F9C97 /* NotificationsSettings */ = {
+			isa = PBXGroup;
+			children = (
+				DEC61A952A77CE7B008F9C97 /* ONSView.swift */,
+				DEC61A972A78FAC0008F9C97 /* ONSCountView.swift */,
+				DEC61A992A78FB14008F9C97 /* ONSStartView.swift */,
+				DEC61A9B2A78FB2C008F9C97 /* ONSEndView.swift */,
+				DEC61A922A77C4B3008F9C97 /* ONotificationsSettingsView.swift */,
+			);
+			path = NotificationsSettings;
+			sourceTree = "<group>";
+		};
+		DEC61E642A7BE312008F9C97 /* Gender */ = {
+			isa = PBXGroup;
+			children = (
+				DEC61AAC2A7A29FC008F9C97 /* OGenderButton.swift */,
+				DEC61AA92A7A24D3008F9C97 /* OGenderView.swift */,
+			);
+			path = Gender;
+			sourceTree = "<group>";
+		};
+		DEC61E652A7BE31C008F9C97 /* WidgetCategories */ = {
+			isa = PBXGroup;
+			children = (
+				DEC61E662A7BEACD008F9C97 /* CollectionView */,
+				DEC61E612A7AE599008F9C97 /* OWidgetCategoriesView.swift */,
+			);
+			path = WidgetCategories;
+			sourceTree = "<group>";
+		};
+		DEC61E662A7BEACD008F9C97 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				DEC61E672A7BEAE1008F9C97 /* OWCCollectionView.swift */,
+				DEC61E692A7BEAE7008F9C97 /* OWCCollectionElement.swift */,
+				DEC61E6B2A7BEAED008F9C97 /* OWCCollectionCell.swift */,
+			);
+			path = CollectionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -595,6 +675,7 @@
 				DEC61A6C2A766715008F9C97 /* Localizable.strings in Resources */,
 				DE5505E72A6587B10057F9FB /* LaunchScreen.storyboard in Resources */,
 				DE5505E42A6587B10057F9FB /* Assets.xcassets in Resources */,
+				DEC61E602A7AE50C008F9C97 /* category in Resources */,
 				DE5505F02A6589580057F9FB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -648,8 +729,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEC61E682A7BEAE1008F9C97 /* OWCCollectionView.swift in Sources */,
 				DEC61AA42A7938C2008F9C97 /* DayOfWeek.swift in Sources */,
 				DE5506312A6589760057F9FB /* Scalable.swift in Sources */,
+				DEC61E622A7AE599008F9C97 /* OWidgetCategoriesView.swift in Sources */,
 				DE55062C2A6589760057F9FB /* UITapGestureRecognizer+Extension.swift in Sources */,
 				DE55066E2A6589AF0057F9FB /* SplashView.swift in Sources */,
 				DEC61A9A2A78FB14008F9C97 /* ONSStartView.swift in Sources */,
@@ -659,12 +742,14 @@
 				DEC61AAA2A7A24D3008F9C97 /* OGenderView.swift in Sources */,
 				DE5506262A6589760057F9FB /* UIColor+Extension.swift in Sources */,
 				DEC61AA82A7A1EAA008F9C97 /* OWidgetView.swift in Sources */,
+				DEC61E562A7ADB32008F9C97 /* Category.swift in Sources */,
 				DE55062A2A6589760057F9FB /* String+Extension.swift in Sources */,
 				DEC61A632A7661AF008F9C97 /* OnboardingView.swift in Sources */,
 				DEC61AB02A7AC8D3008F9C97 /* ApplicationLanguage.swift in Sources */,
 				DEC61AB22A7ACA38008F9C97 /* Localizable.swift in Sources */,
 				DEC61AA62A793900008F9C97 /* WeekSchedule.swift in Sources */,
 				DE55063B2A6589760057F9FB /* Weak.swift in Sources */,
+				DEC61E592A7ADB8F008F9C97 /* CategoryMapper.swift in Sources */,
 				DEC61A982A78FAC0008F9C97 /* ONSCountView.swift in Sources */,
 				DEC61AAD2A7A29FC008F9C97 /* OGenderButton.swift in Sources */,
 				DE5506352A6589760057F9FB /* ObservableRetrySingle.swift in Sources */,
@@ -681,6 +766,7 @@
 				DE55066A2A6589A60057F9FB /* SplashViewController.swift in Sources */,
 				DE55063E2A6589760057F9FB /* NavigationController.swift in Sources */,
 				DEC61A962A77CE7B008F9C97 /* ONSView.swift in Sources */,
+				DEC61E6C2A7BEAED008F9C97 /* OWCCollectionCell.swift in Sources */,
 				DE5506342A6589760057F9FB /* ScreenSize.swift in Sources */,
 				DE55062D2A6589760057F9FB /* GlobalDefinitions.swift in Sources */,
 				DEC61A9F2A7937F6008F9C97 /* ProfileManager.swift in Sources */,
@@ -695,6 +781,8 @@
 				DE5506412A6589760057F9FB /* BorderTextField.swift in Sources */,
 				DE5506482A6589760057F9FB /* FirebaseManager.swift in Sources */,
 				DEC61A682A76652E008F9C97 /* OWelcomeView.swift in Sources */,
+				DEC61E532A7ADA16008F9C97 /* ContentManager.swift in Sources */,
+				DEC61E6A2A7BEAE7008F9C97 /* OWCCollectionElement.swift in Sources */,
 				DE5506322A6589760057F9FB /* NumberLaunches.swift in Sources */,
 				DE55063C2A6589760057F9FB /* RxActivityIndicator.swift in Sources */,
 				DE5506642A6589810057F9FB /* IAPProduct.swift in Sources */,

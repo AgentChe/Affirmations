@@ -1,0 +1,82 @@
+{
+  "categories": [
+    {
+      "type": "COMMON_TOPICS",
+      "name": "Allm\u00e4nt",
+      "is_free": true
+    },
+    {
+      "type": "MY",
+      "name": "Mina egna bekr\u00e4ftelser",
+      "is_free": true
+    },
+    {
+      "type": "FAVORITES",
+      "name": "Mina favoriter",
+      "is_free": true
+    },
+    {
+      "type": "BODY_POSITIVITY",
+      "name": "Kroppspositivitet",
+      "is_free": false
+    },
+    {
+      "type": "CONFIDENCE",
+      "name": "Sj\u00e4lvf\u00f6rtroende",
+      "is_free": true
+    },
+    {
+      "type": "FAITH",
+      "name": "Tro",
+      "is_free": true
+    },
+    {
+      "type": "HAPPINESS",
+      "name": "Lycka",
+      "is_free": false
+    },
+    {
+      "type": "HARD_TIMES",
+      "name": "Sv\u00e5ra tider",
+      "is_free": true
+    },
+    {
+      "type": "LOVE_RELATIONSHIPS",
+      "name": "Att dra till sig k\u00e4rlek",
+      "is_free": false
+    },
+    {
+      "type": "PERSONAL_GROWTH",
+      "name": "Personlig utveckling",
+      "is_free": false
+    },
+    {
+      "type": "POSITIVE_THINKING",
+      "name": "Positivt t\u00e4nkande",
+      "is_free": true
+    },
+    {
+      "type": "STRESS_AND_ANXIETY",
+      "name": "Stress och \u00e5ngest",
+      "is_free": true
+    }
+  ],
+  "groups": [],
+  "tags": [
+    "COMMON_TOPICS",
+    "PERSONAL_GROWTH",
+    "STRESS_AND_ANXIETY",
+    "BODY_POSITIVITY",
+    "POSITIVE_THINKING",
+    "LOVE_RELATIONSHIPS",
+    "HAPPINESS",
+    "GRATITUDE"
+  ],
+  "tags_only": [
+    {
+      "type": "GRATITUDE",
+      "name": "Tacksamhet"
+    }
+  ],
+  "personas": []
+}

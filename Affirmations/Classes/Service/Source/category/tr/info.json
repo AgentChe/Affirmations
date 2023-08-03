@@ -1,0 +1,82 @@
+{
+  "categories": [
+    {
+      "type": "COMMON_TOPICS",
+      "name": "Genel",
+      "is_free": true
+    },
+    {
+      "type": "MY",
+      "name": "Kendi olumlamalar\u0131m",
+      "is_free": true
+    },
+    {
+      "type": "FAVORITES",
+      "name": "Favorilerim",
+      "is_free": true
+    },
+    {
+      "type": "BODY_POSITIVITY",
+      "name": "Beden Olumlama",
+      "is_free": false
+    },
+    {
+      "type": "CONFIDENCE",
+      "name": "G\u00fcven",
+      "is_free": true
+    },
+    {
+      "type": "FAITH",
+      "name": "\u0130nan\u00e7",
+      "is_free": true
+    },
+    {
+      "type": "HAPPINESS",
+      "name": "Mutluluk",
+      "is_free": false
+    },
+    {
+      "type": "HARD_TIMES",
+      "name": "Zor G\u00fcnler",
+      "is_free": true
+    },
+    {
+      "type": "LOVE_RELATIONSHIPS",
+      "name": "A\u015fk\u0131 Bulmak",
+      "is_free": false
+    },
+    {
+      "type": "PERSONAL_GROWTH",
+      "name": "Ki\u015fisel Geli\u015fim",
+      "is_free": false
+    },
+    {
+      "type": "POSITIVE_THINKING",
+      "name": "Pozitif D\u00fc\u015f\u00fcnmek",
+      "is_free": true
+    },
+    {
+      "type": "STRESS_AND_ANXIETY",
+      "name": "Stres ve Kayg\u0131",
+      "is_free": true
+    }
+  ],
+  "groups": [],
+  "tags": [
+    "COMMON_TOPICS",
+    "PERSONAL_GROWTH",
+    "STRESS_AND_ANXIETY",
+    "BODY_POSITIVITY",
+    "POSITIVE_THINKING",
+    "LOVE_RELATIONSHIPS",
+    "HAPPINESS",
+    "GRATITUDE"
+  ],
+  "tags_only": [
+    {
+      "type": "GRATITUDE",
+      "name": "Şükran"
+    }
+  ],
+  "personas": []
+}

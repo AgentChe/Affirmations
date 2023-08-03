@@ -5,6 +5,8 @@
 //  Created by Андрей Чернышев on 02.08.2023.
 //
 
-enum Gender: Codable, Hashable {
-    case male, female, other
+enum Gender: String, Codable, Hashable {
+    case male = "male"
+    case female = "female"
+    case other = "other"
 }

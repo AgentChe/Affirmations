@@ -1,0 +1,82 @@
+{
+  "categories": [
+    {
+      "type": "COMMON_TOPICS",
+      "name": "一般的なもの",
+      "is_free": true
+    },
+    {
+      "type": "MY",
+      "name": "私のアファメーション",
+      "is_free": true
+    },
+    {
+      "type": "FAVORITES",
+      "name": "お気に入り",
+      "is_free": true
+    },
+    {
+      "type": "BODY_POSITIVITY",
+      "name": "\u30dd\u30b8\u30c6\u30a3\u30d6\u306a\u4f53\u3092\u4f5c\u308b",
+      "is_free": false
+    },
+    {
+      "type": "CONFIDENCE",
+      "name": "\u81ea\u4fe1\u3092\u3064\u3051\u308b",
+      "is_free": true
+    },
+    {
+      "type": "FAITH",
+      "name": "\u4fe1\u5ff5",
+      "is_free": true
+    },
+    {
+      "type": "HAPPINESS",
+      "name": "\u5e78\u305b\u306b\u306a\u308b\u305f\u3081\u306b",
+      "is_free": false
+    },
+    {
+      "type": "HARD_TIMES",
+      "name": "\u82e6\u3057\u3044\u6642\u671f\u306b",
+      "is_free": true
+    },
+    {
+      "type": "LOVE_RELATIONSHIPS",
+      "name": "\u604b\u611b\u3092\u6210\u529f\u3055\u305b\u308b",
+      "is_free": false
+    },
+    {
+      "type": "PERSONAL_GROWTH",
+      "name": "\u81ea\u5df1\u5553\u767a\u3059\u308b",
+      "is_free": false
+    },
+    {
+      "type": "POSITIVE_THINKING",
+      "name": "\u30dd\u30b8\u30c6\u30a3\u30d6\u30b7\u30f3\u30ad\u30f3\u30b0",
+      "is_free": true
+    },
+    {
+      "type": "STRESS_AND_ANXIETY",
+      "name": "\u30b9\u30c8\u30ec\u30b9\u3068\u4e0d\u5b89",
+      "is_free": true
+    }
+  ],
+  "groups": [],
+  "tags": [
+    "COMMON_TOPICS",
+    "PERSONAL_GROWTH",
+    "STRESS_AND_ANXIETY",
+    "BODY_POSITIVITY",
+    "POSITIVE_THINKING",
+    "LOVE_RELATIONSHIPS",
+    "HAPPINESS",
+    "GRATITUDE"
+  ],
+  "tags_only": [
+    {
+      "type": "GRATITUDE",
+      "name": "感謝"
+    }
+  ],
+  "personas": []
+}
