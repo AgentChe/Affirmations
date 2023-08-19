@@ -15,9 +15,13 @@ protocol IAPManagerProtocol: AnyObject {
     func buyProduct(with id: String) -> Single<IAPActionResult>
     func restorePurchases() -> Single<[String]>
     func retrieveReceipt(forceUpdate: Bool) -> Single<String?>
+    var hasActiveSubscriptions: Bool { get }
 }
 
-final class IAPManager {}
+final class IAPManager {
+    private let appStoreReceiptSource = AppStoreReceiptSource()
+    private let paymentDataBuilder = PaymentDataBuilder()
+}
 
 // MARK: IAPManagerProtocol
 extension IAPManager: IAPManagerProtocol {
@@ -111,5 +115,34 @@ extension IAPManager: IAPManagerProtocol {
                 
                 return Disposables.create()
             }
+    }
+    
+    var hasActiveSubscriptions: Bool {
+        guard let paymentData = tryLocalParseReceipt() else {
+            return false
+        }
+        
+        return hasActiveSubscriptions(paymentData: paymentData)
+    }
+}
+
+// MARK: Private
+private extension IAPManager {
+    func tryLocalParseReceipt() -> PaymentData? {
+        guard let receipt = appStoreReceiptSource.appStoreReceipt(parser: AppStoreReceiptParser()) else {
+            return nil
+        }
+        
+        return paymentDataBuilder.build(purchases: receipt.inAppPurchases)
+    }
+    
+    func hasActiveSubscriptions(paymentData: PaymentData) -> Bool {
+        let subscriptions = paymentData.subscriptions
+        let nonConsumables = paymentData.nonConsumables
+
+        let hasValidSubscription = subscriptions.contains(where: { $0.valid })
+        let hasValidNonConsumable = nonConsumables.contains(where: { $0.valid })
+
+        return hasValidSubscription || hasValidNonConsumable
     }
 }

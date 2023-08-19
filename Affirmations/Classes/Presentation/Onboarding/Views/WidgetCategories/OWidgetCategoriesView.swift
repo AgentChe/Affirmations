@@ -140,6 +140,7 @@ private extension OWidgetCategoriesView {
         view.setAttributedTitle("Onboarding.Continue".localized.attributed(with: attrs), for: .normal)
         view.layer.cornerRadius = 25.scale
         view.backgroundColor = UIColor(integralRed: 110, green: 204, blue: 169)
+        view.addTarget(self, action: #selector(onNext), for: .touchUpInside)
         view.translatesAutoresizingMaskIntoConstraints = false
         addSubview(view)
         return view

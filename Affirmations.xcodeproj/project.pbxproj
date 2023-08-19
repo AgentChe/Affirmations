@@ -81,6 +81,22 @@
 		DEC61E682A7BEAE1008F9C97 /* OWCCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61E672A7BEAE1008F9C97 /* OWCCollectionView.swift */; };
 		DEC61E6A2A7BEAE7008F9C97 /* OWCCollectionElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61E692A7BEAE7008F9C97 /* OWCCollectionElement.swift */; };
 		DEC61E6C2A7BEAED008F9C97 /* OWCCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61E6B2A7BEAED008F9C97 /* OWCCollectionCell.swift */; };
+		DEFE80892A90EE8400FB96F0 /* InAppPurchaseBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE807A2A90EE8400FB96F0 /* InAppPurchaseBuilder.swift */; };
+		DEFE808A2A90EE8400FB96F0 /* ASN1ObjectIdentifierBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE807B2A90EE8400FB96F0 /* ASN1ObjectIdentifierBuilder.swift */; };
+		DEFE808B2A90EE8400FB96F0 /* AppleReceiptBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE807C2A90EE8400FB96F0 /* AppleReceiptBuilder.swift */; };
+		DEFE808C2A90EE8400FB96F0 /* ASN1ContainerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE807D2A90EE8400FB96F0 /* ASN1ContainerBuilder.swift */; };
+		DEFE808D2A90EE8400FB96F0 /* AppStoreReceiptParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE807E2A90EE8400FB96F0 /* AppStoreReceiptParser.swift */; };
+		DEFE808E2A90EE8400FB96F0 /* UInt8+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE80802A90EE8400FB96F0 /* UInt8+Extensions.swift */; };
+		DEFE808F2A90EE8400FB96F0 /* ArraySlice_UInt8+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE80812A90EE8400FB96F0 /* ArraySlice_UInt8+Extensions.swift */; };
+		DEFE80902A90EE8400FB96F0 /* ISO8601DateFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE80822A90EE8400FB96F0 /* ISO8601DateFormatter+Extensions.swift */; };
+		DEFE80912A90EE8400FB96F0 /* AppStoreReceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE80842A90EE8400FB96F0 /* AppStoreReceipt.swift */; };
+		DEFE80922A90EE8400FB96F0 /* ASN1Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE80852A90EE8400FB96F0 /* ASN1Container.swift */; };
+		DEFE80932A90EE8400FB96F0 /* InAppPurchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE80862A90EE8400FB96F0 /* InAppPurchase.swift */; };
+		DEFE80942A90EE8400FB96F0 /* ASN1ObjectIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE80872A90EE8400FB96F0 /* ASN1ObjectIdentifier.swift */; };
+		DEFE80952A90EE8400FB96F0 /* ReceiptReadingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE80882A90EE8400FB96F0 /* ReceiptReadingError.swift */; };
+		DEFE80972A90EEF000FB96F0 /* PaymentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE80962A90EEF000FB96F0 /* PaymentData.swift */; };
+		DEFE80992A90EFF300FB96F0 /* AppStoreReceiptSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE80982A90EFF300FB96F0 /* AppStoreReceiptSource.swift */; };
+		DEFE809B2A90F0DC00FB96F0 /* PaymentDataBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE809A2A90F0DC00FB96F0 /* PaymentDataBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -192,6 +208,22 @@
 		DEC61E672A7BEAE1008F9C97 /* OWCCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWCCollectionView.swift; sourceTree = "<group>"; };
 		DEC61E692A7BEAE7008F9C97 /* OWCCollectionElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWCCollectionElement.swift; sourceTree = "<group>"; };
 		DEC61E6B2A7BEAED008F9C97 /* OWCCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWCCollectionCell.swift; sourceTree = "<group>"; };
+		DEFE807A2A90EE8400FB96F0 /* InAppPurchaseBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InAppPurchaseBuilder.swift; sourceTree = "<group>"; };
+		DEFE807B2A90EE8400FB96F0 /* ASN1ObjectIdentifierBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASN1ObjectIdentifierBuilder.swift; sourceTree = "<group>"; };
+		DEFE807C2A90EE8400FB96F0 /* AppleReceiptBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleReceiptBuilder.swift; sourceTree = "<group>"; };
+		DEFE807D2A90EE8400FB96F0 /* ASN1ContainerBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASN1ContainerBuilder.swift; sourceTree = "<group>"; };
+		DEFE807E2A90EE8400FB96F0 /* AppStoreReceiptParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStoreReceiptParser.swift; sourceTree = "<group>"; };
+		DEFE80802A90EE8400FB96F0 /* UInt8+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UInt8+Extensions.swift"; sourceTree = "<group>"; };
+		DEFE80812A90EE8400FB96F0 /* ArraySlice_UInt8+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ArraySlice_UInt8+Extensions.swift"; sourceTree = "<group>"; };
+		DEFE80822A90EE8400FB96F0 /* ISO8601DateFormatter+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ISO8601DateFormatter+Extensions.swift"; sourceTree = "<group>"; };
+		DEFE80842A90EE8400FB96F0 /* AppStoreReceipt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStoreReceipt.swift; sourceTree = "<group>"; };
+		DEFE80852A90EE8400FB96F0 /* ASN1Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASN1Container.swift; sourceTree = "<group>"; };
+		DEFE80862A90EE8400FB96F0 /* InAppPurchase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InAppPurchase.swift; sourceTree = "<group>"; };
+		DEFE80872A90EE8400FB96F0 /* ASN1ObjectIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASN1ObjectIdentifier.swift; sourceTree = "<group>"; };
+		DEFE80882A90EE8400FB96F0 /* ReceiptReadingError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptReadingError.swift; sourceTree = "<group>"; };
+		DEFE80962A90EEF000FB96F0 /* PaymentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentData.swift; sourceTree = "<group>"; };
+		DEFE80982A90EFF300FB96F0 /* AppStoreReceiptSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreReceiptSource.swift; sourceTree = "<group>"; };
+		DEFE809A2A90F0DC00FB96F0 /* PaymentDataBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDataBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -415,9 +447,12 @@
 		DE5506542A6589810057F9FB /* IAP */ = {
 			isa = PBXGroup;
 			children = (
+				DEFE80782A90EE8400FB96F0 /* ReceiptLocalParse */,
 				DE5506592A6589810057F9FB /* Error */,
 				DE5506562A6589810057F9FB /* Model */,
 				DE5506552A6589810057F9FB /* IAPManager.swift */,
+				DEFE80982A90EFF300FB96F0 /* AppStoreReceiptSource.swift */,
+				DEFE809A2A90F0DC00FB96F0 /* PaymentDataBuilder.swift */,
 			);
 			path = IAP;
 			sourceTree = "<group>";
@@ -427,6 +462,7 @@
 			children = (
 				DE5506572A6589810057F9FB /* IAPActionResult.swift */,
 				DE5506582A6589810057F9FB /* IAPProduct.swift */,
+				DEFE80962A90EEF000FB96F0 /* PaymentData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -594,6 +630,50 @@
 			path = CollectionView;
 			sourceTree = "<group>";
 		};
+		DEFE80782A90EE8400FB96F0 /* ReceiptLocalParse */ = {
+			isa = PBXGroup;
+			children = (
+				DEFE80832A90EE8400FB96F0 /* Model */,
+				DEFE807F2A90EE8400FB96F0 /* Utils */,
+				DEFE80792A90EE8400FB96F0 /* Builders */,
+				DEFE807E2A90EE8400FB96F0 /* AppStoreReceiptParser.swift */,
+			);
+			path = ReceiptLocalParse;
+			sourceTree = "<group>";
+		};
+		DEFE80792A90EE8400FB96F0 /* Builders */ = {
+			isa = PBXGroup;
+			children = (
+				DEFE807A2A90EE8400FB96F0 /* InAppPurchaseBuilder.swift */,
+				DEFE807B2A90EE8400FB96F0 /* ASN1ObjectIdentifierBuilder.swift */,
+				DEFE807C2A90EE8400FB96F0 /* AppleReceiptBuilder.swift */,
+				DEFE807D2A90EE8400FB96F0 /* ASN1ContainerBuilder.swift */,
+			);
+			path = Builders;
+			sourceTree = "<group>";
+		};
+		DEFE807F2A90EE8400FB96F0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DEFE80802A90EE8400FB96F0 /* UInt8+Extensions.swift */,
+				DEFE80812A90EE8400FB96F0 /* ArraySlice_UInt8+Extensions.swift */,
+				DEFE80822A90EE8400FB96F0 /* ISO8601DateFormatter+Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DEFE80832A90EE8400FB96F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DEFE80842A90EE8400FB96F0 /* AppStoreReceipt.swift */,
+				DEFE80852A90EE8400FB96F0 /* ASN1Container.swift */,
+				DEFE80862A90EE8400FB96F0 /* InAppPurchase.swift */,
+				DEFE80872A90EE8400FB96F0 /* ASN1ObjectIdentifier.swift */,
+				DEFE80882A90EE8400FB96F0 /* ReceiptReadingError.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -742,16 +822,19 @@
 				DEC61AAA2A7A24D3008F9C97 /* OGenderView.swift in Sources */,
 				DE5506262A6589760057F9FB /* UIColor+Extension.swift in Sources */,
 				DEC61AA82A7A1EAA008F9C97 /* OWidgetView.swift in Sources */,
+				DEFE80892A90EE8400FB96F0 /* InAppPurchaseBuilder.swift in Sources */,
 				DEC61E562A7ADB32008F9C97 /* Category.swift in Sources */,
 				DE55062A2A6589760057F9FB /* String+Extension.swift in Sources */,
 				DEC61A632A7661AF008F9C97 /* OnboardingView.swift in Sources */,
 				DEC61AB02A7AC8D3008F9C97 /* ApplicationLanguage.swift in Sources */,
 				DEC61AB22A7ACA38008F9C97 /* Localizable.swift in Sources */,
+				DEFE808A2A90EE8400FB96F0 /* ASN1ObjectIdentifierBuilder.swift in Sources */,
 				DEC61AA62A793900008F9C97 /* WeekSchedule.swift in Sources */,
 				DE55063B2A6589760057F9FB /* Weak.swift in Sources */,
 				DEC61E592A7ADB8F008F9C97 /* CategoryMapper.swift in Sources */,
 				DEC61A982A78FAC0008F9C97 /* ONSCountView.swift in Sources */,
 				DEC61AAD2A7A29FC008F9C97 /* OGenderButton.swift in Sources */,
+				DEFE80932A90EE8400FB96F0 /* InAppPurchase.swift in Sources */,
 				DE5506352A6589760057F9FB /* ObservableRetrySingle.swift in Sources */,
 				DE5506432A6589760057F9FB /* AppDelegate.swift in Sources */,
 				DE55063F2A6589760057F9FB /* TapAreaButton.swift in Sources */,
@@ -762,14 +845,23 @@
 				DEC61A5F2A7661A6008F9C97 /* OnboardingViewController.swift in Sources */,
 				DE5506242A6589760057F9FB /* UIApplication+Extension.swift in Sources */,
 				DE5506632A6589810057F9FB /* IAPActionResult.swift in Sources */,
+				DEFE80942A90EE8400FB96F0 /* ASN1ObjectIdentifier.swift in Sources */,
 				DE55063D2A6589760057F9FB /* NavigationControllerSettings.swift in Sources */,
+				DEFE80902A90EE8400FB96F0 /* ISO8601DateFormatter+Extensions.swift in Sources */,
 				DE55066A2A6589A60057F9FB /* SplashViewController.swift in Sources */,
 				DE55063E2A6589760057F9FB /* NavigationController.swift in Sources */,
+				DEFE80972A90EEF000FB96F0 /* PaymentData.swift in Sources */,
 				DEC61A962A77CE7B008F9C97 /* ONSView.swift in Sources */,
 				DEC61E6C2A7BEAED008F9C97 /* OWCCollectionCell.swift in Sources */,
+				DEFE808C2A90EE8400FB96F0 /* ASN1ContainerBuilder.swift in Sources */,
+				DEFE80922A90EE8400FB96F0 /* ASN1Container.swift in Sources */,
 				DE5506342A6589760057F9FB /* ScreenSize.swift in Sources */,
+				DEFE808B2A90EE8400FB96F0 /* AppleReceiptBuilder.swift in Sources */,
 				DE55062D2A6589760057F9FB /* GlobalDefinitions.swift in Sources */,
+				DEFE80992A90EFF300FB96F0 /* AppStoreReceiptSource.swift in Sources */,
+				DEFE809B2A90F0DC00FB96F0 /* PaymentDataBuilder.swift in Sources */,
 				DEC61A9F2A7937F6008F9C97 /* ProfileManager.swift in Sources */,
+				DEFE808D2A90EE8400FB96F0 /* AppStoreReceiptParser.swift in Sources */,
 				DE5506292A6589760057F9FB /* ObservableAndSingle+Extension.swift in Sources */,
 				DE55066C2A6589AB0057F9FB /* SplashViewModel.swift in Sources */,
 				DEC61A9C2A78FB2C008F9C97 /* ONSEndView.swift in Sources */,
@@ -781,6 +873,7 @@
 				DE5506412A6589760057F9FB /* BorderTextField.swift in Sources */,
 				DE5506482A6589760057F9FB /* FirebaseManager.swift in Sources */,
 				DEC61A682A76652E008F9C97 /* OWelcomeView.swift in Sources */,
+				DEFE808E2A90EE8400FB96F0 /* UInt8+Extensions.swift in Sources */,
 				DEC61E532A7ADA16008F9C97 /* ContentManager.swift in Sources */,
 				DEC61E6A2A7BEAE7008F9C97 /* OWCCollectionElement.swift in Sources */,
 				DE5506322A6589760057F9FB /* NumberLaunches.swift in Sources */,
@@ -789,11 +882,14 @@
 				DE5506402A6589760057F9FB /* PaddingTextField.swift in Sources */,
 				DE5506442A6589760057F9FB /* PushNotificationsManager.swift in Sources */,
 				DEC61A612A7661AB008F9C97 /* OnboardingViewModel.swift in Sources */,
+				DEFE80952A90EE8400FB96F0 /* ReceiptReadingError.swift in Sources */,
 				DE5506652A6589810057F9FB /* IAPError.swift in Sources */,
 				DE5506252A6589760057F9FB /* UIDevice+Extension.swift in Sources */,
 				DE5506362A6589760057F9FB /* Fonts.swift in Sources */,
 				DE5506282A6589760057F9FB /* Collection+Extension.swift in Sources */,
 				DEC61AA22A79382B008F9C97 /* NotificationSettings.swift in Sources */,
+				DEFE80912A90EE8400FB96F0 /* AppStoreReceipt.swift in Sources */,
+				DEFE808F2A90EE8400FB96F0 /* ArraySlice_UInt8+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -971,8 +1067,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 8K75UPGJ47;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Affirmations/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -985,8 +1084,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = wed.Affirmations;
+				PRODUCT_BUNDLE_IDENTIFIER = i.am.com.affirmation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Affirmations Development";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -1002,8 +1103,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 8K75UPGJ47;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Affirmations/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -1016,8 +1120,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = wed.Affirmations;
+				PRODUCT_BUNDLE_IDENTIFIER = i.am.com.affirmation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Affirmations AppStore";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;

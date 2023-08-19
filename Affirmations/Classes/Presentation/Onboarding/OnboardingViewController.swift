@@ -20,6 +20,8 @@ final class OnboardingViewController: UIViewController {
         view = mainView
     }
     
+    let m = IAPManager()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

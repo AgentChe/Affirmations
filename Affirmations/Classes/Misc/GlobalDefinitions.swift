@@ -7,8 +7,7 @@
 
 final class GlobalDefinitions {
     enum Paygate {
-        static let oneMonthProductId = ""
-        static let sixMonthProductId = ""
+        static let productId = "i.am.com.affirmation.monthly_trial"
     }
     
     static let privacyPolicy = "https://navisapps.com/affirmations/privacy.html"

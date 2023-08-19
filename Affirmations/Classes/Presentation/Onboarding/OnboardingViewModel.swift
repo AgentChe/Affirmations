@@ -9,12 +9,13 @@ final class OnboardingViewModel {
     enum Step {
         case paygate, main
     }
+    
+    private lazy var iapManager = IAPManager()
 }
 
 // MARK: Public
 extension OnboardingViewModel {
-    // TODO
     func whatNext() -> Step {
-        .paygate
+        iapManager.hasActiveSubscriptions ? .main : .paygate
     }
 }
