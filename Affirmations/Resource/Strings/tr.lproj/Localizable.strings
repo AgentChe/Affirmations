@@ -8,6 +8,9 @@
 
 // TR
 
+// MARK: General
+"OK" = "Iyi";
+
 // MARK: Onboarding
 "Onboarding.Continue" = "Devam et";
 "Onboarding.Welcome.Text" = "Olumlamaların tekrarı, inancın oluşumuna yol açar. Olumlu düşüncenizi güçlendirmek için onaylamaları günde birkaç kez okuyun ve tekrarlayın.";
@@ -25,3 +28,15 @@
 "Onboarding.Gender.Male" = "Erkek";
 "Onboarding.Gender.Other" = "Diğer";
 "Onboarding.WidgetCategories.Text" = "Hayatınızın hangi alanlarını geliştirmek istersiniz?";
+
+// MARK: Paygate
+"Paygate.Error" = "Hatası. Daha sonra tekrar dene";
+"Paygate.Text" = "Abonelik otomatik olarak yenilenir. Aboneliğinizi uygulamadan veya iCloud hesabınızdan iptal edebilirsiniz. Gizlilik Politikası ve Kullanım Koşulları.";
+"Paygate.Cell1" = "3 gün Ücretsiz Deneme";
+"Paygate.Cell2" = "Özelleştirilmiş olumlamalar";
+"Paygate.Cell3" = "Herhangi bir kategori";
+"Paygate.Cell4" = "Aylık sadece %@, aylık faturalandırılır";
+"Paygate.Restore" = "Zaten abone oldunuz mu?";
+"Paygate.Buy" = "Devam et";
+"Paygate.PrivacyPolicy" = "Gizlilik Politikası";
+"Paygate.TermsOfUse" = "Kullanım Koşulları";

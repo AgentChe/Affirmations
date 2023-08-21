@@ -8,6 +8,9 @@
 
 // FR
 
+// MARK: General
+"OK" = "D'ACCORD";
+
 // MARK: Onboarding
 "Onboarding.Continue" = "Continuer";
 "Onboarding.Welcome.Text" = "La répétition des affirmations conduit à la formation de la foi. Lisez et répétez les affirmations plusieurs fois par jour pour renforcer votre pensée positive.";
@@ -25,3 +28,15 @@
 "Onboarding.Gender.Male" = "Homme";
 "Onboarding.Gender.Other" = "Autre";
 "Onboarding.WidgetCategories.Text" = "Quels sont les domaines de votre vie que vous aimeriez améliorer ?";
+
+// MARK: Paygate
+"Paygate.Error" = "Erreur. Essayez à nouveau plus tard";
+"Paygate.Text" = "L'abonnement se renouvelle automatiquement. Vous pouvez annuler votre abonnement dans l'application ou dans votre compte iCloud. Politique de confidentialité et conditions d'utilisation.";
+"Paygate.Cell1" = "3 jours d'essai gratuit";
+"Paygate.Cell2" = "Affirmations personnalisées";
+"Paygate.Cell3" = "Toutes les catégories";
+"Paygate.Cell4" = "Seulement %@ par mois, facturé mensuellement";
+"Paygate.Restore" = "Déjà abonné ?";
+"Paygate.Buy" = "Continuer";
+"Paygate.PrivacyPolicy" = "Politique de confidentialité";
+"Paygate.TermsOfUse" = "conditions d'utilisation";

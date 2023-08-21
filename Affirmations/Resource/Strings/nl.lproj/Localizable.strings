@@ -8,6 +8,9 @@
 
 // NL
 
+// MARK: General
+"OK" = "OK";
+
 // MARK: Onboarding
 "Onboarding.Continue" = "Doorgaan";
 "Onboarding.Welcome.Text" = "Herhaling van affirmaties leidt tot geloofsvorming. Lees en herhaal affirmaties meerdere keren per dag om je positieve denken te versterken.";
@@ -25,3 +28,15 @@
 "Onboarding.Gender.Male" = "Mannelijk";
 "Onboarding.Gender.Other" = "Andere";
 "Onboarding.WidgetCategories.Text" = "Welke aspecten van uw leven zou u willen verbeteren?";
+
+// MARK: Paygate
+"Paygate.Error" = "Fout. Probeer het later opnieuw";
+"Paygate.Text" = "Het abonnement wordt automatisch verlengd. Je kunt je abonnement opzeggen in de app of in je iCloud-account. Privacybeleid en gebruiksvoorwaarden.";
+"Paygate.Cell1" = "3 dagen gratis proefabonnement";
+"Paygate.Cell2" = "Aangepaste affirmaties";
+"Paygate.Cell3" = "Alle categorieën";
+"Paygate.Cell4" = "Slechts %@ per maand, maandelijks gefactureerd";
+"Paygate.Restore" = "Al ingeschreven?";
+"Paygate.Buy" = "Doorgaan";
+"Paygate.PrivacyPolicy" = "Privacybeleid";
+"Paygate.TermsOfUse" = "gebruiksvoorwaarden";

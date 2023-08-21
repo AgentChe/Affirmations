@@ -8,6 +8,9 @@
 
 // JA
 
+// MARK: General
+"OK" = "オーケー";
+
 // MARK: Onboarding
 "Onboarding.Continue" = "続ける";
 "Onboarding.Welcome.Text" = "アファーメーションの繰り返しは信仰の形成につながります。 肯定的な思考を強化するために、アファメーションを 1 日に数回読んで繰り返します。";
@@ -25,3 +28,15 @@
 "Onboarding.Gender.Male" = "男性";
 "Onboarding.Gender.Other" = "その他";
 "Onboarding.WidgetCategories.Text" = "あなたの人生のどの領域を改善したいですか？";
+
+// MARK: Paygate
+"Paygate.Error" = "エラー。後で再試行してください。";
+"Paygate.Text" = "購読は自動的に更新されます。購読のキャンセルは、アプリまたはiCloudアカウントで行えます。プライバシーポリシーと利用規約。";
+"Paygate.Cell1" = "3日間無料トライアル";
+"Paygate.Cell2" = "カスタマイズされたアファメーション";
+"Paygate.Cell3" = "カテゴリー";
+"Paygate.Cell4" = "月額%@ドル（月払い";
+"Paygate.Restore" = "すでに購読済みですか？";
+"Paygate.Buy" = "続ける";
+"Paygate.PrivacyPolicy" = "プライバシーポリシー";
+"Paygate.TermsOfUse" = "利用規約";

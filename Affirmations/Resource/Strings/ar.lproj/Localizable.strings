@@ -8,6 +8,9 @@
 
 // AR
 
+// MARK: General
+"OK" = "نعم";
+
 // MARK: Onboarding
 "Onboarding.Continue" = "استمر";
 "Onboarding.Welcome.Text" = "يؤدي تكرار التأكيدات إلى تنشئة الإيمان. اقرأ وكرر التأكيدات عدة مرات في اليوم لتقوية تفكيرك الإيجابي.";
@@ -25,3 +28,15 @@
 "Onboarding.Gender.Male" = "ذكر";
 "Onboarding.Gender.Other" = "أخرى";
 "Onboarding.WidgetCategories.Text" = "أي مجالات حياتك تود تحسينها؟";
+
+// MARK: Paygate
+"Paygate.Error" = "خطأ. يرجى إعادة المحاولة لاحقاً";
+"Paygate.Text" = "يتم تجديد الاشتراك تلقائيًا. يمكنك إلغاء اشتراكك في التطبيق أو في حساب iCloud الخاص بك. سياسة الخصوصية وشروط الاستخدام.";
+"Paygate.Cell1" = "3 أيام نسخة تجريبية مجانية";
+"Paygate.Cell2" = "تأكيدات مخصصة";
+"Paygate.Cell3" = "أي فئات";
+"Paygate.Cell4" = "%@ فقط شهريًا ، تدفع شهريًا";
+"Paygate.Restore" = "مشترك بالفعل؟";
+"Paygate.Buy" = "استمر";
+"Paygate.PrivacyPolicy" = "سياسة الخصوصية";
+"Paygate.TermsOfUse" = "شروط الاستخدام";

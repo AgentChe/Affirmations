@@ -8,6 +8,9 @@
 
 // SV
 
+// MARK: General
+"OK" = "OK";
+
 // MARK: Onboarding
 "Onboarding.Continue" = "Fortsätt";
 "Onboarding.Welcome.Text" = "Upprepning av affirmationer leder till bildandet av tro. Läs och upprepa affirmationer flera gånger om dagen för att stärka ditt positiva tänkande.";
@@ -25,3 +28,15 @@
 "Onboarding.Gender.Male" = "Man";
 "Onboarding.Gender.Other" = "Annan";
 "Onboarding.WidgetCategories.Text" = "Vilka delar av ditt liv skulle du vilja förbättra?";
+
+// MARK: Paygate
+"Paygate.Error" = "Fel. Försök igen senare";
+"Paygate.Text" = "Prenumerationen förnyas automatiskt. Du kan säga upp din prenumeration i appen eller i ditt iCloud-konto. Integritetspolicy och användarvillkor.";
+"Paygate.Cell1" = "3 dagars kostnadsfri provperiod";
+"Paygate.Cell2" = "Anpassade affirmationer";
+"Paygate.Cell3" = "Alla kategorier";
+"Paygate.Cell4" = "Endast %@ per månad, faktureras månadsvis";
+"Paygate.Restore" = "Har du redan tecknat en prenumeration?";
+"Paygate.Buy" = "Fortsätt";
+"Paygate.PrivacyPolicy" = "Integritetspolicy";
+"Paygate.TermsOfUse" = "användarvillkor";

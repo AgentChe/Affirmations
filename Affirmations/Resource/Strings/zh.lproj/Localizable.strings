@@ -8,6 +8,9 @@
 
 // ZH
 
+// MARK: General
+"OK" = "好的";
+
 // MARK: Onboarding
 "Onboarding.Continue" = "继续";
 "Onboarding.Welcome.Text" = "重复肯定会导致信仰的形成。 每天多次阅读和重复肯定，以加强你的积极思考。";
@@ -25,3 +28,15 @@
 "Onboarding.Gender.Male" = "男";
 "Onboarding.Gender.Other" = "其他";
 "Onboarding.WidgetCategories.Text" = "您希望改善生活的哪些方面？";
+
+// MARK: Paygate
+"Paygate.Error" = "错误。稍后再试";
+"Paygate.Text" = "订阅会自动更新。你可以在应用程序或 iCloud 账户中取消订阅。隐私政策和使用条款。";
+"Paygate.Cell1" = "3 天免费试用";
+"Paygate.Cell2" = "定制申明";
+"Paygate.Cell3" = "任何类别";
+"Paygate.Cell4" = "每月仅需 %@，按月结算";
+"Paygate.Restore" = "已经订阅？";
+"Paygate.Buy" = "继续";
+"Paygate.PrivacyPolicy" = "隐私政策";
+"Paygate.TermsOfUse" = "使用条款";

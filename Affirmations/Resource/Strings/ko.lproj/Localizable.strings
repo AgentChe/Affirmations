@@ -8,6 +8,9 @@
 
 // KO
 
+// MARK: General
+"OK" = "좋아요";
+
 // MARK: Onboarding
 "Onboarding.Continue" = "계속";
 "Onboarding.Welcome.Text" = "확언의 반복은 믿음의 형성으로 이어진다. 긍정적인 생각을 강화하기 위해 하루에 여러 번 긍정문을 읽고 반복하십시오.";
@@ -25,3 +28,15 @@
 "Onboarding.Gender.Male" = "남성";
 "Onboarding.Gender.Other" = "기타";
 "Onboarding.WidgetCategories.Text" = "당신의 삶의 어떤 부분을 개선하고 싶으신가요?";
+
+// MARK: Paygate
+"Paygate.Error" = "오류. 나중에 다시 시도하세요";
+"Paygate.Text" = "구독은 자동으로 갱신됩니다. 앱 또는 iCloud 계정에서 구독을 취소할 수 있습니다. 개인정보처리방침 및 이용약관.";
+"Paygate.Cell1" = "3일 무료 체험";
+"Paygate.Cell2" = "맞춤형 확인";
+"Paygate.Cell3" = "모든 카테고리";
+"Paygate.Cell4" = "월 %@(월 청구), 월 단위로 청구";
+"Paygate.Restore" = "이미 구독 중이신가요?";
+"Paygate.Buy" = "계속";
+"Paygate.PrivacyPolicy" = "개인정보처리방침";
+"Paygate.TermsOfUse" = "이용약관";

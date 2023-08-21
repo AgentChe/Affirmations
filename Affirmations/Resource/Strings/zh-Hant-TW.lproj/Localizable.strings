@@ -8,6 +8,9 @@
 
 // ZH_RTW
 
+// MARK: General
+"OK" = "好的";
+
 // MARK: Onboarding
 "Onboarding.Continue" = "繼續";
 "Onboarding.Welcome.Text" = "重複肯定會導致信仰的形成。 每天多次閱讀和重複肯定，以加強你的積極思考。";
@@ -25,3 +28,13 @@
 "Onboarding.Gender.Male" = "男性";
 "Onboarding.Gender.Other" = "其他";
 "Onboarding.WidgetCategories.Text" = "您想改善生活的哪個區塊呢？";
+
+// MARK: Paygate
+"Paygate.Error" = "Unsplash 發生了錯誤。稍後再試一次。";
+"Paygate.Text" = "订阅会自动更新。你可以在应用程序或 iCloud 账户中取消订阅。隱私政策和使用條款";
+"Paygate.Cell1" = "3 天免费试用";
+"Paygate.Cell2" = "定制申明";
+"Paygate.Cell3" = "任何类别";
+"Paygate.Cell4" = "每月仅需 %@，按月结算";
+"Paygate.Restore" = "已经订阅？";
+"Paygate.Buy" = "繼續";

@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
 
 final class OnboardingViewController: UIViewController {
     struct Constants {
@@ -14,16 +16,23 @@ final class OnboardingViewController: UIViewController {
     
     lazy var mainView = OnboardingView()
     
+    private lazy var disposeBag = DisposeBag()
+    
     private lazy var viewModel = OnboardingViewModel()
     
     override func loadView() {
         view = mainView
     }
     
-    let m = IAPManager()
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        PaygateMediator.shared.didPaygateClosed
+            .asDriver(onErrorDriveWith: .never())
+            .drive(Binder(self) { base, void in
+                base.goToNext(at: .main)
+            })
+            .disposed(by: disposeBag)
         
         mainView.didFinish = { [weak self] in
             guard let self = self else {
@@ -45,14 +54,6 @@ extension OnboardingViewController {
     }
 }
 
-// TODO
-//// MARK: PaygateViewControllerDelegate
-//extension OnboardingViewController: PaygateViewControllerDelegate {
-//    func paygateDidClosed(with result: PaygateViewControllerResult) {
-//        goToNext(at: .main)
-//    }
-//}
-
 // MARK: Public
 extension OnboardingViewController {
     static func wasViewed() -> Bool {
@@ -68,16 +69,16 @@ private extension OnboardingViewController {
 //        UserDefaults.standard.setValue(true, forKey: Constants.wasViewedKey)
     }
     
-    // TODO
     func goToNext(at step: OnboardingViewModel.Step) {
-//        switch step {
-//        case .main:
+        switch step {
+        case .main:
+            // TODO
+            break
 //            let vc = NavigationController(rootViewController: MainViewController.make())
 //            UIApplication.shared.keyWindow?.rootViewController = vc
-//        case .paygate:
-//            let vc = PaygateViewController.make()
-//            vc.delegate = self
-//            present(vc, animated: true)
-//        }
+        case .paygate:
+            let vc = PaygateViewController.make()
+            present(vc, animated: true)
+        }
     }
 }

@@ -8,6 +8,9 @@
 
 // DE
 
+// MARK: General
+"OK" = "OK";
+
 // MARK: Onboarding
 "Onboarding.Continue" = "Weiter";
 "Onboarding.Welcome.Text" = "Die Wiederholung von Affirmationen führt zur Glaubensbildung. Lesen und wiederholen Sie Affirmationen mehrmals täglich, um Ihr positives Denken zu stärken.";
@@ -25,3 +28,15 @@
 "Onboarding.Gender.Male" = "Männlich";
 "Onboarding.Gender.Other" = "Sonstiges";
 "Onboarding.WidgetCategories.Text" = "Welche Bereiche in Ihrem Leben möchten Sie verbessern?";
+
+// MARK: Paygate
+"Paygate.Error" = "Fehler. Bitte später erneut versuchen.";
+"Paygate.Text" = "Das Abonnement verlängert sich automatisch. Sie können Ihr Abonnement in der App oder in Ihrem iCloud-Konto kündigen. Datenschutzrichtlinie und Nutzungsbedingungen.";
+"Paygate.Cell1" = "3 Tage kostenlose Testversion";
+"Paygate.Cell2" = "Maßgeschneiderte Affirmationen";
+"Paygate.Cell3" = "Beliebige Kategorien";
+"Paygate.Cell4" = "Nur %@ pro Monat, monatliche Abrechnung";
+"Paygate.Restore" = "Bereits abonniert?";
+"Paygate.Buy" = "Weiter";
+"Paygate.PrivacyPolicy" = "Datenschutzrichtlinie";
+"Paygate.TermsOfUse" = "Nutzungsbedingungen";
