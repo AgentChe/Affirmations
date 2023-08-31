@@ -38,3 +38,6 @@
 "Paygate.Cell4" = "每月仅需 %@，按月结算";
 "Paygate.Restore" = "已经订阅？";
 "Paygate.Buy" = "繼續";
+
+// MARK: Categories
+"Categories.Title" = "類別";

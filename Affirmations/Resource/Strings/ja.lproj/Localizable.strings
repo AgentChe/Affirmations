@@ -40,3 +40,6 @@
 "Paygate.Buy" = "続ける";
 "Paygate.PrivacyPolicy" = "プライバシーポリシー";
 "Paygate.TermsOfUse" = "利用規約";
+
+// MARK: Categories
+"Categories.Title" = "カテゴリー";

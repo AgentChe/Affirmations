@@ -32,4 +32,26 @@ enum CategoryMapper {
             tags.contains(where: { $0 == category.type })
         }
     }
+    
+    static func categories(from json: [String: Any]) -> [Category] {
+        guard let categoriesArray = json["categories"] as? [[String: Any]] else {
+            return []
+        }
+        
+        return categoriesArray.compactMap { json -> Category? in
+            guard
+                let type = json["type"] as? String,
+                let name = json["name"] as? String,
+                let free = json["is_free"] as? Bool
+            else {
+                return nil
+            }
+            
+            return Category(
+                type: type,
+                name: name,
+                free: free
+            )
+        }
+    }
 }

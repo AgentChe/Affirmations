@@ -40,3 +40,6 @@
 "Paygate.Buy" = "Продолжить";
 "Paygate.PrivacyPolicy" = "Политика конфиденциальности";
 "Paygate.TermsOfUse" = "правила использования";
+
+// MARK: Categories
+"Categories.Title" = "Категории";

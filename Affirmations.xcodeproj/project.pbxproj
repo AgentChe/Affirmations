@@ -103,6 +103,17 @@
 		DEFE80AD2A90FEB200FB96F0 /* PaygateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE80A22A90FEB200FB96F0 /* PaygateView.swift */; };
 		DEFE80AE2A90FEB200FB96F0 /* PaygateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE80A32A90FEB200FB96F0 /* PaygateViewController.swift */; };
 		DEFE80B52A9106CF00FB96F0 /* PaygateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE80B42A9106CF00FB96F0 /* PaygateCell.swift */; };
+		DEFE818B2A9F98A300FB96F0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE818A2A9F98A300FB96F0 /* MainView.swift */; };
+		DEFE818D2A9F98A900FB96F0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE818C2A9F98A900FB96F0 /* MainViewController.swift */; };
+		DEFE818F2A9F98AF00FB96F0 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE818E2A9F98AF00FB96F0 /* MainViewModel.swift */; };
+		DEFE81922AA0E39000FB96F0 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE81912AA0E39000FB96F0 /* CategoriesViewController.swift */; };
+		DEFE81942AA0E39600FB96F0 /* CategoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE81932AA0E39600FB96F0 /* CategoriesViewModel.swift */; };
+		DEFE81962AA0E39C00FB96F0 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE81952AA0E39C00FB96F0 /* CategoriesView.swift */; };
+		DEFE81992AA0E79400FB96F0 /* CategoryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE81982AA0E79400FB96F0 /* CategoryButton.swift */; };
+		DEFE819B2AA0EE2400FB96F0 /* ContentMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE819A2AA0EE2400FB96F0 /* ContentMediator.swift */; };
+		DEFE819F2AA0F1DD00FB96F0 /* CategoriesCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE819E2AA0F1DC00FB96F0 /* CategoriesCollectionView.swift */; };
+		DEFE81A12AA0F1E200FB96F0 /* CategoriesCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE81A02AA0F1E200FB96F0 /* CategoriesCollectionCell.swift */; };
+		DEFE81A32AA0F1E800FB96F0 /* CategoriesCollectionElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE81A22AA0F1E800FB96F0 /* CategoriesCollectionElement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -236,6 +247,17 @@
 		DEFE80A22A90FEB200FB96F0 /* PaygateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaygateView.swift; sourceTree = "<group>"; };
 		DEFE80A32A90FEB200FB96F0 /* PaygateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaygateViewController.swift; sourceTree = "<group>"; };
 		DEFE80B42A9106CF00FB96F0 /* PaygateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaygateCell.swift; sourceTree = "<group>"; };
+		DEFE818A2A9F98A300FB96F0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		DEFE818C2A9F98A900FB96F0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		DEFE818E2A9F98AF00FB96F0 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		DEFE81912AA0E39000FB96F0 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		DEFE81932AA0E39600FB96F0 /* CategoriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewModel.swift; sourceTree = "<group>"; };
+		DEFE81952AA0E39C00FB96F0 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		DEFE81982AA0E79400FB96F0 /* CategoryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryButton.swift; sourceTree = "<group>"; };
+		DEFE819A2AA0EE2400FB96F0 /* ContentMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentMediator.swift; sourceTree = "<group>"; };
+		DEFE819E2AA0F1DC00FB96F0 /* CategoriesCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCollectionView.swift; sourceTree = "<group>"; };
+		DEFE81A02AA0F1E200FB96F0 /* CategoriesCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCollectionCell.swift; sourceTree = "<group>"; };
+		DEFE81A22AA0F1E800FB96F0 /* CategoriesCollectionElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCollectionElement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -491,6 +513,8 @@
 		DE5506672A65898C0057F9FB /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				DEFE81902AA0E38200FB96F0 /* Categories */,
+				DEFE81892A9F989800FB96F0 /* Main */,
 				DEFE809C2A90FEB200FB96F0 /* Paygate */,
 				DEC61A5D2A766195008F9C97 /* Onboarding */,
 				DE5506682A6589960057F9FB /* Splash */,
@@ -575,6 +599,7 @@
 				DEC61E572A7ADB82008F9C97 /* Mapper */,
 				DEC61E542A7ADA34008F9C97 /* Model */,
 				DEC61E522A7ADA16008F9C97 /* ContentManager.swift */,
+				DEFE819A2AA0EE2400FB96F0 /* ContentMediator.swift */,
 			);
 			path = Content;
 			sourceTree = "<group>";
@@ -716,6 +741,54 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		DEFE81892A9F989800FB96F0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DEFE81972AA0E78700FB96F0 /* Views */,
+				DEFE818C2A9F98A900FB96F0 /* MainViewController.swift */,
+				DEFE818E2A9F98AF00FB96F0 /* MainViewModel.swift */,
+				DEFE818A2A9F98A300FB96F0 /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		DEFE81902AA0E38200FB96F0 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				DEFE819C2AA0F1B900FB96F0 /* Views */,
+				DEFE81912AA0E39000FB96F0 /* CategoriesViewController.swift */,
+				DEFE81932AA0E39600FB96F0 /* CategoriesViewModel.swift */,
+				DEFE81952AA0E39C00FB96F0 /* CategoriesView.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		DEFE81972AA0E78700FB96F0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DEFE81982AA0E79400FB96F0 /* CategoryButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DEFE819C2AA0F1B900FB96F0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DEFE819D2AA0F1D400FB96F0 /* Collection */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DEFE819D2AA0F1D400FB96F0 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				DEFE819E2AA0F1DC00FB96F0 /* CategoriesCollectionView.swift */,
+				DEFE81A02AA0F1E200FB96F0 /* CategoriesCollectionCell.swift */,
+				DEFE81A22AA0F1E800FB96F0 /* CategoriesCollectionElement.swift */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -855,13 +928,17 @@
 				DEC61AA42A7938C2008F9C97 /* DayOfWeek.swift in Sources */,
 				DE5506312A6589760057F9FB /* Scalable.swift in Sources */,
 				DEC61E622A7AE599008F9C97 /* OWidgetCategoriesView.swift in Sources */,
+				DEFE81A12AA0F1E200FB96F0 /* CategoriesCollectionCell.swift in Sources */,
 				DE55062C2A6589760057F9FB /* UITapGestureRecognizer+Extension.swift in Sources */,
 				DE55066E2A6589AF0057F9FB /* SplashView.swift in Sources */,
 				DEC61A9A2A78FB14008F9C97 /* ONSStartView.swift in Sources */,
 				DE5506662A6589810057F9FB /* IAPErrorHelper.swift in Sources */,
+				DEFE818D2A9F98A900FB96F0 /* MainViewController.swift in Sources */,
 				DEC61E152A7AD38B008F9C97 /* Gender.swift in Sources */,
 				DE5506462A6589760057F9FB /* PushNotificationsModel.swift in Sources */,
 				DEC61AAA2A7A24D3008F9C97 /* OGenderView.swift in Sources */,
+				DEFE81922AA0E39000FB96F0 /* CategoriesViewController.swift in Sources */,
+				DEFE81992AA0E79400FB96F0 /* CategoryButton.swift in Sources */,
 				DE5506262A6589760057F9FB /* UIColor+Extension.swift in Sources */,
 				DEC61AA82A7A1EAA008F9C97 /* OWidgetView.swift in Sources */,
 				DEFE80892A90EE8400FB96F0 /* InAppPurchaseBuilder.swift in Sources */,
@@ -869,6 +946,7 @@
 				DE55062A2A6589760057F9FB /* String+Extension.swift in Sources */,
 				DEFE80AE2A90FEB200FB96F0 /* PaygateViewController.swift in Sources */,
 				DEFE80A92A90FEB200FB96F0 /* PaygateViewModel.swift in Sources */,
+				DEFE81962AA0E39C00FB96F0 /* CategoriesView.swift in Sources */,
 				DEC61A632A7661AF008F9C97 /* OnboardingView.swift in Sources */,
 				DEC61AB02A7AC8D3008F9C97 /* ApplicationLanguage.swift in Sources */,
 				DEC61AB22A7ACA38008F9C97 /* Localizable.swift in Sources */,
@@ -885,6 +963,7 @@
 				DE55063F2A6589760057F9FB /* TapAreaButton.swift in Sources */,
 				DEC61A932A77C4B3008F9C97 /* ONotificationsSettingsView.swift in Sources */,
 				DE5506472A6589760057F9FB /* SceneDelegate.swift in Sources */,
+				DEFE818F2A9F98AF00FB96F0 /* MainViewModel.swift in Sources */,
 				DE55062B2A6589760057F9FB /* UIViewRxExtension.swift in Sources */,
 				DEC61A662A7661E8008F9C97 /* OSlideView.swift in Sources */,
 				DEFE80AC2A90FEB200FB96F0 /* PaygateInteractor.swift in Sources */,
@@ -905,6 +984,7 @@
 				DE5506342A6589760057F9FB /* ScreenSize.swift in Sources */,
 				DEFE808B2A90EE8400FB96F0 /* AppleReceiptBuilder.swift in Sources */,
 				DE55062D2A6589760057F9FB /* GlobalDefinitions.swift in Sources */,
+				DEFE81A32AA0F1E800FB96F0 /* CategoriesCollectionElement.swift in Sources */,
 				DEFE80992A90EFF300FB96F0 /* AppStoreReceiptSource.swift in Sources */,
 				DEFE809B2A90F0DC00FB96F0 /* PaymentDataBuilder.swift in Sources */,
 				DEC61A9F2A7937F6008F9C97 /* ProfileManager.swift in Sources */,
@@ -916,14 +996,18 @@
 				DE5506452A6589760057F9FB /* PushNotificationsAuthorizationStatus.swift in Sources */,
 				DE5506392A6589760057F9FB /* ContentError.swift in Sources */,
 				DE5506422A6589760057F9FB /* GradientView.swift in Sources */,
+				DEFE819F2AA0F1DD00FB96F0 /* CategoriesCollectionView.swift in Sources */,
 				DEFE80B52A9106CF00FB96F0 /* PaygateCell.swift in Sources */,
+				DEFE819B2AA0EE2400FB96F0 /* ContentMediator.swift in Sources */,
 				DE5506332A6589760057F9FB /* TextAttributes.swift in Sources */,
 				DE5506412A6589760057F9FB /* BorderTextField.swift in Sources */,
 				DE5506482A6589760057F9FB /* FirebaseManager.swift in Sources */,
 				DEC61A682A76652E008F9C97 /* OWelcomeView.swift in Sources */,
 				DEFE808E2A90EE8400FB96F0 /* UInt8+Extensions.swift in Sources */,
+				DEFE81942AA0E39600FB96F0 /* CategoriesViewModel.swift in Sources */,
 				DEC61E532A7ADA16008F9C97 /* ContentManager.swift in Sources */,
 				DEC61E6A2A7BEAE7008F9C97 /* OWCCollectionElement.swift in Sources */,
+				DEFE818B2A9F98A300FB96F0 /* MainView.swift in Sources */,
 				DE5506322A6589760057F9FB /* NumberLaunches.swift in Sources */,
 				DE55063C2A6589760057F9FB /* RxActivityIndicator.swift in Sources */,
 				DE5506642A6589810057F9FB /* IAPProduct.swift in Sources */,

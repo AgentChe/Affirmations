@@ -41,3 +41,6 @@
 "Paygate.Buy" = "Continuar";
 "Paygate.PrivacyPolicy" = "Política de Privacidade";
 "Paygate.TermsOfUse" = "Termos de Utilização";
+
+// MARK: Categories
+"Categories.Title" = "Categorias";

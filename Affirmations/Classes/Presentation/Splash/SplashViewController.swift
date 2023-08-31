@@ -53,7 +53,8 @@ private extension SplashViewController {
             let vc = OnboardingViewController.make()
             UIApplication.shared.keyWindow?.rootViewController = vc
         case .main:
-            break // TODO
+            let nc = NavigationController(rootViewController: MainViewController.make())
+            UIApplication.shared.keyWindow?.rootViewController = nc
         }
     }
 }

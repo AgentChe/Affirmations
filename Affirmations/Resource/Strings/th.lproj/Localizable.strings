@@ -40,3 +40,6 @@
 "Paygate.Buy" = "ดำเนินการต่อ";
 "Paygate.PrivacyPolicy" = "นโยบายความเป็นส่วนตัวแ";
 "Paygate.TermsOfUse" = "ข้อกำหนดการใช้งาน";
+
+// MARK: Categories
+"Categories.Title" = "หมวดหมู่";

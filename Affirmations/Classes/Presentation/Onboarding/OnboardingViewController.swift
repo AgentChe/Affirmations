@@ -63,19 +63,15 @@ extension OnboardingViewController {
 
 // MARK: Private
 private extension OnboardingViewController {
-    // TODO
     func markAsViewed() {
-        false
-//        UserDefaults.standard.setValue(true, forKey: Constants.wasViewedKey)
+        UserDefaults.standard.setValue(true, forKey: Constants.wasViewedKey)
     }
     
     func goToNext(at step: OnboardingViewModel.Step) {
         switch step {
         case .main:
-            // TODO
-            break
-//            let vc = NavigationController(rootViewController: MainViewController.make())
-//            UIApplication.shared.keyWindow?.rootViewController = vc
+            let nc = NavigationController(rootViewController: MainViewController.make())
+            UIApplication.shared.keyWindow?.rootViewController = nc
         case .paygate:
             let vc = PaygateViewController.make()
             present(vc, animated: true)
