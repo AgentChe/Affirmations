@@ -46,3 +46,8 @@
 "Categories.Alert.My" = "Vous n'avez encore rien ajouté.";
 "Categories.Alert.Favorites" = "Vous n’avez pas encore de favoris.";
 "Categories.Alert.Other" = "La liste est vide.";
+
+// MARK: Main
+"Main.Training.Button" = "Compris!";
+"Main.Training.Swipe" = "Balayer l'écran pour lire les phrases d'encouragement";
+"Main.Training.Like" = "Plus vous aimez de affirmations, plus votre flux s'améliore.";

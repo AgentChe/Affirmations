@@ -46,3 +46,8 @@
 "Categories.Alert.My" = "คุณยังไม่ได้เพิ่มอะไรเลย";
 "Categories.Alert.Favorites" = "คุณยังไม่มีรายการโปรด";
 "Categories.Alert.Other" = "รายการว่างเปล่า";
+
+// MARK: Main
+"Main.Training.Button" = "เข้าใจแล้ว!";
+"Main.Training.Swipe" = "ปัดเพื่ออ่านคำพูดยืนยัน";
+"Main.Training.Like" = "ยิ่งคุณถูกใจ ข้อความสร้างกำลังใจ มากเท่าไร ฟีดของคุณก็จะยิ่งดีขึ้นเท่านั้น";

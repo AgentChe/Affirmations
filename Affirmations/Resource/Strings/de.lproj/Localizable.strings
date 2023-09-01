@@ -46,3 +46,8 @@
 "Categories.Alert.My" = "Sie haben noch nichts hinzugefügt.";
 "Categories.Alert.Favorites" = "Sie haben noch keine Favoriten.";
 "Categories.Alert.Other" = "Die Liste ist leer.";
+
+// MARK: Main
+"Main.Training.Button" = "Alles klar!";
+"Main.Training.Swipe" = "Zum Lesen von Affirmationen wischen";
+"Main.Training.Like" = "Je mehr du affirmationen likest, desto besser wird dein Feed";

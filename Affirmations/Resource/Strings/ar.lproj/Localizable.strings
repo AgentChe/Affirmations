@@ -46,3 +46,8 @@
 "Categories.Alert.My" = "لم تضف أي شيء بعد.";
 "Categories.Alert.Favorites" = "ليس لديك أي مفضلات بعد.";
 "Categories.Alert.Other" = "القائمة فارغة.";
+
+// MARK: Main
+"Main.Training.Button" = "فهمت!";
+"Main.Training.Swipe" = "اسحب لقراءة الأقوال";
+"Main.Training.Like" = "كلما زاد عدد التأكيدات الذي تعجب به، كان موجزك أفضل";

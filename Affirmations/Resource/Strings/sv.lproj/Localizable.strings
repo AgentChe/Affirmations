@@ -46,3 +46,8 @@
 "Categories.Alert.My" = "Du har inte lagt till något än.";
 "Categories.Alert.Favorites" = "У вас пока нет избранного.";
 "Categories.Alert.Other" = "Listan är tom.";
+
+// MARK: Main
+"Main.Training.Button" = "Jag förstår!";
+"Main.Training.Swipe" = "Svep för att läsa affirmationer";
+"Main.Training.Like" = "Ju fler affirmationer du gillar, desto bättre blir ditt flöde";

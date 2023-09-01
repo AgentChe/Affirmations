@@ -46,3 +46,8 @@
 "Categories.Alert.My" = "아직 추가한 항목이 없습니다.";
 "Categories.Alert.Favorites" = "아직 즐겨찾기가 없습니다.";
 "Categories.Alert.Other" = "목록이 비어 있습니다.";
+
+// MARK: Main
+"Main.Training.Button" = "알겠습니다!";
+"Main.Training.Swipe" = "스와이프하여 확언 읽기";
+"Main.Training.Like" = "긍정 확언 을/를 애용할수록 피드가 더욱 향상됩니다";

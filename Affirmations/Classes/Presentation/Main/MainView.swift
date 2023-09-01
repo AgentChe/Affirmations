@@ -11,6 +11,7 @@ final class MainView: UIView {
     lazy var backgroundView = makeBackgroundView()
     lazy var paygateButton = makePaygateButton()
     lazy var categoryButton = makeCategoryButton()
+    lazy var trainingView = makeTrainingView()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -37,13 +38,20 @@ private extension MainView {
             paygateButton.widthAnchor.constraint(equalToConstant: 43.scale),
             paygateButton.heightAnchor.constraint(equalToConstant: 43.scale),
             paygateButton.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16.scale),
-            paygateButton.topAnchor.constraint(equalTo: topAnchor, constant: 60.scale)
+            paygateButton.topAnchor.constraint(equalTo: topAnchor, constant: ScreenSize.isIphoneXFamily ? 60.scale : 40.scale)
         ])
         
         NSLayoutConstraint.activate([
             categoryButton.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16.scale),
             categoryButton.bottomAnchor.constraint(equalTo: bottomAnchor, constant: ScreenSize.isIphoneXFamily ? -60.scale : -30.scale),
             categoryButton.heightAnchor.constraint(equalToConstant: 40.scale)
+        ])
+        
+        NSLayoutConstraint.activate([
+            trainingView.leadingAnchor.constraint(equalTo: leadingAnchor),
+            trainingView.trailingAnchor.constraint(equalTo: trailingAnchor),
+            trainingView.topAnchor.constraint(equalTo: topAnchor),
+            trainingView.bottomAnchor.constraint(equalTo: bottomAnchor)
         ])
     }
 }
@@ -74,6 +82,13 @@ private extension MainView {
         view.layer.borderWidth = 1.scale
         view.layer.borderColor = UIColor(integralRed: 110, green: 204, blue: 169).cgColor
         view.backgroundColor = UIColor.white
+        view.translatesAutoresizingMaskIntoConstraints = false
+        addSubview(view)
+        return view
+    }
+    
+    func makeTrainingView() -> TrainingView {
+        let view = TrainingView()
         view.translatesAutoresizingMaskIntoConstraints = false
         addSubview(view)
         return view

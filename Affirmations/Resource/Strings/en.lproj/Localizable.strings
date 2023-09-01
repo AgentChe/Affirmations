@@ -46,3 +46,8 @@
 "Categories.Alert.My" = "You haven't added anything yet.";
 "Categories.Alert.Favorites" = "You don't have any favorites yet.";
 "Categories.Alert.Other" = "The list is empty.";
+
+// MARK: Main
+"Main.Training.Button" = "Got it!";
+"Main.Training.Swipe" = "Swipe to read affirmations";
+"Main.Training.Like" = "The more affirmations you like, the better your feed gets";

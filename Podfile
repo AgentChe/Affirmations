@@ -9,6 +9,7 @@ target 'Affirmations' do
   pod 'RxCocoa'
   
   pod 'Kingfisher'
+  pod 'lottie-ios'
   
   pod 'Firebase/Analytics'
   pod 'Firebase/Crashlytics'

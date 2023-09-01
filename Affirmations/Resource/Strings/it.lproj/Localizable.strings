@@ -46,3 +46,8 @@
 "Categories.Alert.My" = "Non hai ancora aggiunto nulla.";
 "Categories.Alert.Favorites" = "Non hai ancora salvato dei preferiti.";
 "Categories.Alert.Other" = "L'elenco è vuoto.";
+
+// MARK: Main
+"Main.Training.Button" = "Fatto!";
+"Main.Training.Swipe" = "Fai swipe per leggere le affermazioni";
+"Main.Training.Like" = "Più affermazioni ti piace, migliore diventa il tuo feed";

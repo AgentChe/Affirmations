@@ -7,6 +7,7 @@
 
 import UIKit
 import RxSwift
+import RxCocoa
 
 final class MainViewController: UIViewController {
     lazy var mainView = MainView()
@@ -14,6 +15,8 @@ final class MainViewController: UIViewController {
     private lazy var viewModel = MainViewModel()
     
     private lazy var disposeBag = DisposeBag()
+    
+    private lazy var didCompleteTrainingTrigger = PublishRelay<TrainingView.Training>()
     
     override func loadView() {
         view = mainView
@@ -36,7 +39,20 @@ final class MainViewController: UIViewController {
             })
             .disposed(by: disposeBag)
         
-        let output = viewModel.configure(input: MainViewModel.Input())
+        mainView.trainingView
+            .button.rx.tap
+            .bind(to: Binder(self) { base, void in
+                base.mainView.trainingView.hide { training in
+                    if let training {
+                        base.didCompleteTrainingTrigger.accept(training)
+                    }
+                }
+            })
+            .disposed(by: disposeBag)
+        
+        let output = viewModel.configure(input: MainViewModel.Input(
+            didCompleteTraining: didCompleteTrainingTrigger.asSignal()
+        ))
         
         output.activeSubsription
             .drive(Binder(self) { base, activeSubsription in
@@ -47,6 +63,15 @@ final class MainViewController: UIViewController {
         output.selectedCategoryName
             .drive(Binder(mainView.categoryButton) { base, name in
                 base.setup(categoryName: name)
+            })
+            .disposed(by: disposeBag)
+        
+        rx.methodInvoked(#selector(viewDidAppear))
+            .take(1)
+            .flatMapLatest { _ in output.route }
+            .asDriver(onErrorDriveWith: .never())
+            .drive(Binder(self) { base, route in
+                base.route(route)
             })
             .disposed(by: disposeBag)
     }
@@ -70,5 +95,17 @@ extension MainViewController {
         let vc = MainViewController()
         vc.navigationItem.backButtonTitle = " "
         return vc
+    }
+}
+
+// MARK: Private
+private extension MainViewController {
+    func route(_ route: MainViewModel.Route) {
+        switch route {
+        case .training(let training):
+            mainView.trainingView.show(training: training)
+        case .requestReview:
+            RequestReview.request()
+        }
     }
 }

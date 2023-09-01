@@ -44,3 +44,8 @@
 "Categories.Alert.My" = "您尚未增加任何東西。";
 "Categories.Alert.Favorites" = "您尚無任何最愛。";
 "Categories.Alert.Other" = "該列表為空。";
+
+// MARK: Main
+"Main.Training.Button" = "了解！";
+"Main.Training.Swipe" = "滑動閱讀肯定話語";
+"Main.Training.Like" = "您對越多 肯定 按讚，您的動態消息就越棒";

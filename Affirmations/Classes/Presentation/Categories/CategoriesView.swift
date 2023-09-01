@@ -51,7 +51,7 @@ private extension CategoriesView {
             paygateButton.widthAnchor.constraint(equalToConstant: 43.scale),
             paygateButton.heightAnchor.constraint(equalToConstant: 43.scale),
             paygateButton.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16.scale),
-            paygateButton.topAnchor.constraint(equalTo: topAnchor, constant: 60.scale)
+            paygateButton.topAnchor.constraint(equalTo: topAnchor, constant: ScreenSize.isIphoneXFamily ? 60.scale : 40.scale)
         ])
         
         NSLayoutConstraint.activate([

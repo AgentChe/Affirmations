@@ -46,3 +46,8 @@
 "Categories.Alert.My" = "Aún no has añadido nada.";
 "Categories.Alert.Favorites" = "Aún no tienes favoritos.";
 "Categories.Alert.Other" = "La lista está vacía.";
+
+// MARK: Main
+"Main.Training.Button" = "¡De acuerdo!";
+"Main.Training.Swipe" = "Desliza para leer afirmaciones";
+"Main.Training.Like" = "Cuantas más afirmaciones añadas a favoritos, mejores frases leerás.";

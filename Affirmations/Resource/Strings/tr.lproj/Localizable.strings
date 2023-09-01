@@ -46,3 +46,8 @@
 "Categories.Alert.My" = "Henüz bir şey eklemedin.";
 "Categories.Alert.Favorites" = "Henüz favorin yok.";
 "Categories.Alert.Other" = "Liste boş.";
+
+// MARK: Main
+"Main.Training.Button" = "Anladım!";
+"Main.Training.Swipe" = "Olumlamaları okumak için kaydırın";
+"Main.Training.Like" = "Ne kadar çok olumlamalar beğenirsen akışın o kadar iyi olur";

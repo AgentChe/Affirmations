@@ -9,17 +9,30 @@ import RxSwift
 import RxCocoa
 
 final class MainViewModel {
+    enum Route {
+        case training(TrainingView.Training)
+        case requestReview
+    }
+    
+    enum Constants {
+        static let swipeTraining = "main_view_model_swipe_training"
+        static let likeTraining = "main_view_model_like_training"
+    }
+    
     private lazy var iapManager = IAPManager()
     private lazy var contentManager = ContentManager()
 }
 
 // MARK: Public
 extension MainViewModel {
-    struct Input {}
+    struct Input {
+        let didCompleteTraining: Signal<TrainingView.Training>
+    }
     
     struct Output {
         let activeSubsription: Driver<Bool>
         let selectedCategoryName: Driver<String>
+        let route: Driver<Route>
     }
     
     func configure(input: Input) -> Output {
@@ -27,7 +40,8 @@ extension MainViewModel {
         
         return Output(
             activeSubsription: makeActiveSubscription(),
-            selectedCategoryName: selectedCategory.map { $0.name }  
+            selectedCategoryName: selectedCategory.map { $0.name },
+            route: makeRoute(didCompleteTraining: input.didCompleteTraining)
         )
     }
 }
@@ -58,5 +72,36 @@ private extension MainViewModel {
                     .compactMap { $0 }
                     .asDriver(onErrorDriveWith: .never())
             }
+    }
+    
+    func makeRoute(didCompleteTraining: Signal<TrainingView.Training>) -> Driver<Route> {
+        let initial = Single<Route>
+            .create { event in
+                if !UserDefaults.standard.bool(forKey: Constants.swipeTraining) {
+                    event(.success(.training(.swipe)))
+                } else if !UserDefaults.standard.bool(forKey: Constants.likeTraining) {
+                    event(.success(.training(.like)))
+                } else if (NumberLaunches().count() % 3 == 0) {
+                    event(.success(.requestReview))
+                }
+                
+                return Disposables.create()
+            }
+            .asDriver(onErrorDriveWith: .never())
+        
+        let complete = didCompleteTraining
+            .compactMap { training -> Route? in
+                switch training {
+                case .swipe:
+                    UserDefaults.standard.set(true, forKey: Constants.swipeTraining)
+                    return .training(.like)
+                case .like:
+                    UserDefaults.standard.set(true, forKey: Constants.likeTraining)
+                    return (NumberLaunches().count() % 3 == 0) ? .requestReview : nil
+                }
+            }
+            .asDriver(onErrorDriveWith: .never())
+        
+        return Driver.merge(initial, complete)
     }
 }
