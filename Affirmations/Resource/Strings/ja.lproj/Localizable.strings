@@ -43,3 +43,6 @@
 
 // MARK: Categories
 "Categories.Title" = "カテゴリー";
+"Categories.Alert.My" = "まだ何も追加していません。";
+"Categories.Alert.Favorites" = "まだお気に入りがありません。";
+"Categories.Alert.Other" = "リストが空です。";

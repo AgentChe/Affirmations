@@ -43,3 +43,6 @@
 
 // MARK: Categories
 "Categories.Title" = "Kategorier";
+"Categories.Alert.My" = "Du har inte lagt till något än.";
+"Categories.Alert.Favorites" = "У вас пока нет избранного.";
+"Categories.Alert.Other" = "Listan är tom.";

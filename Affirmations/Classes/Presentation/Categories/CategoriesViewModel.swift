@@ -17,6 +17,7 @@ final class CategoriesViewModel {
     
     private lazy var iapManager = IAPManager()
     private lazy var contentManager = ContentManager()
+    private lazy var profileManager = ProfileManager()
 }
 
 // MARK: Public
@@ -60,9 +61,32 @@ private extension CategoriesViewModel {
                 if element.paid {
                     return .just(.paygate)
                 } else {
-                    return self.contentManager
-                        .select(categoryType: element.category.type)
-                        .map { Route.dismiss }
+                    return self.profileManager
+                        .obtainGender()
+                        .flatMap { gender -> Single<Route> in
+                            self.contentManager
+                                .obtainAffirmations(
+                                    for: Localizable.shared.currentLanguage,
+                                    categoryType: element.category.type,
+                                    gender: (gender ?? .other).rawValue
+                                )
+                                .flatMap { affirmations -> Single<Route> in
+                                    if affirmations.isEmpty {
+                                        switch element.category.type {
+                                        case "MY":
+                                            return .just(.alert("Categories.Alert.My".localized))
+                                        case "FAVORITES":
+                                            return .just(.alert("Categories.Alert.Favorites".localized))
+                                        default:
+                                            return .just(.alert("Categories.Alert.Other".localized))
+                                        }
+                                    } else {
+                                        return self.contentManager
+                                            .select(categoryType: element.category.type)
+                                            .map { Route.dismiss }
+                                    }
+                                }
+                        }
                         .asDriver(onErrorDriveWith: .never())
                 }
             }

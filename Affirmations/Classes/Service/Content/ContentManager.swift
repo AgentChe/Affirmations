@@ -12,6 +12,7 @@ protocol ContentManagerProtocol {
     func obtainCategories(for language: ApplicationLanguage) -> Single<[Category]>
     func obtainSelectedCategory(for language: ApplicationLanguage) -> Single<Category?>
     func select(categoryType: String) -> Single<Void>
+    func obtainAffirmations(for language: ApplicationLanguage, categoryType: String, gender: String) -> Single<[String]>
 }
 
 final class ContentManager {
@@ -73,6 +74,24 @@ extension ContentManager: ContentManagerProtocol {
             event(.success(Void()))
             
             ContentMediator.shared.changeSelectedCategory()
+            
+            return Disposables.create()
+        }
+    }
+    
+    // TODO: categoryType MY и FAVORITES
+    func obtainAffirmations(for language: ApplicationLanguage, categoryType: String, gender: String) -> Single<[String]> {
+        Single<[String]>.create { event in
+            guard
+                let url = Bundle.main.url(forResource: categoryType.lowercased(), withExtension: "txt", subdirectory: "category/\(language.rawValue)/\(gender)"),
+                let result = try? String(contentsOf: url)
+            else {
+                event(.success([]))
+                return Disposables.create()
+            }
+            
+            let affirmations = result.split(separator: "\r\n").map { String($0) }  
+            event(.success(affirmations))
             
             return Disposables.create()
         }

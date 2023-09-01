@@ -43,3 +43,6 @@
 
 // MARK: Categories
 "Categories.Title" = "Категории";
+"Categories.Alert.My" = "Вы еще ничего не добавили.";
+"Categories.Alert.Favorites" = "У вас пока нет избранного.";
+"Categories.Alert.Other" = "Список пуст.";

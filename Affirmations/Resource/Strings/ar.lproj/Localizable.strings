@@ -43,3 +43,6 @@
 
 // MARK: Categories
 "Categories.Title" = "فئات";
+"Categories.Alert.My" = "لم تضف أي شيء بعد.";
+"Categories.Alert.Favorites" = "ليس لديك أي مفضلات بعد.";
+"Categories.Alert.Other" = "القائمة فارغة.";

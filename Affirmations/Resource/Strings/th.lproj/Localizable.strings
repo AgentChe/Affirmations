@@ -43,3 +43,6 @@
 
 // MARK: Categories
 "Categories.Title" = "หมวดหมู่";
+"Categories.Alert.My" = "คุณยังไม่ได้เพิ่มอะไรเลย";
+"Categories.Alert.Favorites" = "คุณยังไม่มีรายการโปรด";
+"Categories.Alert.Other" = "รายการว่างเปล่า";

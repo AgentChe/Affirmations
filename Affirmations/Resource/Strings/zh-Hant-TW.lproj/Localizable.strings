@@ -41,3 +41,6 @@
 
 // MARK: Categories
 "Categories.Title" = "類別";
+"Categories.Alert.My" = "您尚未增加任何東西。";
+"Categories.Alert.Favorites" = "您尚無任何最愛。";
+"Categories.Alert.Other" = "該列表為空。";

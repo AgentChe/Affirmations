@@ -44,3 +44,6 @@
 
 // MARK: Categories
 "Categories.Title" = "Categorias";
+"Categories.Alert.My" = "Você ainda não adicionou nada.";
+"Categories.Alert.Favorites" = "Você não tem nenhum favorito.";
+"Categories.Alert.Other" = "A lista está vazia.";

@@ -43,3 +43,6 @@
 
 // MARK: Categories
 "Categories.Title" = "Kategoriler";
+"Categories.Alert.My" = "Henüz bir şey eklemedin.";
+"Categories.Alert.Favorites" = "Henüz favorin yok.";
+"Categories.Alert.Other" = "Liste boş.";

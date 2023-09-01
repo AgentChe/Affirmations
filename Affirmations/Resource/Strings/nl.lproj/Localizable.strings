@@ -43,3 +43,6 @@
 
 // MARK: Categories
 "Categories.Title" = "Categorieën";
+"Categories.Alert.My" = "U heeft nog niets toegevoegd.";
+"Categories.Alert.Favorites" = "U heeft nog geen favorieten.";
+"Categories.Alert.Other" = "De lijst is leeg.";

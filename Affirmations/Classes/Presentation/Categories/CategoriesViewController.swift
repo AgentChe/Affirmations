@@ -8,7 +8,6 @@
 import UIKit
 import RxSwift
 
-// TODO: алерт
 final class CategoriesViewController: UIViewController {
     lazy var mainView = CategoriesView()
     
