@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import GoogleMobileAds
 
 @main
 // TODO: GoogleService-plist
@@ -14,6 +15,7 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
         NumberLaunches().launch()
         
         FirebaseManager.shared.initialize()
+        GADMobileAds.sharedInstance().start()
         IAPManager.initialize()
         
         return true

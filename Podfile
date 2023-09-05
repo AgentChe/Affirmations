@@ -14,6 +14,7 @@ target 'Affirmations' do
   pod 'Firebase/Analytics'
   pod 'Firebase/Crashlytics'
   pod 'Firebase/Messaging'
+  pod 'Google-Mobile-Ads-SDK'
   
   pod 'SwiftyStoreKit'
 end

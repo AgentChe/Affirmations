@@ -13,7 +13,6 @@
 		DE14D6752A658CD800DBFE1D /* proximanova_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE14D6702A658C4100DBFE1D /* proximanova_regular.ttf */; };
 		DE5505E42A6587B10057F9FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5505E32A6587B10057F9FB /* Assets.xcassets */; };
 		DE5505E72A6587B10057F9FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE5505E52A6587B10057F9FB /* LaunchScreen.storyboard */; };
-		DE5505F02A6589580057F9FB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE5505EF2A6589580057F9FB /* GoogleService-Info.plist */; };
 		DE5506242A6589760057F9FB /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5505F52A6589760057F9FB /* UIApplication+Extension.swift */; };
 		DE5506252A6589760057F9FB /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5505F62A6589760057F9FB /* UIDevice+Extension.swift */; };
 		DE5506262A6589760057F9FB /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5505F72A6589760057F9FB /* UIColor+Extension.swift */; };
@@ -81,6 +80,8 @@
 		DEC61E682A7BEAE1008F9C97 /* OWCCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61E672A7BEAE1008F9C97 /* OWCCollectionView.swift */; };
 		DEC61E6A2A7BEAE7008F9C97 /* OWCCollectionElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61E692A7BEAE7008F9C97 /* OWCCollectionElement.swift */; };
 		DEC61E6C2A7BEAED008F9C97 /* OWCCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61E6B2A7BEAED008F9C97 /* OWCCollectionCell.swift */; };
+		DEECE4362AA6FA4E00B10DE9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEECE4352AA6FA4E00B10DE9 /* GoogleService-Info.plist */; };
+		DEECE43A2AA7049C00B10DE9 /* AffirmationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEECE4392AA7049C00B10DE9 /* AffirmationsView.swift */; };
 		DEFE80892A90EE8400FB96F0 /* InAppPurchaseBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE807A2A90EE8400FB96F0 /* InAppPurchaseBuilder.swift */; };
 		DEFE808A2A90EE8400FB96F0 /* ASN1ObjectIdentifierBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE807B2A90EE8400FB96F0 /* ASN1ObjectIdentifierBuilder.swift */; };
 		DEFE808B2A90EE8400FB96F0 /* AppleReceiptBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE807C2A90EE8400FB96F0 /* AppleReceiptBuilder.swift */; };
@@ -131,7 +132,6 @@
 		DE5505E32A6587B10057F9FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE5505E62A6587B10057F9FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE5505E82A6587B10057F9FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DE5505EF2A6589580057F9FB /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "GoogleService-Info.plist"; path = "Affirmations/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		DE5505F52A6589760057F9FB /* UIApplication+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
 		DE5505F62A6589760057F9FB /* UIDevice+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
 		DE5505F72A6589760057F9FB /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
@@ -229,6 +229,8 @@
 		DEC61E672A7BEAE1008F9C97 /* OWCCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWCCollectionView.swift; sourceTree = "<group>"; };
 		DEC61E692A7BEAE7008F9C97 /* OWCCollectionElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWCCollectionElement.swift; sourceTree = "<group>"; };
 		DEC61E6B2A7BEAED008F9C97 /* OWCCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWCCollectionCell.swift; sourceTree = "<group>"; };
+		DEECE4352AA6FA4E00B10DE9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DEECE4392AA7049C00B10DE9 /* AffirmationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsView.swift; sourceTree = "<group>"; };
 		DEFE807A2A90EE8400FB96F0 /* InAppPurchaseBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InAppPurchaseBuilder.swift; sourceTree = "<group>"; };
 		DEFE807B2A90EE8400FB96F0 /* ASN1ObjectIdentifierBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASN1ObjectIdentifierBuilder.swift; sourceTree = "<group>"; };
 		DEFE807C2A90EE8400FB96F0 /* AppleReceiptBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleReceiptBuilder.swift; sourceTree = "<group>"; };
@@ -348,7 +350,7 @@
 				DEC61A692A766704008F9C97 /* Strings */,
 				DE14D66E2A658C3500DBFE1D /* Fonts */,
 				DE5505E82A6587B10057F9FB /* Info.plist */,
-				DE5505EF2A6589580057F9FB /* GoogleService-Info.plist */,
+				DEECE4352AA6FA4E00B10DE9 /* GoogleService-Info.plist */,
 				DE5505E52A6587B10057F9FB /* LaunchScreen.storyboard */,
 				DE5505E32A6587B10057F9FB /* Assets.xcassets */,
 			);
@@ -778,6 +780,7 @@
 			children = (
 				DEFE81982AA0E79400FB96F0 /* CategoryButton.swift */,
 				DEFE81A62AA1C6DA00FB96F0 /* TrainingView.swift */,
+				DEECE4392AA7049C00B10DE9 /* AffirmationsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -891,8 +894,8 @@
 				DEC61A6C2A766715008F9C97 /* Localizable.strings in Resources */,
 				DE5505E72A6587B10057F9FB /* LaunchScreen.storyboard in Resources */,
 				DE5505E42A6587B10057F9FB /* Assets.xcassets in Resources */,
+				DEECE4362AA6FA4E00B10DE9 /* GoogleService-Info.plist in Resources */,
 				DEC61E602A7AE50C008F9C97 /* category in Resources */,
-				DE5505F02A6589580057F9FB /* GoogleService-Info.plist in Resources */,
 				DEFE81AC2AA1C87000FB96F0 /* animation_like.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -997,6 +1000,7 @@
 				DE55063D2A6589760057F9FB /* NavigationControllerSettings.swift in Sources */,
 				DEFE80902A90EE8400FB96F0 /* ISO8601DateFormatter+Extensions.swift in Sources */,
 				DE55066A2A6589A60057F9FB /* SplashViewController.swift in Sources */,
+				DEECE43A2AA7049C00B10DE9 /* AffirmationsView.swift in Sources */,
 				DE55063E2A6589760057F9FB /* NavigationController.swift in Sources */,
 				DEFE80972A90EEF000FB96F0 /* PaymentData.swift in Sources */,
 				DEFE80AB2A90FEB200FB96F0 /* PaygateMediator.swift in Sources */,

@@ -8,6 +8,7 @@
 import UIKit
 import RxSwift
 import RxCocoa
+import GoogleMobileAds
 
 final class MainViewController: UIViewController {
     lazy var mainView = MainView()
@@ -74,6 +75,18 @@ final class MainViewController: UIViewController {
                 base.route(route)
             })
             .disposed(by: disposeBag)
+        
+        rx.methodInvoked(#selector(viewDidAppear))
+            .take(1)
+            .flatMapLatest { _ in output.affirmations }
+            .asDriver(onErrorJustReturn: [])
+            .drive(Binder(mainView.affirmationsView) { base, affirmations in
+                base.setup(affirmations: affirmations)
+            })
+            .disposed(by: disposeBag)
+        
+        mainView.affirmationsView.bannerView.rootViewController = self
+        mainView.affirmationsView.bannerView.load(GADRequest())
     }
     
     override func viewWillAppear(_ animated: Bool) {

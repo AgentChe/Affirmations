@@ -21,6 +21,7 @@ final class MainViewModel {
     
     private lazy var iapManager = IAPManager()
     private lazy var contentManager = ContentManager()
+    private lazy var profileManager = ProfileManager()
 }
 
 // MARK: Public
@@ -33,15 +34,21 @@ extension MainViewModel {
         let activeSubsription: Driver<Bool>
         let selectedCategoryName: Driver<String>
         let route: Driver<Route>
+        let affirmations: Driver<[String]>
     }
     
     func configure(input: Input) -> Output {
         let selectedCategory = makeSelectedCategory()
+        let gender = makeGender()
         
         return Output(
             activeSubsription: makeActiveSubscription(),
             selectedCategoryName: selectedCategory.map { $0.name },
-            route: makeRoute(didCompleteTraining: input.didCompleteTraining)
+            route: makeRoute(didCompleteTraining: input.didCompleteTraining),
+            affirmations: makeAffirmations(
+                category: selectedCategory,
+                gender: gender
+            )
         )
     }
 }
@@ -103,5 +110,30 @@ private extension MainViewModel {
             .asDriver(onErrorDriveWith: .never())
         
         return Driver.merge(initial, complete)
+    }
+    
+    func makeAffirmations(category: Driver<Category>, gender: Driver<Gender>) -> Driver<[String]> {
+        Driver
+            .combineLatest(category, gender)
+            .flatMapLatest { [weak self] category, gender -> Driver<[String]> in
+                guard let self else {
+                    return .never()
+                }
+                
+                return self.contentManager
+                    .obtainAffirmations(
+                        for: Localizable.shared.currentLanguage,
+                        categoryType: category.type,
+                        gender: gender.rawValue
+                    )
+                    .asDriver(onErrorJustReturn: [])
+            }
+    }
+    
+    func makeGender() -> Driver<Gender> {
+        profileManager
+            .obtainGender()
+            .map { $0 ?? .other }
+            .asDriver(onErrorJustReturn: .other)
     }
 }

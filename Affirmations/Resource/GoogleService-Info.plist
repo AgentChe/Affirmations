@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>335658589311-s63jhu4kl6rlpai2den5j3tnvls2njhr.apps.googleusercontent.com</string>
+	<string>330955155648-l5c169f3idbdm4fugpdi0crl3hmomosq.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.335658589311-s63jhu4kl6rlpai2den5j3tnvls2njhr</string>
+	<string>com.googleusercontent.apps.330955155648-l5c169f3idbdm4fugpdi0crl3hmomosq</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDy0D7vTnRI0LwZg-HSD_JLLyT2PFWO-2M</string>
+	<string>AIzaSyAlfNnUS-6uJ_pa5AF0Pbe6Qi9n6jtt1Lc</string>
 	<key>GCM_SENDER_ID</key>
-	<string>335658589311</string>
+	<string>330955155648</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>vin.platenumber.carcheck.uk</string>
+	<string>i.am.com.affirmation</string>
 	<key>PROJECT_ID</key>
-	<string>carcheck-uk-ios</string>
+	<string>affirmations-12f04</string>
 	<key>STORAGE_BUCKET</key>
-	<string>carcheck-uk-ios.appspot.com</string>
+	<string>affirmations-12f04.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:335658589311:ios:184579e87ceceb40c3b34a</string>
+	<string>1:330955155648:ios:7907c57c6a846d02032525</string>
 </dict>
 </plist>

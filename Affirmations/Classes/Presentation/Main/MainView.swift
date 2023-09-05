@@ -6,9 +6,11 @@
 //
 
 import UIKit
+import GoogleMobileAds
 
 final class MainView: UIView {
     lazy var backgroundView = makeBackgroundView()
+    lazy var affirmationsView = makeAffirmationsView()
     lazy var paygateButton = makePaygateButton()
     lazy var categoryButton = makeCategoryButton()
     lazy var trainingView = makeTrainingView()
@@ -32,6 +34,13 @@ private extension MainView {
             backgroundView.trailingAnchor.constraint(equalTo: trailingAnchor),
             backgroundView.topAnchor.constraint(equalTo: topAnchor),
             backgroundView.bottomAnchor.constraint(equalTo: bottomAnchor)
+        ])
+        
+        NSLayoutConstraint.activate([
+            affirmationsView.leadingAnchor.constraint(equalTo: leadingAnchor),
+            affirmationsView.trailingAnchor.constraint(equalTo: trailingAnchor),
+            affirmationsView.topAnchor.constraint(equalTo: topAnchor),
+            affirmationsView.bottomAnchor.constraint(equalTo: bottomAnchor)
         ])
         
         NSLayoutConstraint.activate([
@@ -63,6 +72,14 @@ private extension MainView {
         view.image = UIImage(named: "Main.Background")
         view.contentMode = .scaleAspectFill
         view.clipsToBounds = true
+        view.translatesAutoresizingMaskIntoConstraints = false
+        addSubview(view)
+        return view
+    }
+    
+    func makeAffirmationsView() -> AffirmationsView {
+        let view = AffirmationsView()
+        view.backgroundColor = UIColor.clear
         view.translatesAutoresizingMaskIntoConstraints = false
         addSubview(view)
         return view
