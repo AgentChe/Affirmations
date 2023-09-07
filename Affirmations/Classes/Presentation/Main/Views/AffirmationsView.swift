@@ -11,6 +11,29 @@ import RxCocoa
 import GoogleMobileAds
 
 final class AffirmationsView: UIView {
+    enum Element {
+        case affirmation(String, Int)
+        case banner(Int)
+        
+        var index: Int {
+            switch self {
+            case let .affirmation(_, index):
+                return index
+            case .banner(let index):
+                return index
+            }
+        }
+        
+        var isBanner: Bool {
+            switch self {
+            case .affirmation:
+                return false
+            case .banner:
+                return true
+            }
+        }
+    }
+    
     lazy var bannerView: GADBannerView = {
         let view = GADBannerView(adSize: GADAdSizeFromCGSize(CGSize(width: 300.scale, height: 50.scale)))
         view.adUnitID = GlobalDefinitions.AdMob.bannerId
@@ -22,9 +45,15 @@ final class AffirmationsView: UIView {
     private lazy var affirmations = [String]()
     
     private lazy var currentView = UIView()
-    private lazy var currentElement = Element.affirmation("", 0)
+    private lazy var currentElement = Element.affirmation("", 0) {
+        didSet {
+            changedElementTrigger.accept(currentElement)
+        }
+    }
     
     private lazy var panGesture = UIPanGestureRecognizer()
+    
+    private lazy var changedElementTrigger = BehaviorRelay(value: currentElement)
     
     private lazy var attrs = TextAttributes()
         .textColor(UIColor(integralRed: 43, green: 63, blue: 98))
@@ -58,6 +87,10 @@ extension AffirmationsView {
         
         setupFirstAffirmation()
     }
+    
+    var changedElement: Signal<Element> {
+        changedElementTrigger.asSignal(onErrorSignalWith: .never())
+    }
 }
 
 // MARK: GADBannerViewDelegate
@@ -78,29 +111,6 @@ private extension AffirmationsView {
                 return 1
             case .down:
                 return -1
-            }
-        }
-    }
-    
-    enum Element {
-        case affirmation(String, Int)
-        case banner(Int)
-        
-        var index: Int {
-            switch self {
-            case let .affirmation(_, index):
-                return index
-            case .banner(let index):
-                return index
-            }
-        }
-        
-        var isBanner: Bool {
-            switch self {
-            case .affirmation:
-                return false
-            case .banner:
-                return true
             }
         }
     }
@@ -182,6 +192,7 @@ private extension AffirmationsView {
             }
         }
         
+        // TODO: проверка наличия подписки
         if affirmations.indices.contains(nextIndex) {
             if (nextIndex != 0) && ((nextIndex % 5) == 0) && !currentElement.isBanner && bannerIsReceived {
                 currentElement = .banner(currentElement.index)

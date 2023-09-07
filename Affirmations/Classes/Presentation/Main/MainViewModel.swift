@@ -28,6 +28,8 @@ final class MainViewModel {
 extension MainViewModel {
     struct Input {
         let didCompleteTraining: Signal<TrainingView.Training>
+        let currentAffirmation: Signal<String>
+        let didTapMark: Signal<Void>
     }
     
     struct Output {
@@ -35,19 +37,27 @@ extension MainViewModel {
         let selectedCategoryName: Driver<String>
         let route: Driver<Route>
         let affirmations: Driver<[String]>
+        let marked: Driver<Bool>
     }
     
     func configure(input: Input) -> Output {
         let selectedCategory = makeSelectedCategory()
         let gender = makeGender()
+        let affirmations = makeAffirmations(
+            category: selectedCategory,
+            gender: gender
+        )
+        let favoritesAffirmations = makeFavoritesAffirmations()
         
         return Output(
             activeSubsription: makeActiveSubscription(),
             selectedCategoryName: selectedCategory.map { $0.name },
             route: makeRoute(didCompleteTraining: input.didCompleteTraining),
-            affirmations: makeAffirmations(
-                category: selectedCategory,
-                gender: gender
+            affirmations: affirmations,
+            marked: makeMarked(
+                currentAffirmation: input.currentAffirmation,
+                favoritesAffirmation: favoritesAffirmations,
+                didTapMark: input.didTapMark
             )
         )
     }
@@ -55,6 +65,40 @@ extension MainViewModel {
 
 // MARK: Private
 private extension MainViewModel {
+    func makeMarked(
+        currentAffirmation: Signal<String>,
+        favoritesAffirmation: Driver<[String]>,
+        didTapMark: Signal<Void>
+    ) -> Driver<Bool> {
+        let marked = Driver
+            .combineLatest(
+                currentAffirmation.asDriver(onErrorDriveWith: .never()),
+                favoritesAffirmation
+            )
+            .map { current, affirmations -> Bool in
+                affirmations.contains(current)
+            }
+        
+        let action = didTapMark
+            .withLatestFrom(marked)
+            .withLatestFrom(currentAffirmation) { ($0, $1) }
+            .flatMapLatest { [weak self] (args) -> Driver<Bool> in
+                guard let self else {
+                    return .never()
+                }
+                
+                let (marked, affirmation) = args
+                
+                let result = marked ? self.contentManager.unsave(affirmation: affirmation) : self.contentManager.save(affirmation: affirmation)
+                return result
+                    .asDriver(onErrorDriveWith: .never())
+                    .flatMap { void -> Driver<Bool> in .never() }
+            }
+        
+        return Driver
+            .merge(marked, action)
+    }
+    
     func makeActiveSubscription() -> Driver<Bool> {
         PaygateMediator.shared
             .didPurchased
@@ -127,6 +171,35 @@ private extension MainViewModel {
                         gender: gender.rawValue
                     )
                     .asDriver(onErrorJustReturn: [])
+            }
+    }
+    
+    func makeFavoritesAffirmations() -> Driver<[String]> {
+        contentManager
+            .obtainFavoritesAffirmations()
+            .asDriver(onErrorDriveWith: .never())
+            .flatMap { affirmations -> Driver<[String]> in
+                Signal
+                    .merge(
+                        ContentMediator.shared.didSaveAffirmation.map { ($0, true) },
+                        ContentMediator.shared.didUnsaveAffirmation.map { ($0, false) }
+                    )
+                    .scan(affirmations) { result, signal -> [String] in
+                        let (affirmation, save) = signal
+                        
+                        var affirmations = result
+                        
+                        switch save {
+                        case true:
+                            affirmations.append(affirmation)
+                        case false:
+                            affirmations.removeAll(where: { $0 == affirmation })
+                        }
+                        
+                        return affirmations
+                    }
+                    .startWith(affirmations)
+                    .asDriver(onErrorDriveWith: .never())
             }
     }
     

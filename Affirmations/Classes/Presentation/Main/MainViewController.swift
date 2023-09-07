@@ -51,8 +51,26 @@ final class MainViewController: UIViewController {
             })
             .disposed(by: disposeBag)
         
+        mainView.affirmationsView.changedElement
+            .emit(to: Binder(self) { base, element in
+                base.current(element: element)
+            })
+            .disposed(by: disposeBag)
+        
+        let currentAffirmation = mainView.affirmationsView.changedElement
+            .compactMap {
+                switch $0 {
+                case let .affirmation(affirmation, _):
+                    return affirmation
+                default:
+                    return nil
+                }
+            }
+        
         let output = viewModel.configure(input: MainViewModel.Input(
-            didCompleteTraining: didCompleteTrainingTrigger.asSignal()
+            didCompleteTraining: didCompleteTrainingTrigger.asSignal(),
+            currentAffirmation: currentAffirmation,
+            didTapMark: mainView.bookmarkButton.rx.tap.asSignal()
         ))
         
         output.activeSubsription
@@ -64,6 +82,12 @@ final class MainViewController: UIViewController {
         output.selectedCategoryName
             .drive(Binder(mainView.categoryButton) { base, name in
                 base.setup(categoryName: name)
+            })
+            .disposed(by: disposeBag)
+        
+        output.marked
+            .drive(Binder(self) { base, marked in
+                base.bookmark(marked)
             })
             .disposed(by: disposeBag)
         
@@ -120,5 +144,18 @@ private extension MainViewController {
         case .requestReview:
             RequestReview.request()
         }
+    }
+    
+    func current(element: AffirmationsView.Element) {
+        [
+            mainView.shareButton,
+            mainView.bookmarkButton,
+            mainView.startButton
+        ].forEach { $0.isHidden = element.isBanner }
+    }
+    
+    func bookmark(_ marked: Bool) {
+        let image = UIImage(named: marked ? "Main.Saved" : "Main.Unsaved")
+        mainView.bookmarkButton.setImage(image, for: .normal)
     }
 }
