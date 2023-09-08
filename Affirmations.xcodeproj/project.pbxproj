@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AB1B9940D01522D72016C245 /* Pods_Affirmations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E6F909711306BFFD05E3B7 /* Pods_Affirmations.framework */; };
+		DE07C9E92AAA4A1400C81E08 /* Affirmation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE07C9E82AAA4A1400C81E08 /* Affirmation.swift */; };
 		DE14D6732A658CD800DBFE1D /* proximanova_bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE14D6712A658C8700DBFE1D /* proximanova_bold.otf */; };
 		DE14D6742A658CD800DBFE1D /* proximanova_extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE14D6722A658C9000DBFE1D /* proximanova_extrabold.otf */; };
 		DE14D6752A658CD800DBFE1D /* proximanova_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE14D6702A658C4100DBFE1D /* proximanova_regular.ttf */; };
@@ -125,6 +126,7 @@
 		25E6F909711306BFFD05E3B7 /* Pods_Affirmations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Affirmations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B8E39B7B3CBCAB5C8926857 /* Pods-Affirmations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Affirmations.debug.xcconfig"; path = "Target Support Files/Pods-Affirmations/Pods-Affirmations.debug.xcconfig"; sourceTree = "<group>"; };
 		DC658E36E15733DEF5C7DB0D /* Pods-Affirmations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Affirmations.release.xcconfig"; path = "Target Support Files/Pods-Affirmations/Pods-Affirmations.release.xcconfig"; sourceTree = "<group>"; };
+		DE07C9E82AAA4A1400C81E08 /* Affirmation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Affirmation.swift; sourceTree = "<group>"; };
 		DE14D6702A658C4100DBFE1D /* proximanova_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = proximanova_regular.ttf; sourceTree = "<group>"; };
 		DE14D6712A658C8700DBFE1D /* proximanova_bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = proximanova_bold.otf; sourceTree = "<group>"; };
 		DE14D6722A658C9000DBFE1D /* proximanova_extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = proximanova_extrabold.otf; sourceTree = "<group>"; };
@@ -619,6 +621,7 @@
 			isa = PBXGroup;
 			children = (
 				DEC61E552A7ADB32008F9C97 /* Category.swift */,
+				DE07C9E82AAA4A1400C81E08 /* Affirmation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1043,6 +1046,7 @@
 				DEC61A612A7661AB008F9C97 /* OnboardingViewModel.swift in Sources */,
 				DEFE80952A90EE8400FB96F0 /* ReceiptReadingError.swift in Sources */,
 				DE5506652A6589810057F9FB /* IAPError.swift in Sources */,
+				DE07C9E92AAA4A1400C81E08 /* Affirmation.swift in Sources */,
 				DE5506252A6589760057F9FB /* UIDevice+Extension.swift in Sources */,
 				DE5506362A6589760057F9FB /* Fonts.swift in Sources */,
 				DE5506282A6589760057F9FB /* Collection+Extension.swift in Sources */,

@@ -170,6 +170,7 @@ private extension MainViewModel {
                         categoryType: category.type,
                         gender: gender.rawValue
                     )
+                    .map { $0.map { $0.message } }
                     .asDriver(onErrorJustReturn: [])
             }
     }
@@ -177,6 +178,7 @@ private extension MainViewModel {
     func makeFavoritesAffirmations() -> Driver<[String]> {
         contentManager
             .obtainFavoritesAffirmations()
+            .map { $0.map { $0.message } }
             .asDriver(onErrorDriveWith: .never())
             .flatMap { affirmations -> Driver<[String]> in
                 Signal
