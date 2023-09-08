@@ -57,6 +57,12 @@ final class MainViewController: UIViewController {
             })
             .disposed(by: disposeBag)
         
+        mainView.shareButton.rx.tap
+            .bind(to: Binder(self) { base, void in
+                base.share()
+            })
+            .disposed(by: disposeBag)
+        
         let currentAffirmation = mainView.affirmationsView.changedElement
             .compactMap {
                 switch $0 {
@@ -157,5 +163,19 @@ private extension MainViewController {
     func bookmark(_ marked: Bool) {
         let image = UIImage(named: marked ? "Main.Saved" : "Main.Unsaved")
         mainView.bookmarkButton.setImage(image, for: .normal)
+    }
+    
+    func share() {
+        UIGraphicsBeginImageContext(mainView.affirmationsView.frame.size)
+        mainView.affirmationsView.layer.render(in: UIGraphicsGetCurrentContext()!)
+        let image = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        
+        guard let image = image else {
+            return
+        }
+        
+        let controller = UIActivityViewController(activityItems: [image], applicationActivities: nil)
+        present(controller, animated: true)
     }
 }

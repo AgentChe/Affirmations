@@ -11,6 +11,8 @@ import RxCocoa
 import GoogleMobileAds
 
 final class AffirmationsView: UIView {
+    lazy var backgroundView = makeBackgroundView()
+    
     enum Element {
         case affirmation(String, Int)
         case banner(Int)
@@ -68,6 +70,7 @@ final class AffirmationsView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
+        makeConstraints()
         initialize()
     }
     
@@ -243,5 +246,30 @@ private extension AffirmationsView {
         label.sizeToFit()
         label.frame.size.width = 311.scale
         return label
+    }
+}
+
+// MARK: Make constraints
+private extension AffirmationsView {
+    func makeConstraints() {
+        NSLayoutConstraint.activate([
+            backgroundView.leadingAnchor.constraint(equalTo: leadingAnchor),
+            backgroundView.trailingAnchor.constraint(equalTo: trailingAnchor),
+            backgroundView.topAnchor.constraint(equalTo: topAnchor),
+            backgroundView.bottomAnchor.constraint(equalTo: bottomAnchor)
+        ])
+    }
+}
+
+// MARK: Lazy initialization
+private extension AffirmationsView {
+    func makeBackgroundView() -> UIImageView {
+        let view = UIImageView()
+        view.image = UIImage(named: "Main.Background")
+        view.contentMode = .scaleAspectFill
+        view.clipsToBounds = true
+        view.translatesAutoresizingMaskIntoConstraints = false
+        addSubview(view)
+        return view
     }
 }
