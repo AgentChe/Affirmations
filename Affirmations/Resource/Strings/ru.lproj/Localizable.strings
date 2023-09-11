@@ -62,3 +62,7 @@
 "Practice.Complete.Text" = "Продолжайте заниматься регулярно. Каждый день приближает вас к цели.";
 "Practice.Complete.Button" = "Готово";
 "Practice.Progress" = "%i из %i аффирмаций";
+
+// MARK: Settings
+"Settings.Title" = "Аффирмации";
+"Settings.Paygate" = "Перейти на Premium";

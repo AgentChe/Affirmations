@@ -89,6 +89,13 @@
 		DEEED5D82AAF30820078653B /* PracticeCompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEED5D72AAF30820078653B /* PracticeCompleteView.swift */; };
 		DEEED5DA2AAF67480078653B /* PracticeAffirmationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEED5D92AAF67480078653B /* PracticeAffirmationsView.swift */; };
 		DEEED5DC2AAF97C80078653B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEEED5DB2AAF97C80078653B /* GoogleService-Info.plist */; };
+		DEEED5E02AAF989E0078653B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEED5DF2AAF989E0078653B /* SettingsViewController.swift */; };
+		DEEED5E22AAF98A30078653B /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEED5E12AAF98A30078653B /* SettingsViewModel.swift */; };
+		DEEED5E42AAF98A80078653B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEED5E32AAF98A80078653B /* SettingsView.swift */; };
+		DEEED5E82AAF9C410078653B /* SettingsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEED5E72AAF9C410078653B /* SettingsTableView.swift */; };
+		DEEED5EA2AAF9C480078653B /* SettingsTableElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEED5E92AAF9C480078653B /* SettingsTableElement.swift */; };
+		DEEED5ED2AAF9C5A0078653B /* SettingsPaygateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEED5EC2AAF9C5A0078653B /* SettingsPaygateCell.swift */; };
+		DEEED5EF2AAF9C610078653B /* SettingsRouteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEED5EE2AAF9C610078653B /* SettingsRouteCell.swift */; };
 		DEFE80892A90EE8400FB96F0 /* InAppPurchaseBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE807A2A90EE8400FB96F0 /* InAppPurchaseBuilder.swift */; };
 		DEFE808A2A90EE8400FB96F0 /* ASN1ObjectIdentifierBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE807B2A90EE8400FB96F0 /* ASN1ObjectIdentifierBuilder.swift */; };
 		DEFE808B2A90EE8400FB96F0 /* AppleReceiptBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE807C2A90EE8400FB96F0 /* AppleReceiptBuilder.swift */; };
@@ -245,6 +252,13 @@
 		DEEED5D72AAF30820078653B /* PracticeCompleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeCompleteView.swift; sourceTree = "<group>"; };
 		DEEED5D92AAF67480078653B /* PracticeAffirmationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeAffirmationsView.swift; sourceTree = "<group>"; };
 		DEEED5DB2AAF97C80078653B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DEEED5DF2AAF989E0078653B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		DEEED5E12AAF98A30078653B /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		DEEED5E32AAF98A80078653B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		DEEED5E72AAF9C410078653B /* SettingsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableView.swift; sourceTree = "<group>"; };
+		DEEED5E92AAF9C480078653B /* SettingsTableElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableElement.swift; sourceTree = "<group>"; };
+		DEEED5EC2AAF9C5A0078653B /* SettingsPaygateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPaygateCell.swift; sourceTree = "<group>"; };
+		DEEED5EE2AAF9C610078653B /* SettingsRouteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRouteCell.swift; sourceTree = "<group>"; };
 		DEFE807A2A90EE8400FB96F0 /* InAppPurchaseBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InAppPurchaseBuilder.swift; sourceTree = "<group>"; };
 		DEFE807B2A90EE8400FB96F0 /* ASN1ObjectIdentifierBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASN1ObjectIdentifierBuilder.swift; sourceTree = "<group>"; };
 		DEFE807C2A90EE8400FB96F0 /* AppleReceiptBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleReceiptBuilder.swift; sourceTree = "<group>"; };
@@ -538,6 +552,7 @@
 		DE5506672A65898C0057F9FB /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				DEEED5DD2AAF988B0078653B /* Settings */,
 				DEE51AEC2AAB71A50024FB36 /* Practice */,
 				DEFE81902AA0E38200FB96F0 /* Categories */,
 				DEFE81892A9F989800FB96F0 /* Main */,
@@ -714,6 +729,44 @@
 				DEEED5D92AAF67480078653B /* PracticeAffirmationsView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		DEEED5DD2AAF988B0078653B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				DEEED5E52AAF9C250078653B /* Views */,
+				DEEED5DF2AAF989E0078653B /* SettingsViewController.swift */,
+				DEEED5E12AAF98A30078653B /* SettingsViewModel.swift */,
+				DEEED5E32AAF98A80078653B /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		DEEED5E52AAF9C250078653B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DEEED5E62AAF9C360078653B /* TableView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DEEED5E62AAF9C360078653B /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				DEEED5EB2AAF9C500078653B /* Cells */,
+				DEEED5E72AAF9C410078653B /* SettingsTableView.swift */,
+				DEEED5E92AAF9C480078653B /* SettingsTableElement.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		DEEED5EB2AAF9C500078653B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DEEED5EC2AAF9C5A0078653B /* SettingsPaygateCell.swift */,
+				DEEED5EE2AAF9C610078653B /* SettingsRouteCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		DEFE80782A90EE8400FB96F0 /* ReceiptLocalParse */ = {
@@ -992,6 +1045,7 @@
 				DEC61E622A7AE599008F9C97 /* OWidgetCategoriesView.swift in Sources */,
 				DEFE81A12AA0F1E200FB96F0 /* CategoriesCollectionCell.swift in Sources */,
 				DE55062C2A6589760057F9FB /* UITapGestureRecognizer+Extension.swift in Sources */,
+				DEEED5E42AAF98A80078653B /* SettingsView.swift in Sources */,
 				DE55066E2A6589AF0057F9FB /* SplashView.swift in Sources */,
 				DEC61A9A2A78FB14008F9C97 /* ONSStartView.swift in Sources */,
 				DE5506662A6589810057F9FB /* IAPErrorHelper.swift in Sources */,
@@ -1030,6 +1084,7 @@
 				DE5506472A6589760057F9FB /* SceneDelegate.swift in Sources */,
 				DEFE818F2A9F98AF00FB96F0 /* MainViewModel.swift in Sources */,
 				DE55062B2A6589760057F9FB /* UIViewRxExtension.swift in Sources */,
+				DEEED5EF2AAF9C610078653B /* SettingsRouteCell.swift in Sources */,
 				DEC61A662A7661E8008F9C97 /* OSlideView.swift in Sources */,
 				DEFE80AC2A90FEB200FB96F0 /* PaygateInteractor.swift in Sources */,
 				DEC61A5F2A7661A6008F9C97 /* OnboardingViewController.swift in Sources */,
@@ -1055,9 +1110,11 @@
 				DEEED5DA2AAF67480078653B /* PracticeAffirmationsView.swift in Sources */,
 				DEFE81A32AA0F1E800FB96F0 /* CategoriesCollectionElement.swift in Sources */,
 				DEFE80992A90EFF300FB96F0 /* AppStoreReceiptSource.swift in Sources */,
+				DEEED5E82AAF9C410078653B /* SettingsTableView.swift in Sources */,
 				DEFE809B2A90F0DC00FB96F0 /* PaymentDataBuilder.swift in Sources */,
 				DEC61A9F2A7937F6008F9C97 /* ProfileManager.swift in Sources */,
 				DEFE808D2A90EE8400FB96F0 /* AppStoreReceiptParser.swift in Sources */,
+				DEEED5ED2AAF9C5A0078653B /* SettingsPaygateCell.swift in Sources */,
 				DE5506292A6589760057F9FB /* ObservableAndSingle+Extension.swift in Sources */,
 				DE55066C2A6589AB0057F9FB /* SplashViewModel.swift in Sources */,
 				DEC61A9C2A78FB2C008F9C97 /* ONSEndView.swift in Sources */,
@@ -1066,13 +1123,16 @@
 				DE5506392A6589760057F9FB /* ContentError.swift in Sources */,
 				DE5506422A6589760057F9FB /* GradientView.swift in Sources */,
 				DEFE819F2AA0F1DD00FB96F0 /* CategoriesCollectionView.swift in Sources */,
+				DEEED5EA2AAF9C480078653B /* SettingsTableElement.swift in Sources */,
 				DEFE80B52A9106CF00FB96F0 /* PaygateCell.swift in Sources */,
 				DEFE819B2AA0EE2400FB96F0 /* ContentMediator.swift in Sources */,
 				DE5506332A6589760057F9FB /* TextAttributes.swift in Sources */,
 				DE5506412A6589760057F9FB /* BorderTextField.swift in Sources */,
 				DE5506482A6589760057F9FB /* FirebaseManager.swift in Sources */,
+				DEEED5E22AAF98A30078653B /* SettingsViewModel.swift in Sources */,
 				DEC61A682A76652E008F9C97 /* OWelcomeView.swift in Sources */,
 				DEFE808E2A90EE8400FB96F0 /* UInt8+Extensions.swift in Sources */,
+				DEEED5E02AAF989E0078653B /* SettingsViewController.swift in Sources */,
 				DEFE81942AA0E39600FB96F0 /* CategoriesViewModel.swift in Sources */,
 				DEE51AEE2AAB71B10024FB36 /* PracticeViewController.swift in Sources */,
 				DEC61E532A7ADA16008F9C97 /* ContentManager.swift in Sources */,

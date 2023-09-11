@@ -62,3 +62,7 @@
 "Practice.Complete.Text" = "ทำได้ดีมาก";
 "Practice.Complete.Button" = "ปิด";
 "Practice.Progress" = "%i ใน %i การยืนยัน";
+
+// MARK: Settings
+"Settings.Title" = "การยืนยัน";
+"Settings.Paygate" = "สมัครแบบพรีเมียม";

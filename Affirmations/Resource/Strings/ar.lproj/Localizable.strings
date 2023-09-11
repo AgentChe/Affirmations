@@ -62,3 +62,7 @@
 "Practice.Complete.Text" = "أحسنت";
 "Practice.Complete.Button" = "يغلق";
 "Practice.Progress" = "%i %i تأكيدات";
+
+// MARK: Settings
+"Settings.Title" = "التأكيدات";
+"Settings.Paygate" = "احصل على الاشتراك المميز";

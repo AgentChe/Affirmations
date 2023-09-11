@@ -62,3 +62,7 @@
 "Practice.Complete.Text" = "Practice regular to empower your mind. Every day brings you closer to your goal.";
 "Practice.Complete.Button" = "Done";
 "Practice.Progress" = "%i of %i affirmations";
+
+// MARK: Settings
+"Settings.Title" = "Affirmations";
+"Settings.Paygate" = "Go Premium";

@@ -62,3 +62,7 @@
 "Practice.Complete.Text" = "Oefen regelmatig om je geest te versterken. Elke dag brengt je dichter bij je doel.";
 "Practice.Complete.Button" = "Gedaan";
 "Practice.Progress" = "%i van %i affirmaties";
+
+// MARK: Settings
+"Settings.Title" = "Affirmaties";
+"Settings.Paygate" = "Ga premium";

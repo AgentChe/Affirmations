@@ -62,3 +62,7 @@
 "Practice.Complete.Text" = "Zihninizi güçlendirmek için düzenli pratik yapın. Her gün sizi hedefinize daha da yaklaştırır.";
 "Practice.Complete.Button" = "Tamamlandı";
 "Practice.Progress" = "%i olumlamadan %i'i";
+
+// MARK: Settings
+"Settings.Title" = "Olumlamalar";
+"Settings.Paygate" = "Premium'a geç";

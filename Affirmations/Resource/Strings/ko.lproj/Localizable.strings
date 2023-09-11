@@ -62,3 +62,7 @@
 "Practice.Complete.Text" = "잘했어";
 "Practice.Complete.Button" = "닫기";
 "Practice.Progress" = "%i개의 확인 중 %i개";
+
+// MARK: Settings
+"Settings.Title" = "확인";
+"Settings.Paygate" = "프리미엄 가입하기";

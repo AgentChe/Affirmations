@@ -77,7 +77,8 @@ final class MainViewController: UIViewController {
             didCompleteTraining: didCompleteTrainingTrigger.asSignal(),
             currentAffirmation: currentAffirmation,
             didTapMark: mainView.bookmarkButton.rx.tap.asSignal(),
-            didTapStart: mainView.startButton.rx.tap.asSignal()
+            didTapStart: mainView.startButton.rx.tap.asSignal(),
+            didTapSettings: mainView.settingsButton.rx.tap.asSignal()
         ))
         
         output.activeSubsription
@@ -153,6 +154,9 @@ private extension MainViewController {
         case .practice:
             let vc = PracticeViewController.make()
             present(vc, animated: false)
+        case .settings:
+            let vc = SettingsViewController.make()
+            navigationController?.pushViewController(vc, animated: true)
         }
     }
     

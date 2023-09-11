@@ -62,3 +62,7 @@
 "Practice.Complete.Text" = "Öva regelbundet för att stärka ditt sinne. Varje dag för dig närmare ditt mål.";
 "Practice.Complete.Button" = "Klart";
 "Practice.Progress" = "%i av %i affirmationer";
+
+// MARK: Settings
+"Settings.Title" = "Affirmationer";
+"Settings.Paygate" = "Välj Premium";

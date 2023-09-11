@@ -62,3 +62,7 @@
 "Practice.Complete.Text" = "Üben Sie regelmäßig, um Ihren Geist zu stärken. Jeder Tag bringt Sie näher an Ihr Ziel.";
 "Practice.Complete.Button" = "Erledigt";
 "Practice.Progress" = "%i von %i Affirmationen";
+
+// MARK: Settings
+"Settings.Title" = "Affirmationen";
+"Settings.Paygate" = "Zu Premium wechseln";

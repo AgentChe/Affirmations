@@ -60,3 +60,7 @@
 "Practice.Complete.Text" = "做得好";
 "Practice.Complete.Button" = "关闭";
 "Practice.Progress" = "%i句肯定语中的%i句";
+
+// MARK: Settings
+"Settings.Title" = "肯定句";
+"Settings.Paygate" = "升級高級版";

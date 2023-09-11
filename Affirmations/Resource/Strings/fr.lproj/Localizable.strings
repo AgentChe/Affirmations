@@ -62,3 +62,7 @@
 "Practice.Complete.Text" = "Pratiquez régulièrement pour renforcer votre esprit. Chaque jour vous rapproche de votre objectif.";
 "Practice.Complete.Button" = "Fait";
 "Practice.Progress" = "%i de %i affirmations";
+
+// MARK: Settings
+"Settings.Title" = "Affirmations";
+"Settings.Paygate" = "Passer à Premium";

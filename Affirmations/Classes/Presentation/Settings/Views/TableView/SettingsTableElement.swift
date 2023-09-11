@@ -1,0 +1,15 @@
+//
+//  SettingsTableElement.swift
+//  Affirmations
+//
+//  Created by Андрей Чернышев on 11.09.2023.
+//
+
+enum SettingsTableElement {
+    case paygate
+    case route(SettingsRoute)
+}
+
+enum SettingsRoute {
+    case gender
+}

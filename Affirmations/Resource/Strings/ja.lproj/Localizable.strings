@@ -62,3 +62,7 @@
 "Practice.Complete.Text" = "お見事";
 "Practice.Complete.Button" = "閉じる";
 "Practice.Progress" = "%i個のアファメーションのうち%i個";
+
+// MARK: Settings
+"Settings.Title" = "アファメーション";
+"Settings.Paygate" = "プレミアムにアップグレード";

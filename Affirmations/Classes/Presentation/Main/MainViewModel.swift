@@ -13,6 +13,7 @@ final class MainViewModel {
         case training(TrainingView.Training)
         case requestReview
         case practice
+        case settings
     }
     
     enum Constants {
@@ -32,6 +33,7 @@ extension MainViewModel {
         let currentAffirmation: Signal<String>
         let didTapMark: Signal<Void>
         let didTapStart: Signal<Void>
+        let didTapSettings: Signal<Void>
     }
     
     struct Output {
@@ -56,7 +58,8 @@ extension MainViewModel {
             selectedCategoryName: selectedCategory.map { $0.name },
             route: makeRoute(
                 didCompleteTraining: input.didCompleteTraining,
-                didTapStart: input.didTapStart
+                didTapStart: input.didTapStart,
+                didTapSettings: input.didTapSettings
             ),
             affirmations: affirmations,
             marked: makeMarked(
@@ -132,7 +135,8 @@ private extension MainViewModel {
     
     func makeRoute(
         didCompleteTraining: Signal<TrainingView.Training>,
-        didTapStart: Signal<Void>
+        didTapStart: Signal<Void>,
+        didTapSettings: Signal<Void>
     ) -> Driver<Route> {
         let initial = Single<Route>
             .create { event in
@@ -165,7 +169,11 @@ private extension MainViewModel {
             .map { Route.practice }
             .asDriver(onErrorDriveWith: .never())
         
-        return Driver.merge(initial, complete, practice)
+        let settings = didTapSettings
+            .map { Route.settings }
+            .asDriver(onErrorDriveWith: .never())
+        
+        return Driver.merge(initial, complete, practice, settings)
     }
     
     func makeAffirmations(category: Driver<Category>, gender: Driver<Gender>) -> Driver<[String]> {
