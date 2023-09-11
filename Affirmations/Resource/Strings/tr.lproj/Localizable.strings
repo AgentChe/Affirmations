@@ -51,3 +51,14 @@
 "Main.Training.Button" = "Anladım!";
 "Main.Training.Swipe" = "Olumlamaları okumak için kaydırın";
 "Main.Training.Like" = "Ne kadar çok olumlamalar beğenirsen akışın o kadar iyi olur";
+
+// MARK: Practice
+"Practice.Settings.Title" = "Olumlamalar Uygulaması";
+"Practice.Settings.Text" = "Her birkaç saniyede bir yeni bir onaylama göreceksiniz. Açıkça, yüksek sesle, tam bir güven ve konsantrasyonla telaffuz edin.";
+"Practice.Settings.Button1" = "1 dakika";
+"Practice.Settings.Button2" = "5 dakika";
+"Practice.Settings.Button3" = "10 dakika";
+"Practice.Complete.Title" = "Harika!";
+"Practice.Complete.Text" = "Zihninizi güçlendirmek için düzenli pratik yapın. Her gün sizi hedefinize daha da yaklaştırır.";
+"Practice.Complete.Button" = "Tamamlandı";
+"Practice.Progress" = "%i olumlamadan %i'i";

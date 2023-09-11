@@ -51,3 +51,14 @@
 "Main.Training.Button" = "わかった！";
 "Main.Training.Swipe" = "スワイプしてアファメーションを読む";
 "Main.Training.Like" = "好きな確約が多ければ多いほど、フィードがより良くなります";
+
+// MARK: Practice
+"Practice.Settings.Title" = "アファメーション";
+"Practice.Settings.Text" = "声に出して発音する。 それに集中する。 視覚化する。";
+"Practice.Settings.Button1" = "1分";
+"Practice.Settings.Button2" = "5分";
+"Practice.Settings.Button3" = "10分";
+"Practice.Complete.Title" = "すごいなー！";
+"Practice.Complete.Text" = "お見事";
+"Practice.Complete.Button" = "閉じる";
+"Practice.Progress" = "%i個のアファメーションのうち%i個";

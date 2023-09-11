@@ -51,3 +51,14 @@
 "Main.Training.Button" = "Jag förstår!";
 "Main.Training.Swipe" = "Svep för att läsa affirmationer";
 "Main.Training.Like" = "Ju fler affirmationer du gillar, desto bättre blir ditt flöde";
+
+// MARK: Practice
+"Practice.Settings.Title" = "Affirmationspraktik";
+"Practice.Settings.Text" = "Du kommer att se en ny affirmation med några sekunders mellanrum. Uttala den tydligt, högt, med fullt förtroende och koncentration.";
+"Practice.Settings.Button1" = "1 minut";
+"Practice.Settings.Button2" = "5 minuter";
+"Practice.Settings.Button3" = "10 minuter";
+"Practice.Complete.Title" = "Fantastiskt!";
+"Practice.Complete.Text" = "Öva regelbundet för att stärka ditt sinne. Varje dag för dig närmare ditt mål.";
+"Practice.Complete.Button" = "Klart";
+"Practice.Progress" = "%i av %i affirmationer";

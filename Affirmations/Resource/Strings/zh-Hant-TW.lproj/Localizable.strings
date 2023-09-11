@@ -49,3 +49,14 @@
 "Main.Training.Button" = "了解！";
 "Main.Training.Swipe" = "滑動閱讀肯定話語";
 "Main.Training.Like" = "您對越多 肯定 按讚，您的動態消息就越棒";
+
+// MARK: Practice
+"Practice.Settings.Title" = "肯定语";
+"Practice.Settings.Text" = "大声念出它。 专注于它。 视觉化。";
+"Practice.Settings.Button1" = "1分钟";
+"Practice.Settings.Button2" = "5分钟";
+"Practice.Settings.Button3" = "10分钟";
+"Practice.Complete.Title" = "棒极了!";
+"Practice.Complete.Text" = "做得好";
+"Practice.Complete.Button" = "关闭";
+"Practice.Progress" = "%i句肯定语中的%i句";

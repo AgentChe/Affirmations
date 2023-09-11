@@ -51,3 +51,14 @@
 "Main.Training.Button" = "Begrepen!";
 "Main.Training.Swipe" = "Veeg om bevestigingen te lezen";
 "Main.Training.Like" = "Hoe meer u affirmaties liket, hoe beter uw feed wordt";
+
+// MARK: Practice
+"Practice.Settings.Title" = "Affirmaties Praktijk";
+"Practice.Settings.Text" = "Je ziet om de paar seconden een nieuwe affirmatie. Spreek ze duidelijk uit, hardop, met volledig vertrouwen en concentratie.";
+"Practice.Settings.Button1" = "1 minuut";
+"Practice.Settings.Button2" = "5 minuten";
+"Practice.Settings.Button3" = "10 minuten";
+"Practice.Complete.Title" = "Geweldig!";
+"Practice.Complete.Text" = "Oefen regelmatig om je geest te versterken. Elke dag brengt je dichter bij je doel.";
+"Practice.Complete.Button" = "Gedaan";
+"Practice.Progress" = "%i van %i affirmaties";

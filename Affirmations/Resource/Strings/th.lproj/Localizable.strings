@@ -51,3 +51,14 @@
 "Main.Training.Button" = "เข้าใจแล้ว!";
 "Main.Training.Swipe" = "ปัดเพื่ออ่านคำพูดยืนยัน";
 "Main.Training.Like" = "ยิ่งคุณถูกใจ ข้อความสร้างกำลังใจ มากเท่าไร ฟีดของคุณก็จะยิ่งดีขึ้นเท่านั้น";
+
+// MARK: Practice
+"Practice.Settings.Title" = "การยืนยัน";
+"Practice.Settings.Text" = "พูดออกมาดังๆ มุ่งเน้นไปที่มัน เห็นภาพ";
+"Practice.Settings.Button1" = "1 นาที";
+"Practice.Settings.Button2" = "5 นาที";
+"Practice.Settings.Button3" = "10 นาที";
+"Practice.Complete.Title" = "สุดยอด!";
+"Practice.Complete.Text" = "ทำได้ดีมาก";
+"Practice.Complete.Button" = "ปิด";
+"Practice.Progress" = "%i ใน %i การยืนยัน";

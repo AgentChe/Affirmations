@@ -81,8 +81,14 @@
 		DEC61E682A7BEAE1008F9C97 /* OWCCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61E672A7BEAE1008F9C97 /* OWCCollectionView.swift */; };
 		DEC61E6A2A7BEAE7008F9C97 /* OWCCollectionElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61E692A7BEAE7008F9C97 /* OWCCollectionElement.swift */; };
 		DEC61E6C2A7BEAED008F9C97 /* OWCCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61E6B2A7BEAED008F9C97 /* OWCCollectionCell.swift */; };
-		DEECE4362AA6FA4E00B10DE9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEECE4352AA6FA4E00B10DE9 /* GoogleService-Info.plist */; };
+		DEE51AEE2AAB71B10024FB36 /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE51AED2AAB71B10024FB36 /* PracticeViewController.swift */; };
+		DEE51AF02AAB71B80024FB36 /* PracticeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE51AEF2AAB71B80024FB36 /* PracticeViewModel.swift */; };
+		DEE51AF22AAB71BC0024FB36 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE51AF12AAB71BC0024FB36 /* PracticeView.swift */; };
+		DEE51AF52AAB75870024FB36 /* PracticeSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE51AF42AAB75870024FB36 /* PracticeSettingsView.swift */; };
 		DEECE43A2AA7049C00B10DE9 /* AffirmationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEECE4392AA7049C00B10DE9 /* AffirmationsView.swift */; };
+		DEEED5D82AAF30820078653B /* PracticeCompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEED5D72AAF30820078653B /* PracticeCompleteView.swift */; };
+		DEEED5DA2AAF67480078653B /* PracticeAffirmationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEED5D92AAF67480078653B /* PracticeAffirmationsView.swift */; };
+		DEEED5DC2AAF97C80078653B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEEED5DB2AAF97C80078653B /* GoogleService-Info.plist */; };
 		DEFE80892A90EE8400FB96F0 /* InAppPurchaseBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE807A2A90EE8400FB96F0 /* InAppPurchaseBuilder.swift */; };
 		DEFE808A2A90EE8400FB96F0 /* ASN1ObjectIdentifierBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE807B2A90EE8400FB96F0 /* ASN1ObjectIdentifierBuilder.swift */; };
 		DEFE808B2A90EE8400FB96F0 /* AppleReceiptBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFE807C2A90EE8400FB96F0 /* AppleReceiptBuilder.swift */; };
@@ -231,8 +237,14 @@
 		DEC61E672A7BEAE1008F9C97 /* OWCCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWCCollectionView.swift; sourceTree = "<group>"; };
 		DEC61E692A7BEAE7008F9C97 /* OWCCollectionElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWCCollectionElement.swift; sourceTree = "<group>"; };
 		DEC61E6B2A7BEAED008F9C97 /* OWCCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWCCollectionCell.swift; sourceTree = "<group>"; };
-		DEECE4352AA6FA4E00B10DE9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DEE51AED2AAB71B10024FB36 /* PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
+		DEE51AEF2AAB71B80024FB36 /* PracticeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewModel.swift; sourceTree = "<group>"; };
+		DEE51AF12AAB71BC0024FB36 /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
+		DEE51AF42AAB75870024FB36 /* PracticeSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeSettingsView.swift; sourceTree = "<group>"; };
 		DEECE4392AA7049C00B10DE9 /* AffirmationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsView.swift; sourceTree = "<group>"; };
+		DEEED5D72AAF30820078653B /* PracticeCompleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeCompleteView.swift; sourceTree = "<group>"; };
+		DEEED5D92AAF67480078653B /* PracticeAffirmationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeAffirmationsView.swift; sourceTree = "<group>"; };
+		DEEED5DB2AAF97C80078653B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DEFE807A2A90EE8400FB96F0 /* InAppPurchaseBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InAppPurchaseBuilder.swift; sourceTree = "<group>"; };
 		DEFE807B2A90EE8400FB96F0 /* ASN1ObjectIdentifierBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASN1ObjectIdentifierBuilder.swift; sourceTree = "<group>"; };
 		DEFE807C2A90EE8400FB96F0 /* AppleReceiptBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleReceiptBuilder.swift; sourceTree = "<group>"; };
@@ -349,10 +361,11 @@
 		DE5505EE2A65891E0057F9FB /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				DEC61E5E2A7AE500008F9C97 /* Content */,
 				DEC61A692A766704008F9C97 /* Strings */,
 				DE14D66E2A658C3500DBFE1D /* Fonts */,
 				DE5505E82A6587B10057F9FB /* Info.plist */,
-				DEECE4352AA6FA4E00B10DE9 /* GoogleService-Info.plist */,
+				DEEED5DB2AAF97C80078653B /* GoogleService-Info.plist */,
 				DE5505E52A6587B10057F9FB /* LaunchScreen.storyboard */,
 				DE5505E32A6587B10057F9FB /* Assets.xcassets */,
 			);
@@ -372,7 +385,6 @@
 		DE5505F22A65896A0057F9FB /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				DEC61E5E2A7AE500008F9C97 /* Source */,
 				DEC61E162A7AD6D4008F9C97 /* Content */,
 				DEC61A9D2A7937E3008F9C97 /* Profile */,
 				DE5506542A6589810057F9FB /* IAP */,
@@ -526,6 +538,7 @@
 		DE5506672A65898C0057F9FB /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				DEE51AEC2AAB71A50024FB36 /* Practice */,
 				DEFE81902AA0E38200FB96F0 /* Categories */,
 				DEFE81892A9F989800FB96F0 /* Main */,
 				DEFE809C2A90FEB200FB96F0 /* Paygate */,
@@ -634,12 +647,12 @@
 			path = Mapper;
 			sourceTree = "<group>";
 		};
-		DEC61E5E2A7AE500008F9C97 /* Source */ = {
+		DEC61E5E2A7AE500008F9C97 /* Content */ = {
 			isa = PBXGroup;
 			children = (
 				DEC61E5F2A7AE50C008F9C97 /* category */,
 			);
-			path = Source;
+			path = Content;
 			sourceTree = "<group>";
 		};
 		DEC61E632A7BE2FB008F9C97 /* NotificationsSettings */ = {
@@ -680,6 +693,27 @@
 				DEC61E6B2A7BEAED008F9C97 /* OWCCollectionCell.swift */,
 			);
 			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		DEE51AEC2AAB71A50024FB36 /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+				DEE51AF32AAB757C0024FB36 /* Views */,
+				DEE51AED2AAB71B10024FB36 /* PracticeViewController.swift */,
+				DEE51AEF2AAB71B80024FB36 /* PracticeViewModel.swift */,
+				DEE51AF12AAB71BC0024FB36 /* PracticeView.swift */,
+			);
+			path = Practice;
+			sourceTree = "<group>";
+		};
+		DEE51AF32AAB757C0024FB36 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DEE51AF42AAB75870024FB36 /* PracticeSettingsView.swift */,
+				DEEED5D72AAF30820078653B /* PracticeCompleteView.swift */,
+				DEEED5D92AAF67480078653B /* PracticeAffirmationsView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		DEFE80782A90EE8400FB96F0 /* ReceiptLocalParse */ = {
@@ -897,7 +931,7 @@
 				DEC61A6C2A766715008F9C97 /* Localizable.strings in Resources */,
 				DE5505E72A6587B10057F9FB /* LaunchScreen.storyboard in Resources */,
 				DE5505E42A6587B10057F9FB /* Assets.xcassets in Resources */,
-				DEECE4362AA6FA4E00B10DE9 /* GoogleService-Info.plist in Resources */,
+				DEEED5DC2AAF97C80078653B /* GoogleService-Info.plist in Resources */,
 				DEC61E602A7AE50C008F9C97 /* category in Resources */,
 				DEFE81AC2AA1C87000FB96F0 /* animation_like.json in Resources */,
 			);
@@ -984,12 +1018,14 @@
 				DEC61AA62A793900008F9C97 /* WeekSchedule.swift in Sources */,
 				DE55063B2A6589760057F9FB /* Weak.swift in Sources */,
 				DEC61E592A7ADB8F008F9C97 /* CategoryMapper.swift in Sources */,
+				DEE51AF52AAB75870024FB36 /* PracticeSettingsView.swift in Sources */,
 				DEC61A982A78FAC0008F9C97 /* ONSCountView.swift in Sources */,
 				DEC61AAD2A7A29FC008F9C97 /* OGenderButton.swift in Sources */,
 				DEFE80932A90EE8400FB96F0 /* InAppPurchase.swift in Sources */,
 				DE5506352A6589760057F9FB /* ObservableRetrySingle.swift in Sources */,
 				DE5506432A6589760057F9FB /* AppDelegate.swift in Sources */,
 				DE55063F2A6589760057F9FB /* TapAreaButton.swift in Sources */,
+				DEEED5D82AAF30820078653B /* PracticeCompleteView.swift in Sources */,
 				DEC61A932A77C4B3008F9C97 /* ONotificationsSettingsView.swift in Sources */,
 				DE5506472A6589760057F9FB /* SceneDelegate.swift in Sources */,
 				DEFE818F2A9F98AF00FB96F0 /* MainViewModel.swift in Sources */,
@@ -1009,11 +1045,14 @@
 				DEFE80AB2A90FEB200FB96F0 /* PaygateMediator.swift in Sources */,
 				DEC61A962A77CE7B008F9C97 /* ONSView.swift in Sources */,
 				DEC61E6C2A7BEAED008F9C97 /* OWCCollectionCell.swift in Sources */,
+				DEE51AF02AAB71B80024FB36 /* PracticeViewModel.swift in Sources */,
 				DEFE808C2A90EE8400FB96F0 /* ASN1ContainerBuilder.swift in Sources */,
 				DEFE80922A90EE8400FB96F0 /* ASN1Container.swift in Sources */,
+				DEE51AF22AAB71BC0024FB36 /* PracticeView.swift in Sources */,
 				DE5506342A6589760057F9FB /* ScreenSize.swift in Sources */,
 				DEFE808B2A90EE8400FB96F0 /* AppleReceiptBuilder.swift in Sources */,
 				DE55062D2A6589760057F9FB /* GlobalDefinitions.swift in Sources */,
+				DEEED5DA2AAF67480078653B /* PracticeAffirmationsView.swift in Sources */,
 				DEFE81A32AA0F1E800FB96F0 /* CategoriesCollectionElement.swift in Sources */,
 				DEFE80992A90EFF300FB96F0 /* AppStoreReceiptSource.swift in Sources */,
 				DEFE809B2A90F0DC00FB96F0 /* PaymentDataBuilder.swift in Sources */,
@@ -1035,6 +1074,7 @@
 				DEC61A682A76652E008F9C97 /* OWelcomeView.swift in Sources */,
 				DEFE808E2A90EE8400FB96F0 /* UInt8+Extensions.swift in Sources */,
 				DEFE81942AA0E39600FB96F0 /* CategoriesViewModel.swift in Sources */,
+				DEE51AEE2AAB71B10024FB36 /* PracticeViewController.swift in Sources */,
 				DEC61E532A7ADA16008F9C97 /* ContentManager.swift in Sources */,
 				DEC61E6A2A7BEAE7008F9C97 /* OWCCollectionElement.swift in Sources */,
 				DEFE818B2A9F98A300FB96F0 /* MainView.swift in Sources */,

@@ -51,3 +51,14 @@
 "Main.Training.Button" = "Compris!";
 "Main.Training.Swipe" = "Balayer l'écran pour lire les phrases d'encouragement";
 "Main.Training.Like" = "Plus vous aimez de affirmations, plus votre flux s'améliore.";
+
+// MARK: Practice
+"Practice.Settings.Title" = "Pratique des affirmations";
+"Practice.Settings.Text" = "Vous verrez une nouvelle affirmation toutes les quelques secondes. Prononcez-la clairement, à haute voix, en toute confiance et concentration.";
+"Practice.Settings.Button1" = "1 minute";
+"Practice.Settings.Button2" = "5 minutes";
+"Practice.Settings.Button3" = "10 minutes";
+"Practice.Complete.Title" = "Génial !";
+"Practice.Complete.Text" = "Pratiquez régulièrement pour renforcer votre esprit. Chaque jour vous rapproche de votre objectif.";
+"Practice.Complete.Button" = "Fait";
+"Practice.Progress" = "%i de %i affirmations";

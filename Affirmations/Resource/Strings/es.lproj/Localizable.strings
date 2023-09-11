@@ -51,3 +51,14 @@
 "Main.Training.Button" = "¡De acuerdo!";
 "Main.Training.Swipe" = "Desliza para leer afirmaciones";
 "Main.Training.Like" = "Cuantas más afirmaciones añadas a favoritos, mejores frases leerás.";
+
+// MARK: Practice
+"Practice.Settings.Title" = "Práctica de afirmaciones";
+"Practice.Settings.Text" = "Verás una nueva afirmación cada pocos segundos. Pronúnciela claramente, en voz alta, con plena confianza y concentración.";
+"Practice.Settings.Button1" = "1 minuto";
+"Practice.Settings.Button2" = "5 minutos";
+"Practice.Settings.Button3" = "10 minutos";
+"Practice.Complete.Title" = "¡Increíble!";
+"Practice.Complete.Text" = "Practica con regularidad para potenciar tu mente. Cada día te acerca más a tu objetivo.";
+"Practice.Complete.Button" = "Hecho";
+"Practice.Progress" = "%i de %i afirmaciones";

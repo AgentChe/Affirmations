@@ -51,3 +51,14 @@
 "Main.Training.Button" = "Got it!";
 "Main.Training.Swipe" = "Swipe to read affirmations";
 "Main.Training.Like" = "The more affirmations you like, the better your feed gets";
+
+// MARK: Practice
+"Practice.Settings.Title" = "Affirmations Practice";
+"Practice.Settings.Text" = "You'll see a new affirmation every few seconds. Pronounce it clearly, out loud, with full confidence and concentration.";
+"Practice.Settings.Button1" = "1 minute";
+"Practice.Settings.Button2" = "5 minutes";
+"Practice.Settings.Button3" = "10 minutes";
+"Practice.Complete.Title" = "Awesome!";
+"Practice.Complete.Text" = "Practice regular to empower your mind. Every day brings you closer to your goal.";
+"Practice.Complete.Button" = "Done";
+"Practice.Progress" = "%i of %i affirmations";

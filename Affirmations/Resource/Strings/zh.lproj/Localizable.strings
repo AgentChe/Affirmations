@@ -51,3 +51,14 @@
 "Main.Training.Button" = "知道了！";
 "Main.Training.Swipe" = "滑动以阅读肯定语";
 "Main.Training.Like" = "你赞的 励志语录 越多，你获得的馈送就越好";
+
+// MARK: Practice
+"Practice.Settings.Title" = "肯定語";
+"Practice.Settings.Text" = "大聲念出它。 專注於它。 視覺化。";
+"Practice.Settings.Button1" = "1分鐘";
+"Practice.Settings.Button2" = "5分鐘";
+"Practice.Settings.Button3" = "10分鐘";
+"Practice.Complete.Title" = "棒極了!";
+"Practice.Complete.Text" = "做得好";
+"Practice.Complete.Button" = "關閉";
+"Practice.Progress" = "%i句肯定語中的%i句";

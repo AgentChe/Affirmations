@@ -51,3 +51,14 @@
 "Main.Training.Button" = "알겠습니다!";
 "Main.Training.Swipe" = "스와이프하여 확언 읽기";
 "Main.Training.Like" = "긍정 확언 을/를 애용할수록 피드가 더욱 향상됩니다";
+
+// MARK: Practice
+"Practice.Settings.Title" = "확인";
+"Practice.Settings.Text" = "큰 소리로 발음하세요. 집중하세요. 시각화하세요.";
+"Practice.Settings.Button1" = "1분";
+"Practice.Settings.Button2" = "5분";
+"Practice.Settings.Button3" = "10분";
+"Practice.Complete.Title" = "멋지네요!";
+"Practice.Complete.Text" = "잘했어";
+"Practice.Complete.Button" = "닫기";
+"Practice.Progress" = "%i개의 확인 중 %i개";

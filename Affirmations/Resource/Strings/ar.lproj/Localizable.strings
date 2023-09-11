@@ -51,3 +51,14 @@
 "Main.Training.Button" = "فهمت!";
 "Main.Training.Swipe" = "اسحب لقراءة الأقوال";
 "Main.Training.Like" = "كلما زاد عدد التأكيدات الذي تعجب به، كان موجزك أفضل";
+
+// MARK: Practice
+"Practice.Settings.Title" = "التأكيدات";
+"Practice.Settings.Text" = "انطقها بصوت عالٍ. ركز عليه. تصور.";
+"Practice.Settings.Button1" = "1 دقيقة";
+"Practice.Settings.Button2" = "5 دقائق";
+"Practice.Settings.Button3" = "10 دقائق";
+"Practice.Complete.Title" = "مذهل!";
+"Practice.Complete.Text" = "أحسنت";
+"Practice.Complete.Button" = "يغلق";
+"Practice.Progress" = "%i %i تأكيدات";

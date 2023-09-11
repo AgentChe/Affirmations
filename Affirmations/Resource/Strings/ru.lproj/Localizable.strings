@@ -51,3 +51,14 @@
 "Main.Training.Button" = "Понятно!";
 "Main.Training.Swipe" = "Проведите для чтения установок";
 "Main.Training.Like" = "Чем больше лайков вы ставите аффирмации, тем лучше становится ваш фид";
+
+// MARK: Practice
+"Practice.Settings.Title" = "Практика аффирмаций";
+"Practice.Settings.Text" = "Перед вами сейчас появятся несколько аффирмаций. Произносите их вслух уверенным голосом. Сфокусируйтесь на значении каждой.";
+"Practice.Settings.Button1" = "1 минута";
+"Practice.Settings.Button2" = "5 минут";
+"Practice.Settings.Button3" = "10 минут";
+"Practice.Complete.Title" = "Великолепно!";
+"Practice.Complete.Text" = "Продолжайте заниматься регулярно. Каждый день приближает вас к цели.";
+"Practice.Complete.Button" = "Готово";
+"Practice.Progress" = "%i из %i аффирмаций";

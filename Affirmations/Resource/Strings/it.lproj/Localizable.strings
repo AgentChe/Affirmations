@@ -51,3 +51,14 @@
 "Main.Training.Button" = "Fatto!";
 "Main.Training.Swipe" = "Fai swipe per leggere le affermazioni";
 "Main.Training.Like" = "Più affermazioni ti piace, migliore diventa il tuo feed";
+
+// MARK: Practice
+"Practice.Settings.Title" = "Pratica delle affermazioni";
+"Practice.Settings.Text" = "Vedrete una nuova affermazione ogni pochi secondi. Pronunciatela chiaramente, ad alta voce, con piena fiducia e concentrazione.";
+"Practice.Settings.Button1" = "minuto";
+"Practice.Settings.Button2" = "5 minuti";
+"Practice.Settings.Button3" = "10 minuti";
+"Practice.Complete.Title" = "Fantastico!";
+"Practice.Complete.Text" = "Esercitatevi regolarmente per potenziare la vostra mente. Ogni giorno vi avvicina al vostro obiettivo.";
+"Practice.Complete.Button" = "Fatto";
+"Practice.Progress" = "%i di %i affermazioni";

@@ -76,7 +76,8 @@ final class MainViewController: UIViewController {
         let output = viewModel.configure(input: MainViewModel.Input(
             didCompleteTraining: didCompleteTrainingTrigger.asSignal(),
             currentAffirmation: currentAffirmation,
-            didTapMark: mainView.bookmarkButton.rx.tap.asSignal()
+            didTapMark: mainView.bookmarkButton.rx.tap.asSignal(),
+            didTapStart: mainView.startButton.rx.tap.asSignal()
         ))
         
         output.activeSubsription
@@ -149,6 +150,9 @@ private extension MainViewController {
             mainView.trainingView.show(training: training)
         case .requestReview:
             RequestReview.request()
+        case .practice:
+            let vc = PracticeViewController.make()
+            present(vc, animated: false)
         }
     }
     
