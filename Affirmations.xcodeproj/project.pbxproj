@@ -12,6 +12,13 @@
 		DE14D6732A658CD800DBFE1D /* proximanova_bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE14D6712A658C8700DBFE1D /* proximanova_bold.otf */; };
 		DE14D6742A658CD800DBFE1D /* proximanova_extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE14D6722A658C9000DBFE1D /* proximanova_extrabold.otf */; };
 		DE14D6752A658CD800DBFE1D /* proximanova_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE14D6702A658C4100DBFE1D /* proximanova_regular.ttf */; };
+		DE37860C2AB070CB00E0CDCA /* SettingsBackupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE37860B2AB070CB00E0CDCA /* SettingsBackupCell.swift */; };
+		DE3786102AB0752E00E0CDCA /* BackupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE37860F2AB0752E00E0CDCA /* BackupViewController.swift */; };
+		DE3786142AB0753800E0CDCA /* BackupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3786132AB0753800E0CDCA /* BackupView.swift */; };
+		DE3786172AB07C5F00E0CDCA /* GoogleDriveBackupButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3786162AB07C5F00E0CDCA /* GoogleDriveBackupButton.swift */; };
+		DE3786192AB07E7900E0CDCA /* BackupCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3786182AB07E7900E0CDCA /* BackupCellView.swift */; };
+		DE37861B2AB084F500E0CDCA /* BackupConfirmDisableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE37861A2AB084F500E0CDCA /* BackupConfirmDisableView.swift */; };
+		DE3830C72AB619BE00EA20E6 /* Backup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3830C62AB619BE00EA20E6 /* Backup.swift */; };
 		DE5505E42A6587B10057F9FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5505E32A6587B10057F9FB /* Assets.xcassets */; };
 		DE5505E72A6587B10057F9FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE5505E52A6587B10057F9FB /* LaunchScreen.storyboard */; };
 		DE5506242A6589760057F9FB /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5505F52A6589760057F9FB /* UIApplication+Extension.swift */; };
@@ -143,6 +150,13 @@
 		DE14D6702A658C4100DBFE1D /* proximanova_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = proximanova_regular.ttf; sourceTree = "<group>"; };
 		DE14D6712A658C8700DBFE1D /* proximanova_bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = proximanova_bold.otf; sourceTree = "<group>"; };
 		DE14D6722A658C9000DBFE1D /* proximanova_extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = proximanova_extrabold.otf; sourceTree = "<group>"; };
+		DE37860B2AB070CB00E0CDCA /* SettingsBackupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsBackupCell.swift; sourceTree = "<group>"; };
+		DE37860F2AB0752E00E0CDCA /* BackupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupViewController.swift; sourceTree = "<group>"; };
+		DE3786132AB0753800E0CDCA /* BackupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupView.swift; sourceTree = "<group>"; };
+		DE3786162AB07C5F00E0CDCA /* GoogleDriveBackupButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleDriveBackupButton.swift; sourceTree = "<group>"; };
+		DE3786182AB07E7900E0CDCA /* BackupCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupCellView.swift; sourceTree = "<group>"; };
+		DE37861A2AB084F500E0CDCA /* BackupConfirmDisableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupConfirmDisableView.swift; sourceTree = "<group>"; };
+		DE3830C62AB619BE00EA20E6 /* Backup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backup.swift; sourceTree = "<group>"; };
 		DE5505D72A6587AF0057F9FB /* Affirmations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Affirmations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5505E32A6587B10057F9FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE5505E62A6587B10057F9FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -345,6 +359,45 @@
 			path = ProximaNova;
 			sourceTree = "<group>";
 		};
+		DE37860D2AB0751200E0CDCA /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				DEEED5E52AAF9C250078653B /* Views */,
+				DEEED5DF2AAF989E0078653B /* SettingsViewController.swift */,
+				DEEED5E12AAF98A30078653B /* SettingsViewModel.swift */,
+				DEEED5E32AAF98A80078653B /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		DE37860E2AB0752000E0CDCA /* Backup */ = {
+			isa = PBXGroup;
+			children = (
+				DE3786152AB07C3F00E0CDCA /* Views */,
+				DE37860F2AB0752E00E0CDCA /* BackupViewController.swift */,
+				DE3786132AB0753800E0CDCA /* BackupView.swift */,
+			);
+			path = Backup;
+			sourceTree = "<group>";
+		};
+		DE3786152AB07C3F00E0CDCA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE3786162AB07C5F00E0CDCA /* GoogleDriveBackupButton.swift */,
+				DE3786182AB07E7900E0CDCA /* BackupCellView.swift */,
+				DE37861A2AB084F500E0CDCA /* BackupConfirmDisableView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DE3830C52AB619B500EA20E6 /* Backup */ = {
+			isa = PBXGroup;
+			children = (
+				DE3830C62AB619BE00EA20E6 /* Backup.swift */,
+			);
+			path = Backup;
+			sourceTree = "<group>";
+		};
 		DE5505CE2A6587AF0057F9FB = {
 			isa = PBXGroup;
 			children = (
@@ -399,6 +452,7 @@
 		DE5505F22A65896A0057F9FB /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				DE3830C52AB619B500EA20E6 /* Backup */,
 				DEC61E162A7AD6D4008F9C97 /* Content */,
 				DEC61A9D2A7937E3008F9C97 /* Profile */,
 				DE5506542A6589810057F9FB /* IAP */,
@@ -734,10 +788,8 @@
 		DEEED5DD2AAF988B0078653B /* Settings */ = {
 			isa = PBXGroup;
 			children = (
-				DEEED5E52AAF9C250078653B /* Views */,
-				DEEED5DF2AAF989E0078653B /* SettingsViewController.swift */,
-				DEEED5E12AAF98A30078653B /* SettingsViewModel.swift */,
-				DEEED5E32AAF98A80078653B /* SettingsView.swift */,
+				DE37860E2AB0752000E0CDCA /* Backup */,
+				DE37860D2AB0751200E0CDCA /* Settings */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -765,6 +817,7 @@
 			children = (
 				DEEED5EC2AAF9C5A0078653B /* SettingsPaygateCell.swift */,
 				DEEED5EE2AAF9C610078653B /* SettingsRouteCell.swift */,
+				DE37860B2AB070CB00E0CDCA /* SettingsBackupCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -1049,12 +1102,14 @@
 				DE55066E2A6589AF0057F9FB /* SplashView.swift in Sources */,
 				DEC61A9A2A78FB14008F9C97 /* ONSStartView.swift in Sources */,
 				DE5506662A6589810057F9FB /* IAPErrorHelper.swift in Sources */,
+				DE37860C2AB070CB00E0CDCA /* SettingsBackupCell.swift in Sources */,
 				DEFE818D2A9F98A900FB96F0 /* MainViewController.swift in Sources */,
 				DEC61E152A7AD38B008F9C97 /* Gender.swift in Sources */,
 				DE5506462A6589760057F9FB /* PushNotificationsModel.swift in Sources */,
 				DEC61AAA2A7A24D3008F9C97 /* OGenderView.swift in Sources */,
 				DEFE81A72AA1C6DA00FB96F0 /* TrainingView.swift in Sources */,
 				DEFE81922AA0E39000FB96F0 /* CategoriesViewController.swift in Sources */,
+				DE3786102AB0752E00E0CDCA /* BackupViewController.swift in Sources */,
 				DEFE81992AA0E79400FB96F0 /* CategoryButton.swift in Sources */,
 				DE5506262A6589760057F9FB /* UIColor+Extension.swift in Sources */,
 				DEC61AA82A7A1EAA008F9C97 /* OWidgetView.swift in Sources */,
@@ -1066,6 +1121,8 @@
 				DEFE81962AA0E39C00FB96F0 /* CategoriesView.swift in Sources */,
 				DEC61A632A7661AF008F9C97 /* OnboardingView.swift in Sources */,
 				DEC61AB02A7AC8D3008F9C97 /* ApplicationLanguage.swift in Sources */,
+				DE3786192AB07E7900E0CDCA /* BackupCellView.swift in Sources */,
+				DE3786142AB0753800E0CDCA /* BackupView.swift in Sources */,
 				DEC61AB22A7ACA38008F9C97 /* Localizable.swift in Sources */,
 				DEFE80AD2A90FEB200FB96F0 /* PaygateView.swift in Sources */,
 				DEFE808A2A90EE8400FB96F0 /* ASN1ObjectIdentifierBuilder.swift in Sources */,
@@ -1124,6 +1181,7 @@
 				DE5506422A6589760057F9FB /* GradientView.swift in Sources */,
 				DEFE819F2AA0F1DD00FB96F0 /* CategoriesCollectionView.swift in Sources */,
 				DEEED5EA2AAF9C480078653B /* SettingsTableElement.swift in Sources */,
+				DE37861B2AB084F500E0CDCA /* BackupConfirmDisableView.swift in Sources */,
 				DEFE80B52A9106CF00FB96F0 /* PaygateCell.swift in Sources */,
 				DEFE819B2AA0EE2400FB96F0 /* ContentMediator.swift in Sources */,
 				DE5506332A6589760057F9FB /* TextAttributes.swift in Sources */,
@@ -1132,6 +1190,8 @@
 				DEEED5E22AAF98A30078653B /* SettingsViewModel.swift in Sources */,
 				DEC61A682A76652E008F9C97 /* OWelcomeView.swift in Sources */,
 				DEFE808E2A90EE8400FB96F0 /* UInt8+Extensions.swift in Sources */,
+				DE3830C72AB619BE00EA20E6 /* Backup.swift in Sources */,
+				DE3786172AB07C5F00E0CDCA /* GoogleDriveBackupButton.swift in Sources */,
 				DEEED5E02AAF989E0078653B /* SettingsViewController.swift in Sources */,
 				DEFE81942AA0E39600FB96F0 /* CategoriesViewModel.swift in Sources */,
 				DEE51AEE2AAB71B10024FB36 /* PracticeViewController.swift in Sources */,

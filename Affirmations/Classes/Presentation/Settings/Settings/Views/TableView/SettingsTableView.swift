@@ -52,6 +52,10 @@ extension SettingsTableView: UITableViewDataSource {
             let cell = dequeueReusableCell(withIdentifier: String(describing: SettingsRouteCell.self), for: indexPath) as! SettingsRouteCell
             cell.setup(element: element)
             return cell
+        case .backup(let element):
+            let cell = dequeueReusableCell(withIdentifier: String(describing: SettingsBackupCell.self), for: indexPath) as! SettingsBackupCell
+            cell.setup(element: element)
+            return cell
         }
     }
 }
@@ -71,6 +75,7 @@ private extension SettingsTableView {
     func initialize() {
         register(SettingsPaygateCell.self, forCellReuseIdentifier: String(describing: SettingsPaygateCell.self))
         register(SettingsRouteCell.self, forCellReuseIdentifier: String(describing: SettingsRouteCell.self))
+        register(SettingsBackupCell.self, forCellReuseIdentifier: String(describing: SettingsBackupCell.self))
         
         dataSource = self
         delegate = self

@@ -15,6 +15,7 @@ protocol ContentManagerProtocol {
     func obtainAffirmations(for language: ApplicationLanguage, categoryType: String, gender: String) -> Single<[Affirmation]>
     func save(affirmation: String) -> Single<Void>
     func unsave(affirmation: String) -> Single<Void>
+    func replace(favorites: [Affirmation]) -> Single<Void>
     func obtainFavoritesAffirmations() -> Single<[Affirmation]>
 }
 
@@ -146,6 +147,18 @@ extension ContentManager: ContentManagerProtocol {
             event(.success(Void()))
             
             ContentMediator.shared.unsave(affirmation: affirmation)
+            
+            return Disposables.create()
+        }
+    }
+    
+    func replace(favorites: [Affirmation]) -> Single<Void> {
+        Single<Void>.create { event in
+            if let data = try? JSONEncoder().encode(favorites) {
+                UserDefaults.standard.set(data, forKey: Constants.favoritesAffirmations)
+            }
+            
+            event(.success(Void()))
             
             return Disposables.create()
         }

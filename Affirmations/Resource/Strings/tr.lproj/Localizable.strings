@@ -66,3 +66,19 @@
 // MARK: Settings
 "Settings.Title" = "Olumlamalar";
 "Settings.Paygate" = "Premium'a geç";
+"Settings.Backup.Enable" = "Verileriniz güvende";
+"Settings.Backup.Disable" = "Yedekleme kapalı";
+"Settings.Backup.Text" = "Telefonunuzu kaybederseniz veya değiştirirseniz verilerinizi geri yükleyebilir, bu uygulamayı silebilirsiniz.";
+
+// MARK: Backup
+"Backup.Title" = "Veri yedekleme";
+"Backup.SubTitle" = "Verilerinizi kaydetmek için açın";
+"Backup.Cell1" = "Tüm verilerinizi Google Drive'ınızda tutacağız.";
+"Backup.Cell2" = "Olumlamalarınıza ve kayıtlarınıza her zaman erişebileceksiniz.";
+"Backup.Cell3" = "Telefonunuzu kaybetseniz veya yeni bir telefon alsanız bile, tüm verilerinizi kurtaracaksınız.";
+"Backup.Cell4" = "Verilerinize yalnızca siz erişebileceksiniz.";
+"Backup.Button" = "Google Drive Backup";
+"Backup.ConfirmDisable.Title" = "Emin misiniz?";
+"Backup.ConfirmDisable.Text" = "Bu işlemden sonra verileriniz artık kaydedilmeyecektir.";
+"Backup.ConfirmDisable.Disable" = "Devre dışı bırak";
+"Backup.ConfirmDisable.Cancel" = "İptal";

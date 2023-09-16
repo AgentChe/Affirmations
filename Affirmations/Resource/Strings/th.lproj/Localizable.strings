@@ -66,3 +66,19 @@
 // MARK: Settings
 "Settings.Title" = "การยืนยัน";
 "Settings.Paygate" = "สมัครแบบพรีเมียม";
+"Settings.Backup.Enable" = "ข้อมูลของคุณปลอดภัย";
+"Settings.Backup.Disable" = "การสำรองข้อมูลปิดอยู่";
+"Settings.Backup.Text" = "คุณสามารถกู้คืนข้อมูลของคุณได้หากคุณทำโทรศัพท์หายหรือเปลี่ยน ให้ลบแอปนี้";
+
+// MARK: Backup
+"Backup.Title" = "สำรองข้อมูล";
+"Backup.SubTitle" = "เปิดเพื่อบันทึกข้อมูลของคุณ";
+"Backup.Cell1" = "เราจะเก็บข้อมูลทั้งหมดของคุณไว้ใน Google Drive ของคุณ";
+"Backup.Cell2" = "คุณจะสามารถเข้าถึงการยืนยันและบันทึกของคุณได้เสมอ";
+"Backup.Cell3" = "แม้ว่าคุณจะทำโทรศัพท์หายหรือซื้อโทรศัพท์เครื่องใหม่ คุณจะกู้คืนข้อมูลทั้งหมดของคุณได้";
+"Backup.Cell4" = "มีเพียงคุณเท่านั้นที่สามารถเข้าถึงข้อมูลของคุณได้";
+"Backup.Button" = "Google Drive Backup";
+"Backup.ConfirmDisable.Title" = "คุณแน่ใจไหม?";
+"Backup.ConfirmDisable.Text" = "ข้อมูลของคุณจะไม่ถูกบันทึกอีกต่อไปหลังจากดำเนินการนี้";
+"Backup.ConfirmDisable.Disable" = "ปิดการใช้งาน";
+"Backup.ConfirmDisable.Cancel" = "ยกเลิก";

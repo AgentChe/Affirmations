@@ -66,3 +66,19 @@
 // MARK: Settings
 "Settings.Title" = "アファメーション";
 "Settings.Paygate" = "プレミアムにアップグレード";
+"Settings.Backup.Enable" = "データの安全性を確保します";
+"Settings.Backup.Disable" = "バックアップはオフです";
+"Settings.Backup.Text" = "データを復元できます電話を紛失または変更した場合は、このアプリを削除してください。";
+
+// MARK: Backup
+"Backup.Title" = "データのバックアップ";
+"Backup.SubTitle" = "データを保存するには、をオンにします";
+"Backup.Cell1" = "私たちはあなたのすべてのデータをあなたのGoogleドライブに保持します";
+"Backup.Cell2" = "あなたは常にあなたの肯定と記録にアクセスすることができます";
+"Backup.Cell3" = "新しい電話を紛失したり購入したりしても、すべてのデータを回復します";
+"Backup.Cell4" = "あなただけがあなたのデータにアクセスすることができます";
+"Backup.Button" = "Google Drive Backup";
+"Backup.ConfirmDisable.Title" = "本当に？";
+"Backup.ConfirmDisable.Text" = "この操作を実行すると、データは保存されなくなります。";
+"Backup.ConfirmDisable.Disable" = "無効にします";
+"Backup.ConfirmDisable.Cancel" = "キャンセル";

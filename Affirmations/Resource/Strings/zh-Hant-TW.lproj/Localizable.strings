@@ -64,3 +64,19 @@
 // MARK: Settings
 "Settings.Title" = "肯定句";
 "Settings.Paygate" = "升級高級版";
+"Settings.Backup.Enable" = "您的数据安全";
+"Settings.Backup.Disable" = "备份已关闭";
+"Settings.Backup.Text" = "如果您丢失或更改手机，请删除此应用程序，您可以恢复数据。";
+
+// MARK: Backup
+"Backup.Title" = "数据备份";
+"Backup.SubTitle" = "打开以保存数据";
+"Backup.Cell1" = "我们会将您的所有数据保存在您的Google云端硬盘上";
+"Backup.Cell2" = "您将始终可以访问您的确认和记录";
+"Backup.Cell3" = "即使您丢失或购买了一部新手机，您也会恢复所有数据";
+"Backup.Cell4" = "只有您才能访问您的数据";
+"Backup.Button" = "Google Drive Backup";
+"Backup.ConfirmDisable.Title" = "你确定吗？";
+"Backup.ConfirmDisable.Text" = "执行此操作后，您的数据将不再保存。";
+"Backup.ConfirmDisable.Disable" = "禁用";
+"Backup.ConfirmDisable.Cancel" = "取消";

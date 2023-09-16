@@ -66,3 +66,19 @@
 // MARK: Settings
 "Settings.Title" = "Аффирмации";
 "Settings.Paygate" = "Перейти на Premium";
+"Settings.Backup.Enable" = "Ваши данные в безопасности";
+"Settings.Backup.Disable" = "Хранение данных отключено";
+"Settings.Backup.Text" = "Поможет восстановить данные при потере или смене телефона, удалении приложения.";
+
+// MARK: Backup
+"Backup.Title" = "Хранение данных";
+"Backup.SubTitle" = "Подключите, чтобы сохранить все ваши данные";
+"Backup.Cell1" = "Мы сохраним все ваши данные на вашем Google Drive";
+"Backup.Cell2" = "Вы всегда сможете получить доступ к вашим аффирмациям и записям";
+"Backup.Cell3" = "Даже если вы потеряете или купите новый телефон, вы сможете восстановить данные без потерь";
+"Backup.Cell4" = "Доступ к вашим данным не получит никто, кроме вас";
+"Backup.Button" = "Google Drive Backup";
+"Backup.ConfirmDisable.Title" = "Вы уверены?";
+"Backup.ConfirmDisable.Text" = "Вы отключаете хранение ваших данных этим действием.";
+"Backup.ConfirmDisable.Disable" = "Отключить";
+"Backup.ConfirmDisable.Cancel" = "Отмена";

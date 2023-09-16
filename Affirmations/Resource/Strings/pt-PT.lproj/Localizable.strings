@@ -67,3 +67,19 @@
 // MARK: Settings
 "Settings.Title" = "Afirmações";
 "Settings.Paygate" = "Torne-se Premium";
+"Settings.Backup.Enable" = "Os seus dados estão seguros";
+"Settings.Backup.Disable" = "A cópia de segurança está desactivada";
+"Settings.Backup.Text" = "Pode restaurar os seus dados se perder ou alterar o seu telemóvel, apagar esta aplicação.";
+
+// MARK: Backup
+"Backup.Title" = "Cópia de segurança dos dados";
+"Backup.SubTitle" = "Activar para guardar os seus dados";
+"Backup.Cell1" = "Guardaremos todos os seus dados no seu Google Drive.";
+"Backup.Cell2" = "Terá sempre acesso às suas afirmações e registos.";
+"Backup.Cell3" = "Mesmo que perca ou compre um novo telemóvel, poderá recuperar todos os seus dados.";
+"Backup.Cell4" = "Só você terá acesso aos seus dados.";
+"Backup.Button" = "Google Drive Backup";
+"Backup.ConfirmDisable.Title" = "Tem a certeza?";
+"Backup.ConfirmDisable.Text" = "Os seus dados deixarão de ser guardados após esta acção.";
+"Backup.ConfirmDisable.Disable" = "Desactivar";
+"Backup.ConfirmDisable.Cancel" = "Cancelar";

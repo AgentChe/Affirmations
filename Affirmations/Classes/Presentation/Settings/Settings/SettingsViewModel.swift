@@ -32,13 +32,19 @@ extension SettingsViewModel {
 // MARK: Private
 private extension SettingsViewModel {
     func makeElements(activeSubscription: Driver<Bool>) -> Driver<[SettingsTableElement]> {
-        activeSubscription
-            .map { activeSubscription -> [SettingsTableElement] in
+        Driver
+            .combineLatest(
+                activeSubscription,
+                Backup.shared.isSignIn.asDriver(onErrorDriveWith: .never())
+            )
+            .map { activeSubscription, isGoogleSignIn -> [SettingsTableElement] in
                 var result = [SettingsTableElement]()
                 
                 if !activeSubscription {
                     result.append(.paygate)
                 }
+                
+                result.append(.backup(enable: isGoogleSignIn))
                 
                 return result
             }

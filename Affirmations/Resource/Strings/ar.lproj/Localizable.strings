@@ -66,3 +66,19 @@
 // MARK: Settings
 "Settings.Title" = "التأكيدات";
 "Settings.Paygate" = "احصل على الاشتراك المميز";
+"Settings.Backup.Enable" = "بياناتك آمنة";
+"Settings.Backup.Disable" = "النسخ الاحتياطي متوقف";
+"Settings.Backup.Text" = "يمكنك استعادة بياناتك إذا فقدت هاتفك أو قمت بتغييره ، احذف هذا التطبيق.";
+
+// MARK: Backup
+"Backup.Title" = "النسخ الاحتياطي للبيانات";
+"Backup.SubTitle" = "قم بتشغيل لحفظ البيانات الخاصة بك";
+"Backup.Cell1" = "سنحتفظ بجميع بياناتك على Google Drive";
+"Backup.Cell2" = "سيكون لديك دائمًا حق الوصول إلى تأكيداتك وسجلاتك";
+"Backup.Cell3" = "حتى إذا فقدت أو اشتريت هاتفًا جديدًا ، فستستعيد جميع بياناتك";
+"Backup.Cell4" = "فقط سيكون لديك حق الوصول إلى البيانات الخاصة بك";
+"Backup.Button" = "Google Drive Backup";
+"Backup.ConfirmDisable.Title" = "هل أنت متأكد؟";
+"Backup.ConfirmDisable.Text" = "لن يتم حفظ بياناتك بعد هذا الإجراء.";
+"Backup.ConfirmDisable.Disable" = "إبطال";
+"Backup.ConfirmDisable.Cancel" = "يلغي";

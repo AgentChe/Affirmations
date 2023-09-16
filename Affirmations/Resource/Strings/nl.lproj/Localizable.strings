@@ -66,3 +66,19 @@
 // MARK: Settings
 "Settings.Title" = "Affirmaties";
 "Settings.Paygate" = "Ga premium";
+"Settings.Backup.Enable" = "Uw gegevens veilig";
+"Settings.Backup.Disable" = "Back-up staat uit";
+"Settings.Backup.Text" = "Je kunt je gegevens herstellen als je je telefoon verliest of verandert, verwijder deze app.";
+
+// MARK: Backup
+"Backup.Title" = "Back-up van gegevens";
+"Backup.SubTitle" = "Inschakelen om uw gegevens op te slaan";
+"Backup.Cell1" = "We bewaren al je gegevens op je Google Drive.";
+"Backup.Cell2" = "Je hebt altijd toegang tot je affirmaties en gegevens.";
+"Backup.Cell3" = "Zelfs als je een nieuwe telefoon koopt of verliest, kun je al je gegevens herstellen.";
+"Backup.Cell4" = "Alleen jij hebt toegang tot je gegevens.";
+"Backup.Button" = "Google Drive Backup";
+"Backup.ConfirmDisable.Title" = "Weet je het zeker?";
+"Backup.ConfirmDisable.Text" = "Na deze actie worden je gegevens niet meer opgeslagen.";
+"Backup.ConfirmDisable.Disable" = "uitschakelen";
+"Backup.ConfirmDisable.Cancel" = "Annuleren";

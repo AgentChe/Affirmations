@@ -60,6 +60,9 @@ private extension SettingsViewController {
             case .gender:
                 break
             }
+        case .backup:
+            let vc = BackupViewController.make()
+            navigationController?.pushViewController(vc, animated: true)
         }
     }
 }

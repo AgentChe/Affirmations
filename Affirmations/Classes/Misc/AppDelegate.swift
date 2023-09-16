@@ -16,6 +16,7 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
         FirebaseManager.shared.initialize()
         GADMobileAds.sharedInstance().start()
         IAPManager.initialize()
+        Backup.shared.initialize()
         
         return true
     }

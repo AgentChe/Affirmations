@@ -66,3 +66,19 @@
 // MARK: Settings
 "Settings.Title" = "확인";
 "Settings.Paygate" = "프리미엄 가입하기";
+"Settings.Backup.Enable" = "데이터를 안전하게 보호합니다";
+"Settings.Backup.Disable" = "백업이 꺼져 있습니다";
+"Settings.Backup.Text" = "데이터를 복원할 수 있습니다. 휴대폰을 분실하거나 변경한 경우 이 앱을 삭제하십시오.";
+
+// MARK: Backup
+"Backup.Title" = "데이터 백업";
+"Backup.SubTitle" = "데이터를 저장하려면 을 켭니다";
+"Backup.Cell1" = "모든 데이터는 Google 드라이브에 보관됩니다";
+"Backup.Cell2" = "당신은 항상 당신의 긍정 및 기록에 액세스 할 수 있습니다";
+"Backup.Cell3" = "당신이 분실하거나 새로운 휴대폰을 구입하더라도, 당신은 모든 데이터를 복구 할 수 있습니다";
+"Backup.Cell4" = "사용자만 데이터에 액세스할 수 있습니다";
+"Backup.Button" = "Google Drive Backup";
+"Backup.ConfirmDisable.Title" = "계속하시겠습니까?";
+"Backup.ConfirmDisable.Text" = "이 작업 후에는 데이터가 더 이상 저장되지 않습니다.";
+"Backup.ConfirmDisable.Disable" = "사용 안 함";
+"Backup.ConfirmDisable.Cancel" = "취소";

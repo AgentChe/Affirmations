@@ -66,3 +66,19 @@
 // MARK: Settings
 "Settings.Title" = "Affirmationen";
 "Settings.Paygate" = "Zu Premium wechseln";
+"Settings.Backup.Enable" = "Ihre Daten sind sicher";
+"Settings.Backup.Disable" = "Backup ist aus";
+"Settings.Backup.Text" = "Sie können Ihre Daten wiederherstellen, wenn Sie Ihr Telefon verlieren oder ändern, löschen Sie diese App.";
+
+// MARK: Backup
+"Backup.Title" = "Datensicherung";
+"Backup.SubTitle" = "Einschalten, um Ihre Daten zu sichern";
+"Backup.Cell1" = "Wir werden alle Ihre Daten auf Ihrem Google Drive speichern.";
+"Backup.Cell2" = "Sie werden immer Zugang zu Ihren Affirmationen und Aufzeichnungen haben.";
+"Backup.Cell3" = "Selbst wenn Sie Ihr Handy verlieren oder ein neues kaufen, können Sie alle Ihre Daten wiederherstellen.";
+"Backup.Cell4" = "Nur Sie haben Zugriff auf Ihre Daten.";
+"Backup.Button" = "Google Drive Backup";
+"Backup.ConfirmDisable.Title" = "Sind Sie sich sicher?";
+"Backup.ConfirmDisable.Text" = "Ihre Daten werden nach dieser Aktion nicht mehr gespeichert.";
+"Backup.ConfirmDisable.Disable" = "Deaktivieren";
+"Backup.ConfirmDisable.Cancel" = "Abbrechen";

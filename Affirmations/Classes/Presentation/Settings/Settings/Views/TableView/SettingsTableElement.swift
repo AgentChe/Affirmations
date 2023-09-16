@@ -8,6 +8,7 @@
 enum SettingsTableElement {
     case paygate
     case route(SettingsRoute)
+    case backup(enable: Bool)
 }
 
 enum SettingsRoute {

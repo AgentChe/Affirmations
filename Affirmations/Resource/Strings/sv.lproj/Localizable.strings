@@ -66,3 +66,19 @@
 // MARK: Settings
 "Settings.Title" = "Affirmationer";
 "Settings.Paygate" = "Välj Premium";
+"Settings.Backup.Enable" = "Dina data är säkra";
+"Settings.Backup.Disable" = "Säkerhetskopiering är avstängd";
+"Settings.Backup.Text" = "Du kan återställa dina data om du tappar bort eller ändrar din telefon, radera den här appen.";
+
+// MARK: Backup
+"Backup.Title" = "Säkerhetskopiering av data";
+"Backup.SubTitle" = "Slå på för att spara dina data";
+"Backup.Cell1" = "Vi sparar alla dina data på din Google Drive.";
+"Backup.Cell2" = "Du kommer alltid att ha tillgång till dina affirmationer och register.";
+"Backup.Cell3" = "Även om du förlorar eller köper en ny telefon kommer du att återställa alla dina data.";
+"Backup.Cell4" = "Endast du kommer att ha tillgång till dina data.";
+"Backup.Button" = "Google Drive Backup";
+"Backup.ConfirmDisable.Title" = "Är du säker på det?";
+"Backup.ConfirmDisable.Text" = "Dina data sparas inte längre efter den här åtgärden.";
+"Backup.ConfirmDisable.Disable" = "Inaktivera";
+"Backup.ConfirmDisable.Cancel" = "Avbryt";
