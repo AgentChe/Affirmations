@@ -236,9 +236,13 @@ private extension MainViewModel {
     }
     
     func makeGender() -> Driver<Gender> {
-        profileManager
+        let initial = profileManager
             .obtainGender()
             .map { $0 ?? .other }
             .asDriver(onErrorJustReturn: .other)
+        let updated = ProfileMediator.shared
+            .didChangeGender
+            .asDriver(onErrorDriveWith: .never())
+        return Driver.merge(initial, updated)
     }
 }

@@ -82,3 +82,7 @@
 "Backup.ConfirmDisable.Text" = "لن يتم حفظ بياناتك بعد هذا الإجراء.";
 "Backup.ConfirmDisable.Disable" = "إبطال";
 "Backup.ConfirmDisable.Cancel" = "يلغي";
+
+// MARK: Gender identity
+"GenderIdentity.Title" = "الهوية الجنسية";
+"GenderIdentity.SubTitle" = "حدد هويتك الجنسية الحالية.";

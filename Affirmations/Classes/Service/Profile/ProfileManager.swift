@@ -57,6 +57,8 @@ extension ProfileManager: ProfileManagerProtocol {
             
             event(.success(Void()))
             
+            ProfileMediator.shared.changed(gender: gender)
+            
             return Disposables.create()
         }
     }

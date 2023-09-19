@@ -82,3 +82,7 @@
 "Backup.ConfirmDisable.Text" = "I vostri dati non saranno più salvati dopo questa azione.";
 "Backup.ConfirmDisable.Disable" = "Disattivare";
 "Backup.ConfirmDisable.Cancel" = "Annulla";
+
+// MARK: Gender identity
+"GenderIdentity.Title" = "Identità di genere";
+"GenderIdentity.SubTitle" = "Imposta la tua attuale identità di genere.";

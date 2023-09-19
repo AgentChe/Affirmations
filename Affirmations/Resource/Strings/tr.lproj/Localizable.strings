@@ -82,3 +82,7 @@
 "Backup.ConfirmDisable.Text" = "Bu işlemden sonra verileriniz artık kaydedilmeyecektir.";
 "Backup.ConfirmDisable.Disable" = "Devre dışı bırak";
 "Backup.ConfirmDisable.Cancel" = "İptal";
+
+// MARK: Gender identity
+"GenderIdentity.Title" = "Cinsel kimlik";
+"GenderIdentity.SubTitle" = "Mevcut cinsel kimliğinizi belirleyin.";

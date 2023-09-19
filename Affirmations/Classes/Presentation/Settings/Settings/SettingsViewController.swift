@@ -58,7 +58,8 @@ private extension SettingsViewController {
         case .route(let route):
             switch route {
             case .gender:
-                break
+                let vc = GenderIdentityViewController.make()
+                navigationController?.pushViewController(vc, animated: true)
             }
         case .backup:
             let vc = BackupViewController.make()

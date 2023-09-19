@@ -59,6 +59,10 @@
 		DE55066A2A6589A60057F9FB /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5506692A6589A60057F9FB /* SplashViewController.swift */; };
 		DE55066C2A6589AB0057F9FB /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE55066B2A6589AB0057F9FB /* SplashViewModel.swift */; };
 		DE55066E2A6589AF0057F9FB /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE55066D2A6589AF0057F9FB /* SplashView.swift */; };
+		DE6150212ABA1AA200ADB8FC /* GenderIdentityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6150202ABA1AA200ADB8FC /* GenderIdentityViewController.swift */; };
+		DE6150232ABA1AA800ADB8FC /* GenderIdentityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6150222ABA1AA800ADB8FC /* GenderIdentityViewModel.swift */; };
+		DE6150252ABA1AAC00ADB8FC /* GenderIdentityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6150242ABA1AAC00ADB8FC /* GenderIdentityView.swift */; };
+		DE6150272ABA1D5700ADB8FC /* ProfileMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6150262ABA1D5700ADB8FC /* ProfileMediator.swift */; };
 		DEC61A5F2A7661A6008F9C97 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61A5E2A7661A6008F9C97 /* OnboardingViewController.swift */; };
 		DEC61A612A7661AB008F9C97 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61A602A7661AB008F9C97 /* OnboardingViewModel.swift */; };
 		DEC61A632A7661AF008F9C97 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61A622A7661AF008F9C97 /* OnboardingView.swift */; };
@@ -199,6 +203,10 @@
 		DE5506692A6589A60057F9FB /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		DE55066B2A6589AB0057F9FB /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
 		DE55066D2A6589AF0057F9FB /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		DE6150202ABA1AA200ADB8FC /* GenderIdentityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderIdentityViewController.swift; sourceTree = "<group>"; };
+		DE6150222ABA1AA800ADB8FC /* GenderIdentityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderIdentityViewModel.swift; sourceTree = "<group>"; };
+		DE6150242ABA1AAC00ADB8FC /* GenderIdentityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderIdentityView.swift; sourceTree = "<group>"; };
+		DE6150262ABA1D5700ADB8FC /* ProfileMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMediator.swift; sourceTree = "<group>"; };
 		DEC61A5E2A7661A6008F9C97 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		DEC61A602A7661AB008F9C97 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 		DEC61A622A7661AF008F9C97 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
@@ -627,6 +635,16 @@
 			path = Splash;
 			sourceTree = "<group>";
 		};
+		DE61501F2ABA1A9700ADB8FC /* GenderIdentity */ = {
+			isa = PBXGroup;
+			children = (
+				DE6150202ABA1AA200ADB8FC /* GenderIdentityViewController.swift */,
+				DE6150222ABA1AA800ADB8FC /* GenderIdentityViewModel.swift */,
+				DE6150242ABA1AAC00ADB8FC /* GenderIdentityView.swift */,
+			);
+			path = GenderIdentity;
+			sourceTree = "<group>";
+		};
 		DEC61A5D2A766195008F9C97 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
@@ -664,6 +682,7 @@
 			children = (
 				DEC61AA02A79381E008F9C97 /* Model */,
 				DEC61A9E2A7937F6008F9C97 /* ProfileManager.swift */,
+				DE6150262ABA1D5700ADB8FC /* ProfileMediator.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -788,6 +807,7 @@
 		DEEED5DD2AAF988B0078653B /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				DE61501F2ABA1A9700ADB8FC /* GenderIdentity */,
 				DE37860E2AB0752000E0CDCA /* Backup */,
 				DE37860D2AB0751200E0CDCA /* Settings */,
 			);
@@ -1154,6 +1174,7 @@
 				DEECE43A2AA7049C00B10DE9 /* AffirmationsView.swift in Sources */,
 				DE55063E2A6589760057F9FB /* NavigationController.swift in Sources */,
 				DEFE80972A90EEF000FB96F0 /* PaymentData.swift in Sources */,
+				DE6150272ABA1D5700ADB8FC /* ProfileMediator.swift in Sources */,
 				DEFE80AB2A90FEB200FB96F0 /* PaygateMediator.swift in Sources */,
 				DEC61A962A77CE7B008F9C97 /* ONSView.swift in Sources */,
 				DEC61E6C2A7BEAED008F9C97 /* OWCCollectionCell.swift in Sources */,
@@ -1163,6 +1184,7 @@
 				DEE51AF22AAB71BC0024FB36 /* PracticeView.swift in Sources */,
 				DE5506342A6589760057F9FB /* ScreenSize.swift in Sources */,
 				DEFE808B2A90EE8400FB96F0 /* AppleReceiptBuilder.swift in Sources */,
+				DE6150252ABA1AAC00ADB8FC /* GenderIdentityView.swift in Sources */,
 				DE55062D2A6589760057F9FB /* GlobalDefinitions.swift in Sources */,
 				DEEED5DA2AAF67480078653B /* PracticeAffirmationsView.swift in Sources */,
 				DEFE81A32AA0F1E800FB96F0 /* CategoriesCollectionElement.swift in Sources */,
@@ -1179,6 +1201,7 @@
 				DE5506452A6589760057F9FB /* PushNotificationsAuthorizationStatus.swift in Sources */,
 				DE5506392A6589760057F9FB /* ContentError.swift in Sources */,
 				DE5506422A6589760057F9FB /* GradientView.swift in Sources */,
+				DE6150232ABA1AA800ADB8FC /* GenderIdentityViewModel.swift in Sources */,
 				DEFE819F2AA0F1DD00FB96F0 /* CategoriesCollectionView.swift in Sources */,
 				DEEED5EA2AAF9C480078653B /* SettingsTableElement.swift in Sources */,
 				DE37861B2AB084F500E0CDCA /* BackupConfirmDisableView.swift in Sources */,
@@ -1213,6 +1236,7 @@
 				DEC61AA22A79382B008F9C97 /* NotificationSettings.swift in Sources */,
 				DEFE81AE2AA1D0D100FB96F0 /* RequestReview.swift in Sources */,
 				DEFE80912A90EE8400FB96F0 /* AppStoreReceipt.swift in Sources */,
+				DE6150212ABA1AA200ADB8FC /* GenderIdentityViewController.swift in Sources */,
 				DEFE808F2A90EE8400FB96F0 /* ArraySlice_UInt8+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -93,7 +93,7 @@ private extension SettingsRoute {
     var data: (UIImage?, String) {
         switch self {
         case .gender:
-            return (nil, "")
+            return (UIImage(named: "Settings.GenderIdentity"), "GenderIdentity.Title".localized)
         }
     }
 }

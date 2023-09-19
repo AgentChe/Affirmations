@@ -82,3 +82,7 @@
 "Backup.ConfirmDisable.Text" = "執行此操作後，您的數據將不再保存。";
 "Backup.ConfirmDisable.Disable" = "禁用";
 "Backup.ConfirmDisable.Cancel" = "取消";
+
+// MARK: Gender identity
+"GenderIdentity.Title" = "性别认同";
+"GenderIdentity.SubTitle" = "请设置您当前的所属性别。";

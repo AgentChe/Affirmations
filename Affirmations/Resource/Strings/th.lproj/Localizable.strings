@@ -82,3 +82,7 @@
 "Backup.ConfirmDisable.Text" = "ข้อมูลของคุณจะไม่ถูกบันทึกอีกต่อไปหลังจากดำเนินการนี้";
 "Backup.ConfirmDisable.Disable" = "ปิดการใช้งาน";
 "Backup.ConfirmDisable.Cancel" = "ยกเลิก";
+
+// MARK: Gender identity
+"GenderIdentity.Title" = "อัตลักษณ์ทางเพศ";
+"GenderIdentity.SubTitle" = ">กำหนดอัตลักษณ์ทางเพศในปัจจุบันของคุณ";

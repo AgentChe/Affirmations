@@ -45,6 +45,7 @@ private extension SettingsViewModel {
                 }
                 
                 result.append(.backup(enable: isGoogleSignIn))
+                result.append(.route(.gender))
                 
                 return result
             }
