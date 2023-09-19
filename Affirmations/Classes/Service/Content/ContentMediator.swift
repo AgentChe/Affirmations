@@ -16,6 +16,10 @@ final class ContentMediator {
     private lazy var didChangeSelectedCategoryTrigger = PublishRelay<Void>()
     private lazy var didSaveAffirmationTrigger = PublishRelay<String>()
     private lazy var didUnsaveAffirmationTrigger = PublishRelay<String>()
+    private lazy var didReplaceFavoritesTrigger = PublishRelay<Void>()
+    private lazy var didCreateAffirmationTrigger = PublishRelay<String>()
+    private lazy var didDeleteAffirmationTrigger = PublishRelay<String>()
+    private lazy var didReplaceMyTrigger = PublishRelay<Void>()
 }
 
 // MARK: Public
@@ -38,6 +42,30 @@ extension ContentMediator {
         }
     }
     
+    func replaceFavorites() {
+        DispatchQueue.main.async {
+            Self.shared.didReplaceFavoritesTrigger.accept(Void())
+        }
+    }
+    
+    func create(affirmation: String) {
+        DispatchQueue.main.async {
+            Self.shared.didCreateAffirmationTrigger.accept(affirmation)
+        }
+    }
+    
+    func delete(affirmation: String) {
+        DispatchQueue.main.async {
+            Self.shared.didDeleteAffirmationTrigger.accept(affirmation)
+        }
+    }
+    
+    func replaceMy() {
+        DispatchQueue.main.async {
+            Self.shared.didReplaceMyTrigger.accept(Void())
+        }
+    }
+    
     var didChangeSelectedCategory: Signal<Void> {
         didChangeSelectedCategoryTrigger.asSignal()
     }
@@ -48,5 +76,21 @@ extension ContentMediator {
     
     var didUnsaveAffirmation: Signal<String> {
         didUnsaveAffirmationTrigger.asSignal()
+    }
+    
+    var didReplacedFavorites: Signal<Void> {
+        didReplaceFavoritesTrigger.asSignal()
+    }
+    
+    var didCreateAffirmation: Signal<String> {
+        didCreateAffirmationTrigger.asSignal()
+    }
+    
+    var didDeleteAffirmation: Signal<String> {
+        didDeleteAffirmationTrigger.asSignal()
+    }
+    
+    var didReplacedMy: Signal<Void> {
+        didReplaceMyTrigger.asSignal()
     }
 }

@@ -17,12 +17,17 @@ protocol ContentManagerProtocol {
     func unsave(affirmation: String) -> Single<Void>
     func replace(favorites: [Affirmation]) -> Single<Void>
     func obtainFavoritesAffirmations() -> Single<[Affirmation]>
+    func create(affirmation: String) -> Single<Void>
+    func delete(affirmation: String) -> Single<Void>
+    func replace(my: [Affirmation]) -> Single<Void>
+    func obtainMyAffirmations() -> Single<[Affirmation]>
 }
 
 final class ContentManager {
     enum Constants {
         static let selectedCategory = "content_manager_selected_category"
         static let favoritesAffirmations = "content_manager_favorites_affirmations"
+        static let myAffirmations = "content_manager_my_affirmations"
     }
 }
 
@@ -160,6 +165,8 @@ extension ContentManager: ContentManagerProtocol {
             
             event(.success(Void()))
             
+            ContentMediator.shared.replaceFavorites()
+            
             return Disposables.create()
         }
     }
@@ -175,6 +182,94 @@ extension ContentManager: ContentManagerProtocol {
             }
             
             let array = Array(favorites)
+            
+            event(.success(array))
+            
+            return Disposables.create()
+        }
+    }
+    
+    func create(affirmation: String) -> Single<Void> {
+        Single<Void>.create { event in
+            var my: Set<Affirmation> = []
+            
+            if let data = UserDefaults.standard.data(forKey: Constants.myAffirmations) {
+                if let decoded = try? JSONDecoder().decode(Set<Affirmation>.self, from: data) {
+                    my = decoded
+                }
+            }
+            
+            let maxId = my.max(by: { $0.id > $1.id })?.id ?? 0
+            
+            my.insert(Affirmation(
+                id: maxId + 1,
+                message: affirmation,
+                date: Date()
+            ))
+            
+            if let data = try? JSONEncoder().encode(my) {
+                UserDefaults.standard.set(data, forKey: Constants.myAffirmations)
+            }
+            
+            event(.success(Void()))
+            
+            ContentMediator.shared.create(affirmation: affirmation)
+            
+            return Disposables.create()
+        }
+    }
+    
+    func delete(affirmation: String) -> Single<Void> {
+        Single<Void>.create { event in
+            var my: Set<Affirmation> = []
+            
+            if let data = UserDefaults.standard.data(forKey: Constants.myAffirmations) {
+                if let decoded = try? JSONDecoder().decode(Set<Affirmation>.self, from: data) {
+                    my = decoded
+                }
+            }
+            
+            if let index = my.firstIndex(where: { $0.message == affirmation }) {
+                my.remove(at: index)
+            }
+            
+            if let data = try? JSONEncoder().encode(my) {
+                UserDefaults.standard.set(data, forKey: Constants.myAffirmations)
+            }
+            
+            event(.success(Void()))
+            
+            ContentMediator.shared.delete(affirmation: affirmation)
+            
+            return Disposables.create()
+        }
+    }
+    
+    func replace(my: [Affirmation]) -> Single<Void> {
+        Single<Void>.create { event in
+            if let data = try? JSONEncoder().encode(my) {
+                UserDefaults.standard.set(data, forKey: Constants.myAffirmations)
+            }
+            
+            event(.success(Void()))
+            
+            ContentMediator.shared.replaceMy()
+            
+            return Disposables.create()
+        }
+    }
+    
+    func obtainMyAffirmations() -> Single<[Affirmation]> {
+        Single<[Affirmation]>.create { event in
+            var my: Set<Affirmation> = []
+            
+            if let data = UserDefaults.standard.data(forKey: Constants.myAffirmations) {
+                if let decoded = try? JSONDecoder().decode(Set<Affirmation>.self, from: data) {
+                    my = decoded
+                }
+            }
+            
+            let array = Array(my)
             
             event(.success(array))
             

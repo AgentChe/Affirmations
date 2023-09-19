@@ -196,9 +196,19 @@ private extension MainViewModel {
     }
     
     func makeFavoritesAffirmations() -> Driver<[String]> {
-        contentManager
-            .obtainFavoritesAffirmations()
-            .map { $0.map { $0.message } }
+        let affirmations = ContentMediator.shared
+            .didReplacedFavorites
+            .startWith(())
+            .flatMapLatest { [weak self] void -> Driver<[String]> in
+                guard let self else { return .never() }
+                
+                return self.contentManager
+                    .obtainFavoritesAffirmations()
+                    .map { $0.map { $0.message } }
+                    .asDriver(onErrorDriveWith: .never())
+            }
+        
+        return affirmations
             .asDriver(onErrorDriveWith: .never())
             .flatMap { affirmations -> Driver<[String]> in
                 Signal
