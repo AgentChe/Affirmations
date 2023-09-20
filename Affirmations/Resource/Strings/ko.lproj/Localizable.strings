@@ -86,3 +86,7 @@
 // MARK: Gender identity
 "GenderIdentity.Title" = "성 정체성";
 "GenderIdentity.SubTitle" = "현재의 성 정체성을 선택하세요.";
+
+// MARK: Content Preferences
+"ContentPreferences.Title" = "콘텐츠 환경설정";
+"ContentPreferences.SubTitle" = "당신의 삶의 어떤 부분을 개선하고 싶으신가요?";

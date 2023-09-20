@@ -86,3 +86,7 @@
 // MARK: Gender identity
 "GenderIdentity.Title" = "Cinsel kimlik";
 "GenderIdentity.SubTitle" = "Mevcut cinsel kimliğinizi belirleyin.";
+
+// MARK: Content Preferences
+"ContentPreferences.Title" = "İçerik Tercihleri";
+"ContentPreferences.SubTitle" = "Hayatınızın hangi alanlarını geliştirmek istersiniz?";

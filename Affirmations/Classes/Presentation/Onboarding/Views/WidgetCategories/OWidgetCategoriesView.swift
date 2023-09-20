@@ -45,6 +45,24 @@ private extension OWidgetCategoriesView {
             })
             .disposed(by: disposeBag)
         
+        button.rx.tap
+            .flatMapLatest { [weak self] elements -> Single<Void> in
+                guard let self else {
+                    return .never()
+                }
+                
+                let categories = self.collectionView.elements
+                    .filter { $0.marked }
+                    .map { $0.category }
+                
+                return self.contentManager
+                    .saveSelectedWidgets(categories: categories)
+            }
+            .bind(to: Binder(self) { base, void in
+                base.onNext()
+            })
+            .disposed(by: disposeBag)
+        
         collectionView.didSelectAction = { [weak self] in
             self?.changeEnable()
         }
@@ -140,7 +158,6 @@ private extension OWidgetCategoriesView {
         view.setAttributedTitle("Onboarding.Continue".localized.attributed(with: attrs), for: .normal)
         view.layer.cornerRadius = 25.scale
         view.backgroundColor = UIColor(integralRed: 110, green: 204, blue: 169)
-        view.addTarget(self, action: #selector(onNext), for: .touchUpInside)
         view.translatesAutoresizingMaskIntoConstraints = false
         addSubview(view)
         return view

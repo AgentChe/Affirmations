@@ -86,3 +86,7 @@
 // MARK: Gender identity
 "GenderIdentity.Title" = "Könsidentitet";
 "GenderIdentity.SubTitle" = "Ange din nuvarande könsidentitet.";
+
+// MARK: Content Preferences
+"ContentPreferences.Title" = "Innehållsval";
+"ContentPreferences.SubTitle" = "Vilka delar av ditt liv skulle du vilja förbättra?";

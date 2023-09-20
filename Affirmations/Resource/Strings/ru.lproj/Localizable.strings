@@ -86,3 +86,7 @@
 // MARK: Gender identity
 "GenderIdentity.Title" = "Гендерная идентичность";
 "GenderIdentity.SubTitle" = "Укажите свою текущую гендерную идентичность.";
+
+// MARK: Content Preferences
+"ContentPreferences.Title" = "Настройки контента";
+"ContentPreferences.SubTitle" = "Какую область вашей жизни вы хотели бы улучшить?";

@@ -60,6 +60,9 @@ private extension SettingsViewController {
             case .gender:
                 let vc = GenderIdentityViewController.make()
                 navigationController?.pushViewController(vc, animated: true)
+            case .contentPreferences:
+                let vc = ContentPreferencesViewController.make()
+                navigationController?.pushViewController(vc, animated: true)
             }
         case .backup:
             let vc = BackupViewController.make()

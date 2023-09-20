@@ -86,3 +86,7 @@
 // MARK: Gender identity
 "GenderIdentity.Title" = "ジェンダー・アイデンティティー";
 "GenderIdentity.SubTitle" = "現在のジェンダー・アイデンティティーを設定してください";
+
+// MARK: Content Preferences
+"ContentPreferences.Title" = "コンテンツ設定";
+"ContentPreferences.SubTitle" = "あなたの人生のどの領域を改善したいですか？";

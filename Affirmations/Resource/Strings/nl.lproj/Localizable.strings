@@ -86,3 +86,7 @@
 // MARK: Gender identity
 "GenderIdentity.Title" = "Geslachtsidentiteit";
 "GenderIdentity.SubTitle" = "Stel uw huidige geslachtsidentiteit in.";
+
+// MARK: Content Preferences
+"ContentPreferences.Title" = "Inhoudsvoorkeuren";
+"ContentPreferences.SubTitle" = "Welke aspecten van uw leven zou u willen verbeteren?";

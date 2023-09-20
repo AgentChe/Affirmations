@@ -86,3 +86,7 @@
 // MARK: Gender identity
 "GenderIdentity.Title" = "الهوية الجنسية";
 "GenderIdentity.SubTitle" = "حدد هويتك الجنسية الحالية.";
+
+// MARK: Content Preferences
+"ContentPreferences.Title" = "تفضيلات المحتوى";
+"ContentPreferences.SubTitle" = "أي مجالات حياتك تود تحسينها؟";

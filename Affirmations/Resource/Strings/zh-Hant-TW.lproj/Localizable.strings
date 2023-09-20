@@ -84,3 +84,7 @@
 // MARK: Gender identity
 "GenderIdentity.Title" = "性別認同";
 "GenderIdentity.SubTitle" = "設定您目前的性別認同。";
+
+// MARK: Content Preferences
+"ContentPreferences.Title" = "內容偏好";
+"ContentPreferences.SubTitle" = "您想改善生活的哪個區塊呢？";

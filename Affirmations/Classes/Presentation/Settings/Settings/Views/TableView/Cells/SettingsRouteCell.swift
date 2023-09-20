@@ -94,6 +94,8 @@ private extension SettingsRoute {
         switch self {
         case .gender:
             return (UIImage(named: "Settings.GenderIdentity"), "GenderIdentity.Title".localized)
+        case .contentPreferences:
+            return (UIImage(named: "Settings.ContentPreferences"), "ContentPreferences.Title".localized)
         }
     }
 }

@@ -13,4 +13,5 @@ enum SettingsTableElement {
 
 enum SettingsRoute {
     case gender
+    case contentPreferences
 }

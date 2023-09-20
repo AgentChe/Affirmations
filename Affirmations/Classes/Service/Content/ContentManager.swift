@@ -9,6 +9,8 @@ import RxSwift
 
 protocol ContentManagerProtocol {
     func obtainWidgetsCategories(for language: ApplicationLanguage) -> Single<[Category]>
+    func saveSelectedWidgets(categories: [Category]) -> Single<Void>
+    func obtainSelectedWidgetsCategories() -> Single<[Category]>
     func obtainCategories(for language: ApplicationLanguage) -> Single<[Category]>
     func obtainSelectedCategory(for language: ApplicationLanguage) -> Single<Category?>
     func select(categoryType: String) -> Single<Void>
@@ -28,6 +30,7 @@ final class ContentManager {
         static let selectedCategory = "content_manager_selected_category"
         static let favoritesAffirmations = "content_manager_favorites_affirmations"
         static let myAffirmations = "content_manager_my_affirmations"
+        static let selectedWidgetsCategories = "content_manager_selected_widgets_categories"
     }
 }
 
@@ -46,6 +49,34 @@ extension ContentManager: ContentManagerProtocol {
             
             let categories = CategoryMapper.widgetsCategories(from: json)
             event(.success(categories))
+            
+            return Disposables.create()
+        }
+    }
+    
+    func saveSelectedWidgets(categories: [Category]) -> Single<Void> {
+        Single<Void>.create { single in
+            if let data = try? JSONEncoder().encode(categories) {
+                UserDefaults.standard.set(data, forKey: Constants.selectedWidgetsCategories)
+            }
+            
+            single(.success(Void()))
+            
+            return Disposables.create()
+        }
+    }
+    
+    func obtainSelectedWidgetsCategories() -> Single<[Category]> {
+        Single<[Category]>.create { single in
+            var categories = [Category]()
+            
+            if let data = UserDefaults.standard.data(forKey: Constants.selectedWidgetsCategories) {
+                if let decoded = try? JSONDecoder().decode([Category].self, from: data) {
+                    categories = decoded
+                }
+            }
+            
+            single(.success(categories))
             
             return Disposables.create()
         }

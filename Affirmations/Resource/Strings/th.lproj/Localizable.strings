@@ -86,3 +86,7 @@
 // MARK: Gender identity
 "GenderIdentity.Title" = "อัตลักษณ์ทางเพศ";
 "GenderIdentity.SubTitle" = ">กำหนดอัตลักษณ์ทางเพศในปัจจุบันของคุณ";
+
+// MARK: Content Preferences
+"ContentPreferences.Title" = "การตั้งค่าเนื้อหา";
+"ContentPreferences.SubTitle" = "คุณต้องการปรับปรุงด้านใดในชีวิตคุณ";
