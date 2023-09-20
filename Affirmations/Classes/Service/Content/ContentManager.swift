@@ -62,6 +62,8 @@ extension ContentManager: ContentManagerProtocol {
             
             single(.success(Void()))
             
+            ContentWidgetsManager.shared.write(categories: categories)
+            
             return Disposables.create()
         }
     }
