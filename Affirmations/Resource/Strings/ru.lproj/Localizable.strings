@@ -90,3 +90,17 @@
 // MARK: Content Preferences
 "ContentPreferences.Title" = "Настройки контента";
 "ContentPreferences.SubTitle" = "Какую область вашей жизни вы хотели бы улучшить?";
+
+// MARK: Reminders
+"Reminders.Title" = "Напоминания";
+"Reminders.SubTitle" = "Настройте ежедневные напоминания так, чтобы ваши установки отвечали вашему распорядку дня.";
+"Reminders.Su" = "Вс";
+"Reminders.Mo" = "Пн";
+"Reminders.Tu" = "Вт";
+"Reminders.We" = "Ср";
+"Reminders.Th" = "Чт";
+"Reminders.Fr" = "Пт";
+"Reminders.Sa" = "Сб";
+"Reminders.EveryDay" = "Каждый день недели";
+"Reminders.UnlockButton" = "Разблокировать больше напоминаний";
+"Reminders.AddButton" = "Добавить напоминание";

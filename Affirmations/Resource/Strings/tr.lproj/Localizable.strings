@@ -90,3 +90,17 @@
 // MARK: Content Preferences
 "ContentPreferences.Title" = "İçerik Tercihleri";
 "ContentPreferences.SubTitle" = "Hayatınızın hangi alanlarını geliştirmek istersiniz?";
+
+// MARK: Reminders
+"Reminders.Title" = "Hatırlatıcılar";
+"Reminders.SubTitle" = "Olumlamalarınızı rutinlerinize uydurmak için günlük hatırlatıcılarınızı ayarlayın.";
+"Reminders.Su" = "Sal";
+"Reminders.Mo" = "Pzt";
+"Reminders.Tu" = "Sal";
+"Reminders.We" = "Çar";
+"Reminders.Th" = "Per";
+"Reminders.Fr" = "Cuma";
+"Reminders.Sa" = "Cmt";
+"Reminders.EveryDay" = "Hafta içi her gün";
+"Reminders.UnlockButton" = "Daha Fazla Hatırlatıcının Kilidini Aç";
+"Reminders.AddButton" = "Hatırlatıcı Ekle";

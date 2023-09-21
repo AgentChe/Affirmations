@@ -90,3 +90,17 @@
 // MARK: Content Preferences
 "ContentPreferences.Title" = "コンテンツ設定";
 "ContentPreferences.SubTitle" = "あなたの人生のどの領域を改善したいですか？";
+
+// MARK: Reminders
+"Reminders.Title" = "リマインダー";
+"Reminders.SubTitle" = "アファメーションがあなたのルーチンに合うように、毎日のリマインダーを設定しましょう。";
+"Reminders.Su" = "火曜日";
+"Reminders.Mo" = "月曜日";
+"Reminders.Tu" = "火曜日";
+"Reminders.We" = "水曜日";
+"Reminders.Th" = "木曜日";
+"Reminders.Fr" = "金曜日";
+"Reminders.Sa" = "土曜日";
+"Reminders.EveryDay" = "すべての平日";
+"Reminders.UnlockButton" = "その他の設定のロックを解除する";
+"Reminders.AddButton" = "リマインダーを追加する";

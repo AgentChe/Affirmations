@@ -24,6 +24,12 @@
 		DE23668C2ABB68230088A1C0 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61AB12A7ACA38008F9C97 /* Localizable.swift */; };
 		DE23668D2ABB68270088A1C0 /* ApplicationLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61AAF2A7AC8D3008F9C97 /* ApplicationLanguage.swift */; };
 		DE2366902ABB6F2E0088A1C0 /* category in Resources */ = {isa = PBXBuildFile; fileRef = DEC61E5F2A7AE50C008F9C97 /* category */; };
+		DE2366922ABC7E800088A1C0 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2366912ABC7E800088A1C0 /* Reminder.swift */; };
+		DE2366952ABC8CA20088A1C0 /* RemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2366942ABC8CA20088A1C0 /* RemindersView.swift */; };
+		DE2366972ABC8CAA0088A1C0 /* RemindersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2366962ABC8CAA0088A1C0 /* RemindersViewController.swift */; };
+		DE2366992ABC8CAF0088A1C0 /* RemindersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2366982ABC8CAF0088A1C0 /* RemindersViewModel.swift */; };
+		DE23669D2ABC8E1D0088A1C0 /* RemindersTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE23669C2ABC8E1D0088A1C0 /* RemindersTableView.swift */; };
+		DE23669F2ABC8E2D0088A1C0 /* RemindersTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE23669E2ABC8E2D0088A1C0 /* RemindersTableCell.swift */; };
 		DE37860C2AB070CB00E0CDCA /* SettingsBackupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE37860B2AB070CB00E0CDCA /* SettingsBackupCell.swift */; };
 		DE3786102AB0752E00E0CDCA /* BackupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE37860F2AB0752E00E0CDCA /* BackupViewController.swift */; };
 		DE3786142AB0753800E0CDCA /* BackupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3786132AB0753800E0CDCA /* BackupView.swift */; };
@@ -97,7 +103,6 @@
 		DEC61A9A2A78FB14008F9C97 /* ONSStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61A992A78FB14008F9C97 /* ONSStartView.swift */; };
 		DEC61A9C2A78FB2C008F9C97 /* ONSEndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61A9B2A78FB2C008F9C97 /* ONSEndView.swift */; };
 		DEC61A9F2A7937F6008F9C97 /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61A9E2A7937F6008F9C97 /* ProfileManager.swift */; };
-		DEC61AA22A79382B008F9C97 /* NotificationSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61AA12A79382B008F9C97 /* NotificationSettings.swift */; };
 		DEC61AA42A7938C2008F9C97 /* DayOfWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61AA32A7938C2008F9C97 /* DayOfWeek.swift */; };
 		DEC61AA62A793900008F9C97 /* WeekSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61AA52A793900008F9C97 /* WeekSchedule.swift */; };
 		DEC61AA82A7A1EAA008F9C97 /* OWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61AA72A7A1EAA008F9C97 /* OWidgetView.swift */; };
@@ -206,6 +211,12 @@
 		DE2366862ABB5BCA0088A1C0 /* ContentWidgetsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentWidgetsManager.swift; sourceTree = "<group>"; };
 		DE23668E2ABB6A3A0088A1C0 /* Affirmations.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Affirmations.entitlements; sourceTree = "<group>"; };
 		DE23668F2ABB6A470088A1C0 /* AffirmationsWidgetsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AffirmationsWidgetsExtension.entitlements; sourceTree = "<group>"; };
+		DE2366912ABC7E800088A1C0 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		DE2366942ABC8CA20088A1C0 /* RemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersView.swift; sourceTree = "<group>"; };
+		DE2366962ABC8CAA0088A1C0 /* RemindersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersViewController.swift; sourceTree = "<group>"; };
+		DE2366982ABC8CAF0088A1C0 /* RemindersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersViewModel.swift; sourceTree = "<group>"; };
+		DE23669C2ABC8E1D0088A1C0 /* RemindersTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersTableView.swift; sourceTree = "<group>"; };
+		DE23669E2ABC8E2D0088A1C0 /* RemindersTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersTableCell.swift; sourceTree = "<group>"; };
 		DE37860B2AB070CB00E0CDCA /* SettingsBackupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsBackupCell.swift; sourceTree = "<group>"; };
 		DE37860F2AB0752E00E0CDCA /* BackupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupViewController.swift; sourceTree = "<group>"; };
 		DE3786132AB0753800E0CDCA /* BackupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupView.swift; sourceTree = "<group>"; };
@@ -311,7 +322,6 @@
 		DEC61A992A78FB14008F9C97 /* ONSStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ONSStartView.swift; sourceTree = "<group>"; };
 		DEC61A9B2A78FB2C008F9C97 /* ONSEndView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ONSEndView.swift; sourceTree = "<group>"; };
 		DEC61A9E2A7937F6008F9C97 /* ProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileManager.swift; sourceTree = "<group>"; };
-		DEC61AA12A79382B008F9C97 /* NotificationSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettings.swift; sourceTree = "<group>"; };
 		DEC61AA32A7938C2008F9C97 /* DayOfWeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOfWeek.swift; sourceTree = "<group>"; };
 		DEC61AA52A793900008F9C97 /* WeekSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekSchedule.swift; sourceTree = "<group>"; };
 		DEC61AA72A7A1EAA008F9C97 /* OWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWidgetView.swift; sourceTree = "<group>"; };
@@ -438,6 +448,34 @@
 				DE14D6702A658C4100DBFE1D /* proximanova_regular.ttf */,
 			);
 			path = ProximaNova;
+			sourceTree = "<group>";
+		};
+		DE2366932ABC8C970088A1C0 /* Reminders */ = {
+			isa = PBXGroup;
+			children = (
+				DE23669A2ABC8E000088A1C0 /* Views */,
+				DE2366962ABC8CAA0088A1C0 /* RemindersViewController.swift */,
+				DE2366982ABC8CAF0088A1C0 /* RemindersViewModel.swift */,
+				DE2366942ABC8CA20088A1C0 /* RemindersView.swift */,
+			);
+			path = Reminders;
+			sourceTree = "<group>";
+		};
+		DE23669A2ABC8E000088A1C0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE23669B2ABC8E0B0088A1C0 /* TableiView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DE23669B2ABC8E0B0088A1C0 /* TableiView */ = {
+			isa = PBXGroup;
+			children = (
+				DE23669C2ABC8E1D0088A1C0 /* RemindersTableView.swift */,
+				DE23669E2ABC8E2D0088A1C0 /* RemindersTableCell.swift */,
+			);
+			path = TableiView;
 			sourceTree = "<group>";
 		};
 		DE37860D2AB0751200E0CDCA /* Settings */ = {
@@ -791,9 +829,6 @@
 		DEC61AA02A79381E008F9C97 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				DEC61AA12A79382B008F9C97 /* NotificationSettings.swift */,
-				DEC61AA32A7938C2008F9C97 /* DayOfWeek.swift */,
-				DEC61AA52A793900008F9C97 /* WeekSchedule.swift */,
 				DEC61E142A7AD38B008F9C97 /* Gender.swift */,
 			);
 			path = Model;
@@ -823,8 +858,11 @@
 		DEC61E542A7ADA34008F9C97 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DEC61AA32A7938C2008F9C97 /* DayOfWeek.swift */,
+				DEC61AA52A793900008F9C97 /* WeekSchedule.swift */,
 				DEC61E552A7ADB32008F9C97 /* Category.swift */,
 				DE07C9E82AAA4A1400C81E08 /* Affirmation.swift */,
+				DE2366912ABC7E800088A1C0 /* Reminder.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -909,6 +947,7 @@
 		DEEED5DD2AAF988B0078653B /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				DE2366932ABC8C970088A1C0 /* Reminders */,
 				DE6150282ABB46CF00ADB8FC /* ContentPreferences */,
 				DE61501F2ABA1A9700ADB8FC /* GenderIdentity */,
 				DE37860E2AB0752000E0CDCA /* Backup */,
@@ -1321,6 +1360,7 @@
 				DE5506342A6589760057F9FB /* ScreenSize.swift in Sources */,
 				DEFE808B2A90EE8400FB96F0 /* AppleReceiptBuilder.swift in Sources */,
 				DE6150252ABA1AAC00ADB8FC /* GenderIdentityView.swift in Sources */,
+				DE2366952ABC8CA20088A1C0 /* RemindersView.swift in Sources */,
 				DE55062D2A6589760057F9FB /* GlobalDefinitions.swift in Sources */,
 				DEEED5DA2AAF67480078653B /* PracticeAffirmationsView.swift in Sources */,
 				DEFE81A32AA0F1E800FB96F0 /* CategoriesCollectionElement.swift in Sources */,
@@ -1338,6 +1378,7 @@
 				DE5506392A6589760057F9FB /* ContentError.swift in Sources */,
 				DE5506422A6589760057F9FB /* GradientView.swift in Sources */,
 				DE61502A2ABB46D800ADB8FC /* ContentPreferencesViewController.swift in Sources */,
+				DE2366972ABC8CAA0088A1C0 /* RemindersViewController.swift in Sources */,
 				DE6150232ABA1AA800ADB8FC /* GenderIdentityViewModel.swift in Sources */,
 				DEFE819F2AA0F1DD00FB96F0 /* CategoriesCollectionView.swift in Sources */,
 				DE2366872ABB5BCA0088A1C0 /* ContentWidgetsManager.swift in Sources */,
@@ -1365,13 +1406,16 @@
 				DE5506402A6589760057F9FB /* PaddingTextField.swift in Sources */,
 				DE5506442A6589760057F9FB /* PushNotificationsManager.swift in Sources */,
 				DEC61A612A7661AB008F9C97 /* OnboardingViewModel.swift in Sources */,
+				DE2366992ABC8CAF0088A1C0 /* RemindersViewModel.swift in Sources */,
 				DEFE80952A90EE8400FB96F0 /* ReceiptReadingError.swift in Sources */,
 				DE5506652A6589810057F9FB /* IAPError.swift in Sources */,
 				DE07C9E92AAA4A1400C81E08 /* Affirmation.swift in Sources */,
+				DE23669F2ABC8E2D0088A1C0 /* RemindersTableCell.swift in Sources */,
 				DE5506252A6589760057F9FB /* UIDevice+Extension.swift in Sources */,
 				DE5506362A6589760057F9FB /* Fonts.swift in Sources */,
+				DE2366922ABC7E800088A1C0 /* Reminder.swift in Sources */,
 				DE5506282A6589760057F9FB /* Collection+Extension.swift in Sources */,
-				DEC61AA22A79382B008F9C97 /* NotificationSettings.swift in Sources */,
+				DE23669D2ABC8E1D0088A1C0 /* RemindersTableView.swift in Sources */,
 				DEFE81AE2AA1D0D100FB96F0 /* RequestReview.swift in Sources */,
 				DEFE80912A90EE8400FB96F0 /* AppStoreReceipt.swift in Sources */,
 				DE6150212ABA1AA200ADB8FC /* GenderIdentityViewController.swift in Sources */,

@@ -90,3 +90,17 @@
 // MARK: Content Preferences
 "ContentPreferences.Title" = "콘텐츠 환경설정";
 "ContentPreferences.SubTitle" = "당신의 삶의 어떤 부분을 개선하고 싶으신가요?";
+
+// MARK: Reminders
+"Reminders.Title" = "미리 알림";
+"Reminders.SubTitle" = "당신의 확언이 당신의 일상에 맞도록 매일 알림을 설정하세요.";
+"Reminders.Su" = "화요일";
+"Reminders.Mo" = "월요일";
+"Reminders.Tu" = "화요일";
+"Reminders.We" = "수요일";
+"Reminders.Th" = "목요일";
+"Reminders.Fr" = "금요일";
+"Reminders.Sa" = "토요일";
+"Reminders.EveryDay" = "매주 평일";
+"Reminders.UnlockButton" = "더 많은 미리 알림 잠금 해제";
+"Reminders.AddButton" = "미리 알림 추가";

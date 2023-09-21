@@ -90,3 +90,17 @@
 // MARK: Content Preferences
 "ContentPreferences.Title" = "Innehållsval";
 "ContentPreferences.SubTitle" = "Vilka delar av ditt liv skulle du vilja förbättra?";
+
+// MARK: Reminders
+"Reminders.Title" = "Påminnelser";
+"Reminders.SubTitle" = "Ställ in dina dagliga påminnelser så att dina affirmationer passar dina rutiner.";
+"Reminders.Su" = "tis.";
+"Reminders.Mo" = "mån.";
+"Reminders.Tu" = "tis.";
+"Reminders.We" = "ons.";
+"Reminders.Th" = "tors.";
+"Reminders.Fr" = "fre.";
+"Reminders.Sa" = "lör.";
+"Reminders.EveryDay" = "Varje veckodag";
+"Reminders.UnlockButton" = "Lås upp fler påminnelser";
+"Reminders.AddButton" = "Lägg till påminnelse";

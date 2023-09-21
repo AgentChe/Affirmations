@@ -88,3 +88,17 @@
 // MARK: Content Preferences
 "ContentPreferences.Title" = "內容偏好";
 "ContentPreferences.SubTitle" = "您想改善生活的哪個區塊呢？";
+
+// MARK: Reminders
+"Reminders.Title" = "提醒";
+"Reminders.SubTitle" = "設定您的每日提醒，讓您的肯定話語符合您的日常生活。";
+"Reminders.Su" = "星期二";
+"Reminders.Mo" = "星期一";
+"Reminders.Tu" = "星期二";
+"Reminders.We" = "星期三";
+"Reminders.Th" = "星期四";
+"Reminders.Fr" = "星期五";
+"Reminders.Sa" = "星期六";
+"Reminders.EveryDay" = "每個平日";
+"Reminders.UnlockButton" = "解鎖更多提醒";
+"Reminders.AddButton" = "增加提醒";

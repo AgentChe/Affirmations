@@ -90,3 +90,17 @@
 // MARK: Content Preferences
 "ContentPreferences.Title" = "تفضيلات المحتوى";
 "ContentPreferences.SubTitle" = "أي مجالات حياتك تود تحسينها؟";
+
+// MARK: Reminders
+"Reminders.Title" = "التذكيرات";
+"Reminders.SubTitle" = "أعد إشعاراتك اليومية لتناسب الأقوال الخاصة بك نمط حياتك.";
+"Reminders.Su" = "الثلاثاء";
+"Reminders.Mo" = "الاثنين";
+"Reminders.Tu" = "الثلاثاء";
+"Reminders.We" = "الأربعاء";
+"Reminders.Th" = "الخميس";
+"Reminders.Fr" = "الجمعة";
+"Reminders.Sa" = "السبت";
+"Reminders.EveryDay" = "كل عطلة نهاية أسبوع";
+"Reminders.UnlockButton" = "افتح المزيد من التذكيرات";
+"Reminders.AddButton" = "اضف تذكيرا";

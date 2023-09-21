@@ -90,3 +90,17 @@
 // MARK: Content Preferences
 "ContentPreferences.Title" = "Inhoudsvoorkeuren";
 "ContentPreferences.SubTitle" = "Welke aspecten van uw leven zou u willen verbeteren?";
+
+// MARK: Reminders
+"Reminders.Title" = "Herinneringen";
+"Reminders.SubTitle" = "Stel uw dagelijkse herinneringen in om uw bevestigingen in uw routines in te schakelen.";
+"Reminders.Su" = "Di";
+"Reminders.Mo" = "Ma";
+"Reminders.Tu" = "Di";
+"Reminders.We" = "Woe";
+"Reminders.Th" = "Do";
+"Reminders.Fr" = "Vrij";
+"Reminders.Sa" = "Za";
+"Reminders.EveryDay" = "Elke doordeweekse dag";
+"Reminders.UnlockButton" = "Ontgrendel meer herinneringen";
+"Reminders.AddButton" = "Herinnering toevoegen";

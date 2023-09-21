@@ -8,6 +8,8 @@
 import RxSwift
 
 protocol ContentManagerProtocol {
+    func add(reminder: Reminder) -> Single<Void>
+    func obtainReminders() -> Single<[Reminder]>
     func obtainWidgetsCategories(for language: ApplicationLanguage) -> Single<[Category]>
     func saveSelectedWidgets(categories: [Category]) -> Single<Void>
     func obtainSelectedWidgetsCategories() -> Single<[Category]>
@@ -31,11 +33,56 @@ final class ContentManager {
         static let favoritesAffirmations = "content_manager_favorites_affirmations"
         static let myAffirmations = "content_manager_my_affirmations"
         static let selectedWidgetsCategories = "content_manager_selected_widgets_categories"
+        static let reminders = "content_manager_reminders"
     }
 }
 
 // MARK: ContentManagerProtocol
 extension ContentManager: ContentManagerProtocol {
+    func add(reminder: Reminder) -> Single<Void> {
+        Single<Void>.create { single in
+            var reminders = [Reminder]()
+            
+            if let data = UserDefaults.standard.data(forKey: Constants.reminders) {
+                if let decoded = try? JSONDecoder().decode([Reminder].self, from: data) {
+                    reminders = decoded
+                }
+            }
+            
+            if let index = reminders.firstIndex(where: { $0.id == reminder.id }) {
+                reminders[index] = reminder
+            } else {
+                reminders.append(reminder)
+            }
+            
+            if let data = try? JSONEncoder().encode(reminders) {
+                UserDefaults.standard.set(data, forKey: Constants.reminders)
+            }
+            
+            single(.success(Void()))
+            
+            ContentMediator.shared.replaceReminders()
+            
+            return Disposables.create()
+        }
+    }
+    
+    func obtainReminders() -> Single<[Reminder]> {
+        Single<[Reminder]>.create { single in
+            var reminders = [Reminder]()
+            
+            if let data = UserDefaults.standard.data(forKey: Constants.reminders) {
+                if let decoded = try? JSONDecoder().decode([Reminder].self, from: data) {
+                    reminders = decoded
+                }
+            }
+            
+            single(.success(reminders))
+            
+            return Disposables.create()
+        }
+    }
+    
     func obtainWidgetsCategories(for language: ApplicationLanguage) -> Single<[Category]> {
         Single<[Category]>.create { event in
             guard

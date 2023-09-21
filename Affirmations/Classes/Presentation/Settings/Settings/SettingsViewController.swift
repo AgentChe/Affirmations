@@ -63,6 +63,9 @@ private extension SettingsViewController {
             case .contentPreferences:
                 let vc = ContentPreferencesViewController.make()
                 navigationController?.pushViewController(vc, animated: true)
+            case .reminders:
+                let vc = RemindersViewController.make()
+                navigationController?.pushViewController(vc, animated: true)
             }
         case .backup:
             let vc = BackupViewController.make()

@@ -90,3 +90,17 @@
 // MARK: Content Preferences
 "ContentPreferences.Title" = "การตั้งค่าเนื้อหา";
 "ContentPreferences.SubTitle" = "คุณต้องการปรับปรุงด้านใดในชีวิตคุณ";
+
+// MARK: Reminders
+"Reminders.Title" = "การช่วยเตือน";
+"Reminders.SubTitle" = "ตั้งค่าการเตือนความจำรายวันของคุณเพื่อทำให้คำพูดยืนยันของคุณเข้ากับกิจวัตรประจำวันของคุณ";
+"Reminders.Su" = "อ.";
+"Reminders.Mo" = "จ.";
+"Reminders.Tu" = "อ.";
+"Reminders.We" = "พ.";
+"Reminders.Th" = "พฤ.";
+"Reminders.Fr" = "ศ.";
+"Reminders.Sa" = "ส.";
+"Reminders.EveryDay" = "ทุกวันทําการ";
+"Reminders.UnlockButton" = "ปลดล็อกการช่วยเตือนเพิ่มเติม";
+"Reminders.AddButton" = "เพิ่มการช่วยเตือน";

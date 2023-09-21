@@ -90,3 +90,17 @@
 // MARK: Content Preferences
 "ContentPreferences.Title" = "Content Preferences";
 "ContentPreferences.SubTitle" = "What areas of your life would you like to improve?";
+
+// MARK: Reminders
+"Reminders.Title" = "Reminders";
+"Reminders.SubTitle" = "Set up your daily reminders to make your affirmations fit your routines.";
+"Reminders.Su" = "Sun";
+"Reminders.Mo" = "Mon";
+"Reminders.Tu" = "Tue";
+"Reminders.We" = "Wed";
+"Reminders.Th" = "Thu";
+"Reminders.Fr" = "Fri";
+"Reminders.Sa" = "Sat";
+"Reminders.EveryDay" = "Every weekday";
+"Reminders.UnlockButton" = "Unlock More Reminders";
+"Reminders.AddButton" = "Add Reminder";

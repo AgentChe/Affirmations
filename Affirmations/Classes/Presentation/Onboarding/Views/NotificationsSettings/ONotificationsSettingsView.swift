@@ -19,7 +19,7 @@ final class ONotificationsSettingsView: OSlideView {
     
     private lazy var disposeBag = DisposeBag()
     
-    private lazy var profileManager = ProfileManager()
+    private lazy var contentManager = ContentManager()
     
     override init(step: OnboardingView.Step) {
         super.init(step: step)
@@ -28,7 +28,19 @@ final class ONotificationsSettingsView: OSlideView {
         initialize()
         
         button.rx.tap
-            .flatMapLatest { [weak self] void -> Driver<Void> in
+            .flatMapLatest { [weak self] void -> Driver<Category> in
+                guard let self = self else {
+                    return .never()
+                }
+                
+                return self.contentManager
+                    .obtainCategories(for: Localizable.shared.currentLanguage)
+                    .compactMap { categories -> Category? in
+                        categories.first(where: { $0.type == "COMMON_TOPICS" })
+                    }
+                    .asDriver(onErrorDriveWith: .never())
+            }
+            .flatMapLatest { [weak self] category -> Driver<Void> in
                 guard let self = self else {
                     return .never()
                 }
@@ -43,15 +55,20 @@ final class ONotificationsSettingsView: OSlideView {
                     sa: false
                 )
                 
-                let settings = NotificationSettings(
+                let reminder = Reminder(
+                    id: UUID().uuidString,
+                    created: Date(),
                     count: self.countView.value,
                     start: self.starView.value,
                     end: self.endView.value,
-                    weekSchedule: schedule
+                    weekSchedule: schedule,
+                    sound: nil,
+                    categories: [category],
+                    enable: true
                 )
                 
-                return self.profileManager
-                    .setup(settings: settings)
+                return self.contentManager
+                    .add(reminder: reminder)
                     .asDriver(onErrorDriveWith: .never())
             }
             .asDriver(onErrorDriveWith: .never())
