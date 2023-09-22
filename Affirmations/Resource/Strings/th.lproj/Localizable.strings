@@ -104,3 +104,28 @@
 "Reminders.EveryDay" = "ทุกวันทําการ";
 "Reminders.UnlockButton" = "ปลดล็อกการช่วยเตือนเพิ่มเติม";
 "Reminders.AddButton" = "เพิ่มการช่วยเตือน";
+
+// MARK: EditReminder
+"EditReminder.Title" = "แก้ไขการช่วยเตือน";
+"EditReminder.TypeOfAffirmations" = "ประเภทของคำพูดยืนยัน";
+"EditReminder.Sound" = "เสียง";
+
+// MARK: Sounds
+"Sounds.SubTitle" = "เลือกเสียงที่จะเล่นในการแจ้งเตือน";
+"Sounds.Not" = "ไม่มีเสียง";
+"Sounds.AcmeSiren" = "เสียงหวีด";
+"Sounds.Bicycle" = "ค่าเริ่มต้นของระบบ";
+"Sounds.Chimes" = "เสียงกังวาน";
+"Sounds.Coin" = "เหรียญ";
+"Sounds.Correct" = "ถูกต้อง";
+"Sounds.Domino" = "โดมิโน";
+"Sounds.Drop" = "เสียงหยดน้ำ";
+"Sounds.Drums" = "กลอง";
+"Sounds.Frog" = "กบ";
+"Sounds.Galaxy" = "กาแล็กซี";
+"Sounds.MagicWand" = "ไม้กายสิทธิ์";
+"Sounds.Messenger" = "Messenger";
+"Sounds.Positive" = "เชิงบวก";
+"Sounds.Spaceship" = "ยานอวกาศ";
+"Sounds.Tada" = "ทาดะ";
+"Sounds.VideoGame" = "วิดีโอเกม";

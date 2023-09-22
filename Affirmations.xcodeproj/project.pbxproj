@@ -30,6 +30,29 @@
 		DE2366992ABC8CAF0088A1C0 /* RemindersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2366982ABC8CAF0088A1C0 /* RemindersViewModel.swift */; };
 		DE23669D2ABC8E1D0088A1C0 /* RemindersTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE23669C2ABC8E1D0088A1C0 /* RemindersTableView.swift */; };
 		DE23669F2ABC8E2D0088A1C0 /* RemindersTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE23669E2ABC8E2D0088A1C0 /* RemindersTableCell.swift */; };
+		DE2366A32ABCAA9D0088A1C0 /* EditReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2366A22ABCAA9D0088A1C0 /* EditReminderViewController.swift */; };
+		DE2366A52ABCAAA20088A1C0 /* EditReminderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2366A42ABCAAA20088A1C0 /* EditReminderViewModel.swift */; };
+		DE2366A72ABCAAA60088A1C0 /* EditReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2366A62ABCAAA60088A1C0 /* EditReminderView.swift */; };
+		DE2366A92ABCACA50088A1C0 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2366A82ABCACA50088A1C0 /* Sound.swift */; };
+		DE2366AD2ABCAF660088A1C0 /* EditReminderTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2366AC2ABCAF660088A1C0 /* EditReminderTableView.swift */; };
+		DE2366AF2ABCAF6F0088A1C0 /* EditReminderTableElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2366AE2ABCAF6F0088A1C0 /* EditReminderTableElement.swift */; };
+		DE2366B22ABCAF850088A1C0 /* EditReminderCategoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2366B12ABCAF850088A1C0 /* EditReminderCategoriesCell.swift */; };
+		DE2366B42ABCAFA40088A1C0 /* EditReminderSettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2366B32ABCAFA40088A1C0 /* EditReminderSettingsCell.swift */; };
+		DE2366B62ABCAFAC0088A1C0 /* EditReminderScheduleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2366B52ABCAFAC0088A1C0 /* EditReminderScheduleCell.swift */; };
+		DE2366B82ABCAFB50088A1C0 /* EditReminderSoundCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2366B72ABCAFB50088A1C0 /* EditReminderSoundCell.swift */; };
+		DE2366BB2ABCC4520088A1C0 /* DayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2366BA2ABCC4520088A1C0 /* DayButton.swift */; };
+		DE2366C02ABD766A0088A1C0 /* SoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2366BF2ABD766A0088A1C0 /* SoundsViewController.swift */; };
+		DE2366C22ABD766F0088A1C0 /* SoundsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2366C12ABD766F0088A1C0 /* SoundsViewModel.swift */; };
+		DE2366C42ABD76740088A1C0 /* SoundsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2366C32ABD76740088A1C0 /* SoundsView.swift */; };
+		DE2366C82ABD7B3C0088A1C0 /* SoundsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2366C72ABD7B3C0088A1C0 /* SoundsTableView.swift */; };
+		DE2366CA2ABD7B420088A1C0 /* SoundsTableElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2366C92ABD7B420088A1C0 /* SoundsTableElement.swift */; };
+		DE2366CC2ABD7B470088A1C0 /* SoundsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2366CB2ABD7B470088A1C0 /* SoundsTableCell.swift */; };
+		DE2366F02ABD969E0088A1C0 /* CategoriesUnitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2366EF2ABD969E0088A1C0 /* CategoriesUnitsViewController.swift */; };
+		DE2366F22ABD96A40088A1C0 /* CategoriesUnitsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2366F12ABD96A40088A1C0 /* CategoriesUnitsViewModel.swift */; };
+		DE2366F42ABD96A90088A1C0 /* CategoriesUnitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2366F32ABD96A90088A1C0 /* CategoriesUnitsView.swift */; };
+		DE2366F82ABD96F90088A1C0 /* CategoriesUnitsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2366F72ABD96F90088A1C0 /* CategoriesUnitsTableView.swift */; };
+		DE2366FA2ABD96FF0088A1C0 /* CategoriesUnitsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2366F92ABD96FF0088A1C0 /* CategoriesUnitsTableCell.swift */; };
+		DE2366FC2ABD97070088A1C0 /* CategoriesUnitsTableElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2366FB2ABD97070088A1C0 /* CategoriesUnitsTableElement.swift */; };
 		DE37860C2AB070CB00E0CDCA /* SettingsBackupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE37860B2AB070CB00E0CDCA /* SettingsBackupCell.swift */; };
 		DE3786102AB0752E00E0CDCA /* BackupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE37860F2AB0752E00E0CDCA /* BackupViewController.swift */; };
 		DE3786142AB0753800E0CDCA /* BackupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3786132AB0753800E0CDCA /* BackupView.swift */; };
@@ -217,6 +240,29 @@
 		DE2366982ABC8CAF0088A1C0 /* RemindersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersViewModel.swift; sourceTree = "<group>"; };
 		DE23669C2ABC8E1D0088A1C0 /* RemindersTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersTableView.swift; sourceTree = "<group>"; };
 		DE23669E2ABC8E2D0088A1C0 /* RemindersTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersTableCell.swift; sourceTree = "<group>"; };
+		DE2366A22ABCAA9D0088A1C0 /* EditReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditReminderViewController.swift; sourceTree = "<group>"; };
+		DE2366A42ABCAAA20088A1C0 /* EditReminderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditReminderViewModel.swift; sourceTree = "<group>"; };
+		DE2366A62ABCAAA60088A1C0 /* EditReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditReminderView.swift; sourceTree = "<group>"; };
+		DE2366A82ABCACA50088A1C0 /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		DE2366AC2ABCAF660088A1C0 /* EditReminderTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditReminderTableView.swift; sourceTree = "<group>"; };
+		DE2366AE2ABCAF6F0088A1C0 /* EditReminderTableElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditReminderTableElement.swift; sourceTree = "<group>"; };
+		DE2366B12ABCAF850088A1C0 /* EditReminderCategoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditReminderCategoriesCell.swift; sourceTree = "<group>"; };
+		DE2366B32ABCAFA40088A1C0 /* EditReminderSettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditReminderSettingsCell.swift; sourceTree = "<group>"; };
+		DE2366B52ABCAFAC0088A1C0 /* EditReminderScheduleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditReminderScheduleCell.swift; sourceTree = "<group>"; };
+		DE2366B72ABCAFB50088A1C0 /* EditReminderSoundCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditReminderSoundCell.swift; sourceTree = "<group>"; };
+		DE2366BA2ABCC4520088A1C0 /* DayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayButton.swift; sourceTree = "<group>"; };
+		DE2366BF2ABD766A0088A1C0 /* SoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsViewController.swift; sourceTree = "<group>"; };
+		DE2366C12ABD766F0088A1C0 /* SoundsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsViewModel.swift; sourceTree = "<group>"; };
+		DE2366C32ABD76740088A1C0 /* SoundsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsView.swift; sourceTree = "<group>"; };
+		DE2366C72ABD7B3C0088A1C0 /* SoundsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsTableView.swift; sourceTree = "<group>"; };
+		DE2366C92ABD7B420088A1C0 /* SoundsTableElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsTableElement.swift; sourceTree = "<group>"; };
+		DE2366CB2ABD7B470088A1C0 /* SoundsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsTableCell.swift; sourceTree = "<group>"; };
+		DE2366EF2ABD969E0088A1C0 /* CategoriesUnitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesUnitsViewController.swift; sourceTree = "<group>"; };
+		DE2366F12ABD96A40088A1C0 /* CategoriesUnitsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesUnitsViewModel.swift; sourceTree = "<group>"; };
+		DE2366F32ABD96A90088A1C0 /* CategoriesUnitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesUnitsView.swift; sourceTree = "<group>"; };
+		DE2366F72ABD96F90088A1C0 /* CategoriesUnitsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesUnitsTableView.swift; sourceTree = "<group>"; };
+		DE2366F92ABD96FF0088A1C0 /* CategoriesUnitsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesUnitsTableCell.swift; sourceTree = "<group>"; };
+		DE2366FB2ABD97070088A1C0 /* CategoriesUnitsTableElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesUnitsTableElement.swift; sourceTree = "<group>"; };
 		DE37860B2AB070CB00E0CDCA /* SettingsBackupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsBackupCell.swift; sourceTree = "<group>"; };
 		DE37860F2AB0752E00E0CDCA /* BackupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupViewController.swift; sourceTree = "<group>"; };
 		DE3786132AB0753800E0CDCA /* BackupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupView.swift; sourceTree = "<group>"; };
@@ -453,10 +499,10 @@
 		DE2366932ABC8C970088A1C0 /* Reminders */ = {
 			isa = PBXGroup;
 			children = (
-				DE23669A2ABC8E000088A1C0 /* Views */,
-				DE2366962ABC8CAA0088A1C0 /* RemindersViewController.swift */,
-				DE2366982ABC8CAF0088A1C0 /* RemindersViewModel.swift */,
-				DE2366942ABC8CA20088A1C0 /* RemindersView.swift */,
+				DE2366EE2ABD96910088A1C0 /* Categories */,
+				DE2366BE2ABD765D0088A1C0 /* Sounds */,
+				DE2366A12ABCAA8D0088A1C0 /* EditReminder */,
+				DE2366A02ABCA9F70088A1C0 /* Reminders */,
 			);
 			path = Reminders;
 			sourceTree = "<group>";
@@ -476,6 +522,124 @@
 				DE23669E2ABC8E2D0088A1C0 /* RemindersTableCell.swift */,
 			);
 			path = TableiView;
+			sourceTree = "<group>";
+		};
+		DE2366A02ABCA9F70088A1C0 /* Reminders */ = {
+			isa = PBXGroup;
+			children = (
+				DE23669A2ABC8E000088A1C0 /* Views */,
+				DE2366962ABC8CAA0088A1C0 /* RemindersViewController.swift */,
+				DE2366982ABC8CAF0088A1C0 /* RemindersViewModel.swift */,
+				DE2366942ABC8CA20088A1C0 /* RemindersView.swift */,
+			);
+			path = Reminders;
+			sourceTree = "<group>";
+		};
+		DE2366A12ABCAA8D0088A1C0 /* EditReminder */ = {
+			isa = PBXGroup;
+			children = (
+				DE2366AA2ABCAF4F0088A1C0 /* Views */,
+				DE2366A22ABCAA9D0088A1C0 /* EditReminderViewController.swift */,
+				DE2366A42ABCAAA20088A1C0 /* EditReminderViewModel.swift */,
+				DE2366A62ABCAAA60088A1C0 /* EditReminderView.swift */,
+			);
+			path = EditReminder;
+			sourceTree = "<group>";
+		};
+		DE2366AA2ABCAF4F0088A1C0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE2366AB2ABCAF540088A1C0 /* TableView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DE2366AB2ABCAF540088A1C0 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				DE2366B02ABCAF720088A1C0 /* Cells */,
+				DE2366AC2ABCAF660088A1C0 /* EditReminderTableView.swift */,
+				DE2366AE2ABCAF6F0088A1C0 /* EditReminderTableElement.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		DE2366B02ABCAF720088A1C0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DE2366B92ABCC4450088A1C0 /* Atoms */,
+				DE2366B12ABCAF850088A1C0 /* EditReminderCategoriesCell.swift */,
+				DE2366B32ABCAFA40088A1C0 /* EditReminderSettingsCell.swift */,
+				DE2366B52ABCAFAC0088A1C0 /* EditReminderScheduleCell.swift */,
+				DE2366B72ABCAFB50088A1C0 /* EditReminderSoundCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		DE2366B92ABCC4450088A1C0 /* Atoms */ = {
+			isa = PBXGroup;
+			children = (
+				DE2366BA2ABCC4520088A1C0 /* DayButton.swift */,
+			);
+			path = Atoms;
+			sourceTree = "<group>";
+		};
+		DE2366BE2ABD765D0088A1C0 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				DE2366C52ABD7A580088A1C0 /* Views */,
+				DE2366BF2ABD766A0088A1C0 /* SoundsViewController.swift */,
+				DE2366C12ABD766F0088A1C0 /* SoundsViewModel.swift */,
+				DE2366C32ABD76740088A1C0 /* SoundsView.swift */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		DE2366C52ABD7A580088A1C0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE2366C62ABD7B310088A1C0 /* TableView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DE2366C62ABD7B310088A1C0 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				DE2366C72ABD7B3C0088A1C0 /* SoundsTableView.swift */,
+				DE2366C92ABD7B420088A1C0 /* SoundsTableElement.swift */,
+				DE2366CB2ABD7B470088A1C0 /* SoundsTableCell.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		DE2366EE2ABD96910088A1C0 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				DE2366F52ABD96C90088A1C0 /* Views */,
+				DE2366EF2ABD969E0088A1C0 /* CategoriesUnitsViewController.swift */,
+				DE2366F12ABD96A40088A1C0 /* CategoriesUnitsViewModel.swift */,
+				DE2366F32ABD96A90088A1C0 /* CategoriesUnitsView.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		DE2366F52ABD96C90088A1C0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE2366F62ABD96E50088A1C0 /* TableView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DE2366F62ABD96E50088A1C0 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				DE2366F72ABD96F90088A1C0 /* CategoriesUnitsTableView.swift */,
+				DE2366F92ABD96FF0088A1C0 /* CategoriesUnitsTableCell.swift */,
+				DE2366FB2ABD97070088A1C0 /* CategoriesUnitsTableElement.swift */,
+			);
+			path = TableView;
 			sourceTree = "<group>";
 		};
 		DE37860D2AB0751200E0CDCA /* Settings */ = {
@@ -863,6 +1027,7 @@
 				DEC61E552A7ADB32008F9C97 /* Category.swift */,
 				DE07C9E82AAA4A1400C81E08 /* Affirmation.swift */,
 				DE2366912ABC7E800088A1C0 /* Reminder.swift */,
+				DE2366A82ABCACA50088A1C0 /* Sound.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1286,16 +1451,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE2366FC2ABD97070088A1C0 /* CategoriesUnitsTableElement.swift in Sources */,
 				DE61502E2ABB46E800ADB8FC /* ContentPreferencesView.swift in Sources */,
+				DE2366F82ABD96F90088A1C0 /* CategoriesUnitsTableView.swift in Sources */,
 				DEC61E682A7BEAE1008F9C97 /* OWCCollectionView.swift in Sources */,
 				DEC61AA42A7938C2008F9C97 /* DayOfWeek.swift in Sources */,
 				DE5506312A6589760057F9FB /* Scalable.swift in Sources */,
 				DEC61E622A7AE599008F9C97 /* OWidgetCategoriesView.swift in Sources */,
 				DEFE81A12AA0F1E200FB96F0 /* CategoriesCollectionCell.swift in Sources */,
 				DE55062C2A6589760057F9FB /* UITapGestureRecognizer+Extension.swift in Sources */,
+				DE2366C82ABD7B3C0088A1C0 /* SoundsTableView.swift in Sources */,
+				DE2366F42ABD96A90088A1C0 /* CategoriesUnitsView.swift in Sources */,
 				DEEED5E42AAF98A80078653B /* SettingsView.swift in Sources */,
 				DE55066E2A6589AF0057F9FB /* SplashView.swift in Sources */,
 				DEC61A9A2A78FB14008F9C97 /* ONSStartView.swift in Sources */,
+				DE2366C42ABD76740088A1C0 /* SoundsView.swift in Sources */,
 				DE5506662A6589810057F9FB /* IAPErrorHelper.swift in Sources */,
 				DE37860C2AB070CB00E0CDCA /* SettingsBackupCell.swift in Sources */,
 				DEFE818D2A9F98A900FB96F0 /* MainViewController.swift in Sources */,
@@ -1305,6 +1475,7 @@
 				DEFE81A72AA1C6DA00FB96F0 /* TrainingView.swift in Sources */,
 				DEFE81922AA0E39000FB96F0 /* CategoriesViewController.swift in Sources */,
 				DE3786102AB0752E00E0CDCA /* BackupViewController.swift in Sources */,
+				DE2366A32ABCAA9D0088A1C0 /* EditReminderViewController.swift in Sources */,
 				DEFE81992AA0E79400FB96F0 /* CategoryButton.swift in Sources */,
 				DE5506262A6589760057F9FB /* UIColor+Extension.swift in Sources */,
 				DEC61AA82A7A1EAA008F9C97 /* OWidgetView.swift in Sources */,
@@ -1314,12 +1485,16 @@
 				DEFE80AE2A90FEB200FB96F0 /* PaygateViewController.swift in Sources */,
 				DEFE80A92A90FEB200FB96F0 /* PaygateViewModel.swift in Sources */,
 				DEFE81962AA0E39C00FB96F0 /* CategoriesView.swift in Sources */,
+				DE2366B82ABCAFB50088A1C0 /* EditReminderSoundCell.swift in Sources */,
 				DEC61A632A7661AF008F9C97 /* OnboardingView.swift in Sources */,
 				DEC61AB02A7AC8D3008F9C97 /* ApplicationLanguage.swift in Sources */,
 				DE3786192AB07E7900E0CDCA /* BackupCellView.swift in Sources */,
 				DE3786142AB0753800E0CDCA /* BackupView.swift in Sources */,
+				DE2366F02ABD969E0088A1C0 /* CategoriesUnitsViewController.swift in Sources */,
+				DE2366F22ABD96A40088A1C0 /* CategoriesUnitsViewModel.swift in Sources */,
 				DEC61AB22A7ACA38008F9C97 /* Localizable.swift in Sources */,
 				DEFE80AD2A90FEB200FB96F0 /* PaygateView.swift in Sources */,
+				DE2366A92ABCACA50088A1C0 /* Sound.swift in Sources */,
 				DEFE808A2A90EE8400FB96F0 /* ASN1ObjectIdentifierBuilder.swift in Sources */,
 				DEC61AA62A793900008F9C97 /* WeekSchedule.swift in Sources */,
 				DE55063B2A6589760057F9FB /* Weak.swift in Sources */,
@@ -1335,6 +1510,7 @@
 				DEC61A932A77C4B3008F9C97 /* ONotificationsSettingsView.swift in Sources */,
 				DE5506472A6589760057F9FB /* SceneDelegate.swift in Sources */,
 				DEFE818F2A9F98AF00FB96F0 /* MainViewModel.swift in Sources */,
+				DE2366CC2ABD7B470088A1C0 /* SoundsTableCell.swift in Sources */,
 				DE55062B2A6589760057F9FB /* UIViewRxExtension.swift in Sources */,
 				DEEED5EF2AAF9C610078653B /* SettingsRouteCell.swift in Sources */,
 				DEC61A662A7661E8008F9C97 /* OSlideView.swift in Sources */,
@@ -1353,6 +1529,7 @@
 				DEFE80AB2A90FEB200FB96F0 /* PaygateMediator.swift in Sources */,
 				DEC61A962A77CE7B008F9C97 /* ONSView.swift in Sources */,
 				DEC61E6C2A7BEAED008F9C97 /* OWCCollectionCell.swift in Sources */,
+				DE2366A52ABCAAA20088A1C0 /* EditReminderViewModel.swift in Sources */,
 				DEE51AF02AAB71B80024FB36 /* PracticeViewModel.swift in Sources */,
 				DEFE808C2A90EE8400FB96F0 /* ASN1ContainerBuilder.swift in Sources */,
 				DEFE80922A90EE8400FB96F0 /* ASN1Container.swift in Sources */,
@@ -1362,12 +1539,16 @@
 				DE6150252ABA1AAC00ADB8FC /* GenderIdentityView.swift in Sources */,
 				DE2366952ABC8CA20088A1C0 /* RemindersView.swift in Sources */,
 				DE55062D2A6589760057F9FB /* GlobalDefinitions.swift in Sources */,
+				DE2366C02ABD766A0088A1C0 /* SoundsViewController.swift in Sources */,
+				DE2366AD2ABCAF660088A1C0 /* EditReminderTableView.swift in Sources */,
 				DEEED5DA2AAF67480078653B /* PracticeAffirmationsView.swift in Sources */,
 				DEFE81A32AA0F1E800FB96F0 /* CategoriesCollectionElement.swift in Sources */,
 				DEFE80992A90EFF300FB96F0 /* AppStoreReceiptSource.swift in Sources */,
 				DEEED5E82AAF9C410078653B /* SettingsTableView.swift in Sources */,
 				DEFE809B2A90F0DC00FB96F0 /* PaymentDataBuilder.swift in Sources */,
+				DE2366CA2ABD7B420088A1C0 /* SoundsTableElement.swift in Sources */,
 				DEC61A9F2A7937F6008F9C97 /* ProfileManager.swift in Sources */,
+				DE2366B42ABCAFA40088A1C0 /* EditReminderSettingsCell.swift in Sources */,
 				DEFE808D2A90EE8400FB96F0 /* AppStoreReceiptParser.swift in Sources */,
 				DEEED5ED2AAF9C5A0078653B /* SettingsPaygateCell.swift in Sources */,
 				DE5506292A6589760057F9FB /* ObservableAndSingle+Extension.swift in Sources */,
@@ -1382,6 +1563,7 @@
 				DE6150232ABA1AA800ADB8FC /* GenderIdentityViewModel.swift in Sources */,
 				DEFE819F2AA0F1DD00FB96F0 /* CategoriesCollectionView.swift in Sources */,
 				DE2366872ABB5BCA0088A1C0 /* ContentWidgetsManager.swift in Sources */,
+				DE2366A72ABCAAA60088A1C0 /* EditReminderView.swift in Sources */,
 				DEEED5EA2AAF9C480078653B /* SettingsTableElement.swift in Sources */,
 				DE37861B2AB084F500E0CDCA /* BackupConfirmDisableView.swift in Sources */,
 				DEFE80B52A9106CF00FB96F0 /* PaygateCell.swift in Sources */,
@@ -1392,6 +1574,9 @@
 				DEEED5E22AAF98A30078653B /* SettingsViewModel.swift in Sources */,
 				DEC61A682A76652E008F9C97 /* OWelcomeView.swift in Sources */,
 				DEFE808E2A90EE8400FB96F0 /* UInt8+Extensions.swift in Sources */,
+				DE2366FA2ABD96FF0088A1C0 /* CategoriesUnitsTableCell.swift in Sources */,
+				DE2366B22ABCAF850088A1C0 /* EditReminderCategoriesCell.swift in Sources */,
+				DE2366AF2ABCAF6F0088A1C0 /* EditReminderTableElement.swift in Sources */,
 				DE3830C72AB619BE00EA20E6 /* Backup.swift in Sources */,
 				DE3786172AB07C5F00E0CDCA /* GoogleDriveBackupButton.swift in Sources */,
 				DEEED5E02AAF989E0078653B /* SettingsViewController.swift in Sources */,
@@ -1401,6 +1586,7 @@
 				DEC61E6A2A7BEAE7008F9C97 /* OWCCollectionElement.swift in Sources */,
 				DEFE818B2A9F98A300FB96F0 /* MainView.swift in Sources */,
 				DE5506322A6589760057F9FB /* NumberLaunches.swift in Sources */,
+				DE2366C22ABD766F0088A1C0 /* SoundsViewModel.swift in Sources */,
 				DE55063C2A6589760057F9FB /* RxActivityIndicator.swift in Sources */,
 				DE5506642A6589810057F9FB /* IAPProduct.swift in Sources */,
 				DE5506402A6589760057F9FB /* PaddingTextField.swift in Sources */,
@@ -1410,6 +1596,7 @@
 				DEFE80952A90EE8400FB96F0 /* ReceiptReadingError.swift in Sources */,
 				DE5506652A6589810057F9FB /* IAPError.swift in Sources */,
 				DE07C9E92AAA4A1400C81E08 /* Affirmation.swift in Sources */,
+				DE2366BB2ABCC4520088A1C0 /* DayButton.swift in Sources */,
 				DE23669F2ABC8E2D0088A1C0 /* RemindersTableCell.swift in Sources */,
 				DE5506252A6589760057F9FB /* UIDevice+Extension.swift in Sources */,
 				DE5506362A6589760057F9FB /* Fonts.swift in Sources */,
@@ -1420,6 +1607,7 @@
 				DEFE80912A90EE8400FB96F0 /* AppStoreReceipt.swift in Sources */,
 				DE6150212ABA1AA200ADB8FC /* GenderIdentityViewController.swift in Sources */,
 				DEFE808F2A90EE8400FB96F0 /* ArraySlice_UInt8+Extensions.swift in Sources */,
+				DE2366B62ABCAFAC0088A1C0 /* EditReminderScheduleCell.swift in Sources */,
 				DE61502C2ABB46E400ADB8FC /* ContentPreferencesViewModel.swift in Sources */,
 				DE6150422ABB4D6000ADB8FC /* AffirmationsWidgets.intentdefinition in Sources */,
 			);

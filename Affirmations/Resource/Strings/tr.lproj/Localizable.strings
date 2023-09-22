@@ -104,3 +104,28 @@
 "Reminders.EveryDay" = "Hafta içi her gün";
 "Reminders.UnlockButton" = "Daha Fazla Hatırlatıcının Kilidini Aç";
 "Reminders.AddButton" = "Hatırlatıcı Ekle";
+
+// MARK: EditReminder
+"EditReminder.Title" = "Hatırlatıcıyı Düzenle";
+"EditReminder.TypeOfAffirmations" = "Olumlamaların türü";
+"EditReminder.Sound" = "Ses";
+
+// MARK: Sounds
+"Sounds.SubTitle" = "Bildirimlerde çalınacak sesi seç.";
+"Sounds.Not" = "Ses Yok";
+"Sounds.AcmeSiren" = "Acme Siren";
+"Sounds.Bicycle" = "Sistem Varsayılanı";
+"Sounds.Chimes" = "Çan";
+"Sounds.Coin" = "Para";
+"Sounds.Correct" = "Doğru";
+"Sounds.Domino" = "Domino";
+"Sounds.Drop" = "Bırak";
+"Sounds.Drums" = "Bateri";
+"Sounds.Frog" = "Kurbağa";
+"Sounds.Galaxy" = "Galaksi";
+"Sounds.MagicWand" = "Sihirli Değnek";
+"Sounds.Messenger" = "Messenger";
+"Sounds.Positive" = "Pozitif";
+"Sounds.Spaceship" = "Uzay Gemisi";
+"Sounds.Tada" = "İşte";
+"Sounds.VideoGame" = "Video oyunu";

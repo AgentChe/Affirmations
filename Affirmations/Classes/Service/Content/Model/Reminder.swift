@@ -14,7 +14,7 @@ struct Reminder: Codable, Hashable {
     let start: Int
     let end: Int
     let weekSchedule: WeekSchedule
-    let sound: String?
+    let sound: Sound
     let categories: [Category]
     let enable: Bool
 }

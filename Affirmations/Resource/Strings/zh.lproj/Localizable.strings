@@ -104,3 +104,28 @@
 "Reminders.EveryDay" = "每个工作日";
 "Reminders.UnlockButton" = "解锁更多提醒";
 "Reminders.AddButton" = "添加提醒";
+
+// MARK: EditReminder
+"EditReminder.Title" = "编辑提醒";
+"EditReminder.TypeOfAffirmations" = "肯定语类型";
+"EditReminder.Sound" = "声音";
+
+// MARK: Sounds
+"Sounds.SubTitle" = "请选择通知的提示音。";
+"Sounds.Not" = "无声音";
+"Sounds.AcmeSiren" = "警报器";
+"Sounds.Bicycle" = "系统默认";
+"Sounds.Chimes" = "喇叭";
+"Sounds.Coin" = "正确";
+"Sounds.Correct" = "多米诺";
+"Sounds.Domino" = "放弃";
+"Sounds.Drop" = "鼓";
+"Sounds.Drums" = "鼓";
+"Sounds.Frog" = "青蛙";
+"Sounds.Galaxy" = "银河";
+"Sounds.MagicWand" = "魔杖";
+"Sounds.Messenger" = "Messenger";
+"Sounds.Positive" = "正面";
+"Sounds.Spaceship" = "飞船";
+"Sounds.Tada" = "然后";
+"Sounds.VideoGame" = "电子游戏";

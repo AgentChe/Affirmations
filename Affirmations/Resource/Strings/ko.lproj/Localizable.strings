@@ -104,3 +104,28 @@
 "Reminders.EveryDay" = "매주 평일";
 "Reminders.UnlockButton" = "더 많은 미리 알림 잠금 해제";
 "Reminders.AddButton" = "미리 알림 추가";
+
+// MARK: EditReminder
+"EditReminder.Title" = "미리 알림 수정";
+"EditReminder.TypeOfAffirmations" = "확언의 유형";
+"EditReminder.Sound" = "소리";
+
+// MARK: Sounds
+"Sounds.SubTitle" = "알림에서 재생할 소리를 선택합니다.";
+"Sounds.Not" = "소리 없음";
+"Sounds.AcmeSiren" = "애크미 사이렌";
+"Sounds.Bicycle" = "시스템 기본 설정";
+"Sounds.Chimes" = "차임벨";
+"Sounds.Coin" = "코인";
+"Sounds.Correct" = "정답";
+"Sounds.Domino" = "도미노";
+"Sounds.Drop" = "방울";
+"Sounds.Drums" = "드럼";
+"Sounds.Frog" = "개구리";
+"Sounds.Galaxy" = "은하계";
+"Sounds.MagicWand" = "마법 지팡이";
+"Sounds.Messenger" = "메신저";
+"Sounds.Positive" = "긍정적인";
+"Sounds.Spaceship" = "우주선";
+"Sounds.Tada" = "짜잔";
+"Sounds.VideoGame" = "비디오 게임";

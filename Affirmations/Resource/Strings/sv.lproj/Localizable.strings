@@ -104,3 +104,28 @@
 "Reminders.EveryDay" = "Varje veckodag";
 "Reminders.UnlockButton" = "Lås upp fler påminnelser";
 "Reminders.AddButton" = "Lägg till påminnelse";
+
+// MARK: EditReminder
+"EditReminder.Title" = "Redigera påminnelse";
+"EditReminder.TypeOfAffirmations" = "Typ av affirmation";
+"EditReminder.Sound" = "Ljud";
+
+// MARK: Sounds
+"Sounds.SubTitle" = "Välj ljudet som ska spelas vid notiser.";
+"Sounds.Not" = "Inget ljud";
+"Sounds.AcmeSiren" = "Acme Siren";
+"Sounds.Bicycle" = "Systemstandard";
+"Sounds.Chimes" = "Klockspel";
+"Sounds.Coin" = "Mynt";
+"Sounds.Correct" = "Korrekt";
+"Sounds.Domino" = "Domino";
+"Sounds.Drop" = "Släpp";
+"Sounds.Drums" = "Trummor";
+"Sounds.Frog" = "Groda";
+"Sounds.Galaxy" = "Galax";
+"Sounds.MagicWand" = "Trollspö";
+"Sounds.Messenger" = "Meddelandetjänst";
+"Sounds.Positive" = "Positiv";
+"Sounds.Spaceship" = "Rymdskepp";
+"Sounds.Tada" = "Tada";
+"Sounds.VideoGame" = "Videospel";

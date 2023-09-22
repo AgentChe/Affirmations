@@ -72,9 +72,11 @@ private extension RemindersViewController {
             let vc = PaygateViewController.make()
             present(vc, animated: true)
         case .create:
-            break // TODO
+            let vc = EditReminderViewController.make()
+            navigationController?.pushViewController(vc, animated: true)
         case .edit(let reminder):
-            break // TODO
+            let vc = EditReminderViewController.make(reminder: reminder)
+            navigationController?.pushViewController(vc, animated: true)
         }
     }
 }

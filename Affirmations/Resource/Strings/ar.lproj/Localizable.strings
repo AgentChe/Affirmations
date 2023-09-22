@@ -104,3 +104,28 @@
 "Reminders.EveryDay" = "كل عطلة نهاية أسبوع";
 "Reminders.UnlockButton" = "افتح المزيد من التذكيرات";
 "Reminders.AddButton" = "اضف تذكيرا";
+
+// MARK: EditReminder
+"EditReminder.Title" = "تعديل التذكير";
+"EditReminder.TypeOfAffirmations" = "نوع الأقوال";
+"EditReminder.Sound" = "الصوت";
+
+// MARK: Sounds
+"Sounds.SubTitle" = "اختر الصوت المراد تشغيله عند استلام الإشعارات.";
+"Sounds.Not" = "لا يوجد صوت";
+"Sounds.AcmeSiren" = "صفارة أكمي";
+"Sounds.Bicycle" = "الإعداد الافتراضي للنظام";
+"Sounds.Chimes" = "دقات الأجراس";
+"Sounds.Coin" = "عملة معدنية";
+"Sounds.Correct" = "صحيح";
+"Sounds.Domino" = "الدومينو";
+"Sounds.Drop" = "إسقاط";
+"Sounds.Drums" = "طبول";
+"Sounds.Frog" = "ضفدع";
+"Sounds.Galaxy" = "المجرة";
+"Sounds.MagicWand" = "عصا سحرية";
+"Sounds.Messenger" = "ماسنجر";
+"Sounds.Positive" = "إيجابي";
+"Sounds.Spaceship" = "سفينة فضاء";
+"Sounds.Tada" = "ها هو";
+"Sounds.VideoGame" = "لعبة فيديو";

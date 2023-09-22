@@ -104,3 +104,28 @@
 "Reminders.EveryDay" = "Chaque jour de la semaine";
 "Reminders.UnlockButton" = "Débloquer plus de rappels";
 "Reminders.AddButton" = "Ajouter un rappel";
+
+// MARK: EditReminder
+"EditReminder.Title" = "Modifier le rappel";
+"EditReminder.TypeOfAffirmations" = "Type de phrases d'encouragement";
+"EditReminder.Sound" = "Son";
+
+// MARK: Sounds
+"Sounds.SubTitle" = "Choisissez un son pour les notifications.";
+"Sounds.Not" = "Pas de son";
+"Sounds.AcmeSiren" = "Acme Siren";
+"Sounds.Bicycle" = "Valeur par défaut du système";
+"Sounds.Chimes" = "Carillons";
+"Sounds.Coin" = "Pièce";
+"Sounds.Correct" = "Correct";
+"Sounds.Domino" = "Domino";
+"Sounds.Drop" = "Goutte";
+"Sounds.Drums" = "Percussions";
+"Sounds.Frog" = "Grenouille";
+"Sounds.Galaxy" = "Galaxie";
+"Sounds.MagicWand" = "Baguette magique";
+"Sounds.Messenger" = "Messenger";
+"Sounds.Positive" = "Positif";
+"Sounds.Spaceship" = "Vaisseau";
+"Sounds.Tada" = "Et voilà";
+"Sounds.VideoGame" = "Jeu vidéo";

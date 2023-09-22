@@ -8,6 +8,10 @@
 import UIKit
 
 class ONSView: UIView {
+    enum Style {
+        case onboarding, settings
+    }
+    
     var changedValue: ((Int) -> Void)?
     
     lazy var placeholderLabel = makePlaceholderLabel()
@@ -24,9 +28,12 @@ class ONSView: UIView {
         .lineHeight(18.scale)
         .textAlignment(.center)
     
-    init(values: [Int] = [], value: Int = 0) {
+    private let style: Style
+    
+    init(values: [Int] = [], value: Int = 0, style: Style = .onboarding) {
         self.values = values
         self.value = value
+        self.style = style
         
         super.init(frame: .zero)
         
@@ -122,7 +129,7 @@ private extension ONSView {
 private extension ONSView {
     func makeConstraints() {
         NSLayoutConstraint.activate([
-            placeholderLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 17.scale),
+            placeholderLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 13.scale),
             placeholderLabel.centerYAnchor.constraint(equalTo: centerYAnchor)
         ])
         
@@ -153,8 +160,8 @@ private extension ONSView {
     func makePlaceholderLabel() -> UILabel {
         let attrs = TextAttributes()
             .textColor(UIColor(integralRed: 43, green: 63, blue: 98))
-            .font(Fonts.ProximaNova.regular(size: 14.scale))
-            .lineHeight(18.scale)
+            .font(Fonts.ProximaNova.regular(size: style == .onboarding ? 14.scale : 18.scale))
+            .lineHeight(style == .onboarding ? 18.scale : 21.scale)
             .textAlignment(.left)
         
         let view = UILabel()

@@ -104,3 +104,28 @@
 "Reminders.EveryDay" = "Elke doordeweekse dag";
 "Reminders.UnlockButton" = "Ontgrendel meer herinneringen";
 "Reminders.AddButton" = "Herinnering toevoegen";
+
+// MARK: EditReminder
+"EditReminder.Title" = "Herinnering bewerken";
+"EditReminder.TypeOfAffirmations" = "Soort bevestigingen";
+"EditReminder.Sound" = "Geluid";
+
+// MARK: Sounds
+"Sounds.SubTitle" = "Kies het geluid dat moet worden afgespeeld bij meldingen.";
+"Sounds.Not" = "Geen geluid";
+"Sounds.AcmeSiren" = "Acme Siren";
+"Sounds.Bicycle" = "Systeemfout";
+"Sounds.Chimes" = "Harmonie";
+"Sounds.Coin" = "Munt";
+"Sounds.Correct" = "Juist";
+"Sounds.Domino" = "Domino";
+"Sounds.Drop" = "Drop";
+"Sounds.Drums" = "Drums";
+"Sounds.Frog" = "Kikker";
+"Sounds.Galaxy" = "Melkweg";
+"Sounds.MagicWand" = "Toverstaf";
+"Sounds.Messenger" = "Messenger";
+"Sounds.Positive" = "Positief";
+"Sounds.Spaceship" = "Ruimteschip";
+"Sounds.Tada" = "Tada";
+"Sounds.VideoGame" = "Videogame";

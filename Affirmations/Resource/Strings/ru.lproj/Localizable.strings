@@ -104,3 +104,28 @@
 "Reminders.EveryDay" = "Каждый день недели";
 "Reminders.UnlockButton" = "Разблокировать больше напоминаний";
 "Reminders.AddButton" = "Добавить напоминание";
+
+// MARK: EditReminder
+"EditReminder.Title" = "Изменить напоминание";
+"EditReminder.TypeOfAffirmations" = "Типы установок";
+"EditReminder.Sound" = "Звук";
+
+// MARK: Sounds
+"Sounds.SubTitle" = "Выберите звук для уведомлений.";
+"Sounds.Not" = "Без звука";
+"Sounds.AcmeSiren" = "Акме Сирена";
+"Sounds.Bicycle" = "Значение по умолчанию";
+"Sounds.Chimes" = "Колокола";
+"Sounds.Coin" = "Звон монеты";
+"Sounds.Correct" = "Правильно";
+"Sounds.Domino" = "Домино";
+"Sounds.Drop" = "Капля";
+"Sounds.Drums" = "Барабаны";
+"Sounds.Frog" = "Кваканье";
+"Sounds.Galaxy" = "Галактика";
+"Sounds.MagicWand" = "Волшебная палочка";
+"Sounds.Messenger" = "Мессенджер";
+"Sounds.Positive" = "Позитив";
+"Sounds.Spaceship" = "Космический корабль";
+"Sounds.Tada" = "Та-дам!";
+"Sounds.VideoGame" = "Видеоигра";

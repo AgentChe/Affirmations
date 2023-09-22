@@ -102,3 +102,28 @@
 "Reminders.EveryDay" = "每個平日";
 "Reminders.UnlockButton" = "解鎖更多提醒";
 "Reminders.AddButton" = "增加提醒";
+
+// MARK: EditReminder
+"EditReminder.Title" = "編輯提醒";
+"EditReminder.TypeOfAffirmations" = "肯定話語類別";
+"EditReminder.Sound" = "聲音";
+
+// MARK: Sounds
+"Sounds.SubTitle" = "請選擇推播通知要播放的音效。";
+"Sounds.Not" = "沒有聲音";
+"Sounds.AcmeSiren" = "Acme Siren 口哨";
+"Sounds.Bicycle" = "系統預設";
+"Sounds.Chimes" = "鐘聲";
+"Sounds.Coin" = "正確";
+"Sounds.Correct" = "骨牌";
+"Sounds.Domino" = "放下";
+"Sounds.Drop" = "放下";
+"Sounds.Drums" = "鼓";
+"Sounds.Frog" = "青蛙";
+"Sounds.Galaxy" = "銀河";
+"Sounds.MagicWand" = "魔杖";
+"Sounds.Messenger" = "信使";
+"Sounds.Positive" = "正向";
+"Sounds.Spaceship" = "飛船";
+"Sounds.Tada" = "多田";
+"Sounds.VideoGame" = "電玩";

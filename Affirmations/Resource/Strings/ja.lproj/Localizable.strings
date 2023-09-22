@@ -104,3 +104,28 @@
 "Reminders.EveryDay" = "すべての平日";
 "Reminders.UnlockButton" = "その他の設定のロックを解除する";
 "Reminders.AddButton" = "リマインダーを追加する";
+
+// MARK: EditReminder
+"EditReminder.Title" = "リマインダーを編集";
+"EditReminder.TypeOfAffirmations" = "アファメーションの種類";
+"EditReminder.Sound" = "サウンド";
+
+// MARK: Sounds
+"Sounds.SubTitle" = "通知で再生するサウンドを選択します。";
+"Sounds.Not" = "サウンド無し";
+"Sounds.AcmeSiren" = "Acme Siren";
+"Sounds.Bicycle" = "システム標準";
+"Sounds.Chimes" = "チャイム";
+"Sounds.Coin" = "硬貨";
+"Sounds.Correct" = "正しい";
+"Sounds.Domino" = "ドミノ";
+"Sounds.Drop" = "落とす";
+"Sounds.Drums" = "ドラム";
+"Sounds.Frog" = "ヒキガエル";
+"Sounds.Galaxy" = "銀河系";
+"Sounds.MagicWand" = "魔法の杖";
+"Sounds.Messenger" = "メッセンジャー";
+"Sounds.Positive" = "ポジティブ";
+"Sounds.Spaceship" = "宇宙船";
+"Sounds.Tada" = "じゃーん";
+"Sounds.VideoGame" = "テレビゲーム";
