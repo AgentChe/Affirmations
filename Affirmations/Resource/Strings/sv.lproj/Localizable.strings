@@ -151,3 +151,9 @@
 "Language.Confirm.Text" = "För att ändra språket måste du stänga programmet. Du måste starta den själv. Stänga?";
 "Language.Confirm.Yes" = "Ja";
 "Language.Confirm.No" = "Nej";
+
+// MARK: Favorites
+"Favorites.Title" = "Favoriter";
+"Favorites.Empty" = "Du har inga favoriter än.";
+"Favorites.Share" = "Dela";
+"Favorites.Remove" = "Ta bort";

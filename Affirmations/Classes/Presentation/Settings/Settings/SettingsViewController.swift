@@ -69,6 +69,9 @@ private extension SettingsViewController {
             case .language:
                 let vc = LanguageViewController.make()
                 navigationController?.pushViewController(vc, animated: true)
+            case .favorites:
+                let vc = FavoritesViewController.make()
+                navigationController?.pushViewController(vc, animated: true)
             }
         case .backup:
             let vc = BackupViewController.make()

@@ -49,7 +49,8 @@ private extension SettingsViewModel {
                     .route(.contentPreferences),
                     .route(.gender),
                     .route(.reminders),
-                    .route(.language)
+                    .route(.language),
+                    .route(.favorites)
                 ])
                 
                 return result

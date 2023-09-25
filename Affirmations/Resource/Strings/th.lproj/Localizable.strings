@@ -151,3 +151,9 @@
 "Language.Confirm.Text" = "หากต้องการเปลี่ยนภาษาคุณต้องปิดแอปพลิเคชัน คุณต้องเปิดตัวมันด้วยตัวเอง ปิด?";
 "Language.Confirm.Yes" = "ใช่";
 "Language.Confirm.No" = "เลขที่";
+
+// MARK: Favorites
+"Favorites.Title" = "รายการโปรด";
+"Favorites.Empty" = "คุณยังไม่มีรายการโปรด";
+"Favorites.Share" = "แชร์";
+"Favorites.Remove" = "ลบออก";

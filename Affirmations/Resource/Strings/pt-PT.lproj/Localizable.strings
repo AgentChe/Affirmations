@@ -152,3 +152,9 @@
 "Language.Confirm.Text" = "Para alterar o idioma você precisa fechar o aplicativo. Você precisa iniciá-lo sozinho. Fechar?";
 "Language.Confirm.Yes" = "Sim";
 "Language.Confirm.No" = "Não";
+
+// MARK: Favorites
+"Favorites.Title" = "Favoritos";
+"Favorites.Empty" = "Você não tem nenhum favorito.";
+"Favorites.Share" = "Compartilhar";
+"Favorites.Remove" = "Remover";

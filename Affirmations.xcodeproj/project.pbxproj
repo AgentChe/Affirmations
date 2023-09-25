@@ -149,6 +149,11 @@
 		DEC688152AC1EAD000BCC83B /* LanguageTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC688142AC1EACF00BCC83B /* LanguageTableView.swift */; };
 		DEC688172AC1EAD500BCC83B /* LanguageTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC688162AC1EAD500BCC83B /* LanguageTableCell.swift */; };
 		DEC688192AC1EADB00BCC83B /* LanguageTableElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC688182AC1EADB00BCC83B /* LanguageTableElement.swift */; };
+		DEC6881C2AC1FF5F00BCC83B /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC6881B2AC1FF5F00BCC83B /* FavoritesViewController.swift */; };
+		DEC6881E2AC1FF6500BCC83B /* FavoritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC6881D2AC1FF6400BCC83B /* FavoritesViewModel.swift */; };
+		DEC688202AC1FF6A00BCC83B /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC6881F2AC1FF6A00BCC83B /* FavoritesView.swift */; };
+		DEC688242AC1FF8600BCC83B /* FavoritesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC688232AC1FF8600BCC83B /* FavoritesTableView.swift */; };
+		DEC688262AC1FF8B00BCC83B /* FavoritesTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC688252AC1FF8B00BCC83B /* FavoritesTableCell.swift */; };
 		DEE51AEE2AAB71B10024FB36 /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE51AED2AAB71B10024FB36 /* PracticeViewController.swift */; };
 		DEE51AF02AAB71B80024FB36 /* PracticeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE51AEF2AAB71B80024FB36 /* PracticeViewModel.swift */; };
 		DEE51AF22AAB71BC0024FB36 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE51AF12AAB71BC0024FB36 /* PracticeView.swift */; };
@@ -398,6 +403,11 @@
 		DEC688142AC1EACF00BCC83B /* LanguageTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageTableView.swift; sourceTree = "<group>"; };
 		DEC688162AC1EAD500BCC83B /* LanguageTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageTableCell.swift; sourceTree = "<group>"; };
 		DEC688182AC1EADB00BCC83B /* LanguageTableElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageTableElement.swift; sourceTree = "<group>"; };
+		DEC6881B2AC1FF5F00BCC83B /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		DEC6881D2AC1FF6400BCC83B /* FavoritesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewModel.swift; sourceTree = "<group>"; };
+		DEC6881F2AC1FF6A00BCC83B /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		DEC688232AC1FF8600BCC83B /* FavoritesTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableView.swift; sourceTree = "<group>"; };
+		DEC688252AC1FF8B00BCC83B /* FavoritesTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableCell.swift; sourceTree = "<group>"; };
 		DEE51AED2AAB71B10024FB36 /* PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
 		DEE51AEF2AAB71B80024FB36 /* PracticeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewModel.swift; sourceTree = "<group>"; };
 		DEE51AF12AAB71BC0024FB36 /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
@@ -1132,6 +1142,34 @@
 			path = TableView;
 			sourceTree = "<group>";
 		};
+		DEC6881A2AC1FF4B00BCC83B /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				DEC688212AC1FF6E00BCC83B /* Views */,
+				DEC6881B2AC1FF5F00BCC83B /* FavoritesViewController.swift */,
+				DEC6881D2AC1FF6400BCC83B /* FavoritesViewModel.swift */,
+				DEC6881F2AC1FF6A00BCC83B /* FavoritesView.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		DEC688212AC1FF6E00BCC83B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DEC688222AC1FF7C00BCC83B /* TableView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DEC688222AC1FF7C00BCC83B /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				DEC688232AC1FF8600BCC83B /* FavoritesTableView.swift */,
+				DEC688252AC1FF8B00BCC83B /* FavoritesTableCell.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
 		DEE51AEC2AAB71A50024FB36 /* Practice */ = {
 			isa = PBXGroup;
 			children = (
@@ -1156,6 +1194,7 @@
 		DEEED5DD2AAF988B0078653B /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				DEC6881A2AC1FF4B00BCC83B /* Favorites */,
 				DEC6880B2AC1EA1100BCC83B /* Language */,
 				DE2366932ABC8C970088A1C0 /* Reminders */,
 				DE6150282ABB46CF00ADB8FC /* ContentPreferences */,
@@ -1611,10 +1650,12 @@
 				DE61502A2ABB46D800ADB8FC /* ContentPreferencesViewController.swift in Sources */,
 				DE2366972ABC8CAA0088A1C0 /* RemindersViewController.swift in Sources */,
 				DE6150232ABA1AA800ADB8FC /* GenderIdentityViewModel.swift in Sources */,
+				DEC688242AC1FF8600BCC83B /* FavoritesTableView.swift in Sources */,
 				DEFE819F2AA0F1DD00FB96F0 /* CategoriesCollectionView.swift in Sources */,
 				DE2366872ABB5BCA0088A1C0 /* ContentWidgetsManager.swift in Sources */,
 				DE2366A72ABCAAA60088A1C0 /* EditReminderView.swift in Sources */,
 				DEEED5EA2AAF9C480078653B /* SettingsTableElement.swift in Sources */,
+				DEC688202AC1FF6A00BCC83B /* FavoritesView.swift in Sources */,
 				DE37861B2AB084F500E0CDCA /* BackupConfirmDisableView.swift in Sources */,
 				DEFE80B52A9106CF00FB96F0 /* PaygateCell.swift in Sources */,
 				DEFE819B2AA0EE2400FB96F0 /* ContentMediator.swift in Sources */,
@@ -1644,7 +1685,9 @@
 				DE5506442A6589760057F9FB /* PushNotificationsManager.swift in Sources */,
 				DEC61A612A7661AB008F9C97 /* OnboardingViewModel.swift in Sources */,
 				DE2366992ABC8CAF0088A1C0 /* RemindersViewModel.swift in Sources */,
+				DEC688262AC1FF8B00BCC83B /* FavoritesTableCell.swift in Sources */,
 				DEFE80952A90EE8400FB96F0 /* ReceiptReadingError.swift in Sources */,
+				DEC6881C2AC1FF5F00BCC83B /* FavoritesViewController.swift in Sources */,
 				DE5506652A6589810057F9FB /* IAPError.swift in Sources */,
 				DE07C9E92AAA4A1400C81E08 /* Affirmation.swift in Sources */,
 				DE2366BB2ABCC4520088A1C0 /* DayButton.swift in Sources */,
@@ -1657,6 +1700,7 @@
 				DE23669D2ABC8E1D0088A1C0 /* RemindersTableView.swift in Sources */,
 				DEFE81AE2AA1D0D100FB96F0 /* RequestReview.swift in Sources */,
 				DEFE80912A90EE8400FB96F0 /* AppStoreReceipt.swift in Sources */,
+				DEC6881E2AC1FF6500BCC83B /* FavoritesViewModel.swift in Sources */,
 				DE6150212ABA1AA200ADB8FC /* GenderIdentityViewController.swift in Sources */,
 				DEFE808F2A90EE8400FB96F0 /* ArraySlice_UInt8+Extensions.swift in Sources */,
 				DE2366B62ABCAFAC0088A1C0 /* EditReminderScheduleCell.swift in Sources */,

@@ -151,3 +151,9 @@
 "Language.Confirm.Text" = "言語を変更するには、アプリケーションを閉じる必要があります。 自分で起動する必要があります。 近い？";
 "Language.Confirm.Yes" = "はい";
 "Language.Confirm.No" = "いいえ";
+
+// MARK: Favorites
+"Favorites.Title" = "お気に入り";
+"Favorites.Empty" = "まだお気に入りがありません。";
+"Favorites.Share" = "シェア";
+"Favorites.Remove" = "削除";

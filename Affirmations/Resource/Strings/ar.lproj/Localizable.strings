@@ -151,3 +151,9 @@
 "Language.Confirm.Text" = "لتغيير اللغة تحتاج إلى إغلاق التطبيق. تحتاج إلى إطلاقه بنفسك. يغلق؟";
 "Language.Confirm.Yes" = "نعم";
 "Language.Confirm.No" = "لا";
+
+// MARK: Favorites
+"Favorites.Title" = "المفضلة";
+"Favorites.Empty" = "ليس لديك أي مفضلات بعد.";
+"Favorites.Share" = "مشاركة";
+"Favorites.Remove" = "حذف";

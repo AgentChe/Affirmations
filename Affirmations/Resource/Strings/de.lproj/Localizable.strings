@@ -151,3 +151,9 @@
 "Language.Confirm.Text" = "Um die Sprache zu ändern, müssen Sie die Anwendung schließen. Sie müssen es selbst starten. Schließen?";
 "Language.Confirm.Yes" = "Ja";
 "Language.Confirm.No" = "NEIN";
+
+// MARK: Favorites
+"Favorites.Title" = "Favoriten";
+"Favorites.Empty" = "Sie haben noch keine Favoriten.";
+"Favorites.Share" = "Teilen";
+"Favorites.Remove" = "Entfernen";

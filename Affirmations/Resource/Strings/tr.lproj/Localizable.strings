@@ -151,3 +151,9 @@
 "Language.Confirm.Text" = "Dili değiştirmek için uygulamayı kapatmanız gerekir. Bunu kendiniz başlatmanız gerekir. Kapalı?";
 "Language.Confirm.Yes" = "Evet";
 "Language.Confirm.No" = "HAYIR";
+
+// MARK: Favorites
+"Favorites.Title" = "Favoriler";
+"Favorites.Empty" = "Henüz favorin yok.";
+"Favorites.Share" = "Paylaş";
+"Favorites.Remove" = "Kaldır";

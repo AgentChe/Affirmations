@@ -149,3 +149,9 @@
 "Language.Confirm.Text" = "要更改語言，您需要關閉應用程式。 您需要自己啟動它。 關閉？";
 "Language.Confirm.Yes" = "是的";
 "Language.Confirm.No" = "不";
+
+// MARK: Favorites
+"Favorites.Title" = "最愛";
+"Favorites.Empty" = "您尚無任何最愛。";
+"Favorites.Share" = "分享";
+"Favorites.Remove" = "移除";

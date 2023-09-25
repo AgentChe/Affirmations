@@ -151,3 +151,9 @@
 "Language.Confirm.Text" = "Для смены языка необходимо закрыть приложение. Вам нужно запустить его самостоятельно. Закрывать?";
 "Language.Confirm.Yes" = "Да";
 "Language.Confirm.No" = "Нет";
+
+// MARK: Favorites
+"Favorites.Title" = "Избранное";
+"Favorites.Empty" = "У вас пока нет избранного.";
+"Favorites.Share" = "Поделиться";
+"Favorites.Remove" = "Убрать";

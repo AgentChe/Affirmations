@@ -151,3 +151,9 @@
 "Language.Confirm.Text" = "Om de taal te wijzigen, moet u de applicatie sluiten. Je moet het zelf lanceren. Dichtbij?";
 "Language.Confirm.Yes" = "Ja";
 "Language.Confirm.No" = "Nee";
+
+// MARK: Favorites
+"Favorites.Title" = "Favorieten";
+"Favorites.Empty" = "U heeft nog geen favorieten.";
+"Favorites.Share" = "Delen";
+"Favorites.Remove" = "Verwijderen";

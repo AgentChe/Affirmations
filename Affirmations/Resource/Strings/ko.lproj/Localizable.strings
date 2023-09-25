@@ -151,3 +151,9 @@
 "Language.Confirm.Text" = "언어를 변경하려면 애플리케이션을 닫아야 합니다. 직접 실행해야 합니다. 닫다?";
 "Language.Confirm.Yes" = "예";
 "Language.Confirm.No" = "아니요";
+
+// MARK: Favorites
+"Favorites.Title" = "즐겨찾기";
+"Favorites.Empty" = "아직 즐겨찾기가 없습니다.";
+"Favorites.Share" = "공유하기";
+"Favorites.Remove" = "제거";
