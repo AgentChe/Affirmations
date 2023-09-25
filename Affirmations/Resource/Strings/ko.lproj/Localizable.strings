@@ -129,3 +129,25 @@
 "Sounds.Spaceship" = "우주선";
 "Sounds.Tada" = "짜잔";
 "Sounds.VideoGame" = "비디오 게임";
+
+// MARK: Language
+"Language.Title" = "언어";
+"Language.Arabic" = "아랍어";
+"Language.Deutsch" = "독일어";
+"Language.English" = "영어";
+"Language.Spanish" = "스페인어";
+"Language.French" = "프랑스어";
+"Language.Italian" = "이탈리아어";
+"Language.Japanese" = "일본어";
+"Language.Korean" = "한국어";
+"Language.Dutch" = "네덜란드어";
+"Language.Portuguese" = "포르투갈어";
+"Language.Russian" = "러시아어";
+"Language.Swedish" = "스웨덴어";
+"Language.Thai" = "태국어";
+"Language.Turkish" = "터키어";
+"Language.Chinese" = "중국어";
+"Language.ChineseTraditional" = "대만어 번체";
+"Language.Confirm.Text" = "언어를 변경하려면 애플리케이션을 닫아야 합니다. 직접 실행해야 합니다. 닫다?";
+"Language.Confirm.Yes" = "예";
+"Language.Confirm.No" = "아니요";

@@ -129,3 +129,25 @@
 "Sounds.Spaceship" = "ยานอวกาศ";
 "Sounds.Tada" = "ทาดะ";
 "Sounds.VideoGame" = "วิดีโอเกม";
+
+// MARK: Language
+"Language.Title" = "ภาษา";
+"Language.Arabic" = "อาหรับ";
+"Language.Deutsch" = "เยอรมัน";
+"Language.English" = "อังกฤษ";
+"Language.Spanish" = "สเปน";
+"Language.French" = "ฝรั่งเศส";
+"Language.Italian" = "อิตาลี";
+"Language.Japanese" = "ญี่ปุ่น";
+"Language.Korean" = "เกาหลี";
+"Language.Dutch" = "ดัชต์";
+"Language.Portuguese" = "โปรตุเกส";
+"Language.Russian" = "รัสเซีย";
+"Language.Swedish" = "สวีเดน";
+"Language.Thai" = "ไทย";
+"Language.Turkish" = "ตุรกี";
+"Language.Chinese" = "จีน";
+"Language.ChineseTraditional" = "จีนดั้งเดิม";
+"Language.Confirm.Text" = "หากต้องการเปลี่ยนภาษาคุณต้องปิดแอปพลิเคชัน คุณต้องเปิดตัวมันด้วยตัวเอง ปิด?";
+"Language.Confirm.Yes" = "ใช่";
+"Language.Confirm.No" = "เลขที่";

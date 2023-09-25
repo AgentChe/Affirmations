@@ -129,3 +129,25 @@
 "Sounds.Spaceship" = "سفينة فضاء";
 "Sounds.Tada" = "ها هو";
 "Sounds.VideoGame" = "لعبة فيديو";
+
+// MARK: Language
+"Language.Title" = "اللغة";
+"Language.Arabic" = "العربية";
+"Language.Deutsch" = "الألمانية";
+"Language.English" = "اللإنجليزية";
+"Language.Spanish" = "الإسبانية";
+"Language.French" = "الفرنسية";
+"Language.Italian" = "الإيطالية";
+"Language.Japanese" = "اليابانية";
+"Language.Korean" = "الكورية";
+"Language.Dutch" = "الهولندية";
+"Language.Portuguese" = "البرتغالية";
+"Language.Russian" = "الروسية";
+"Language.Swedish" = "السويدية";
+"Language.Thai" = "التايلاندية";
+"Language.Turkish" = "التركية";
+"Language.Chinese" = "الصينية";
+"Language.ChineseTraditional" = "الصينية التقليدية";
+"Language.Confirm.Text" = "لتغيير اللغة تحتاج إلى إغلاق التطبيق. تحتاج إلى إطلاقه بنفسك. يغلق؟";
+"Language.Confirm.Yes" = "نعم";
+"Language.Confirm.No" = "لا";

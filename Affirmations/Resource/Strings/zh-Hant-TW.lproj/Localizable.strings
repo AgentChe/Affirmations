@@ -127,3 +127,25 @@
 "Sounds.Spaceship" = "飛船";
 "Sounds.Tada" = "多田";
 "Sounds.VideoGame" = "電玩";
+
+// MARK: Language
+"Language.Title" = "語言";
+"Language.Arabic" = "阿拉伯文";
+"Language.Deutsch" = "德文";
+"Language.English" = "英文";
+"Language.Spanish" = "西班牙文";
+"Language.French" = "法文";
+"Language.Italian" = "義大利文";
+"Language.Japanese" = "日文";
+"Language.Korean" = "韓文";
+"Language.Dutch" = "荷蘭文";
+"Language.Portuguese" = "葡萄牙文";
+"Language.Russian" = "俄文";
+"Language.Swedish" = "瑞典文";
+"Language.Thai" = "泰文";
+"Language.Turkish" = "土耳其文";
+"Language.Chinese" = "中文";
+"Language.ChineseTraditional" = "繁體中文";
+"Language.Confirm.Text" = "要更改語言，您需要關閉應用程式。 您需要自己啟動它。 關閉？";
+"Language.Confirm.Yes" = "是的";
+"Language.Confirm.No" = "不";

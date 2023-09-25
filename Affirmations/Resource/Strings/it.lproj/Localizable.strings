@@ -129,3 +129,25 @@
 "Sounds.Spaceship" = "Nave spaziale";
 "Sounds.Tada" = "Sorpresa!";
 "Sounds.VideoGame" = "Videogioco";
+
+// MARK: Language
+"Language.Title" = "Lingua";
+"Language.Arabic" = "Arabo";
+"Language.Deutsch" = "Tedesco";
+"Language.English" = "Inglese";
+"Language.Spanish" = "Spagnolo";
+"Language.French" = "Francese";
+"Language.Italian" = "Italiano";
+"Language.Japanese" = "Giapponese";
+"Language.Korean" = "Coreano";
+"Language.Dutch" = "Olandese";
+"Language.Portuguese" = "Portoghese";
+"Language.Russian" = "Russo";
+"Language.Swedish" = "Svedese";
+"Language.Thai" = "Thaï";
+"Language.Turkish" = "Turco";
+"Language.Chinese" = "Cinese";
+"Language.ChineseTraditional" = "Cinese tradizionale";
+"Language.Confirm.Text" = "Per cambiare la lingua è necessario chiudere l'applicazione. Devi avviarlo tu stesso. Vicino?";
+"Language.Confirm.Yes" = "SÌ";
+"Language.Confirm.No" = "NO";

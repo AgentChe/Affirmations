@@ -15,4 +15,5 @@ enum SettingsRoute {
     case gender
     case contentPreferences
     case reminders
+    case language
 }

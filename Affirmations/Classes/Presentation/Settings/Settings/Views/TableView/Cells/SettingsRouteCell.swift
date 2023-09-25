@@ -98,6 +98,8 @@ private extension SettingsRoute {
             return (UIImage(named: "Settings.ContentPreferences"), "ContentPreferences.Title".localized)
         case .reminders:
             return (UIImage(named: "Settings.Reminders"), "Reminders.Title".localized)
+        case .language:
+            return (UIImage(named: "Settings.Language"), "Language.Title".localized)
         }
     }
 }

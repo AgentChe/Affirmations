@@ -129,3 +129,25 @@
 "Sounds.Spaceship" = "Космический корабль";
 "Sounds.Tada" = "Та-дам!";
 "Sounds.VideoGame" = "Видеоигра";
+
+// MARK: Language
+"Language.Title" = "Язык";
+"Language.Arabic" = "Арабский";
+"Language.Deutsch" = "Немецкий";
+"Language.English" = "Английский";
+"Language.Spanish" = "Испанский";
+"Language.French" = "Французский";
+"Language.Italian" = "Итальянский";
+"Language.Japanese" = "Японский";
+"Language.Korean" = "Корейский";
+"Language.Dutch" = "Нидерландский";
+"Language.Portuguese" = "Португальский";
+"Language.Russian" = "Русский";
+"Language.Swedish" = "Шведский";
+"Language.Thai" = "Тайский";
+"Language.Turkish" = "Турецкий";
+"Language.Chinese" = "Китайский";
+"Language.ChineseTraditional" = "Китайский традиционный";
+"Language.Confirm.Text" = "Для смены языка необходимо закрыть приложение. Вам нужно запустить его самостоятельно. Закрывать?";
+"Language.Confirm.Yes" = "Да";
+"Language.Confirm.No" = "Нет";

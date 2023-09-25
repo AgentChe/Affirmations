@@ -129,3 +129,25 @@
 "Sounds.Spaceship" = "Rymdskepp";
 "Sounds.Tada" = "Tada";
 "Sounds.VideoGame" = "Videospel";
+
+// MARK: Language
+"Language.Title" = "Språk";
+"Language.Arabic" = "Arabiska";
+"Language.Deutsch" = "tyska";
+"Language.English" = "engelska";
+"Language.Spanish" = "spanska";
+"Language.French" = "franska";
+"Language.Italian" = "italienska";
+"Language.Japanese" = "japanska";
+"Language.Korean" = "koreanska";
+"Language.Dutch" = "Holländska";
+"Language.Portuguese" = "portugisiska";
+"Language.Russian" = "ryska";
+"Language.Swedish" = "Svenska";
+"Language.Thai" = "Thailändska";
+"Language.Turkish" = "Turkiska";
+"Language.Chinese" = "kinesiska";
+"Language.ChineseTraditional" = "Traditionell kinesiska";
+"Language.Confirm.Text" = "För att ändra språket måste du stänga programmet. Du måste starta den själv. Stänga?";
+"Language.Confirm.Yes" = "Ja";
+"Language.Confirm.No" = "Nej";

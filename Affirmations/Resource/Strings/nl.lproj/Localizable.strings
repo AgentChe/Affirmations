@@ -129,3 +129,25 @@
 "Sounds.Spaceship" = "Ruimteschip";
 "Sounds.Tada" = "Tada";
 "Sounds.VideoGame" = "Videogame";
+
+// MARK: Language
+"Language.Title" = "Taal";
+"Language.Arabic" = "Arabisch";
+"Language.Deutsch" = "Duits";
+"Language.English" = "Engels";
+"Language.Spanish" = "Spaans";
+"Language.French" = "Frans";
+"Language.Italian" = "Italiaans";
+"Language.Japanese" = "Japans";
+"Language.Korean" = "Koreaans";
+"Language.Dutch" = "Nederlands";
+"Language.Portuguese" = "Portugees";
+"Language.Russian" = "Russisch";
+"Language.Swedish" = "Zweeds";
+"Language.Thai" = "Thais";
+"Language.Turkish" = "Turks";
+"Language.Chinese" = "Chinees";
+"Language.ChineseTraditional" = "Traditioneel Chinees";
+"Language.Confirm.Text" = "Om de taal te wijzigen, moet u de applicatie sluiten. Je moet het zelf lanceren. Dichtbij?";
+"Language.Confirm.Yes" = "Ja";
+"Language.Confirm.No" = "Nee";

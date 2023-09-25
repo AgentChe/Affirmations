@@ -143,6 +143,12 @@
 		DEC61E6A2A7BEAE7008F9C97 /* OWCCollectionElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61E692A7BEAE7008F9C97 /* OWCCollectionElement.swift */; };
 		DEC61E6C2A7BEAED008F9C97 /* OWCCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61E6B2A7BEAED008F9C97 /* OWCCollectionCell.swift */; };
 		DEC687FB2ABF4E7800BCC83B /* RemindersNotificationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC687FA2ABF4E7800BCC83B /* RemindersNotificationsManager.swift */; };
+		DEC6880D2AC1EA4E00BCC83B /* LanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC6880C2AC1EA4D00BCC83B /* LanguageViewController.swift */; };
+		DEC6880F2AC1EA5300BCC83B /* LanguageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC6880E2AC1EA5300BCC83B /* LanguageViewModel.swift */; };
+		DEC688112AC1EA5700BCC83B /* LanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC688102AC1EA5700BCC83B /* LanguageView.swift */; };
+		DEC688152AC1EAD000BCC83B /* LanguageTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC688142AC1EACF00BCC83B /* LanguageTableView.swift */; };
+		DEC688172AC1EAD500BCC83B /* LanguageTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC688162AC1EAD500BCC83B /* LanguageTableCell.swift */; };
+		DEC688192AC1EADB00BCC83B /* LanguageTableElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC688182AC1EADB00BCC83B /* LanguageTableElement.swift */; };
 		DEE51AEE2AAB71B10024FB36 /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE51AED2AAB71B10024FB36 /* PracticeViewController.swift */; };
 		DEE51AF02AAB71B80024FB36 /* PracticeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE51AEF2AAB71B80024FB36 /* PracticeViewModel.swift */; };
 		DEE51AF22AAB71BC0024FB36 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE51AF12AAB71BC0024FB36 /* PracticeView.swift */; };
@@ -386,6 +392,12 @@
 		DEC61E692A7BEAE7008F9C97 /* OWCCollectionElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWCCollectionElement.swift; sourceTree = "<group>"; };
 		DEC61E6B2A7BEAED008F9C97 /* OWCCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWCCollectionCell.swift; sourceTree = "<group>"; };
 		DEC687FA2ABF4E7800BCC83B /* RemindersNotificationsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersNotificationsManager.swift; sourceTree = "<group>"; };
+		DEC6880C2AC1EA4D00BCC83B /* LanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageViewController.swift; sourceTree = "<group>"; };
+		DEC6880E2AC1EA5300BCC83B /* LanguageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageViewModel.swift; sourceTree = "<group>"; };
+		DEC688102AC1EA5700BCC83B /* LanguageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageView.swift; sourceTree = "<group>"; };
+		DEC688142AC1EACF00BCC83B /* LanguageTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageTableView.swift; sourceTree = "<group>"; };
+		DEC688162AC1EAD500BCC83B /* LanguageTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageTableCell.swift; sourceTree = "<group>"; };
+		DEC688182AC1EADB00BCC83B /* LanguageTableElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageTableElement.swift; sourceTree = "<group>"; };
 		DEE51AED2AAB71B10024FB36 /* PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
 		DEE51AEF2AAB71B80024FB36 /* PracticeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewModel.swift; sourceTree = "<group>"; };
 		DEE51AF12AAB71BC0024FB36 /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
@@ -1091,6 +1103,35 @@
 			path = CollectionView;
 			sourceTree = "<group>";
 		};
+		DEC6880B2AC1EA1100BCC83B /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				DEC688122AC1EABD00BCC83B /* Views */,
+				DEC6880C2AC1EA4D00BCC83B /* LanguageViewController.swift */,
+				DEC6880E2AC1EA5300BCC83B /* LanguageViewModel.swift */,
+				DEC688102AC1EA5700BCC83B /* LanguageView.swift */,
+			);
+			path = Language;
+			sourceTree = "<group>";
+		};
+		DEC688122AC1EABD00BCC83B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DEC688132AC1EAC200BCC83B /* TableView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DEC688132AC1EAC200BCC83B /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				DEC688142AC1EACF00BCC83B /* LanguageTableView.swift */,
+				DEC688162AC1EAD500BCC83B /* LanguageTableCell.swift */,
+				DEC688182AC1EADB00BCC83B /* LanguageTableElement.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
 		DEE51AEC2AAB71A50024FB36 /* Practice */ = {
 			isa = PBXGroup;
 			children = (
@@ -1115,6 +1156,7 @@
 		DEEED5DD2AAF988B0078653B /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				DEC6880B2AC1EA1100BCC83B /* Language */,
 				DE2366932ABC8C970088A1C0 /* Reminders */,
 				DE6150282ABB46CF00ADB8FC /* ContentPreferences */,
 				DE61501F2ABA1A9700ADB8FC /* GenderIdentity */,
@@ -1494,20 +1536,25 @@
 				DE3786192AB07E7900E0CDCA /* BackupCellView.swift in Sources */,
 				DE3786142AB0753800E0CDCA /* BackupView.swift in Sources */,
 				DE2366F02ABD969E0088A1C0 /* CategoriesUnitsViewController.swift in Sources */,
+				DEC6880F2AC1EA5300BCC83B /* LanguageViewModel.swift in Sources */,
 				DE2366F22ABD96A40088A1C0 /* CategoriesUnitsViewModel.swift in Sources */,
 				DEC61AB22A7ACA38008F9C97 /* Localizable.swift in Sources */,
 				DEFE80AD2A90FEB200FB96F0 /* PaygateView.swift in Sources */,
 				DE2366A92ABCACA50088A1C0 /* Sound.swift in Sources */,
+				DEC688152AC1EAD000BCC83B /* LanguageTableView.swift in Sources */,
 				DEFE808A2A90EE8400FB96F0 /* ASN1ObjectIdentifierBuilder.swift in Sources */,
 				DEC61AA62A793900008F9C97 /* WeekSchedule.swift in Sources */,
 				DE55063B2A6589760057F9FB /* Weak.swift in Sources */,
 				DEC61E592A7ADB8F008F9C97 /* CategoryMapper.swift in Sources */,
 				DEE51AF52AAB75870024FB36 /* PracticeSettingsView.swift in Sources */,
+				DEC688192AC1EADB00BCC83B /* LanguageTableElement.swift in Sources */,
 				DEC61A982A78FAC0008F9C97 /* ONSCountView.swift in Sources */,
 				DEC61AAD2A7A29FC008F9C97 /* OGenderButton.swift in Sources */,
 				DEFE80932A90EE8400FB96F0 /* InAppPurchase.swift in Sources */,
 				DE5506352A6589760057F9FB /* ObservableRetrySingle.swift in Sources */,
 				DE5506432A6589760057F9FB /* AppDelegate.swift in Sources */,
+				DEC688172AC1EAD500BCC83B /* LanguageTableCell.swift in Sources */,
+				DEC6880D2AC1EA4E00BCC83B /* LanguageViewController.swift in Sources */,
 				DE55063F2A6589760057F9FB /* TapAreaButton.swift in Sources */,
 				DEEED5D82AAF30820078653B /* PracticeCompleteView.swift in Sources */,
 				DEC61A932A77C4B3008F9C97 /* ONotificationsSettingsView.swift in Sources */,
@@ -1603,6 +1650,7 @@
 				DE2366BB2ABCC4520088A1C0 /* DayButton.swift in Sources */,
 				DE23669F2ABC8E2D0088A1C0 /* RemindersTableCell.swift in Sources */,
 				DE5506252A6589760057F9FB /* UIDevice+Extension.swift in Sources */,
+				DEC688112AC1EA5700BCC83B /* LanguageView.swift in Sources */,
 				DE5506362A6589760057F9FB /* Fonts.swift in Sources */,
 				DE2366922ABC7E800088A1C0 /* Reminder.swift in Sources */,
 				DE5506282A6589760057F9FB /* Collection+Extension.swift in Sources */,

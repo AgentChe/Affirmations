@@ -129,3 +129,25 @@
 "Sounds.Spaceship" = "宇宙船";
 "Sounds.Tada" = "じゃーん";
 "Sounds.VideoGame" = "テレビゲーム";
+
+// MARK: Language
+"Language.Title" = "言語";
+"Language.Arabic" = "アラビア語";
+"Language.Deutsch" = "ドイツ語";
+"Language.English" = "英語";
+"Language.Spanish" = "スペイン語";
+"Language.French" = "フランス語";
+"Language.Italian" = "イタリア語";
+"Language.Japanese" = "日本語";
+"Language.Korean" = "韓国語";
+"Language.Dutch" = "オランダ語";
+"Language.Portuguese" = "ポルトガル語";
+"Language.Russian" = "ロシア語";
+"Language.Swedish" = "スウェーデン語";
+"Language.Thai" = "タイ語";
+"Language.Turkish" = "トルコ語";
+"Language.Chinese" = "中国語";
+"Language.ChineseTraditional" = "中国語 (繁体字)";
+"Language.Confirm.Text" = "言語を変更するには、アプリケーションを閉じる必要があります。 自分で起動する必要があります。 近い？";
+"Language.Confirm.Yes" = "はい";
+"Language.Confirm.No" = "いいえ";

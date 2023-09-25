@@ -129,3 +129,25 @@
 "Sounds.Spaceship" = "Uzay Gemisi";
 "Sounds.Tada" = "İşte";
 "Sounds.VideoGame" = "Video oyunu";
+
+// MARK: Language
+"Language.Title" = "Dil";
+"Language.Arabic" = "Arapça";
+"Language.Deutsch" = "Almanca";
+"Language.English" = "İngilizce";
+"Language.Spanish" = "İspanyolca";
+"Language.French" = "Fransızca";
+"Language.Italian" = "İtalyanca";
+"Language.Japanese" = "Japonca";
+"Language.Korean" = "Korece";
+"Language.Dutch" = "Flemenkçe";
+"Language.Portuguese" = "Portekizce";
+"Language.Russian" = "Rusça";
+"Language.Swedish" = "İsveççe";
+"Language.Thai" = "Tay dili";
+"Language.Turkish" = "Türkçe";
+"Language.Chinese" = "Çince";
+"Language.ChineseTraditional" = "Geleneksel Çince";
+"Language.Confirm.Text" = "Dili değiştirmek için uygulamayı kapatmanız gerekir. Bunu kendiniz başlatmanız gerekir. Kapalı?";
+"Language.Confirm.Yes" = "Evet";
+"Language.Confirm.No" = "HAYIR";
