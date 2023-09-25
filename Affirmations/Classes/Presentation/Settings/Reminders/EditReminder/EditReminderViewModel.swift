@@ -101,6 +101,7 @@ private extension EditReminderViewModel {
                 
                 return !self.schedule.selectedDays.isEmpty && !categories.isEmpty
             }
+            .startWith(false)
     }
     
     func makeElements(

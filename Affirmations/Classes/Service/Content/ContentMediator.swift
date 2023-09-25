@@ -21,6 +21,8 @@ final class ContentMediator {
     private lazy var didDeleteAffirmationTrigger = PublishRelay<String>()
     private lazy var didReplaceMyTrigger = PublishRelay<Void>()
     private lazy var didReplaceRemindersTrigger = PublishRelay<Void>()
+    private lazy var didChangedReminderTrigger = PublishRelay<Reminder>()
+    private lazy var didAddedReminderTrigger = PublishRelay<Reminder>()
 }
 
 // MARK: Public
@@ -73,6 +75,18 @@ extension ContentMediator {
         }
     }
     
+    func change(reminder: Reminder) {
+        DispatchQueue.main.async {
+            Self.shared.didChangedReminderTrigger.accept(reminder)
+        }
+    }
+    
+    func add(reminder: Reminder) {
+        DispatchQueue.main.async {
+            Self.shared.didAddedReminderTrigger.accept(reminder)
+        }
+    }
+    
     var didChangeSelectedCategory: Signal<Void> {
         didChangeSelectedCategoryTrigger.asSignal()
     }
@@ -103,5 +117,13 @@ extension ContentMediator {
     
     var didReplaceReminders: Signal<Void> {
         didReplaceRemindersTrigger.asSignal()
+    }
+    
+    var didChangedReminder: Signal<Reminder> {
+        didChangedReminderTrigger.asSignal()
+    }
+    
+    var didAddedReminder: Signal<Reminder> {
+        didAddedReminderTrigger.asSignal()
     }
 }

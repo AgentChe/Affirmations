@@ -107,7 +107,7 @@ private extension EditReminderSettingsCell {
     }
     
     func makeStartView() -> ONSStartView {
-        let view = ONSStartView(values: Array(0...15), value: 15, style: .settings)
+        let view = ONSStartView(values: Array(0...9), value: 9, style: .settings)
         view.backgroundColor = UIColor.clear
         view.translatesAutoresizingMaskIntoConstraints = false
         contentView.addSubview(view)
@@ -115,7 +115,7 @@ private extension EditReminderSettingsCell {
     }
     
     func makeEndView() -> ONSEndView {
-        let view = ONSEndView(values: Array(16...24), value: 16, style: .settings)
+        let view = ONSEndView(values: Array(10...24), value: 21, style: .settings)
         view.backgroundColor = UIColor.clear
         view.translatesAutoresizingMaskIntoConstraints = false
         contentView.addSubview(view)

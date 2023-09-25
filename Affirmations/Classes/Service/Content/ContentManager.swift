@@ -49,10 +49,14 @@ extension ContentManager: ContentManagerProtocol {
                 }
             }
             
+            var personalChange: (Reminder) -> Void
+            
             if let index = reminders.firstIndex(where: { $0.id == reminder.id }) {
                 reminders[index] = reminder
+                personalChange = ContentMediator.shared.change(reminder:)
             } else {
                 reminders.append(reminder)
+                personalChange = ContentMediator.shared.add(reminder:)
             }
             
             if let data = try? JSONEncoder().encode(reminders) {
@@ -62,6 +66,7 @@ extension ContentManager: ContentManagerProtocol {
             single(.success(Void()))
             
             ContentMediator.shared.replaceReminders()
+            personalChange(reminder)
             
             return Disposables.create()
         }

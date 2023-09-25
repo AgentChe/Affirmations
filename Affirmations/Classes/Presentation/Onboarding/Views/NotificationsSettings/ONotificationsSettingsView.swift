@@ -189,7 +189,7 @@ private extension ONotificationsSettingsView {
     }
     
     func makeStartView() -> ONSStartView {
-        let view = ONSStartView(values: Array(0...15), value: 15)
+        let view = ONSStartView(values: Array(0...9), value: 9)
         view.backgroundColor = UIColor(integralRed: 245, green: 247, blue: 249)
         view.layer.cornerRadius = 5.scale
         view.translatesAutoresizingMaskIntoConstraints = false
@@ -198,7 +198,7 @@ private extension ONotificationsSettingsView {
     }
     
     func makeEndView() -> ONSEndView {
-        let view = ONSEndView(values: Array(16...24), value: 16)
+        let view = ONSEndView(values: Array(10...24), value: 21)
         view.backgroundColor = UIColor(integralRed: 245, green: 247, blue: 249)
         view.layer.cornerRadius = 5.scale
         view.translatesAutoresizingMaskIntoConstraints = false

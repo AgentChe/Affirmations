@@ -24,7 +24,7 @@ extension ONSCountView {
         values = Array(range)
         
         if !values.contains(value) {
-            value = values.last ?? 1
+            value = 10
         }
         
         update()

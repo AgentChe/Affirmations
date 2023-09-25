@@ -18,6 +18,9 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
         IAPManager.initialize()
         Backup.shared.initialize()
         
+        PushNotificationsManager.shared.requestAuthorization()
+        RemindersNotificationsManager.shared.register()
+        
         return true
     }
     

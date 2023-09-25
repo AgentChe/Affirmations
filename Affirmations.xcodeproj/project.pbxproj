@@ -142,6 +142,7 @@
 		DEC61E682A7BEAE1008F9C97 /* OWCCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61E672A7BEAE1008F9C97 /* OWCCollectionView.swift */; };
 		DEC61E6A2A7BEAE7008F9C97 /* OWCCollectionElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61E692A7BEAE7008F9C97 /* OWCCollectionElement.swift */; };
 		DEC61E6C2A7BEAED008F9C97 /* OWCCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61E6B2A7BEAED008F9C97 /* OWCCollectionCell.swift */; };
+		DEC687FB2ABF4E7800BCC83B /* RemindersNotificationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC687FA2ABF4E7800BCC83B /* RemindersNotificationsManager.swift */; };
 		DEE51AEE2AAB71B10024FB36 /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE51AED2AAB71B10024FB36 /* PracticeViewController.swift */; };
 		DEE51AF02AAB71B80024FB36 /* PracticeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE51AEF2AAB71B80024FB36 /* PracticeViewModel.swift */; };
 		DEE51AF22AAB71BC0024FB36 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE51AF12AAB71BC0024FB36 /* PracticeView.swift */; };
@@ -384,6 +385,7 @@
 		DEC61E672A7BEAE1008F9C97 /* OWCCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWCCollectionView.swift; sourceTree = "<group>"; };
 		DEC61E692A7BEAE7008F9C97 /* OWCCollectionElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWCCollectionElement.swift; sourceTree = "<group>"; };
 		DEC61E6B2A7BEAED008F9C97 /* OWCCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWCCollectionCell.swift; sourceTree = "<group>"; };
+		DEC687FA2ABF4E7800BCC83B /* RemindersNotificationsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersNotificationsManager.swift; sourceTree = "<group>"; };
 		DEE51AED2AAB71B10024FB36 /* PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
 		DEE51AEF2AAB71B80024FB36 /* PracticeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewModel.swift; sourceTree = "<group>"; };
 		DEE51AF12AAB71BC0024FB36 /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
@@ -1015,6 +1017,7 @@
 				DEC61E522A7ADA16008F9C97 /* ContentManager.swift */,
 				DEFE819A2AA0EE2400FB96F0 /* ContentMediator.swift */,
 				DE2366862ABB5BCA0088A1C0 /* ContentWidgetsManager.swift */,
+				DEC687FA2ABF4E7800BCC83B /* RemindersNotificationsManager.swift */,
 			);
 			path = Content;
 			sourceTree = "<group>";
@@ -1575,6 +1578,7 @@
 				DEC61A682A76652E008F9C97 /* OWelcomeView.swift in Sources */,
 				DEFE808E2A90EE8400FB96F0 /* UInt8+Extensions.swift in Sources */,
 				DE2366FA2ABD96FF0088A1C0 /* CategoriesUnitsTableCell.swift in Sources */,
+				DEC687FB2ABF4E7800BCC83B /* RemindersNotificationsManager.swift in Sources */,
 				DE2366B22ABCAF850088A1C0 /* EditReminderCategoriesCell.swift in Sources */,
 				DE2366AF2ABCAF6F0088A1C0 /* EditReminderTableElement.swift in Sources */,
 				DE3830C72AB619BE00EA20E6 /* Backup.swift in Sources */,
