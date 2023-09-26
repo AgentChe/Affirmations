@@ -17,7 +17,8 @@ final class ContentMediator {
     private lazy var didSaveAffirmationTrigger = PublishRelay<String>()
     private lazy var didUnsaveAffirmationTrigger = PublishRelay<String>()
     private lazy var didReplaceFavoritesTrigger = PublishRelay<Void>()
-    private lazy var didCreateAffirmationTrigger = PublishRelay<String>()
+    private lazy var didCreateAffirmationTrigger = PublishRelay<Affirmation>()
+    private lazy var didEditAffirmationTrigger = PublishRelay<Affirmation>()
     private lazy var didDeleteAffirmationTrigger = PublishRelay<String>()
     private lazy var didReplaceMyTrigger = PublishRelay<Void>()
     private lazy var didReplaceRemindersTrigger = PublishRelay<Void>()
@@ -51,9 +52,15 @@ extension ContentMediator {
         }
     }
     
-    func create(affirmation: String) {
+    func create(affirmation: Affirmation) {
         DispatchQueue.main.async {
             Self.shared.didCreateAffirmationTrigger.accept(affirmation)
+        }
+    }
+    
+    func edit(affirmation: Affirmation) {
+        DispatchQueue.main.async {
+            Self.shared.didEditAffirmationTrigger.accept(affirmation)
         }
     }
     
@@ -103,8 +110,12 @@ extension ContentMediator {
         didReplaceFavoritesTrigger.asSignal()
     }
     
-    var didCreateAffirmation: Signal<String> {
+    var didCreateAffirmation: Signal<Affirmation> {
         didCreateAffirmationTrigger.asSignal()
+    }
+    
+    var didEditAffirmation: Signal<Affirmation> {
+        didEditAffirmationTrigger.asSignal()
     }
     
     var didDeleteAffirmation: Signal<String> {

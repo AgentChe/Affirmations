@@ -72,6 +72,9 @@ private extension SettingsViewController {
             case .favorites:
                 let vc = FavoritesViewController.make()
                 navigationController?.pushViewController(vc, animated: true)
+            case .myAffirmations:
+                let vc = MyAffirmationsViewController.make()
+                navigationController?.pushViewController(vc, animated: true)
             }
         case .backup:
             let vc = BackupViewController.make()

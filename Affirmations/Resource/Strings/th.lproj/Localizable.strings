@@ -157,3 +157,13 @@
 "Favorites.Empty" = "คุณยังไม่มีรายการโปรด";
 "Favorites.Share" = "แชร์";
 "Favorites.Remove" = "ลบออก";
+
+// MARK: MyAffirmations
+"MyAffirmations.Title" = "เพิ่มแล้ว";
+"MyAffirmations.Empty" = "คุณยังไม่ได้เพิ่มอะไรเลย";
+"MyAffirmations.AddButton" = "เพิ่มคำพูดยืนยัน";
+"MyAffirmations.Create.Title" = "เพิ่มคำพูดยืนยันใหม่";
+"MyAffirmations.Create.Button" = "บันทึก";
+"MyAffirmations.ToFavorites" = "บันทึกลงในรายการโปรด";
+"MyAffirmations.Edit" = "แก้ไข";
+"MyAffirmations.Settings.Title" = "เพิ่มข้อความของคุณเอง";

@@ -157,3 +157,13 @@
 "Favorites.Empty" = "Non hai ancora salvato dei preferiti.";
 "Favorites.Share" = "Condividi";
 "Favorites.Remove" = "Rimuovi";
+
+// MARK: MyAffirmations
+"MyAffirmations.Title" = "Aggiunto";
+"MyAffirmations.Empty" = "Non hai ancora aggiunto nulla.";
+"MyAffirmations.AddButton" = "Aggiungi affermazione";
+"MyAffirmations.Create.Title" = "Aggiungi una nuova affermazione";
+"MyAffirmations.Create.Button" = "Salva";
+"MyAffirmations.ToFavorites" = "Salva nei preferiti";
+"MyAffirmations.Edit" = "Modifica";
+"MyAffirmations.Settings.Title" = "Aggiungi il tuo";

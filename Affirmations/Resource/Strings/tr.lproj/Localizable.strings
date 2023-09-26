@@ -157,3 +157,13 @@
 "Favorites.Empty" = "Henüz favorin yok.";
 "Favorites.Share" = "Paylaş";
 "Favorites.Remove" = "Kaldır";
+
+// MARK: MyAffirmations
+"MyAffirmations.Title" = "Eklendi";
+"MyAffirmations.Empty" = "Henüz bir şey eklemedin.";
+"MyAffirmations.AddButton" = "Olumlama ekle";
+"MyAffirmations.Create.Title" = "Yeni bir olumlama ekle";
+"MyAffirmations.Create.Button" = "Kaydet";
+"MyAffirmations.ToFavorites" = "Favorilere kaydet";
+"MyAffirmations.Edit" = "Düzenle";
+"MyAffirmations.Settings.Title" = "Kendininkini Ekle";

@@ -157,3 +157,13 @@
 "Favorites.Empty" = "ليس لديك أي مفضلات بعد.";
 "Favorites.Share" = "مشاركة";
 "Favorites.Remove" = "حذف";
+
+// MARK: MyAffirmations
+"MyAffirmations.Title" = "تمت الإضافة";
+"MyAffirmations.Empty" = "لم تضف أي شيء بعد.";
+"MyAffirmations.AddButton" = "إضافة قول";
+"MyAffirmations.Create.Title" = "إضافة قول جديد";
+"MyAffirmations.Create.Button" = "حفظ";
+"MyAffirmations.ToFavorites" = "حفظ في المفضلة";
+"MyAffirmations.Edit" = "تعديل";
+"MyAffirmations.Settings.Title" = "أضف عباراتك";

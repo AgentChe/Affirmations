@@ -102,6 +102,8 @@ private extension SettingsRoute {
             return (UIImage(named: "Settings.Language"), "Language.Title".localized)
         case .favorites:
             return (UIImage(named: "Settings.Favorites"), "Favorites.Title".localized)
+        case .myAffirmations:
+            return (UIImage(named: "Settings.MyFavorites"), "MyAffirmations.Settings.Title".localized)
         }
     }
 }

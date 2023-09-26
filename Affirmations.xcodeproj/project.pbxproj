@@ -114,6 +114,8 @@
 		DE6150412ABB4D6000ADB8FC /* AffirmationsWidgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = DE61503D2ABB4D5F00ADB8FC /* AffirmationsWidgets.intentdefinition */; };
 		DE6150422ABB4D6000ADB8FC /* AffirmationsWidgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = DE61503D2ABB4D5F00ADB8FC /* AffirmationsWidgets.intentdefinition */; };
 		DE6150452ABB4D6000ADB8FC /* AffirmationsWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DE6150332ABB4D5E00ADB8FC /* AffirmationsWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DE784E042AC2F07C00DF027D /* AddAffirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE784E032AC2F07C00DF027D /* AddAffirmationViewController.swift */; };
+		DE784E062AC2F08100DF027D /* AddAffirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE784E052AC2F08100DF027D /* AddAffirmationView.swift */; };
 		DEC61A5F2A7661A6008F9C97 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61A5E2A7661A6008F9C97 /* OnboardingViewController.swift */; };
 		DEC61A612A7661AB008F9C97 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61A602A7661AB008F9C97 /* OnboardingViewModel.swift */; };
 		DEC61A632A7661AF008F9C97 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61A622A7661AF008F9C97 /* OnboardingView.swift */; };
@@ -154,6 +156,9 @@
 		DEC688202AC1FF6A00BCC83B /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC6881F2AC1FF6A00BCC83B /* FavoritesView.swift */; };
 		DEC688242AC1FF8600BCC83B /* FavoritesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC688232AC1FF8600BCC83B /* FavoritesTableView.swift */; };
 		DEC688262AC1FF8B00BCC83B /* FavoritesTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC688252AC1FF8B00BCC83B /* FavoritesTableCell.swift */; };
+		DEC688292AC214F100BCC83B /* MyAffirmationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC688282AC214F100BCC83B /* MyAffirmationsViewController.swift */; };
+		DEC6882B2AC214F500BCC83B /* MyAffirmationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC6882A2AC214F500BCC83B /* MyAffirmationsViewModel.swift */; };
+		DEC6882D2AC214F900BCC83B /* MyAffirmationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC6882C2AC214F900BCC83B /* MyAffirmationsView.swift */; };
 		DEE51AEE2AAB71B10024FB36 /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE51AED2AAB71B10024FB36 /* PracticeViewController.swift */; };
 		DEE51AF02AAB71B80024FB36 /* PracticeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE51AEF2AAB71B80024FB36 /* PracticeViewModel.swift */; };
 		DEE51AF22AAB71BC0024FB36 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE51AF12AAB71BC0024FB36 /* PracticeView.swift */; };
@@ -338,6 +343,8 @@
 		DE61503D2ABB4D5F00ADB8FC /* AffirmationsWidgets.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = AffirmationsWidgets.intentdefinition; sourceTree = "<group>"; };
 		DE61503E2ABB4D6000ADB8FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE6150402ABB4D6000ADB8FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE784E032AC2F07C00DF027D /* AddAffirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAffirmationViewController.swift; sourceTree = "<group>"; };
+		DE784E052AC2F08100DF027D /* AddAffirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAffirmationView.swift; sourceTree = "<group>"; };
 		DEC61A5E2A7661A6008F9C97 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		DEC61A602A7661AB008F9C97 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 		DEC61A622A7661AF008F9C97 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
@@ -408,6 +415,9 @@
 		DEC6881F2AC1FF6A00BCC83B /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		DEC688232AC1FF8600BCC83B /* FavoritesTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableView.swift; sourceTree = "<group>"; };
 		DEC688252AC1FF8B00BCC83B /* FavoritesTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableCell.swift; sourceTree = "<group>"; };
+		DEC688282AC214F100BCC83B /* MyAffirmationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAffirmationsViewController.swift; sourceTree = "<group>"; };
+		DEC6882A2AC214F500BCC83B /* MyAffirmationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAffirmationsViewModel.swift; sourceTree = "<group>"; };
+		DEC6882C2AC214F900BCC83B /* MyAffirmationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAffirmationsView.swift; sourceTree = "<group>"; };
 		DEE51AED2AAB71B10024FB36 /* PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
 		DEE51AEF2AAB71B80024FB36 /* PracticeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewModel.swift; sourceTree = "<group>"; };
 		DEE51AF12AAB71BC0024FB36 /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
@@ -972,6 +982,25 @@
 			path = AffirmationsWidgets;
 			sourceTree = "<group>";
 		};
+		DE784E012AC2F06100DF027D /* MyAffirmations */ = {
+			isa = PBXGroup;
+			children = (
+				DEC688282AC214F100BCC83B /* MyAffirmationsViewController.swift */,
+				DEC6882A2AC214F500BCC83B /* MyAffirmationsViewModel.swift */,
+				DEC6882C2AC214F900BCC83B /* MyAffirmationsView.swift */,
+			);
+			path = MyAffirmations;
+			sourceTree = "<group>";
+		};
+		DE784E022AC2F06F00DF027D /* AddAffirmation */ = {
+			isa = PBXGroup;
+			children = (
+				DE784E032AC2F07C00DF027D /* AddAffirmationViewController.swift */,
+				DE784E052AC2F08100DF027D /* AddAffirmationView.swift */,
+			);
+			path = AddAffirmation;
+			sourceTree = "<group>";
+		};
 		DEC61A5D2A766195008F9C97 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
@@ -1170,6 +1199,15 @@
 			path = TableView;
 			sourceTree = "<group>";
 		};
+		DEC688272AC20F9D00BCC83B /* MyAffirmations */ = {
+			isa = PBXGroup;
+			children = (
+				DE784E022AC2F06F00DF027D /* AddAffirmation */,
+				DE784E012AC2F06100DF027D /* MyAffirmations */,
+			);
+			path = MyAffirmations;
+			sourceTree = "<group>";
+		};
 		DEE51AEC2AAB71A50024FB36 /* Practice */ = {
 			isa = PBXGroup;
 			children = (
@@ -1194,6 +1232,7 @@
 		DEEED5DD2AAF988B0078653B /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				DEC688272AC20F9D00BCC83B /* MyAffirmations */,
 				DEC6881A2AC1FF4B00BCC83B /* Favorites */,
 				DEC6880B2AC1EA1100BCC83B /* Language */,
 				DE2366932ABC8C970088A1C0 /* Reminders */,
@@ -1590,8 +1629,10 @@
 				DEC61A982A78FAC0008F9C97 /* ONSCountView.swift in Sources */,
 				DEC61AAD2A7A29FC008F9C97 /* OGenderButton.swift in Sources */,
 				DEFE80932A90EE8400FB96F0 /* InAppPurchase.swift in Sources */,
+				DE784E062AC2F08100DF027D /* AddAffirmationView.swift in Sources */,
 				DE5506352A6589760057F9FB /* ObservableRetrySingle.swift in Sources */,
 				DE5506432A6589760057F9FB /* AppDelegate.swift in Sources */,
+				DEC6882D2AC214F900BCC83B /* MyAffirmationsView.swift in Sources */,
 				DEC688172AC1EAD500BCC83B /* LanguageTableCell.swift in Sources */,
 				DEC6880D2AC1EA4E00BCC83B /* LanguageViewController.swift in Sources */,
 				DE55063F2A6589760057F9FB /* TapAreaButton.swift in Sources */,
@@ -1600,6 +1641,7 @@
 				DE5506472A6589760057F9FB /* SceneDelegate.swift in Sources */,
 				DEFE818F2A9F98AF00FB96F0 /* MainViewModel.swift in Sources */,
 				DE2366CC2ABD7B470088A1C0 /* SoundsTableCell.swift in Sources */,
+				DE784E042AC2F07C00DF027D /* AddAffirmationViewController.swift in Sources */,
 				DE55062B2A6589760057F9FB /* UIViewRxExtension.swift in Sources */,
 				DEEED5EF2AAF9C610078653B /* SettingsRouteCell.swift in Sources */,
 				DEC61A662A7661E8008F9C97 /* OSlideView.swift in Sources */,
@@ -1683,7 +1725,9 @@
 				DE5506642A6589810057F9FB /* IAPProduct.swift in Sources */,
 				DE5506402A6589760057F9FB /* PaddingTextField.swift in Sources */,
 				DE5506442A6589760057F9FB /* PushNotificationsManager.swift in Sources */,
+				DEC6882B2AC214F500BCC83B /* MyAffirmationsViewModel.swift in Sources */,
 				DEC61A612A7661AB008F9C97 /* OnboardingViewModel.swift in Sources */,
+				DEC688292AC214F100BCC83B /* MyAffirmationsViewController.swift in Sources */,
 				DE2366992ABC8CAF0088A1C0 /* RemindersViewModel.swift in Sources */,
 				DEC688262AC1FF8B00BCC83B /* FavoritesTableCell.swift in Sources */,
 				DEFE80952A90EE8400FB96F0 /* ReceiptReadingError.swift in Sources */,

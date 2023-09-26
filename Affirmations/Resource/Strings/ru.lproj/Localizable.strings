@@ -157,3 +157,13 @@
 "Favorites.Empty" = "У вас пока нет избранного.";
 "Favorites.Share" = "Поделиться";
 "Favorites.Remove" = "Убрать";
+
+// MARK: MyAffirmations
+"MyAffirmations.Title" = "Добавлено";
+"MyAffirmations.Empty" = "Вы еще ничего не добавили.";
+"MyAffirmations.AddButton" = "Добавить установку";
+"MyAffirmations.Create.Title" = "Добавить новую установку";
+"MyAffirmations.Create.Button" = "Сохранить";
+"MyAffirmations.ToFavorites" = "Сохранить в избранном";
+"MyAffirmations.Edit" = "Изменить";
+"MyAffirmations.Settings.Title" = "Добавить свои";

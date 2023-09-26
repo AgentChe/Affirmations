@@ -157,3 +157,13 @@
 "Favorites.Empty" = "아직 즐겨찾기가 없습니다.";
 "Favorites.Share" = "공유하기";
 "Favorites.Remove" = "제거";
+
+// MARK: MyAffirmations
+"MyAffirmations.Title" = "추가됨";
+"MyAffirmations.Empty" = "아직 추가한 항목이 없습니다.";
+"MyAffirmations.AddButton" = "확언 추가";
+"MyAffirmations.Create.Title" = "새 확언 추가";
+"MyAffirmations.Create.Button" = "저장";
+"MyAffirmations.ToFavorites" = "즐겨찾기에 저장";
+"MyAffirmations.Edit" = "수정";
+"MyAffirmations.Settings.Title" = "직접 추가";

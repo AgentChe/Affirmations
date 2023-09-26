@@ -157,3 +157,13 @@
 "Favorites.Empty" = "U heeft nog geen favorieten.";
 "Favorites.Share" = "Delen";
 "Favorites.Remove" = "Verwijderen";
+
+// MARK: MyAffirmations
+"MyAffirmations.Title" = "Toegevoegd";
+"MyAffirmations.Empty" = "U heeft nog niets toegevoegd.";
+"MyAffirmations.AddButton" = "Bevestiging toevoegen";
+"MyAffirmations.Create.Title" = "Nieuwe bevestiging toevoegen";
+"MyAffirmations.Create.Button" = "Opslaan";
+"MyAffirmations.ToFavorites" = "Opslaan in favorieten";
+"MyAffirmations.Edit" = "Bewerken";
+"MyAffirmations.Settings.Title" = "Uw eigen toevoegen";

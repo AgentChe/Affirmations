@@ -157,3 +157,13 @@
 "Favorites.Empty" = "Du har inga favoriter än.";
 "Favorites.Share" = "Dela";
 "Favorites.Remove" = "Ta bort";
+
+// MARK: MyAffirmations
+"MyAffirmations.Title" = "Har lagts till";
+"MyAffirmations.Empty" = "Du har inte lagt till något än.";
+"MyAffirmations.AddButton" = "Lägg till affirmation";
+"MyAffirmations.Create.Title" = "Lägg till ny affirmation";
+"MyAffirmations.Create.Button" = "Spara";
+"MyAffirmations.ToFavorites" = "Spara som favorit";
+"MyAffirmations.Edit" = "Redigera";
+"MyAffirmations.Settings.Title" = "Lägg till en egen";

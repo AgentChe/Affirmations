@@ -17,4 +17,5 @@ enum SettingsRoute {
     case reminders
     case language
     case favorites
+    case myAffirmations
 }

@@ -155,3 +155,13 @@
 "Favorites.Empty" = "您尚無任何最愛。";
 "Favorites.Share" = "分享";
 "Favorites.Remove" = "移除";
+
+// MARK: MyAffirmations
+"MyAffirmations.Title" = "已增加";
+"MyAffirmations.Empty" = "您尚未增加任何東西。";
+"MyAffirmations.AddButton" = "增加肯定話語";
+"MyAffirmations.Create.Title" = "增加一則新的肯定話語";
+"MyAffirmations.Create.Button" = "儲存";
+"MyAffirmations.ToFavorites" = "儲存至最愛";
+"MyAffirmations.Edit" = "編輯";
+"MyAffirmations.Settings.Title" = "增加您自己的";

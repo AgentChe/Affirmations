@@ -21,8 +21,9 @@ protocol ContentManagerProtocol {
     func unsave(affirmation: String) -> Single<Void>
     func replace(favorites: [Affirmation]) -> Single<Void>
     func obtainFavoritesAffirmations() -> Single<[Affirmation]>
-    func create(affirmation: String) -> Single<Void>
+    func create(affirmation: String) -> Single<Affirmation>
     func delete(affirmation: String) -> Single<Void>
+    func edit(affirmation: Affirmation) -> Single<Affirmation>
     func replace(my: [Affirmation]) -> Single<Void>
     func obtainMyAffirmations() -> Single<[Affirmation]>
 }
@@ -174,11 +175,10 @@ extension ContentManager: ContentManagerProtocol {
         }
     }
     
-    // TODO: MY
     func obtainAffirmations(for language: ApplicationLanguage, categoryType: String, gender: String) -> Single<[Affirmation]> {
         switch categoryType {
         case "MY":
-            return .deferred { .just([]) }
+            return obtainMyAffirmations()
         case "FAVORITES":
             return obtainFavoritesAffirmations()
         default:
@@ -196,7 +196,7 @@ extension ContentManager: ContentManagerProtocol {
                 }
             }
             
-            let maxId = favorites.max(by: { $0.id > $1.id })?.id ?? 0
+            let maxId = favorites.max(by: { $0.id < $1.id })?.id ?? 0
             
             favorites.insert(Affirmation(
                 id: maxId + 1,
@@ -274,31 +274,33 @@ extension ContentManager: ContentManagerProtocol {
         }
     }
     
-    func create(affirmation: String) -> Single<Void> {
-        Single<Void>.create { event in
-            var my: Set<Affirmation> = []
+    func create(affirmation: String) -> Single<Affirmation> {
+        Single<Affirmation>.create { event in
+            var my = [Affirmation]()
             
             if let data = UserDefaults.standard.data(forKey: Constants.myAffirmations) {
-                if let decoded = try? JSONDecoder().decode(Set<Affirmation>.self, from: data) {
+                if let decoded = try? JSONDecoder().decode([Affirmation].self, from: data) {
                     my = decoded
                 }
             }
             
-            let maxId = my.max(by: { $0.id > $1.id })?.id ?? 0
+            let maxId = my.max(by: { $0.id < $1.id })?.id ?? 0
             
-            my.insert(Affirmation(
+            let object = Affirmation(
                 id: maxId + 1,
                 message: affirmation,
                 date: Date()
-            ))
+            )
+            
+            my.append(object)
             
             if let data = try? JSONEncoder().encode(my) {
                 UserDefaults.standard.set(data, forKey: Constants.myAffirmations)
             }
             
-            event(.success(Void()))
+            event(.success(object))
             
-            ContentMediator.shared.create(affirmation: affirmation)
+            ContentMediator.shared.create(affirmation: object)
             
             return Disposables.create()
         }
@@ -306,10 +308,10 @@ extension ContentManager: ContentManagerProtocol {
     
     func delete(affirmation: String) -> Single<Void> {
         Single<Void>.create { event in
-            var my: Set<Affirmation> = []
+            var my = [Affirmation]()
             
             if let data = UserDefaults.standard.data(forKey: Constants.myAffirmations) {
-                if let decoded = try? JSONDecoder().decode(Set<Affirmation>.self, from: data) {
+                if let decoded = try? JSONDecoder().decode([Affirmation].self, from: data) {
                     my = decoded
                 }
             }
@@ -325,6 +327,32 @@ extension ContentManager: ContentManagerProtocol {
             event(.success(Void()))
             
             ContentMediator.shared.delete(affirmation: affirmation)
+            
+            return Disposables.create()
+        }
+    }
+    
+    func edit(affirmation: Affirmation) -> Single<Affirmation> {
+        Single<Affirmation>.create { event in
+            var my = [Affirmation]()
+            
+            if let data = UserDefaults.standard.data(forKey: Constants.myAffirmations) {
+                if let decoded = try? JSONDecoder().decode([Affirmation].self, from: data) {
+                    my = decoded
+                }
+            }
+            
+            if let index = my.firstIndex(where: { $0.id == affirmation.id }) {
+                my[index] = affirmation
+            }
+            
+            if let data = try? JSONEncoder().encode(my) {
+                UserDefaults.standard.set(data, forKey: Constants.myAffirmations)
+            }
+            
+            event(.success(affirmation))
+            
+            ContentMediator.shared.edit(affirmation: affirmation)
             
             return Disposables.create()
         }
@@ -346,17 +374,15 @@ extension ContentManager: ContentManagerProtocol {
     
     func obtainMyAffirmations() -> Single<[Affirmation]> {
         Single<[Affirmation]>.create { event in
-            var my: Set<Affirmation> = []
+            var my = [Affirmation]()
             
             if let data = UserDefaults.standard.data(forKey: Constants.myAffirmations) {
-                if let decoded = try? JSONDecoder().decode(Set<Affirmation>.self, from: data) {
+                if let decoded = try? JSONDecoder().decode([Affirmation].self, from: data) {
                     my = decoded
                 }
             }
             
-            let array = Array(my)
-            
-            event(.success(array))
+            event(.success(my))
             
             return Disposables.create()
         }

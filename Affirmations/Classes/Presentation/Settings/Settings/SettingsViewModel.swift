@@ -50,7 +50,8 @@ private extension SettingsViewModel {
                     .route(.gender),
                     .route(.reminders),
                     .route(.language),
-                    .route(.favorites)
+                    .route(.favorites),
+                    .route(.myAffirmations)
                 ])
                 
                 return result

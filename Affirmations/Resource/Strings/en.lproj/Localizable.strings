@@ -157,3 +157,13 @@
 "Favorites.Empty" = "You don't have any favorites yet.";
 "Favorites.Share" = "Share";
 "Favorites.Remove" = "Remove";
+
+// MARK: MyAffirmations
+"MyAffirmations.Title" = "Added";
+"MyAffirmations.Empty" = "You haven't added anything yet.";
+"MyAffirmations.AddButton" = "Add affirmation";
+"MyAffirmations.Create.Title" = "Add a new affirmation";
+"MyAffirmations.Create.Button" = "Save";
+"MyAffirmations.ToFavorites" = "Save to favorites";
+"MyAffirmations.Edit" = "Edit";
+"MyAffirmations.Settings.Title" = "Add Your Own";
