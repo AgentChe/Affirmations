@@ -69,6 +69,7 @@
 "Settings.Backup.Enable" = "بياناتك آمنة";
 "Settings.Backup.Disable" = "النسخ الاحتياطي متوقف";
 "Settings.Backup.Text" = "يمكنك استعادة بياناتك إذا فقدت هاتفك أو قمت بتغييره ، احذف هذا التطبيق.";
+"Settings.Review" = "اكتب لنا مراجعة";
 
 // MARK: Backup
 "Backup.Title" = "النسخ الاحتياطي للبيانات";

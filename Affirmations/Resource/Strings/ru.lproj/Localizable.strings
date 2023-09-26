@@ -69,6 +69,7 @@
 "Settings.Backup.Enable" = "Ваши данные в безопасности";
 "Settings.Backup.Disable" = "Хранение данных отключено";
 "Settings.Backup.Text" = "Поможет восстановить данные при потере или смене телефона, удалении приложения.";
+"Settings.Review" = "Оставить отзыв";
 
 // MARK: Backup
 "Backup.Title" = "Хранение данных";

@@ -18,4 +18,8 @@ enum SettingsRoute {
     case language
     case favorites
     case myAffirmations
+    case review
+    case share
+    case privacyPolicy
+    case termsAndConditions
 }

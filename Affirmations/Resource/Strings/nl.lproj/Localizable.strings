@@ -69,6 +69,7 @@
 "Settings.Backup.Enable" = "Uw gegevens veilig";
 "Settings.Backup.Disable" = "Back-up staat uit";
 "Settings.Backup.Text" = "Je kunt je gegevens herstellen als je je telefoon verliest of verandert, verwijder deze app.";
+"Settings.Review" = "Laat een beoordeling voor ons achter";
 
 // MARK: Backup
 "Backup.Title" = "Back-up van gegevens";

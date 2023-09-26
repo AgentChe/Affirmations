@@ -69,6 +69,7 @@
 "Settings.Backup.Enable" = "Verileriniz güvende";
 "Settings.Backup.Disable" = "Yedekleme kapalı";
 "Settings.Backup.Text" = "Telefonunuzu kaybederseniz veya değiştirirseniz verilerinizi geri yükleyebilir, bu uygulamayı silebilirsiniz.";
+"Settings.Review" = "Bize bir Yorum bırak";
 
 // MARK: Backup
 "Backup.Title" = "Veri yedekleme";

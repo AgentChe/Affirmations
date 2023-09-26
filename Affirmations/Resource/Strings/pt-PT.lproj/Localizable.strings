@@ -70,6 +70,7 @@
 "Settings.Backup.Enable" = "Os seus dados estão seguros";
 "Settings.Backup.Disable" = "A cópia de segurança está desactivada";
 "Settings.Backup.Text" = "Pode restaurar os seus dados se perder ou alterar o seu telemóvel, apagar esta aplicação.";
+"Settings.Review" = "Deixe sua avaliação";
 
 // MARK: Backup
 "Backup.Title" = "Cópia de segurança dos dados";

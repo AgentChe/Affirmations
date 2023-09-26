@@ -38,6 +38,8 @@
 "Paygate.Cell4" = "每月仅需 %@，按月结算";
 "Paygate.Restore" = "已经订阅？";
 "Paygate.Buy" = "繼續";
+"Paygate.PrivacyPolicy" = "隐私政策";
+"Paygate.TermsOfUse" = "使用条款";
 
 // MARK: Categories
 "Categories.Title" = "類別";
@@ -67,6 +69,7 @@
 "Settings.Backup.Enable" = "您的数据安全";
 "Settings.Backup.Disable" = "备份已关闭";
 "Settings.Backup.Text" = "如果您丢失或更改手机，请删除此应用程序，您可以恢复数据。";
+"Settings.Review" = "留下一則評價給我們";
 
 // MARK: Backup
 "Backup.Title" = "数据备份";

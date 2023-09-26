@@ -51,7 +51,11 @@ private extension SettingsViewModel {
                     .route(.reminders),
                     .route(.language),
                     .route(.favorites),
-                    .route(.myAffirmations)
+                    .route(.myAffirmations),
+                    .route(.review),
+                    .route(.share),
+                    .route(.privacyPolicy),
+                    .route(.termsAndConditions)
                 ])
                 
                 return result

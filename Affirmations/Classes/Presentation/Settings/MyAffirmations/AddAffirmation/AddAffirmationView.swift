@@ -127,6 +127,7 @@ private extension AddAffirmationView {
             .textAlignment(.left)
         
         let view = PaddingTextField()
+        view.defaultTextAttributes = attrs.dictionary
         view.textPadding = UIEdgeInsets(top: 12.scale, left: 16.scale, bottom: 12.scale, right: 16.scale)
         view.backgroundColor = UIColor(integralRed: 248, green: 248, blue: 248)
         view.layer.cornerRadius = 4.scale

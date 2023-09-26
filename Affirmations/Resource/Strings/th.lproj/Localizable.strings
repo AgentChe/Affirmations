@@ -69,6 +69,7 @@
 "Settings.Backup.Enable" = "ข้อมูลของคุณปลอดภัย";
 "Settings.Backup.Disable" = "การสำรองข้อมูลปิดอยู่";
 "Settings.Backup.Text" = "คุณสามารถกู้คืนข้อมูลของคุณได้หากคุณทำโทรศัพท์หายหรือเปลี่ยน ให้ลบแอปนี้";
+"Settings.Review" = "เขียนรีวิวให้เรา";
 
 // MARK: Backup
 "Backup.Title" = "สำรองข้อมูล";

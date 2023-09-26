@@ -7,6 +7,7 @@
 
 import UIKit
 import RxSwift
+import MessageUI
 
 final class SettingsViewController: UIViewController {
     lazy var mainView = SettingsView()
@@ -48,6 +49,13 @@ extension SettingsViewController {
     }
 }
 
+// MARK: MFMailComposeViewControllerDelegate
+extension SettingsViewController: MFMailComposeViewControllerDelegate {
+    func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
+        controller.dismiss(animated: true)
+    }
+}
+
 // MARK: Private
 private extension SettingsViewController {
     func select(element: SettingsTableElement) {
@@ -75,10 +83,53 @@ private extension SettingsViewController {
             case .myAffirmations:
                 let vc = MyAffirmationsViewController.make()
                 navigationController?.pushViewController(vc, animated: true)
+            case .review:
+                review()
+            case .share:
+                share()
+            case .privacyPolicy:
+                open(path: GlobalDefinitions.privacyPolicy)
+            case .termsAndConditions:
+                open(path: GlobalDefinitions.termsOfUse)
             }
         case .backup:
             let vc = BackupViewController.make()
             navigationController?.pushViewController(vc, animated: true)
         }
+    }
+    
+    func review() {
+        guard MFMailComposeViewController.canSendMail() else {
+            return
+        }
+        
+        let messageFormat = "ID: %@ \n OS: %@ \n Version: %@ \n Device: %@ \n"
+        let message = String(format: messageFormat,
+                             UIDevice.idfv?.uppercased() ?? "",
+                             UIDevice.current.systemVersion,
+                             UIDevice.appVersion ?? "",
+                             UIDevice.current.model)
+        let mail = MFMailComposeViewController()
+        mail.mailComposeDelegate = self
+        mail.setToRecipients([GlobalDefinitions.supportEmail])
+        mail.setMessageBody(message, isHTML: false)
+        present(mail, animated: true)
+    }
+    
+    func share() {
+        guard let url = URL(string:"https://apps.apple.com/us/app/positive-affirmations-daily/id6462790105") else {
+            return
+        }
+        
+        let controller = UIActivityViewController(activityItems: [url], applicationActivities: nil)
+        present(controller, animated: true)
+    }
+    
+    func open(path: String) {
+        guard let url = URL(string: path) else {
+            return
+        }
+        
+        UIApplication.shared.open(url)
     }
 }

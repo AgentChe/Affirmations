@@ -69,6 +69,7 @@
 "Settings.Backup.Enable" = "I vostri dati sono al sicuro";
 "Settings.Backup.Disable" = "Il backup è disattivato";
 "Settings.Backup.Text" = "È possibile ripristinare i dati in caso di perdita o modifica del telefono, eliminando questa applicazione.";
+"Settings.Review" = "Lasciaci una recensione";
 
 // MARK: Backup
 "Backup.Title" = "Backup dei dati";

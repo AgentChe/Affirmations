@@ -22,4 +22,6 @@ final class GlobalDefinitions {
     
     static let privacyPolicy = "https://navisapps.com/affirmations/privacy.html"
     static let termsOfUse = "https://navisapps.com/affirmations/terms.html"
+    
+    static let supportEmail = "affirmations.apps@gmail.com"
 }

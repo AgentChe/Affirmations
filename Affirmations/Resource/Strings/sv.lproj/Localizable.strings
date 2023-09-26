@@ -69,6 +69,7 @@
 "Settings.Backup.Enable" = "Dina data är säkra";
 "Settings.Backup.Disable" = "Säkerhetskopiering är avstängd";
 "Settings.Backup.Text" = "Du kan återställa dina data om du tappar bort eller ändrar din telefon, radera den här appen.";
+"Settings.Review" = "Ge oss ett omdöme";
 
 // MARK: Backup
 "Backup.Title" = "Säkerhetskopiering av data";

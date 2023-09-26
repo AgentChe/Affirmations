@@ -69,6 +69,7 @@
 "Settings.Backup.Enable" = "Your data secure";
 "Settings.Backup.Disable" = "Backup is off";
 "Settings.Backup.Text" = "You can restore your data if you lose or change your phone, delete this app.";
+"Settings.Review" = "Leave us a Review";
 
 // MARK: Backup
 "Backup.Title" = "Data backup";

@@ -104,6 +104,14 @@ private extension SettingsRoute {
             return (UIImage(named: "Settings.Favorites"), "Favorites.Title".localized)
         case .myAffirmations:
             return (UIImage(named: "Settings.MyFavorites"), "MyAffirmations.Settings.Title".localized)
+        case .review:
+            return (UIImage(named: "Settings.Review"), "Settings.Review".localized)
+        case .share:
+            return (UIImage(named: "Settings.Share"), "Favorites.Share".localized)
+        case .privacyPolicy:
+            return (UIImage(named: "Settings.PrivacyPolicy"), "Onboarding.Welcome.PrivacyPolicy".localized)
+        case .termsAndConditions:
+            return (UIImage(named: "Settings.TermsAndConditions"), "Onboarding.Welcome.TermsOfUse".localized)
         }
     }
 }
