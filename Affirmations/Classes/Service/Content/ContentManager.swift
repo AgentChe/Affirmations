@@ -9,6 +9,7 @@ import RxSwift
 
 protocol ContentManagerProtocol {
     func add(reminder: Reminder) -> Single<Void>
+    func delete(reminders: [Reminder]) -> Single<Void>
     func obtainReminders() -> Single<[Reminder]>
     func obtainWidgetsCategories(for language: ApplicationLanguage) -> Single<[Category]>
     func saveSelectedWidgets(categories: [Category]) -> Single<Void>
@@ -68,6 +69,32 @@ extension ContentManager: ContentManagerProtocol {
             
             ContentMediator.shared.replaceReminders()
             personalChange(reminder)
+            
+            return Disposables.create()
+        }
+    }
+    
+    func delete(reminders: [Reminder]) -> Single<Void> {
+        Single<Void>.create { single in
+            var objects = [Reminder]()
+            
+            if let data = UserDefaults.standard.data(forKey: Constants.reminders) {
+                if let decoded = try? JSONDecoder().decode([Reminder].self, from: data) {
+                    objects = decoded
+                }
+            }
+            
+            objects.removeAll(where: { reminder -> Bool in
+                reminders.contains(where: { $0.id == reminder.id })
+            })
+            
+            if let data = try? JSONEncoder().encode(objects) {
+                UserDefaults.standard.set(data, forKey: Constants.reminders)
+            }
+            
+            single(.success(Void()))
+            
+            ContentMediator.shared.replaceReminders()
             
             return Disposables.create()
         }
