@@ -8,7 +8,6 @@
 import UIKit
 import GoogleMobileAds
 
-// TODO: на сплеше зависает на первом запуске
 @main
 final class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {

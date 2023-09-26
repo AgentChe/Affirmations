@@ -24,9 +24,10 @@ final class SplashViewController: UIViewController {
         
         let output = viewModel.configure(input: SplashViewModel.Input())
         
-        output.route
-            .drive(Binder(self) { base, route in
-                base.goTo(route)
+        rx.methodInvoked(#selector(viewDidAppear))
+            .withLatestFrom(output.route)
+            .bind(to: Binder(self) { base, route in
+                base.route(route)
             })
             .disposed(by: disposeBag)
     }
@@ -41,12 +42,6 @@ extension SplashViewController {
 
 // MARK: Private
 private extension SplashViewController {
-    func goTo(_ route: SplashViewModel.Route) {
-        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.5) { [weak self] in
-            self?.route(route)
-        }
-    }
-    
     func route(_ route: SplashViewModel.Route) {
         switch route {
         case .onboarding:

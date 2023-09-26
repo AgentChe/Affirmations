@@ -62,7 +62,6 @@
 		DE3830C72AB619BE00EA20E6 /* Backup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3830C62AB619BE00EA20E6 /* Backup.swift */; };
 		DE5505E42A6587B10057F9FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5505E32A6587B10057F9FB /* Assets.xcassets */; };
 		DE5505E72A6587B10057F9FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE5505E52A6587B10057F9FB /* LaunchScreen.storyboard */; };
-		DE5506242A6589760057F9FB /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5505F52A6589760057F9FB /* UIApplication+Extension.swift */; };
 		DE5506252A6589760057F9FB /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5505F62A6589760057F9FB /* UIDevice+Extension.swift */; };
 		DE5506262A6589760057F9FB /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5505F72A6589760057F9FB /* UIColor+Extension.swift */; };
 		DE5506282A6589760057F9FB /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5505F92A6589760057F9FB /* Collection+Extension.swift */; };
@@ -291,7 +290,6 @@
 		DE5505E32A6587B10057F9FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE5505E62A6587B10057F9FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE5505E82A6587B10057F9FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DE5505F52A6589760057F9FB /* UIApplication+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
 		DE5505F62A6589760057F9FB /* UIDevice+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
 		DE5505F72A6589760057F9FB /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		DE5505F92A6589760057F9FB /* Collection+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
@@ -801,7 +799,6 @@
 		DE5505F42A6589760057F9FB /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				DE5505F52A6589760057F9FB /* UIApplication+Extension.swift */,
 				DE5505F62A6589760057F9FB /* UIDevice+Extension.swift */,
 				DE5505F72A6589760057F9FB /* UIColor+Extension.swift */,
 				DE5505F92A6589760057F9FB /* Collection+Extension.swift */,
@@ -1647,7 +1644,6 @@
 				DEC61A662A7661E8008F9C97 /* OSlideView.swift in Sources */,
 				DEFE80AC2A90FEB200FB96F0 /* PaygateInteractor.swift in Sources */,
 				DEC61A5F2A7661A6008F9C97 /* OnboardingViewController.swift in Sources */,
-				DE5506242A6589760057F9FB /* UIApplication+Extension.swift in Sources */,
 				DE5506632A6589810057F9FB /* IAPActionResult.swift in Sources */,
 				DEFE80942A90EE8400FB96F0 /* ASN1ObjectIdentifier.swift in Sources */,
 				DE55063D2A6589760057F9FB /* NavigationControllerSettings.swift in Sources */,
