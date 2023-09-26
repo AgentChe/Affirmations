@@ -66,6 +66,7 @@ final class AffirmationsView: UIView {
     private lazy var disposeBag = DisposeBag()
     
     private lazy var bannerIsReceived = false
+    private lazy var activeSubscription = false
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -134,6 +135,12 @@ private extension AffirmationsView {
                 }
             })
             .disposed(by: disposeBag)
+        
+        makeActiveSubscription()
+            .drive(Binder(self) { base, activeSubscription in
+                base.activeSubscription = activeSubscription
+            })
+            .disposed(by: disposeBag)
     }
     
     func setupFirstAffirmation() {
@@ -195,9 +202,8 @@ private extension AffirmationsView {
             }
         }
         
-        // TODO: проверка наличия подписки
         if affirmations.indices.contains(nextIndex) {
-            if (nextIndex != 0) && ((nextIndex % 5) == 0) && !currentElement.isBanner && bannerIsReceived {
+            if !activeSubscription && (nextIndex != 0) && ((nextIndex % 5) == 0) && !currentElement.isBanner && bannerIsReceived {
                 currentElement = .banner(currentElement.index)
             } else {
                 currentElement = .affirmation(affirmations[nextIndex], nextIndex)
@@ -246,6 +252,14 @@ private extension AffirmationsView {
         label.sizeToFit()
         label.frame.size.width = 311.scale
         return label
+    }
+    
+    func makeActiveSubscription() -> Driver<Bool> {
+        PaygateMediator.shared
+            .didPurchased
+            .startWith(Void())
+            .map { IAPManager().hasActiveSubscriptions }
+            .asDriver(onErrorDriveWith: .never())
     }
 }
 

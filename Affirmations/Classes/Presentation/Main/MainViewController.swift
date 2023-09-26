@@ -118,7 +118,8 @@ final class MainViewController: UIViewController {
             .disposed(by: disposeBag)
         
         mainView.affirmationsView.bannerView.rootViewController = self
-        mainView.affirmationsView.bannerView.load(GADRequest())
+        
+        loadAdIfNeeded()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -185,5 +186,13 @@ private extension MainViewController {
         
         let controller = UIActivityViewController(activityItems: [image], applicationActivities: nil)
         present(controller, animated: true)
+    }
+    
+    func loadAdIfNeeded() {
+        guard !IAPManager().hasActiveSubscriptions else {
+            return
+        }
+        
+        mainView.affirmationsView.bannerView.load(GADRequest())
     }
 }
