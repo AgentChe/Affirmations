@@ -18,7 +18,9 @@ final class SplashViewModel {
 
 // MARK: Public
 extension SplashViewModel {
-    struct Input {}
+    struct Input {
+        let didRequestConsent: Signal<Void>
+    }
     
     struct Output {
         let route: Driver<Route>
@@ -30,6 +32,7 @@ extension SplashViewModel {
         
         return Output(
             route: makeRoute(
+                didRequestConsent: input.didRequestConsent,
                 activeSubscription: activeSubscription,
                 reminders: reminders
             )
@@ -40,10 +43,11 @@ extension SplashViewModel {
 // MARK: Private
 private extension SplashViewModel {
     func makeRoute(
+        didRequestConsent: Signal<Void>,
         activeSubscription: Driver<Bool>,
         reminders: Driver<[Reminder]>
     ) -> Driver<Route> {
-        Driver
+        let route = Driver
             .combineLatest(activeSubscription, reminders)
             .flatMapLatest { [weak self] activeSubscription, reminders -> Driver<Route> in
                 guard let self else {
@@ -59,8 +63,12 @@ private extension SplashViewModel {
                         .asDriver(onErrorDriveWith: .never())
                 }
                 
-                return .just(route)
+                return .deferred { .just(route) }
             }
+        
+        return didRequestConsent
+            .asDriver(onErrorDriveWith: .never())
+            .flatMapLatest { route }
     }
     
     func makeActiveSubscription() -> Driver<Bool> {
