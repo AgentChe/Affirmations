@@ -113,6 +113,7 @@
 		DE6150412ABB4D6000ADB8FC /* AffirmationsWidgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = DE61503D2ABB4D5F00ADB8FC /* AffirmationsWidgets.intentdefinition */; };
 		DE6150422ABB4D6000ADB8FC /* AffirmationsWidgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = DE61503D2ABB4D5F00ADB8FC /* AffirmationsWidgets.intentdefinition */; };
 		DE6150452ABB4D6000ADB8FC /* AffirmationsWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DE6150332ABB4D5E00ADB8FC /* AffirmationsWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DE6617462AC47E76004CCD56 /* PlanPushAffirmation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6617452AC47E76004CCD56 /* PlanPushAffirmation.swift */; };
 		DE784E042AC2F07C00DF027D /* AddAffirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE784E032AC2F07C00DF027D /* AddAffirmationViewController.swift */; };
 		DE784E062AC2F08100DF027D /* AddAffirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE784E052AC2F08100DF027D /* AddAffirmationView.swift */; };
 		DEC61A5F2A7661A6008F9C97 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61A5E2A7661A6008F9C97 /* OnboardingViewController.swift */; };
@@ -341,6 +342,7 @@
 		DE61503D2ABB4D5F00ADB8FC /* AffirmationsWidgets.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = AffirmationsWidgets.intentdefinition; sourceTree = "<group>"; };
 		DE61503E2ABB4D6000ADB8FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE6150402ABB4D6000ADB8FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE6617452AC47E76004CCD56 /* PlanPushAffirmation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanPushAffirmation.swift; sourceTree = "<group>"; };
 		DE784E032AC2F07C00DF027D /* AddAffirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAffirmationViewController.swift; sourceTree = "<group>"; };
 		DE784E052AC2F08100DF027D /* AddAffirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAffirmationView.swift; sourceTree = "<group>"; };
 		DEC61A5E2A7661A6008F9C97 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
@@ -1079,6 +1081,7 @@
 				DE07C9E82AAA4A1400C81E08 /* Affirmation.swift */,
 				DE2366912ABC7E800088A1C0 /* Reminder.swift */,
 				DE2366A82ABCACA50088A1C0 /* Sound.swift */,
+				DE6617452AC47E76004CCD56 /* PlanPushAffirmation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1746,6 +1749,7 @@
 				DE2366B62ABCAFAC0088A1C0 /* EditReminderScheduleCell.swift in Sources */,
 				DE61502C2ABB46E400ADB8FC /* ContentPreferencesViewModel.swift in Sources */,
 				DE6150422ABB4D6000ADB8FC /* AffirmationsWidgets.intentdefinition in Sources */,
+				DE6617462AC47E76004CCD56 /* PlanPushAffirmation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
