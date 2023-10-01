@@ -158,13 +158,13 @@ private extension AffirmationsView {
     }
     
     func moveView(at y: CGFloat) {
-        if (y > -150.scale) && (y < 150.scale) {
+        if (y > -50.scale) && (y < 50.scale) {
             currentView.frame.origin.y = (bounds.height / 2 - currentView.bounds.height / 2 + y)
         } else {
             panGesture.isEnabled = false
             panGesture.isEnabled = true
             
-            let args = (y >= 150) ? (bounds.height, Direction.down) : (-currentView.bounds.height, Direction.up)
+            let args = (y >= 50) ? (bounds.height, Direction.down) : (-currentView.bounds.height, Direction.up)
             let toY = args.0
             let direction = args.1
             

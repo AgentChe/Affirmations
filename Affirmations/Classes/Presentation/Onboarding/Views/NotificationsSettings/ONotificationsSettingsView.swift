@@ -198,7 +198,7 @@ private extension ONotificationsSettingsView {
     }
     
     func makeEndView() -> ONSEndView {
-        let view = ONSEndView(values: Array(10...24), value: 21)
+        let view = ONSEndView(values: Array(10...24), value: 10)
         view.backgroundColor = UIColor(integralRed: 245, green: 247, blue: 249)
         view.layer.cornerRadius = 5.scale
         view.translatesAutoresizingMaskIntoConstraints = false
