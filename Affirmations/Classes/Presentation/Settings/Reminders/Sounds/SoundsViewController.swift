@@ -81,11 +81,11 @@ private extension SoundsViewController {
     }
     
     func play(soundName: String) {
-        guard let assetData = NSDataAsset(name: soundName) else {
+        guard let url = Bundle.main.url(forResource: soundName, withExtension: "mp3") else {
             return
         }
         
-        player = try? AVAudioPlayer(data: assetData.data, fileTypeHint: "mp3")
+        player = try? AVAudioPlayer(contentsOf: url)
         
         player?.play()
     }

@@ -116,6 +116,22 @@
 		DE6617462AC47E76004CCD56 /* PlanPushAffirmation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6617452AC47E76004CCD56 /* PlanPushAffirmation.swift */; };
 		DE784E042AC2F07C00DF027D /* AddAffirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE784E032AC2F07C00DF027D /* AddAffirmationViewController.swift */; };
 		DE784E062AC2F08100DF027D /* AddAffirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE784E052AC2F08100DF027D /* AddAffirmationView.swift */; };
+		DE8B51692ACCBB5500F405B7 /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE8B51592ACCBB5500F405B7 /* tada.mp3 */; };
+		DE8B516A2ACCBB5500F405B7 /* messenger.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE8B515A2ACCBB5500F405B7 /* messenger.mp3 */; };
+		DE8B516B2ACCBB5500F405B7 /* galaxy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE8B515B2ACCBB5500F405B7 /* galaxy.mp3 */; };
+		DE8B516C2ACCBB5500F405B7 /* magic_wand.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE8B515C2ACCBB5500F405B7 /* magic_wand.mp3 */; };
+		DE8B516D2ACCBB5500F405B7 /* coin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE8B515D2ACCBB5500F405B7 /* coin.mp3 */; };
+		DE8B516E2ACCBB5500F405B7 /* frog.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE8B515E2ACCBB5500F405B7 /* frog.mp3 */; };
+		DE8B516F2ACCBB5500F405B7 /* positive.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE8B515F2ACCBB5500F405B7 /* positive.mp3 */; };
+		DE8B51702ACCBB5500F405B7 /* video_game.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE8B51602ACCBB5500F405B7 /* video_game.mp3 */; };
+		DE8B51712ACCBB5500F405B7 /* correct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE8B51612ACCBB5500F405B7 /* correct.mp3 */; };
+		DE8B51722ACCBB5500F405B7 /* domino.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE8B51622ACCBB5500F405B7 /* domino.mp3 */; };
+		DE8B51732ACCBB5500F405B7 /* chimes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE8B51632ACCBB5500F405B7 /* chimes.mp3 */; };
+		DE8B51742ACCBB5500F405B7 /* bicycle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE8B51642ACCBB5500F405B7 /* bicycle.mp3 */; };
+		DE8B51752ACCBB5500F405B7 /* acme_siren.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE8B51652ACCBB5500F405B7 /* acme_siren.mp3 */; };
+		DE8B51762ACCBB5500F405B7 /* drums.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE8B51662ACCBB5500F405B7 /* drums.mp3 */; };
+		DE8B51772ACCBB5500F405B7 /* drop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE8B51672ACCBB5500F405B7 /* drop.mp3 */; };
+		DE8B51782ACCBB5500F405B7 /* spaceship.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE8B51682ACCBB5500F405B7 /* spaceship.mp3 */; };
 		DEC61A5F2A7661A6008F9C97 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61A5E2A7661A6008F9C97 /* OnboardingViewController.swift */; };
 		DEC61A612A7661AB008F9C97 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61A602A7661AB008F9C97 /* OnboardingViewModel.swift */; };
 		DEC61A632A7661AF008F9C97 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC61A622A7661AF008F9C97 /* OnboardingView.swift */; };
@@ -345,6 +361,22 @@
 		DE6617452AC47E76004CCD56 /* PlanPushAffirmation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanPushAffirmation.swift; sourceTree = "<group>"; };
 		DE784E032AC2F07C00DF027D /* AddAffirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAffirmationViewController.swift; sourceTree = "<group>"; };
 		DE784E052AC2F08100DF027D /* AddAffirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAffirmationView.swift; sourceTree = "<group>"; };
+		DE8B51592ACCBB5500F405B7 /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
+		DE8B515A2ACCBB5500F405B7 /* messenger.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = messenger.mp3; sourceTree = "<group>"; };
+		DE8B515B2ACCBB5500F405B7 /* galaxy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = galaxy.mp3; sourceTree = "<group>"; };
+		DE8B515C2ACCBB5500F405B7 /* magic_wand.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = magic_wand.mp3; sourceTree = "<group>"; };
+		DE8B515D2ACCBB5500F405B7 /* coin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = coin.mp3; sourceTree = "<group>"; };
+		DE8B515E2ACCBB5500F405B7 /* frog.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = frog.mp3; sourceTree = "<group>"; };
+		DE8B515F2ACCBB5500F405B7 /* positive.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = positive.mp3; sourceTree = "<group>"; };
+		DE8B51602ACCBB5500F405B7 /* video_game.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = video_game.mp3; sourceTree = "<group>"; };
+		DE8B51612ACCBB5500F405B7 /* correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correct.mp3; sourceTree = "<group>"; };
+		DE8B51622ACCBB5500F405B7 /* domino.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = domino.mp3; sourceTree = "<group>"; };
+		DE8B51632ACCBB5500F405B7 /* chimes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimes.mp3; sourceTree = "<group>"; };
+		DE8B51642ACCBB5500F405B7 /* bicycle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bicycle.mp3; sourceTree = "<group>"; };
+		DE8B51652ACCBB5500F405B7 /* acme_siren.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = acme_siren.mp3; sourceTree = "<group>"; };
+		DE8B51662ACCBB5500F405B7 /* drums.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = drums.mp3; sourceTree = "<group>"; };
+		DE8B51672ACCBB5500F405B7 /* drop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = drop.mp3; sourceTree = "<group>"; };
+		DE8B51682ACCBB5500F405B7 /* spaceship.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spaceship.mp3; sourceTree = "<group>"; };
 		DEC61A5E2A7661A6008F9C97 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		DEC61A602A7661AB008F9C97 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 		DEC61A622A7661AF008F9C97 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
@@ -1000,6 +1032,29 @@
 			path = AddAffirmation;
 			sourceTree = "<group>";
 		};
+		DE8B51582ACCBAC700F405B7 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				DE8B51652ACCBB5500F405B7 /* acme_siren.mp3 */,
+				DE8B51642ACCBB5500F405B7 /* bicycle.mp3 */,
+				DE8B51632ACCBB5500F405B7 /* chimes.mp3 */,
+				DE8B515D2ACCBB5500F405B7 /* coin.mp3 */,
+				DE8B51612ACCBB5500F405B7 /* correct.mp3 */,
+				DE8B51622ACCBB5500F405B7 /* domino.mp3 */,
+				DE8B51672ACCBB5500F405B7 /* drop.mp3 */,
+				DE8B51662ACCBB5500F405B7 /* drums.mp3 */,
+				DE8B515E2ACCBB5500F405B7 /* frog.mp3 */,
+				DE8B515B2ACCBB5500F405B7 /* galaxy.mp3 */,
+				DE8B515C2ACCBB5500F405B7 /* magic_wand.mp3 */,
+				DE8B515A2ACCBB5500F405B7 /* messenger.mp3 */,
+				DE8B515F2ACCBB5500F405B7 /* positive.mp3 */,
+				DE8B51682ACCBB5500F405B7 /* spaceship.mp3 */,
+				DE8B51592ACCBB5500F405B7 /* tada.mp3 */,
+				DE8B51602ACCBB5500F405B7 /* video_game.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		DEC61A5D2A766195008F9C97 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
@@ -1097,6 +1152,7 @@
 		DEC61E5E2A7AE500008F9C97 /* Content */ = {
 			isa = PBXGroup;
 			children = (
+				DE8B51582ACCBAC700F405B7 /* Sounds */,
 				DEC61E5F2A7AE50C008F9C97 /* category */,
 			);
 			path = Content;
@@ -1503,15 +1559,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE8B516A2ACCBB5500F405B7 /* messenger.mp3 in Resources */,
+				DE8B51712ACCBB5500F405B7 /* correct.mp3 in Resources */,
 				DE14D6732A658CD800DBFE1D /* proximanova_bold.otf in Resources */,
+				DE8B516F2ACCBB5500F405B7 /* positive.mp3 in Resources */,
 				DE14D6742A658CD800DBFE1D /* proximanova_extrabold.otf in Resources */,
 				DE14D6752A658CD800DBFE1D /* proximanova_regular.ttf in Resources */,
+				DE8B516E2ACCBB5500F405B7 /* frog.mp3 in Resources */,
+				DE8B51752ACCBB5500F405B7 /* acme_siren.mp3 in Resources */,
 				DEFE81AB2AA1C87000FB96F0 /* animation_swipe.json in Resources */,
 				DEC61A6C2A766715008F9C97 /* Localizable.strings in Resources */,
+				DE8B51762ACCBB5500F405B7 /* drums.mp3 in Resources */,
+				DE8B51782ACCBB5500F405B7 /* spaceship.mp3 in Resources */,
+				DE8B516B2ACCBB5500F405B7 /* galaxy.mp3 in Resources */,
+				DE8B51692ACCBB5500F405B7 /* tada.mp3 in Resources */,
 				DE5505E72A6587B10057F9FB /* LaunchScreen.storyboard in Resources */,
 				DE5505E42A6587B10057F9FB /* Assets.xcassets in Resources */,
 				DEEED5DC2AAF97C80078653B /* GoogleService-Info.plist in Resources */,
+				DE8B51732ACCBB5500F405B7 /* chimes.mp3 in Resources */,
+				DE8B51722ACCBB5500F405B7 /* domino.mp3 in Resources */,
+				DE8B516D2ACCBB5500F405B7 /* coin.mp3 in Resources */,
 				DEC61E602A7AE50C008F9C97 /* category in Resources */,
+				DE8B516C2ACCBB5500F405B7 /* magic_wand.mp3 in Resources */,
+				DE8B51772ACCBB5500F405B7 /* drop.mp3 in Resources */,
+				DE8B51702ACCBB5500F405B7 /* video_game.mp3 in Resources */,
+				DE8B51742ACCBB5500F405B7 /* bicycle.mp3 in Resources */,
 				DEFE81AC2AA1C87000FB96F0 /* animation_like.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

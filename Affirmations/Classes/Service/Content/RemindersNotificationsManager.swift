@@ -27,7 +27,7 @@ extension RemindersNotificationsManager {
         makePlan()
             .bind(to: Binder(self) { base, plans in
                 let sorted = plans.sorted(by: { $0.trigger.compare($1.trigger) == .orderedAscending })
-                base.register(plans: sorted)
+                base.register(plans: Array(sorted.prefix(64)))
             })
             .disposed(by: disposeBag)
     }
@@ -43,7 +43,7 @@ private extension RemindersNotificationsManager {
         
         plans.forEach { plan in
             let content = UNMutableNotificationContent()
-            content.sound = UNNotificationSound(named: UNNotificationSoundName(rawValue: "\(plan.reminder.sound).mp3"))
+            content.sound = UNNotificationSound(named: UNNotificationSoundName(rawValue: "\(plan.reminder.sound.file ?? "").mp3"))
             content.body = plan.affirmation
             
             let components = calendar.dateComponents([.year, .month, .weekOfMonth, .weekday, .hour, .minute], from: plan.trigger)
