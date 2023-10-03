@@ -62,7 +62,7 @@ final class ONotificationsSettingsView: OSlideView {
                     start: self.starView.value,
                     end: self.endView.value,
                     weekSchedule: schedule,
-                    sound: .not,
+                    sound: .bicycle,
                     categories: [category],
                     enable: true
                 )

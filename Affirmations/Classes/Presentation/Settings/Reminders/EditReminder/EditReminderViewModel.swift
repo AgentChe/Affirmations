@@ -63,7 +63,7 @@ extension EditReminderViewModel {
             .startWith(reminder?.categories ?? [])
         let selectedSound = input.didSelectSound
             .asDriver(onErrorDriveWith: .never())
-            .startWith(reminder?.sound ?? .not)
+            .startWith(reminder?.sound ?? .bicycle)
         
         return Output(
             elements: makeElements(
@@ -94,6 +94,23 @@ private extension EditReminderViewModel {
         didChangeSchedule: Signal<Void>,
         selectedSound: Driver<Sound>
     ) -> Driver<Bool> {
+        let changeSchedule = didChangeSchedule
+            .asDriver(onErrorDriveWith: .never())
+            .startWith(())
+        
+        let isEmpty = Driver
+            .combineLatest(
+                selectedCategories,
+                changeSchedule
+            )
+            .compactMap { [weak self] categories, _ -> Bool? in
+                guard let self else {
+                    return nil
+                }
+                
+                return categories.isEmpty || self.schedule.selectedDays.isEmpty
+            }
+        
         let categoriesEnable = selectedCategories
             .map { [weak self] categories -> Bool in
                 self?.reminder?.categories != categories
@@ -112,9 +129,7 @@ private extension EditReminderViewModel {
                     || (self.settings.count != self.reminder?.count)
             }
         
-        let scheduleEnable = didChangeSchedule
-            .asDriver(onErrorDriveWith: .never())
-            .startWith(())
+        let scheduleEnable = changeSchedule
             .compactMap { [weak self] void -> Bool? in
                 guard let self else {
                     return nil
@@ -136,13 +151,18 @@ private extension EditReminderViewModel {
         
         return Driver
             .combineLatest(
+                isEmpty,
                 categoriesEnable,
                 settingsEnable,
                 scheduleEnable,
                 soundEnable
             )
-            .map { categoriesEnable, settingsEnable, scheduleEnable, soundEnable -> Bool in
-                categoriesEnable || settingsEnable || scheduleEnable || soundEnable
+            .map { isEmpty, categoriesEnable, settingsEnable, scheduleEnable, soundEnable -> Bool in
+                guard !isEmpty else {
+                    return false
+                }
+                
+                return categoriesEnable || settingsEnable || scheduleEnable || soundEnable
             }
     }
     
