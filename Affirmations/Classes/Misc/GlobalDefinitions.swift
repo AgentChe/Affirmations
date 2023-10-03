@@ -24,4 +24,6 @@ final class GlobalDefinitions {
     static let termsOfUse = "https://navisapps.com/affirmations/terms.html"
     
     static let supportEmail = "affirmations.apps@gmail.com"
+    
+    static let appStoreUrl = "https://apps.apple.com/us/app/positive-affirmations-daily/id6462790105"
 }

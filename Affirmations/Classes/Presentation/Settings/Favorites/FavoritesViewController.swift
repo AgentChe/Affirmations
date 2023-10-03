@@ -69,7 +69,11 @@ private extension FavoritesViewController {
             let alert = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
             
             let shareAction = UIAlertAction(title: "Favorites.Share".localized, style: .default) { [weak self] action in
-                let controller = UIActivityViewController(activityItems: [affirmation.message], applicationActivities: nil)
+                let items = [
+                    affirmation.message + "\n\n",
+                    URL(string: GlobalDefinitions.appStoreUrl)!
+                ] as [Any]
+                let controller = UIActivityViewController(activityItems: items, applicationActivities: nil)
                 self?.present(controller, animated: true)
             }
             alert.addAction(shareAction)

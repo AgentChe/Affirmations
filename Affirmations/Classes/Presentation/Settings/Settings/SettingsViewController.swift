@@ -117,7 +117,7 @@ private extension SettingsViewController {
     }
     
     func share() {
-        guard let url = URL(string:"https://apps.apple.com/us/app/positive-affirmations-daily/id6462790105") else {
+        guard let url = URL(string: GlobalDefinitions.appStoreUrl) else {
             return
         }
         
