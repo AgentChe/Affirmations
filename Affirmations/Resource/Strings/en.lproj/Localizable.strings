@@ -31,6 +31,7 @@
 
 // MARK: Paygate
 "Paygate.Error" = "Error. Try again later";
+"Paygate.Restore.Error" = "Unable to restore any subscription.";
 "Paygate.Text" = "The subscription renews automatically. You can cancel your subscription in the app or in your iCloud account. Privacy Policy and Terms of Use.";
 "Paygate.Cell1" = "3 days Free Trial";
 "Paygate.Cell2" = "Customized affirmations";

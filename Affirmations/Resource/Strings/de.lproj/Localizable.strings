@@ -31,6 +31,7 @@
 
 // MARK: Paygate
 "Paygate.Error" = "Fehler. Bitte später erneut versuchen.";
+"Paygate.Restore.Error" = "Kein Abonnement kann wiederhergestellt werden.";
 "Paygate.Text" = "Das Abonnement verlängert sich automatisch. Sie können Ihr Abonnement in der App oder in Ihrem iCloud-Konto kündigen. Datenschutzrichtlinie und Nutzungsbedingungen.";
 "Paygate.Cell1" = "3 Tage kostenlose Testversion";
 "Paygate.Cell2" = "Maßgeschneiderte Affirmationen";

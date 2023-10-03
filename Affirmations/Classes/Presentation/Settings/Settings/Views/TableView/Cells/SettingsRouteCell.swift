@@ -103,7 +103,7 @@ private extension SettingsRoute {
         case .favorites:
             return (UIImage(named: "Settings.Favorites"), "Favorites.Title".localized)
         case .myAffirmations:
-            return (UIImage(named: "Settings.MyFavorites"), "MyAffirmations.Settings.Title".localized)
+            return (UIImage(named: "Settings.MyAffirmations"), "MyAffirmations.Settings.Title".localized)
         case .review:
             return (UIImage(named: "Settings.Review"), "Settings.Review".localized)
         case .share:

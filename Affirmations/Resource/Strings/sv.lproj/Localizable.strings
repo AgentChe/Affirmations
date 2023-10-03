@@ -31,6 +31,7 @@
 
 // MARK: Paygate
 "Paygate.Error" = "Fel. Försök igen senare";
+"Paygate.Restore.Error" = "Kan inte återställa någon prenumeration.";
 "Paygate.Text" = "Prenumerationen förnyas automatiskt. Du kan säga upp din prenumeration i appen eller i ditt iCloud-konto. Integritetspolicy och användarvillkor.";
 "Paygate.Cell1" = "3 dagars kostnadsfri provperiod";
 "Paygate.Cell2" = "Anpassade affirmationer";

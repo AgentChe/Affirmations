@@ -31,6 +31,7 @@
 
 // MARK: Paygate
 "Paygate.Error" = "Hatası. Daha sonra tekrar dene";
+"Paygate.Restore.Error" = "Herhangi bir abonelik geri yüklenemiyor.";
 "Paygate.Text" = "Abonelik otomatik olarak yenilenir. Aboneliğinizi uygulamadan veya iCloud hesabınızdan iptal edebilirsiniz. Gizlilik Politikası ve Kullanım Koşulları.";
 "Paygate.Cell1" = "3 gün Ücretsiz Deneme";
 "Paygate.Cell2" = "Özelleştirilmiş olumlamalar";

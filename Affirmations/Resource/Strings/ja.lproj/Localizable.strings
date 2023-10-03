@@ -31,6 +31,7 @@
 
 // MARK: Paygate
 "Paygate.Error" = "エラー。後で再試行してください。";
+"Paygate.Restore.Error" = "サブスクリプションを復元できません。";
 "Paygate.Text" = "購読は自動的に更新されます。購読のキャンセルは、アプリまたはiCloudアカウントで行えます。プライバシーポリシーと利用規約。";
 "Paygate.Cell1" = "3日間無料トライアル";
 "Paygate.Cell2" = "カスタマイズされたアファメーション";

@@ -31,6 +31,7 @@
 
 // MARK: Paygate
 "Paygate.Error" = "Unsplash 發生了錯誤。稍後再試一次。";
+"Paygate.Restore.Error" = "無法恢復任何訂閱方案。";
 "Paygate.Text" = "订阅会自动更新。你可以在应用程序或 iCloud 账户中取消订阅。隱私政策和使用條款";
 "Paygate.Cell1" = "3 天免费试用";
 "Paygate.Cell2" = "定制申明";

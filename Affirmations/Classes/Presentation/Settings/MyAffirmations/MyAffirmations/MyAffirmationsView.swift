@@ -76,8 +76,8 @@ private extension MyAffirmationsView {
     func makeEmptyView() -> UILabel {
         let attrs = TextAttributes()
             .textColor(UIColor(integralRed: 43, green: 63, blue: 98))
-            .font(Fonts.ProximaNova.bold(size: 14.scale))
-            .lineHeight(18.scale)
+            .font(Fonts.ProximaNova.bold(size: 28.scale))
+            .lineHeight(35.scale)
             .textAlignment(.center)
         
         let view = UILabel()

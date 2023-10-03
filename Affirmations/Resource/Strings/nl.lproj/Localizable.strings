@@ -31,6 +31,7 @@
 
 // MARK: Paygate
 "Paygate.Error" = "Fout. Probeer het later opnieuw";
+"Paygate.Restore.Error" = "Kan geen abonnement herstellen";
 "Paygate.Text" = "Het abonnement wordt automatisch verlengd. Je kunt je abonnement opzeggen in de app of in je iCloud-account. Privacybeleid en gebruiksvoorwaarden.";
 "Paygate.Cell1" = "3 dagen gratis proefabonnement";
 "Paygate.Cell2" = "Aangepaste affirmaties";

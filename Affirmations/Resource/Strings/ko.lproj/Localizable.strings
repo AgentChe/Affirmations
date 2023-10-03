@@ -31,6 +31,7 @@
 
 // MARK: Paygate
 "Paygate.Error" = "오류. 나중에 다시 시도하세요";
+"Paygate.Restore.Error" = "구독을 복원할 수 없습니다.";
 "Paygate.Text" = "구독은 자동으로 갱신됩니다. 앱 또는 iCloud 계정에서 구독을 취소할 수 있습니다. 개인정보처리방침 및 이용약관.";
 "Paygate.Cell1" = "3일 무료 체험";
 "Paygate.Cell2" = "맞춤형 확인";

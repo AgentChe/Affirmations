@@ -32,6 +32,7 @@
 
 // MARK: Paygate
 "Paygate.Error" = "Erro. Tente novamente mais tarde";
+"Paygate.Restore.Error" = "Não foi possível restaurar nenhuma assinatura.";
 "Paygate.Text" = "A subscrição é renovada automaticamente. Pode cancelar a sua subscrição na aplicação ou na sua conta iCloud. Política de Privacidade e Termos de Utilização.";
 "Paygate.Cell1" = "3 dias de teste gratuito";
 "Paygate.Cell2" = "Afirmações personalizadas";

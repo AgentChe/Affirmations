@@ -31,6 +31,7 @@
 
 // MARK: Paygate
 "Paygate.Error" = "Erreur. Essayez à nouveau plus tard";
+"Paygate.Restore.Error" = "Impossible de restaurer un abonnement.";
 "Paygate.Text" = "L'abonnement se renouvelle automatiquement. Vous pouvez annuler votre abonnement dans l'application ou dans votre compte iCloud. Politique de confidentialité et conditions d'utilisation.";
 "Paygate.Cell1" = "3 jours d'essai gratuit";
 "Paygate.Cell2" = "Affirmations personnalisées";

@@ -64,10 +64,10 @@ private extension PaygateInteractor {
                 }
                 
                 if ids.isEmpty {
-                    return .failure()
+                    return .failure("Paygate.Restore.Error".localized)
                 }
                 
-                return self.iapManager.hasActiveSubscriptions ? .purchased : .failure()
+                return self.iapManager.hasActiveSubscriptions ? .purchased : .failure("Paygate.Restore.Error".localized)
             }
     }
 }
