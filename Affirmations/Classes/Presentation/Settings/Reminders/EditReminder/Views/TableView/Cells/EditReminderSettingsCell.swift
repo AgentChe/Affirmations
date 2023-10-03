@@ -8,6 +8,8 @@
 import UIKit
 
 final class EditReminderSettingsCell: UITableViewCell {
+    var didChange: (() -> Void)?
+    
     lazy var countView = makeCountView()
     lazy var starView = makeStartView()
     lazy var endView = makeEndView()
@@ -52,14 +54,20 @@ private extension EditReminderSettingsCell {
             self?.endView.setup(start: value)
             self?.changeCountValues()
             self?.element.start = value
+            
+            self?.didChange?()
         }
         endView.changedValue = { [weak self] value in
             self?.starView.setup(end: value)
             self?.changeCountValues()
             self?.element.end = value
+            
+            self?.didChange?()
         }
         countView.changedValue = { [weak self] value in
             self?.element.count = value
+            
+            self?.didChange?()
         }
     }
     

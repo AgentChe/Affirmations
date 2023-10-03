@@ -13,7 +13,8 @@ final class EditReminderTableView: UITableView {
     lazy var elements = [EditReminderTableElement]()
     
     private lazy var didSelectTrigger = PublishRelay<EditReminderTableElement>()
-    private lazy var didChangeInnerSelectionTrigger = PublishRelay<Void>()
+    private lazy var didChangeSettingsTrigger = PublishRelay<Void>()
+    private lazy var didChangeScheduleTrigger = PublishRelay<Void>()
     
     override init(frame: CGRect, style: UITableView.Style) {
         super.init(frame: frame, style: style)
@@ -38,8 +39,12 @@ extension EditReminderTableView {
         didSelectTrigger.asSignal()
     }
     
-    var didChangeInnerSelection: Signal<Void> {
-        didChangeInnerSelectionTrigger.asSignal()
+    var didChangeSettings: Signal<Void> {
+        didChangeSettingsTrigger.asSignal()
+    }
+    
+    var didChangeSchedule: Signal<Void> {
+        didChangeScheduleTrigger.asSignal()
     }
 }
 
@@ -58,12 +63,15 @@ extension EditReminderTableView: UITableViewDataSource {
         case .settings(let element):
             let cell = dequeueReusableCell(withIdentifier: String(describing: EditReminderSettingsCell.self), for: indexPath) as! EditReminderSettingsCell
             cell.setup(element: element)
+            cell.didChange = { [weak self] in
+                self?.didChangeSettingsTrigger.accept(Void())
+            }
             return cell
         case .schedule(let element):
             let cell = dequeueReusableCell(withIdentifier: String(describing: EditReminderScheduleCell.self), for: indexPath) as! EditReminderScheduleCell
             cell.setup(element: element)
             cell.didChange = { [weak self] in
-                self?.didChangeInnerSelectionTrigger.accept(Void())
+                self?.didChangeScheduleTrigger.accept(Void())
             }
             return cell
         case .sound(let element):

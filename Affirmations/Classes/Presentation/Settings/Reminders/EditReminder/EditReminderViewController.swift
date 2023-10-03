@@ -41,7 +41,8 @@ final class EditReminderViewController: UIViewController {
             didSelectCategories: didSelectCategoriesTrigger.asSignal(),
             didSelectSound: didSelectSoundTrigger.asSignal(),
             didTapSave: mainView.button.rx.tap.asSignal(),
-            didChangeInnerSelection: mainView.tableView.didChangeInnerSelection
+            didChangeSettings: mainView.tableView.didChangeSettings,
+            didChangeSchedule: mainView.tableView.didChangeSchedule
         ))
         
         output.elements

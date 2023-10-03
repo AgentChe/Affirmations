@@ -47,7 +47,8 @@ extension EditReminderViewModel {
         let didSelectCategories: Signal<[Category]>
         let didSelectSound: Signal<Sound>
         let didTapSave: Signal<Void>
-        let didChangeInnerSelection: Signal<Void>
+        let didChangeSettings: Signal<Void>
+        let didChangeSchedule: Signal<Void>
     }
     
     struct Output {
@@ -76,8 +77,10 @@ extension EditReminderViewModel {
                 didTapSave: input.didTapSave
             ),
             enable: makeEnable(
-                didChangeInnerSelection: input.didChangeInnerSelection,
-                selectedCategories: selectedCategories
+                selectedCategories: selectedCategories,
+                didChangeSettings: input.didChangeSettings,
+                didChangeSchedule: input.didChangeSchedule,
+                selectedSound: selectedSound
             )
         )
     }
@@ -86,22 +89,61 @@ extension EditReminderViewModel {
 // MARK: Private
 private extension EditReminderViewModel {
     func makeEnable(
-        didChangeInnerSelection: Signal<Void>,
-        selectedCategories: Driver<[Category]>
+        selectedCategories: Driver<[Category]>,
+        didChangeSettings: Signal<Void>,
+        didChangeSchedule: Signal<Void>,
+        selectedSound: Driver<Sound>
     ) -> Driver<Bool> {
-        Driver
-            .combineLatest(
-                didChangeInnerSelection.asDriver(onErrorDriveWith: .never()),
-                selectedCategories
-            )
-            .map { [weak self] _, categories -> Bool in
+        let categoriesEnable = selectedCategories
+            .map { [weak self] categories -> Bool in
+                self?.reminder?.categories != categories
+            }
+        
+        let settingsEnable = didChangeSettings
+            .asDriver(onErrorDriveWith: .never())
+            .startWith(())
+            .compactMap { [weak self] void -> Bool? in
                 guard let self else {
-                    return false
+                    return nil
                 }
                 
-                return !self.schedule.selectedDays.isEmpty && !categories.isEmpty
+                return (self.settings.start != self.reminder?.start)
+                    || (self.settings.end != self.reminder?.end)
+                    || (self.settings.count != self.reminder?.count)
             }
-            .startWith(false)
+        
+        let scheduleEnable = didChangeSchedule
+            .asDriver(onErrorDriveWith: .never())
+            .startWith(())
+            .compactMap { [weak self] void -> Bool? in
+                guard let self else {
+                    return nil
+                }
+                
+                let currentSchedule = WeekSchedule(selectedDays: self.schedule.selectedDays)
+                
+                return currentSchedule != self.reminder?.weekSchedule
+            }
+        
+        let soundEnable = selectedSound
+            .compactMap { [weak self] sound -> Bool? in
+                guard let self else {
+                    return nil
+                }
+                
+                return sound != self.reminder?.sound
+            }
+        
+        return Driver
+            .combineLatest(
+                categoriesEnable,
+                settingsEnable,
+                scheduleEnable,
+                soundEnable
+            )
+            .map { categoriesEnable, settingsEnable, scheduleEnable, soundEnable -> Bool in
+                categoriesEnable || settingsEnable || scheduleEnable || soundEnable
+            }
     }
     
     func makeElements(
