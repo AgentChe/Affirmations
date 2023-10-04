@@ -12,6 +12,7 @@ final class SceneDelegateMediator {
     static let shared = SceneDelegateMediator()
     
     private lazy var didBecomeActiveTrigger = PublishRelay<Void>()
+    private lazy var didEnterBackgroundTrigger = PublishRelay<Void>()
     
     private init() {}
 }
@@ -22,7 +23,15 @@ extension SceneDelegateMediator {
         didBecomeActiveTrigger.accept(Void())
     }
     
+    func enterBackground() {
+        didEnterBackgroundTrigger.accept(Void())
+    }
+    
     var didBecomeActive: Signal<Void> {
         didBecomeActiveTrigger.asSignal()
+    }
+    
+    var didEnterBackground: Signal<Void> {
+        didEnterBackgroundTrigger.asSignal()
     }
 }

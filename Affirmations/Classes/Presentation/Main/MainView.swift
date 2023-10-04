@@ -47,17 +47,17 @@ private extension MainView {
         ])
         
         NSLayoutConstraint.activate([
-            bookmarkButton.widthAnchor.constraint(equalToConstant: 40.scale),
-            bookmarkButton.heightAnchor.constraint(equalToConstant: 40.scale),
-            bookmarkButton.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16.scale),
-            bookmarkButton.bottomAnchor.constraint(equalTo: settingsButton.topAnchor, constant: -8.scale)
-        ])
-        
-        NSLayoutConstraint.activate([
             shareButton.widthAnchor.constraint(equalToConstant: 40.scale),
             shareButton.heightAnchor.constraint(equalToConstant: 40.scale),
             shareButton.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16.scale),
-            shareButton.bottomAnchor.constraint(equalTo: bookmarkButton.topAnchor, constant: -8.scale)
+            shareButton.bottomAnchor.constraint(equalTo: settingsButton.topAnchor, constant: -8.scale)
+        ])
+        
+        NSLayoutConstraint.activate([
+            bookmarkButton.widthAnchor.constraint(equalToConstant: 40.scale),
+            bookmarkButton.heightAnchor.constraint(equalToConstant: 40.scale),
+            bookmarkButton.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16.scale),
+            bookmarkButton.bottomAnchor.constraint(equalTo: shareButton.topAnchor, constant: -8.scale)
         ])
         
         NSLayoutConstraint.activate([
@@ -68,8 +68,8 @@ private extension MainView {
         ])
         
         NSLayoutConstraint.activate([
-            startButton.widthAnchor.constraint(equalToConstant: 48.scale),
-            startButton.heightAnchor.constraint(equalToConstant: 48.scale),
+            startButton.widthAnchor.constraint(equalToConstant: 96.scale),
+            startButton.heightAnchor.constraint(equalToConstant: 96.scale),
             startButton.centerXAnchor.constraint(equalTo: centerXAnchor),
             startButton.bottomAnchor.constraint(equalTo: categoryButton.topAnchor, constant: -10.scale)
         ])

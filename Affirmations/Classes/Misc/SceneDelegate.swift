@@ -23,4 +23,8 @@ final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func sceneDidBecomeActive(_ scene: UIScene) {
         SceneDelegateMediator.shared.becomeActive()
     }
+    
+    func sceneDidEnterBackground(_ scene: UIScene) {
+        SceneDelegateMediator.shared.enterBackground()
+    }
 }

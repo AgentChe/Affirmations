@@ -80,6 +80,15 @@ extension PracticeAffirmationsView {
         self.secondsForAffirmation = Float(secondsForAffirmation)
     }
     
+    func pause() {
+        timer?.invalidate()
+        timer = nil
+    }
+    
+    func `continue`() {
+        startTimer()
+    }
+    
     var didComplete: Signal<Void> {
         didCompleteTrigger.asSignal()
     }

@@ -59,8 +59,8 @@ final class AffirmationsView: UIView {
     
     private lazy var attrs = TextAttributes()
         .textColor(UIColor(integralRed: 43, green: 63, blue: 98))
-        .font(Fonts.ProximaNova.bold(size: 21.scale))
-        .lineHeight(26.scale)
+        .font(Fonts.ProximaNova.bold(size: 26.scale))
+        .lineHeight(30.scale)
         .textAlignment(.center)
     
     private lazy var disposeBag = DisposeBag()

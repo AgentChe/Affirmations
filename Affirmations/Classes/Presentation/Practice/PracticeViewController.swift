@@ -22,6 +22,20 @@ final class PracticeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        SceneDelegateMediator.shared
+            .didEnterBackground
+            .emit(to: Binder(mainView.affirmationsView) { base, void in
+                base.pause()
+            })
+            .disposed(by: disposeBag)
+        
+        SceneDelegateMediator.shared
+            .didBecomeActive
+            .emit(to: Binder(mainView.affirmationsView) { base, void in
+                base.continue()
+            })
+            .disposed(by: disposeBag)
+        
         Observable
             .merge(
                 mainView.settingsView.closeButton.rx.tap.asObservable(),

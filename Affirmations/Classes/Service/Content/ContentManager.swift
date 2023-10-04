@@ -186,7 +186,7 @@ extension ContentManager: ContentManagerProtocol {
         obtainCategories(for: language)
             .map { categories -> Category? in
                 let type = UserDefaults.standard.string(forKey: Constants.selectedCategory) ?? "COMMON_TOPICS"
-                return categories.first(where: { $0.type == type })
+                return categories.first(where: { $0.type == type }) ?? categories.first(where: { $0.type == "COMMON_TOPICS" })
             }
     }
     
