@@ -57,7 +57,7 @@ private extension ContentPreferencesViewModel {
                 categories.map { category -> OWCCollectionElement in
                     OWCCollectionElement(
                         category: category,
-                        marked: selected.contains(where: { $0.name == category.name })
+                        marked: selected.contains(where: { $0.type == category.type })
                     )
                 }
             }
