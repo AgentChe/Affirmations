@@ -41,7 +41,7 @@ private extension OWidgetCategoriesView {
             .obtainWidgetsCategories(for: Localizable.shared.currentLanguage)
             .asDriver(onErrorJustReturn: [])
             .drive(Binder(collectionView) { base, categories in
-                base.setup(elements: categories.map { OWCCollectionElement(category: $0) })
+                base.setup(elements: categories.sorted(by: { $0.sort < $1.sort }).map { OWCCollectionElement(category: $0) })
             })
             .disposed(by: disposeBag)
         

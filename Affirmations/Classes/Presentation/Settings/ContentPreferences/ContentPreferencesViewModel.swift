@@ -54,12 +54,14 @@ private extension ContentPreferencesViewModel {
         return Driver
             .combineLatest(categories, selected)
             .map { categories, selected -> [OWCCollectionElement] in
-                categories.map { category -> OWCCollectionElement in
-                    OWCCollectionElement(
-                        category: category,
-                        marked: selected.contains(where: { $0.type == category.type })
-                    )
-                }
+                categories
+                    .sorted(by: { $0.sort < $1.sort })
+                    .map { category -> OWCCollectionElement in
+                        OWCCollectionElement(
+                            category: category,
+                            marked: selected.contains(where: { $0.type == category.type })
+                        )
+                    }
             }
     }
 }
