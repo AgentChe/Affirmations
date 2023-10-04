@@ -21,6 +21,8 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
         PushNotificationsManager.shared.requestAuthorization()
         RemindersNotificationsManager.shared.register()
         
+        UIView.appearance().semanticContentAttribute = Localizable.shared.currentLanguage == .arabic ? .forceRightToLeft : .forceLeftToRight
+        
         return true
     }
     
