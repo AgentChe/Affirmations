@@ -47,6 +47,16 @@ extension Backup {
                 base.startSyncContent()
             })
             .disposed(by: disposeBag)
+        
+        makeActiveSubscription()
+            .bind(to: Binder(self) { base, activeSubscription in
+                guard !activeSubscription else {
+                    return
+                }
+                
+                self.signOut()
+            })
+            .disposed(by: disposeBag)
     }
     
     var isSignIn: Signal<Bool> {
@@ -93,7 +103,9 @@ private extension Backup {
     }
     
     func checkSignIn() -> Bool {
-        GIDSignIn.sharedInstance.hasPreviousSignIn() && (GIDSignIn.sharedInstance.currentUser != nil)
+        GIDSignIn.sharedInstance.hasPreviousSignIn()
+            && (GIDSignIn.sharedInstance.currentUser != nil)
+            && IAPManager().hasActiveSubscriptions
     }
     
     func startSyncContent() {
@@ -277,5 +289,13 @@ private extension Backup {
                 date: Date(timeIntervalSince1970: time)
             )
         }
+    }
+    
+    func makeActiveSubscription() -> Observable<Bool> {
+        PaygateMediator.shared
+            .didPurchased
+            .startWith(Void())
+            .map { IAPManager().hasActiveSubscriptions }
+            .asObservable()
     }
 }

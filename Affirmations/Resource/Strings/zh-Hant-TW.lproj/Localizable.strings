@@ -71,6 +71,7 @@
 "Settings.Backup.Disable" = "备份已关闭";
 "Settings.Backup.Text" = "如果您丢失或更改手机，请删除此应用程序，您可以恢复数据。";
 "Settings.Review" = "留下一則評價給我們";
+"Settings.Share.Text" = "嘿！來看看這個應用程式，這裡每日都有正向的肯定，將會改變您的一天：\n\n%@";
 
 // MARK: Backup
 "Backup.Title" = "数据备份";

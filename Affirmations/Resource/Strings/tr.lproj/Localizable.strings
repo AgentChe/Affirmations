@@ -71,6 +71,7 @@
 "Settings.Backup.Disable" = "Yedekleme kapalı";
 "Settings.Backup.Text" = "Telefonunuzu kaybederseniz veya değiştirirseniz verilerinizi geri yükleyebilir, bu uygulamayı silebilirsiniz.";
 "Settings.Review" = "Bize bir Yorum bırak";
+"Settings.Share.Text" = "Selam! Gününüzü değiştirecek günlük pozitif olumlamalar için bu uygulamaya göz atın:\n\n%@";
 
 // MARK: Backup
 "Backup.Title" = "Veri yedekleme";

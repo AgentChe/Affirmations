@@ -71,6 +71,7 @@
 "Settings.Backup.Disable" = "Backup ist aus";
 "Settings.Backup.Text" = "Sie können Ihre Daten wiederherstellen, wenn Sie Ihr Telefon verlieren oder ändern, löschen Sie diese App.";
 "Settings.Review" = "Schreiben Sie uns eine Bewertung";
+"Settings.Share.Text" = "Hallo! Schau dir diese App an für tägliche positive Affirmationen, die deinen Tag verändern werden:\n\n%@";
 
 // MARK: Backup
 "Backup.Title" = "Datensicherung";

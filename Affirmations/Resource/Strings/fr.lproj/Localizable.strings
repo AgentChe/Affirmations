@@ -71,6 +71,7 @@
 "Settings.Backup.Disable" = "Sauvegarde désactivée";
 "Settings.Backup.Text" = "Vous pouvez restaurer vos données si vous perdez ou changez de téléphone, supprimez cette application.";
 "Settings.Review" = "Laissez-nous un avis";
+"Settings.Share.Text" = "Bonjour ! Découvrez cette application qui vous propose des affirmations positives quotidiennes qui transformeront votre journée:\n\n%@";
 
 // MARK: Backup
 "Backup.Title" = "Sauvegarde des données";

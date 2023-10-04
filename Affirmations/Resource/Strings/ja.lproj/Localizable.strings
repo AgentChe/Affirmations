@@ -71,6 +71,7 @@
 "Settings.Backup.Disable" = "バックアップはオフです";
 "Settings.Backup.Text" = "データを復元できます電話を紛失または変更した場合は、このアプリを削除してください。";
 "Settings.Review" = "レビューを書";
+"Settings.Share.Text" = "こんにちは！あなたの一日を変える毎日のポジティブ アファメーションのためにこのアプリをチェックしてください：\n\n%@";
 
 // MARK: Backup
 "Backup.Title" = "データのバックアップ";

@@ -117,11 +117,9 @@ private extension SettingsViewController {
     }
     
     func share() {
-        guard let url = URL(string: GlobalDefinitions.appStoreUrl) else {
-            return
-        }
+        let item = String(format: "Settings.Share.Text".localized, GlobalDefinitions.appStoreUrl)
         
-        let controller = UIActivityViewController(activityItems: [url], applicationActivities: nil)
+        let controller = UIActivityViewController(activityItems: [item], applicationActivities: nil)
         present(controller, animated: true)
     }
     

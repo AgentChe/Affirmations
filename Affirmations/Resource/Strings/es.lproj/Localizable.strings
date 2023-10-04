@@ -71,6 +71,7 @@
 "Settings.Backup.Disable" = "Copia de seguridad desactivada";
 "Settings.Backup.Text" = "Puede restaurar sus datos si pierde o cambia su teléfono, eliminar esta aplicación.";
 "Settings.Review" = "Déjanos una reseña";
+"Settings.Share.Text" = "¡Hola! Échale un vistazo a esta app para leer y practicar afirmaciones positivas que transformarán tu día:\n\n%@";
 
 // MARK: Backup
 "Backup.Title" = "Copia de seguridad de datos";

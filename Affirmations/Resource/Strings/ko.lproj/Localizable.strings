@@ -71,6 +71,7 @@
 "Settings.Backup.Disable" = "백업이 꺼져 있습니다";
 "Settings.Backup.Text" = "데이터를 복원할 수 있습니다. 휴대폰을 분실하거나 변경한 경우 이 앱을 삭제하십시오.";
 "Settings.Review" = "리뷰 남기기";
+"Settings.Share.Text" = "안녕하세요! 하루를 바꾸는 긍정확언을 날마다 보여주는 이 앱을 확인해 보세요:\n\n%@";
 
 // MARK: Backup
 "Backup.Title" = "데이터 백업";
