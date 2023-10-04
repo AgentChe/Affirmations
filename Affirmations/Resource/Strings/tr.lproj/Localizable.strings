@@ -107,6 +107,7 @@
 "Reminders.EveryDay" = "Hafta içi her gün";
 "Reminders.UnlockButton" = "Daha Fazla Hatırlatıcının Kilidini Aç";
 "Reminders.AddButton" = "Hatırlatıcı Ekle";
+"Reminders.Problem" = "Bildirimler çalışmıyor mu?";
 
 // MARK: EditReminder
 "EditReminder.Title" = "Hatırlatıcıyı Düzenle";
@@ -170,3 +171,8 @@
 "MyAffirmations.ToFavorites" = "Favorilere kaydet";
 "MyAffirmations.Edit" = "Düzenle";
 "MyAffirmations.Settings.Title" = "Kendininkini Ekle";
+
+// MARK: NotificationsProblem
+"NotificationsProblem.Title" = "Bildirimleri Etkinleştir";
+"NotificationsProblem.SubTitle" = "Yakınınızdaki başka Artırılmış Gerçeklik deneyimlerini kaçırmamak için bildirimleri etkinleştirin";
+"NotificationsProblem.SettingsButton" = "AYARLARA GİT";

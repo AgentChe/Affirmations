@@ -107,6 +107,7 @@
 "Reminders.EveryDay" = "Varje veckodag";
 "Reminders.UnlockButton" = "Lås upp fler påminnelser";
 "Reminders.AddButton" = "Lägg till påminnelse";
+"Reminders.Problem" = "Funkar inte notiserna?";
 
 // MARK: EditReminder
 "EditReminder.Title" = "Redigera påminnelse";
@@ -170,3 +171,8 @@
 "MyAffirmations.ToFavorites" = "Spara som favorit";
 "MyAffirmations.Edit" = "Redigera";
 "MyAffirmations.Settings.Title" = "Lägg till en egen";
+
+// MARK: NotificationsProblem
+"NotificationsProblem.Title" = "Aktivera aviseringar";
+"NotificationsProblem.SubTitle" = "Aktivera aviseringar så att du inte missar ytterligare en Augmented Reality-upplevelse nära dig";
+"NotificationsProblem.SettingsButton" = "GÅ TILL INSTÄLLNINGAR";

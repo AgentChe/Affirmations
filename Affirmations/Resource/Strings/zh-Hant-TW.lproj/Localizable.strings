@@ -107,6 +107,7 @@
 "Reminders.EveryDay" = "每個平日";
 "Reminders.UnlockButton" = "解鎖更多提醒";
 "Reminders.AddButton" = "增加提醒";
+"Reminders.Problem" = "推播通知無法運作嗎？";
 
 // MARK: EditReminder
 "EditReminder.Title" = "編輯提醒";
@@ -170,3 +171,8 @@
 "MyAffirmations.ToFavorites" = "儲存至最愛";
 "MyAffirmations.Edit" = "編輯";
 "MyAffirmations.Settings.Title" = "增加您自己的";
+
+// MARK: NotificationsProblem
+"NotificationsProblem.Title" = "啟用通知";
+"NotificationsProblem.SubTitle" = "啟用通知，這樣您就不會錯過附近的其他擴增實境體驗";
+"NotificationsProblem.SettingsButton" = "前往設定";

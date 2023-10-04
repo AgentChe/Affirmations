@@ -19,4 +19,8 @@ final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.rootViewController = SplashViewController.make()
         window?.makeKeyAndVisible()
     }
+    
+    func sceneDidBecomeActive(_ scene: UIScene) {
+        SceneDelegateMediator.shared.becomeActive()
+    }
 }

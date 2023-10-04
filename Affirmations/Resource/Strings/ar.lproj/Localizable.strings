@@ -107,6 +107,7 @@
 "Reminders.EveryDay" = "كل عطلة نهاية أسبوع";
 "Reminders.UnlockButton" = "افتح المزيد من التذكيرات";
 "Reminders.AddButton" = "اضف تذكيرا";
+"Reminders.Problem" = "ألا تعمل الإشعارات؟";
 
 // MARK: EditReminder
 "EditReminder.Title" = "تعديل التذكير";
@@ -170,3 +171,8 @@
 "MyAffirmations.ToFavorites" = "حفظ في المفضلة";
 "MyAffirmations.Edit" = "تعديل";
 "MyAffirmations.Settings.Title" = "أضف عباراتك";
+
+// MARK: NotificationsProblem
+"NotificationsProblem.Title" = "تمكين الإخطارات";
+"NotificationsProblem.SubTitle" = "قم بتمكين الإشعارات حتى لا تفوتك تجارب الواقع المعزز الأخرى القريبة منك";
+"NotificationsProblem.SettingsButton" = "اذهب للاعدادات";

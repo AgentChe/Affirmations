@@ -107,6 +107,7 @@
 "Reminders.EveryDay" = "매주 평일";
 "Reminders.UnlockButton" = "더 많은 미리 알림 잠금 해제";
 "Reminders.AddButton" = "미리 알림 추가";
+"Reminders.Problem" = "알림이 작동하지 않나요?";
 
 // MARK: EditReminder
 "EditReminder.Title" = "미리 알림 수정";
@@ -170,3 +171,8 @@
 "MyAffirmations.ToFavorites" = "즐겨찾기에 저장";
 "MyAffirmations.Edit" = "수정";
 "MyAffirmations.Settings.Title" = "직접 추가";
+
+// MARK: NotificationsProblem
+"NotificationsProblem.Title" = "알림 활성화";
+"NotificationsProblem.SubTitle" = "근처의 또 다른 증강 현실 경험을 놓치지 않도록 알림을 활성화하세요.";
+"NotificationsProblem.SettingsButton" = "설정으로 바로 가기";

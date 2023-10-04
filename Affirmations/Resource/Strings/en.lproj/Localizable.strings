@@ -107,6 +107,7 @@
 "Reminders.EveryDay" = "Every weekday";
 "Reminders.UnlockButton" = "Unlock More Reminders";
 "Reminders.AddButton" = "Add Reminder";
+"Reminders.Problem" = "Notifications not working?";
 
 // MARK: EditReminder
 "EditReminder.Title" = "Edit Reminder";
@@ -170,3 +171,8 @@
 "MyAffirmations.ToFavorites" = "Save to favorites";
 "MyAffirmations.Edit" = "Edit";
 "MyAffirmations.Settings.Title" = "Add Your Own";
+
+// MARK: NotificationsProblem
+"NotificationsProblem.Title" = "Enable Notifications";
+"NotificationsProblem.SubTitle" = "Enable notifications so you don’t miss another Augmented Reality experiences near you";
+"NotificationsProblem.SettingsButton" = "GO TO SETTINGS";

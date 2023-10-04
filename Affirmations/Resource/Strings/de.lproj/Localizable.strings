@@ -107,6 +107,7 @@
 "Reminders.EveryDay" = "Jedes Wochenende";
 "Reminders.UnlockButton" = "Weitere Erinnerungen freischalten";
 "Reminders.AddButton" = "Erinnerung hinzufügen";
+"Reminders.Problem" = "Les notifications ne fonctionnent pas ?";
 
 // MARK: EditReminder
 "EditReminder.Title" = "Erinnerung bearbeiten";
@@ -170,3 +171,8 @@
 "MyAffirmations.ToFavorites" = "Zu Favoriten hinzufügen";
 "MyAffirmations.Edit" = "Bearbeiten";
 "MyAffirmations.Settings.Title" = "Fügen Sie Ihren eigenen ein";
+
+// MARK: NotificationsProblem
+"NotificationsProblem.Title" = "Benachrichtigungen aktivieren";
+"NotificationsProblem.SubTitle" = "Aktivieren Sie Benachrichtigungen, damit Sie keine weiteren Augmented Reality-Erlebnisse in Ihrer Nähe verpassen";
+"NotificationsProblem.SettingsButton" = "GEHE ZU DEN EINSTELLUNGEN";

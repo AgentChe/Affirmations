@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		AB1B9940D01522D72016C245 /* Pods_Affirmations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E6F909711306BFFD05E3B7 /* Pods_Affirmations.framework */; };
+		DE06EFC82ACD8877008CB937 /* RemindersTableElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE06EFC72ACD8877008CB937 /* RemindersTableElement.swift */; };
+		DE06EFCA2ACD8BC2008CB937 /* RemindersTableProblemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE06EFC92ACD8BC2008CB937 /* RemindersTableProblemCell.swift */; };
+		DE06EFCE2ACD8F61008CB937 /* NotificationsProblemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE06EFCD2ACD8F61008CB937 /* NotificationsProblemViewController.swift */; };
+		DE06EFD02ACD8F66008CB937 /* NotificationsProblemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE06EFCF2ACD8F66008CB937 /* NotificationsProblemView.swift */; };
+		DE06EFD22ACD97A0008CB937 /* SceneDelegateMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE06EFD12ACD97A0008CB937 /* SceneDelegateMediator.swift */; };
 		DE07C9E92AAA4A1400C81E08 /* Affirmation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE07C9E82AAA4A1400C81E08 /* Affirmation.swift */; };
 		DE14D6732A658CD800DBFE1D /* proximanova_bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE14D6712A658C8700DBFE1D /* proximanova_bold.otf */; };
 		DE14D6742A658CD800DBFE1D /* proximanova_extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE14D6722A658C9000DBFE1D /* proximanova_extrabold.otf */; };
@@ -257,6 +262,11 @@
 		25E6F909711306BFFD05E3B7 /* Pods_Affirmations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Affirmations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B8E39B7B3CBCAB5C8926857 /* Pods-Affirmations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Affirmations.debug.xcconfig"; path = "Target Support Files/Pods-Affirmations/Pods-Affirmations.debug.xcconfig"; sourceTree = "<group>"; };
 		DC658E36E15733DEF5C7DB0D /* Pods-Affirmations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Affirmations.release.xcconfig"; path = "Target Support Files/Pods-Affirmations/Pods-Affirmations.release.xcconfig"; sourceTree = "<group>"; };
+		DE06EFC72ACD8877008CB937 /* RemindersTableElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersTableElement.swift; sourceTree = "<group>"; };
+		DE06EFC92ACD8BC2008CB937 /* RemindersTableProblemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersTableProblemCell.swift; sourceTree = "<group>"; };
+		DE06EFCD2ACD8F61008CB937 /* NotificationsProblemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsProblemViewController.swift; sourceTree = "<group>"; };
+		DE06EFCF2ACD8F66008CB937 /* NotificationsProblemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsProblemView.swift; sourceTree = "<group>"; };
+		DE06EFD12ACD97A0008CB937 /* SceneDelegateMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegateMediator.swift; sourceTree = "<group>"; };
 		DE07C9E82AAA4A1400C81E08 /* Affirmation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Affirmation.swift; sourceTree = "<group>"; };
 		DE14D6702A658C4100DBFE1D /* proximanova_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = proximanova_regular.ttf; sourceTree = "<group>"; };
 		DE14D6712A658C8700DBFE1D /* proximanova_bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = proximanova_bold.otf; sourceTree = "<group>"; };
@@ -544,6 +554,24 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		DE06EFCB2ACD8E1C008CB937 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DE06EFC92ACD8BC2008CB937 /* RemindersTableProblemCell.swift */,
+				DE23669E2ABC8E2D0088A1C0 /* RemindersTableCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		DE06EFCC2ACD8F54008CB937 /* NotificationsProblem */ = {
+			isa = PBXGroup;
+			children = (
+				DE06EFCD2ACD8F61008CB937 /* NotificationsProblemViewController.swift */,
+				DE06EFCF2ACD8F66008CB937 /* NotificationsProblemView.swift */,
+			);
+			path = NotificationsProblem;
+			sourceTree = "<group>";
+		};
 		DE14D66E2A658C3500DBFE1D /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -565,6 +593,7 @@
 		DE2366932ABC8C970088A1C0 /* Reminders */ = {
 			isa = PBXGroup;
 			children = (
+				DE06EFCC2ACD8F54008CB937 /* NotificationsProblem */,
 				DE2366EE2ABD96910088A1C0 /* Categories */,
 				DE2366BE2ABD765D0088A1C0 /* Sounds */,
 				DE2366A12ABCAA8D0088A1C0 /* EditReminder */,
@@ -584,8 +613,9 @@
 		DE23669B2ABC8E0B0088A1C0 /* TableiView */ = {
 			isa = PBXGroup;
 			children = (
+				DE06EFCB2ACD8E1C008CB937 /* Cells */,
 				DE23669C2ABC8E1D0088A1C0 /* RemindersTableView.swift */,
-				DE23669E2ABC8E2D0088A1C0 /* RemindersTableCell.swift */,
+				DE06EFC72ACD8877008CB937 /* RemindersTableElement.swift */,
 			);
 			path = TableiView;
 			sourceTree = "<group>";
@@ -824,6 +854,7 @@
 				DE5506132A6589760057F9FB /* CustomViews */,
 				DE55061C2A6589760057F9FB /* PushNotifications */,
 				DE5506212A6589760057F9FB /* SceneDelegate.swift */,
+				DE06EFD12ACD97A0008CB937 /* SceneDelegateMediator.swift */,
 				DE55061B2A6589760057F9FB /* AppDelegate.swift */,
 				DE5505FE2A6589760057F9FB /* GlobalDefinitions.swift */,
 			);
@@ -1666,12 +1697,14 @@
 				DEFE818D2A9F98A900FB96F0 /* MainViewController.swift in Sources */,
 				DEC61E152A7AD38B008F9C97 /* Gender.swift in Sources */,
 				DE5506462A6589760057F9FB /* PushNotificationsModel.swift in Sources */,
+				DE06EFC82ACD8877008CB937 /* RemindersTableElement.swift in Sources */,
 				DEC61AAA2A7A24D3008F9C97 /* OGenderView.swift in Sources */,
 				DEFE81A72AA1C6DA00FB96F0 /* TrainingView.swift in Sources */,
 				DEFE81922AA0E39000FB96F0 /* CategoriesViewController.swift in Sources */,
 				DE3786102AB0752E00E0CDCA /* BackupViewController.swift in Sources */,
 				DE2366A32ABCAA9D0088A1C0 /* EditReminderViewController.swift in Sources */,
 				DEFE81992AA0E79400FB96F0 /* CategoryButton.swift in Sources */,
+				DE06EFD02ACD8F66008CB937 /* NotificationsProblemView.swift in Sources */,
 				DE5506262A6589760057F9FB /* UIColor+Extension.swift in Sources */,
 				DEC61AA82A7A1EAA008F9C97 /* OWidgetView.swift in Sources */,
 				DEFE80892A90EE8400FB96F0 /* InAppPurchaseBuilder.swift in Sources */,
@@ -1690,6 +1723,7 @@
 				DE2366F22ABD96A40088A1C0 /* CategoriesUnitsViewModel.swift in Sources */,
 				DEC61AB22A7ACA38008F9C97 /* Localizable.swift in Sources */,
 				DEFE80AD2A90FEB200FB96F0 /* PaygateView.swift in Sources */,
+				DE06EFCE2ACD8F61008CB937 /* NotificationsProblemViewController.swift in Sources */,
 				DE2366A92ABCACA50088A1C0 /* Sound.swift in Sources */,
 				DEC688152AC1EAD000BCC83B /* LanguageTableView.swift in Sources */,
 				DEFE808A2A90EE8400FB96F0 /* ASN1ObjectIdentifierBuilder.swift in Sources */,
@@ -1751,6 +1785,7 @@
 				DE2366CA2ABD7B420088A1C0 /* SoundsTableElement.swift in Sources */,
 				DEC61A9F2A7937F6008F9C97 /* ProfileManager.swift in Sources */,
 				DE2366B42ABCAFA40088A1C0 /* EditReminderSettingsCell.swift in Sources */,
+				DE06EFCA2ACD8BC2008CB937 /* RemindersTableProblemCell.swift in Sources */,
 				DEFE808D2A90EE8400FB96F0 /* AppStoreReceiptParser.swift in Sources */,
 				DEEED5ED2AAF9C5A0078653B /* SettingsPaygateCell.swift in Sources */,
 				DE5506292A6589760057F9FB /* ObservableAndSingle+Extension.swift in Sources */,
@@ -1807,6 +1842,7 @@
 				DE07C9E92AAA4A1400C81E08 /* Affirmation.swift in Sources */,
 				DE2366BB2ABCC4520088A1C0 /* DayButton.swift in Sources */,
 				DE23669F2ABC8E2D0088A1C0 /* RemindersTableCell.swift in Sources */,
+				DE06EFD22ACD97A0008CB937 /* SceneDelegateMediator.swift in Sources */,
 				DE5506252A6589760057F9FB /* UIDevice+Extension.swift in Sources */,
 				DEC688112AC1EA5700BCC83B /* LanguageView.swift in Sources */,
 				DE5506362A6589760057F9FB /* Fonts.swift in Sources */,

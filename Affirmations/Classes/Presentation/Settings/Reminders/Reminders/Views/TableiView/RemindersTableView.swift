@@ -10,8 +10,9 @@ import RxSwift
 import RxCocoa
 
 final class RemindersTableView: UITableView {
-    lazy var elements = [Reminder]()
+    lazy var elements = [RemindersTableElement]()
     
+    private lazy var didTapProblemTrigger = PublishRelay<Void>()
     private lazy var didChangeEnableTrigger = PublishRelay<Reminder>()
     private lazy var didSelectTrigger = PublishRelay<Reminder>()
     
@@ -28,7 +29,7 @@ final class RemindersTableView: UITableView {
 
 // MARK: Public
 extension RemindersTableView {
-    func setup(elements: [Reminder]) {
+    func setup(elements: [RemindersTableElement]) {
         self.elements = elements
         
         reloadData()
@@ -36,6 +37,10 @@ extension RemindersTableView {
     
     var didChangeEnable: Signal<Reminder> {
         didChangeEnableTrigger.asSignal()
+    }
+    
+    var didTapProblem: Signal<Void> {
+        didTapProblemTrigger.asSignal()
     }
     
     var didSelect: Signal<Reminder> {
@@ -50,20 +55,26 @@ extension RemindersTableView: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let element = elements[indexPath.row]
-        let cell = dequeueReusableCell(withIdentifier: String(describing: RemindersTableCell.self)) as! RemindersTableCell
-        cell.setup(element: element)
-        cell.didChangeEnable = { [weak self] in
-            guard let self else { return }
-            
-            if let index = self.elements.firstIndex(where: { $0.id == element.id }) {
-                let updated = self.elements[index].toggleEnable()
-                self.elements[index] = updated
+        switch elements[indexPath.row] {
+        case .problem:
+            return dequeueReusableCell(withIdentifier: String(describing: RemindersTableProblemCell.self), for: indexPath)
+        case .reminder(let element):
+            let cell = dequeueReusableCell(withIdentifier: String(describing: RemindersTableCell.self)) as! RemindersTableCell
+            cell.setup(element: element)
+            cell.didChangeEnable = { [weak self] in
+                guard let self else { return }
+                
+                let updated = element.toggleEnable()
+                
+                if self.elements.indices.contains(indexPath.row) {
+                    self.elements[indexPath.row] = .reminder(updated)
+                }
                 
                 self.didChangeEnableTrigger.accept(updated)
             }
+            return cell
         }
-        return cell
+        
     }
 }
 
@@ -74,13 +85,19 @@ extension RemindersTableView: UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        didSelectTrigger.accept(elements[indexPath.row])
+        switch elements[indexPath.row] {
+        case .problem:
+            didTapProblemTrigger.accept(Void())
+        case .reminder(let reminder):
+            didSelectTrigger.accept(reminder)
+        }
     }
 }
 
 // MARK: Private
 private extension RemindersTableView {
     func initialize() {
+        register(RemindersTableProblemCell.self, forCellReuseIdentifier: String(describing: RemindersTableProblemCell.self))
         register(RemindersTableCell.self, forCellReuseIdentifier: String(describing: RemindersTableCell.self))
         
         dataSource = self

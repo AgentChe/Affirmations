@@ -25,7 +25,8 @@ final class RemindersViewController: UIViewController {
         let output = viewModel.configure(input: RemindersViewModel.Input(
             didChangeEnable: mainView.tableView.didChangeEnable,
             didSelect: mainView.tableView.didSelect,
-            didTapButton: mainView.button.rx.tap.asSignal()
+            didTapButton: mainView.button.rx.tap.asSignal(),
+            didTapProblem: mainView.tableView.didTapProblem
         ))
         
         output.elements
@@ -76,6 +77,9 @@ private extension RemindersViewController {
             navigationController?.pushViewController(vc, animated: true)
         case .edit(let reminder):
             let vc = EditReminderViewController.make(reminder: reminder)
+            navigationController?.pushViewController(vc, animated: true)
+        case .problem:
+            let vc = NotificationsProblemViewController.make()
             navigationController?.pushViewController(vc, animated: true)
         }
     }

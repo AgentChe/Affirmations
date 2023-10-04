@@ -107,6 +107,7 @@
 "Reminders.EveryDay" = "每个工作日";
 "Reminders.UnlockButton" = "解锁更多提醒";
 "Reminders.AddButton" = "添加提醒";
+"Reminders.Problem" = "通知不正常工作？";
 
 // MARK: EditReminder
 "EditReminder.Title" = "编辑提醒";
@@ -170,3 +171,8 @@
 "MyAffirmations.ToFavorites" = "保存到收藏夹";
 "MyAffirmations.Edit" = "编辑";
 "MyAffirmations.Settings.Title" = "添加您自己的";
+
+// MARK: NotificationsProblem
+"NotificationsProblem.Title" = "启用通知";
+"NotificationsProblem.SubTitle" = "启用通知，这样您就不会错过附近的其他增强现实体验";
+"NotificationsProblem.SettingsButton" = "前往设置";

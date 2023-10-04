@@ -107,6 +107,7 @@
 "Reminders.EveryDay" = "Elke doordeweekse dag";
 "Reminders.UnlockButton" = "Ontgrendel meer herinneringen";
 "Reminders.AddButton" = "Herinnering toevoegen";
+"Reminders.Problem" = "Werken meldingen niet?";
 
 // MARK: EditReminder
 "EditReminder.Title" = "Herinnering bewerken";
@@ -170,3 +171,8 @@
 "MyAffirmations.ToFavorites" = "Opslaan in favorieten";
 "MyAffirmations.Edit" = "Bewerken";
 "MyAffirmations.Settings.Title" = "Uw eigen toevoegen";
+
+// MARK: NotificationsProblem
+"NotificationsProblem.Title" = "Notificaties aanzetten";
+"NotificationsProblem.SubTitle" = "Schakel meldingen in, zodat je geen nieuwe Augmented Reality-ervaringen bij jou in de buurt mist";
+"NotificationsProblem.SettingsButton" = "GA NAAR INSTELLINGEN";

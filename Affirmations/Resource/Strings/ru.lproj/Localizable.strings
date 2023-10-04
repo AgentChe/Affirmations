@@ -107,6 +107,7 @@
 "Reminders.EveryDay" = "Каждый день недели";
 "Reminders.UnlockButton" = "Разблокировать больше напоминаний";
 "Reminders.AddButton" = "Добавить напоминание";
+"Reminders.Problem" = "Уведомления не работают?";
 
 // MARK: EditReminder
 "EditReminder.Title" = "Изменить напоминание";
@@ -170,3 +171,8 @@
 "MyAffirmations.ToFavorites" = "Сохранить в избранном";
 "MyAffirmations.Edit" = "Изменить";
 "MyAffirmations.Settings.Title" = "Добавить свои";
+
+// MARK: NotificationsProblem
+"NotificationsProblem.Title" = "Включить уведомления";
+"NotificationsProblem.SubTitle" = "Включите уведомления, чтобы не пропустить другие события дополненной реальности рядом с вами.";
+"NotificationsProblem.SettingsButton" = "ПЕРЕЙДИТЕ В НАСТРОЙКИ";

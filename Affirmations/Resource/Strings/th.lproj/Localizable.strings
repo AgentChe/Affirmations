@@ -107,6 +107,7 @@
 "Reminders.EveryDay" = "ทุกวันทําการ";
 "Reminders.UnlockButton" = "ปลดล็อกการช่วยเตือนเพิ่มเติม";
 "Reminders.AddButton" = "เพิ่มการช่วยเตือน";
+"Reminders.Problem" = "การแจ้งเตือนไม่ทํางานใช่ไหม";
 
 // MARK: EditReminder
 "EditReminder.Title" = "แก้ไขการช่วยเตือน";
@@ -170,3 +171,8 @@
 "MyAffirmations.ToFavorites" = "บันทึกลงในรายการโปรด";
 "MyAffirmations.Edit" = "แก้ไข";
 "MyAffirmations.Settings.Title" = "เพิ่มข้อความของคุณเอง";
+
+// MARK: NotificationsProblem
+"NotificationsProblem.Title" = "เปิดใช้งานการแจ้งเตือน";
+"NotificationsProblem.SubTitle" = "เปิดใช้งานการแจ้งเตือนเพื่อให้คุณไม่พลาดประสบการณ์ Augmented Reality ใกล้ตัวคุณ";
+"NotificationsProblem.SettingsButton" = "ไปที่การตั้งค่า";

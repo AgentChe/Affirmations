@@ -107,6 +107,7 @@
 "Reminders.EveryDay" = "すべての平日";
 "Reminders.UnlockButton" = "その他の設定のロックを解除する";
 "Reminders.AddButton" = "リマインダーを追加する";
+"Reminders.Problem" = "通知が機能しませんか？";
 
 // MARK: EditReminder
 "EditReminder.Title" = "リマインダーを編集";
@@ -170,3 +171,8 @@
 "MyAffirmations.ToFavorites" = "お気に入りに保存";
 "MyAffirmations.Edit" = "編集";
 "MyAffirmations.Settings.Title" = "自分のを加える";
+
+// MARK: NotificationsProblem
+"NotificationsProblem.Title" = "通知を有効にします";
+"NotificationsProblem.SubTitle" = "近くでの別の拡張現実体験を見逃さないように通知を有効にします";
+"NotificationsProblem.SettingsButton" = "設定に移動";

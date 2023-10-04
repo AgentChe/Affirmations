@@ -107,6 +107,7 @@
 "Reminders.EveryDay" = "Chaque jour de la semaine";
 "Reminders.UnlockButton" = "Débloquer plus de rappels";
 "Reminders.AddButton" = "Ajouter un rappel";
+"Reminders.Problem" = "Les notifications ne fonctionnent pas ?";
 
 // MARK: EditReminder
 "EditReminder.Title" = "Modifier le rappel";
@@ -170,3 +171,8 @@
 "MyAffirmations.ToFavorites" = "Ajouter aux favoris";
 "MyAffirmations.Edit" = "Modifier";
 "MyAffirmations.Settings.Title" = "Ajouter les vôtres";
+
+// MARK: NotificationsProblem
+"NotificationsProblem.Title" = "Activer les notifications";
+"NotificationsProblem.SubTitle" = "Activez les notifications pour ne manquer aucune autre expérience de réalité augmentée près de chez vous";
+"NotificationsProblem.SettingsButton" = "ALLER AUX PARAMÈTRES";
