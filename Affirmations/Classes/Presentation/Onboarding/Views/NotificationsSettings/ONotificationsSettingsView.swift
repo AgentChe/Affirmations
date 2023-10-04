@@ -74,6 +74,8 @@ final class ONotificationsSettingsView: OSlideView {
             .asDriver(onErrorDriveWith: .never())
             .drive(Binder(self) { base, void in
                 base.onNext()
+                
+                PushNotificationsManager.shared.requestAuthorization()
             })
             .disposed(by: disposeBag)
     }

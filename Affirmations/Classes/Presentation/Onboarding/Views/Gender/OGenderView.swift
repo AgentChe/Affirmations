@@ -147,7 +147,7 @@ private extension OGenderView {
             .textAlignment(.center)
         
         let view = UILabel()
-        view.attributedText = "Onboarding.Widget.Text".localized.attributed(with: attrs)
+        view.attributedText = "Onboarding.Gender.Text".localized.attributed(with: attrs)
         view.numberOfLines = 0
         view.translatesAutoresizingMaskIntoConstraints = false
         addSubview(view)
