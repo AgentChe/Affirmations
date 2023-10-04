@@ -9,8 +9,7 @@ import StoreKit
 
 final class RequestReview {
     static func request() {
-        guard let scene = UIApplication.shared.connectedScenes
-                .first(where: { $0.activationState == .foregroundActive }) as? UIWindowScene
+        guard let scene = UIApplication.shared.connectedScenes.first(where: { $0.activationState == .foregroundActive }) as? UIWindowScene
         else {
             return
         }

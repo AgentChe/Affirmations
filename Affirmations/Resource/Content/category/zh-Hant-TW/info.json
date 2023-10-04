@@ -59,6 +59,11 @@
       "type": "STRESS_AND_ANXIETY",
       "name": "\u58d3\u529b\u8207\u7126\u616e",
       "is_free": true
+    },
+    {
+      "type": "GRATITUDE",
+      "name": "感激",
+      "is_free": true
     }
   ],
   "groups": [],
@@ -71,12 +76,6 @@
     "LOVE_RELATIONSHIPS",
     "HAPPINESS",
     "GRATITUDE"
-  ],
-  "tags_only": [
-    {
-      "type": "GRATITUDE",
-      "name": "感激"
-    }
   ],
   "personas": []
 }

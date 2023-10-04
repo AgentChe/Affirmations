@@ -59,6 +59,11 @@
       "type": "STRESS_AND_ANXIETY",
       "name": "Stress et anxi\u00e9t\u00e9",
       "is_free": true
+    },
+    {
+      "type": "GRATITUDE",
+      "name": "Reconnaissance",
+      "is_free": true
     }
   ],
   "groups": [],
@@ -71,12 +76,6 @@
     "LOVE_RELATIONSHIPS",
     "HAPPINESS",
     "GRATITUDE"
-  ],
-  "tags_only": [
-    {
-      "type": "GRATITUDE",
-      "name": "Reconnaissance"
-    }
   ],
   "personas": []
 }

@@ -59,6 +59,11 @@
       "type": "STRESS_AND_ANXIETY",
       "name": "\u0421\u0442\u0440\u0435\u0441\u0441 \u0438 \u0442\u0440\u0435\u0432\u043e\u0433\u0430",
       "is_free": true
+    },
+    {
+      "type": "GRATITUDE",
+      "name": "Благодарность",
+      "is_free": true
     }
   ],
   "groups": [],
@@ -71,12 +76,6 @@
     "LOVE_RELATIONSHIPS",
     "HAPPINESS",
     "GRATITUDE"
-  ],
-  "tags_only": [
-    {
-      "type": "GRATITUDE",
-      "name": "Благодарность"
-    }
   ],
   "personas": []
 }

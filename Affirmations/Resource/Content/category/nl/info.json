@@ -59,6 +59,11 @@
       "type": "STRESS_AND_ANXIETY",
       "name": "Stress en angst",
       "is_free": true
+    },
+    {
+      "type": "GRATITUDE",
+      "name": "Dankbaarheid",
+      "is_free": true
     }
   ],
   "groups": [],
@@ -71,12 +76,6 @@
     "LOVE_RELATIONSHIPS",
     "HAPPINESS",
     "GRATITUDE"
-  ],
-  "tags_only": [
-    {
-      "type": "GRATITUDE",
-      "name": "Dankbaarheid"
-    }
   ],
   "personas": []
 }

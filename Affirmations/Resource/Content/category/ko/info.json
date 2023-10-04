@@ -59,6 +59,11 @@
       "type": "STRESS_AND_ANXIETY",
       "name": "\uc2a4\ud2b8\ub808\uc2a4\uc640 \ubd88\uc548",
       "is_free": true
+    },
+    {
+      "type": "GRATITUDE",
+      "name": "고마움",
+      "is_free": true
     }
   ],
   "groups": [],
@@ -71,12 +76,6 @@
     "LOVE_RELATIONSHIPS",
     "HAPPINESS",
     "GRATITUDE"
-  ],
-  "tags_only": [
-    {
-      "type": "GRATITUDE",
-      "name": "고마움"
-    }
   ],
   "personas": []
 }
