@@ -86,6 +86,7 @@ extension PracticeAffirmationsView {
     }
     
     func `continue`() {
+        pause()
         startTimer()
     }
     
