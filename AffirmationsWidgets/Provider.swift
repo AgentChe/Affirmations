@@ -8,7 +8,7 @@
 import WidgetKit
 
 struct Provider: TimelineProvider {
-    private let placeholder = AffirmationEntry(date: Date(), text: ContentWidgetsManager.shared.affirmation())
+    private let placeholder = AffirmationEntry(date: Date(), text: "I am proud of how hard I try.")
     
     func placeholder(in context: Context) -> AffirmationEntry {
         placeholder
@@ -19,7 +19,21 @@ struct Provider: TimelineProvider {
     }
     
     func getTimeline(in context: Context, completion: @escaping (Timeline<AffirmationEntry>) -> Void) {
-        let entry = AffirmationEntry(date: Date(), text: ContentWidgetsManager.shared.affirmation())
-        completion(Timeline(entries: [entry], policy: .atEnd))
+        var entries = [AffirmationEntry]()
+
+        let calendar = Calendar.current
+        let midnight = calendar.startOfDay(for: Date())
+        let nextMidnight = calendar.date(byAdding: .day, value: 1, to: midnight)!
+
+        for offset in 0 ..< 48 {
+            let entry = AffirmationEntry(
+                date: calendar.date(byAdding: .minute, value: offset * 30, to: midnight)!,
+                text: ContentWidgetsManager.shared.affirmation()
+            )
+            entries.append(entry)
+        }
+
+        let timeline = Timeline(entries: entries, policy: .after(nextMidnight))
+        completion(timeline)
     }
 }
