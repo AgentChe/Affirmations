@@ -17,6 +17,10 @@
 	<string>ca-app-pub-4531217591721437~5914445380</string>
 	<key>GIDClientID</key>
 	<string>83029766744-3uqq855048sk2fq5i6i61qfsnkdku724.apps.googleusercontent.com</string>
+	<key>NSUserActivityTypes</key>
+	<array>
+		<string>ConfigurationIntent</string>
+	</array>
 	<key>UIAppFonts</key>
 	<array>
 		<string>proximanova_bold.otf</string>
