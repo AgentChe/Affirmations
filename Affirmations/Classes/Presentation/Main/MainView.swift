@@ -68,8 +68,8 @@ private extension MainView {
         ])
         
         NSLayoutConstraint.activate([
-            startButton.widthAnchor.constraint(equalToConstant: 96.scale),
-            startButton.heightAnchor.constraint(equalToConstant: 96.scale),
+            startButton.widthAnchor.constraint(equalToConstant: 72.scale),
+            startButton.heightAnchor.constraint(equalToConstant: 72.scale),
             startButton.centerXAnchor.constraint(equalTo: centerXAnchor),
             startButton.bottomAnchor.constraint(equalTo: categoryButton.topAnchor, constant: -10.scale)
         ])
