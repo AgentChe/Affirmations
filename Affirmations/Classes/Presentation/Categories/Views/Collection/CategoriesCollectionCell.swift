@@ -9,6 +9,7 @@ import UIKit
 
 final class CategoriesCollectionCell: UICollectionViewCell {
     lazy var categoryImageView = makeCategoryImageView()
+    lazy var shadowView = makeShadowView()
     lazy var iconView = makeIconView()
     lazy var nameLabel = makeLabel()
     
@@ -69,6 +70,13 @@ private extension CategoriesCollectionCell {
         ])
         
         NSLayoutConstraint.activate([
+            shadowView.leadingAnchor.constraint(equalTo: categoryImageView.leadingAnchor),
+            shadowView.trailingAnchor.constraint(equalTo: categoryImageView.trailingAnchor),
+            shadowView.topAnchor.constraint(equalTo: categoryImageView.topAnchor),
+            shadowView.bottomAnchor.constraint(equalTo: categoryImageView.bottomAnchor)
+        ])
+        
+        NSLayoutConstraint.activate([
             iconView.widthAnchor.constraint(equalToConstant: 20.scale),
             iconView.heightAnchor.constraint(equalToConstant: 20.scale),
             iconView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -4.scale),
@@ -89,6 +97,15 @@ private extension CategoriesCollectionCell {
         let view = UIImageView()
         view.clipsToBounds = true
         view.contentMode = .scaleAspectFill
+        view.layer.cornerRadius = 10.scale
+        view.translatesAutoresizingMaskIntoConstraints = false
+        contentView.addSubview(view)
+        return view
+    }
+    
+    func makeShadowView() -> UIView {
+        let view = UIView()
+        view.backgroundColor = UIColor.black.withAlphaComponent(0.2)
         view.layer.cornerRadius = 10.scale
         view.translatesAutoresizingMaskIntoConstraints = false
         contentView.addSubview(view)
